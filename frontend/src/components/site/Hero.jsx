@@ -129,10 +129,10 @@ export default function Hero() {
                         <div className="absolute inset-3">
                             <div className="relative w-full h-full overflow-hidden">
                                 <img
-                                    src="https://images.unsplash.com/photo-1616851273103-5f0ec44e546f?crop=entropy&cs=srgb&fm=jpg&q=85&w=800"
+                                    src="https://customer-assets-jai6qajn.emergentagent.net/job_rajiv-dev/artifacts/bikv0oo7_Screenshot%202022-04-28%20140557.png"
                                     alt="Rajeev"
-                                    className="w-full h-full object-cover grayscale contrast-[1.1]"
-                                    style={{ filter: "grayscale(1) contrast(1.15) brightness(0.9)" }}
+                                    className="w-full h-full object-cover object-[center_20%]"
+                                    style={{ filter: "grayscale(1) contrast(1.22) brightness(1.05) saturate(0)" }}
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/20 to-transparent" />
                             </div>
