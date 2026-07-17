@@ -7,7 +7,7 @@ import { RevealUp } from "@/components/motion/Reveal";
 import { CONTACT } from "@/constants/testIds";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
-const WHATSAPP = "https://wa.me/919999999999?text=Hi%20Rajeev%2C%20I%27d%20like%20to%20work%20with%20you.";
+const WHATSAPP = "https://wa.me/919711623561?text=Hi%20Rajeev%2C%20I%27d%20like%20to%20work%20with%20you.";
 const CALENDLY = "https://calendly.com/rajeev-freelancer/intro";
 
 const projectTypes = ["Web Development", "Software Engineering", "Digital Marketing", "SEO Consulting", "Not sure yet"];
@@ -85,7 +85,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <p className="font-mono text-[11px] tracking-[0.22em] uppercase text-ash">WhatsApp</p>
-                                    <p className="font-serif text-bone text-xl mt-0.5">Same-day reply</p>
+                                    <p className="font-serif text-bone text-xl mt-0.5">+91 97116 23561</p>
                                 </div>
                             </div>
                             <ArrowUpRight className="text-ash group-hover:text-acid transition-colors" size={18} />

@@ -1,5 +1,5 @@
 import React from "react";
-import { Linkedin, Github, Twitter, Mail, ArrowUpRight } from "lucide-react";
+import { Linkedin, Github, Twitter, Mail, Phone, ArrowUpRight } from "lucide-react";
 import { FOOTER } from "@/constants/testIds";
 
 function scrollTo(id) {
@@ -51,6 +51,11 @@ export default function Footer() {
                             <li>
                                 <a data-testid={FOOTER.twitter} href="https://twitter.com/" target="_blank" rel="noreferrer" className="link-sweep inline-flex items-center gap-2">
                                     <Twitter size={14} /> Twitter
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:+919711623561" className="link-sweep inline-flex items-center gap-2">
+                                    <Phone size={14} /> +91 97116 23561
                                 </a>
                             </li>
                             <li>

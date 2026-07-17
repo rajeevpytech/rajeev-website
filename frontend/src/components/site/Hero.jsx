@@ -4,7 +4,7 @@ import { ArrowDown, ArrowUpRight, MessageCircle, Calendar } from "lucide-react";
 import { MaskedLines } from "@/components/motion/Reveal";
 import { HERO } from "@/constants/testIds";
 
-const WHATSAPP = "https://wa.me/919999999999?text=Hi%20Rajeev%2C%20I%27d%20like%20to%20work%20with%20you.";
+const WHATSAPP = "https://wa.me/919711623561?text=Hi%20Rajeev%2C%20I%27d%20like%20to%20work%20with%20you.";
 const CALENDLY = "https://calendly.com/rajeev-freelancer/intro";
 
 function scrollTo(id) {
