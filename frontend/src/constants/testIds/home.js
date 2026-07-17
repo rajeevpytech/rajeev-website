@@ -1,4 +1,4 @@
-// Central data-testid registry for the Rajiv Freelancer site
+// Central data-testid registry for the Rajeev Freelancer site
 export const NAV = {
     root: "site-nav",
     home: "nav-home",

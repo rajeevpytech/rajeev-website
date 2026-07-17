@@ -46,7 +46,7 @@ export default function Navbar() {
                 >
                     <span className="w-2.5 h-2.5 rounded-full bg-acid shadow-[0_0_20px_rgba(212,255,0,0.7)]" />
                     <span className="font-mono text-[11px] tracking-[0.28em] text-bone/90 uppercase">
-                        Rajiv<span className="text-ash">/</span>Freelancer
+                        Rajeev<span className="text-ash">/</span>Freelancer
                     </span>
                 </button>
 

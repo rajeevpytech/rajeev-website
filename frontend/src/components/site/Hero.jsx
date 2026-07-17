@@ -4,8 +4,8 @@ import { ArrowDown, ArrowUpRight, MessageCircle, Calendar } from "lucide-react";
 import { MaskedLines } from "@/components/motion/Reveal";
 import { HERO } from "@/constants/testIds";
 
-const WHATSAPP = "https://wa.me/919999999999?text=Hi%20Rajiv%2C%20I%27d%20like%20to%20work%20with%20you.";
-const CALENDLY = "https://calendly.com/rajiv-freelancer/intro";
+const WHATSAPP = "https://wa.me/919999999999?text=Hi%20Rajeev%2C%20I%27d%20like%20to%20work%20with%20you.";
+const CALENDLY = "https://calendly.com/rajeev-freelancer/intro";
 
 function scrollTo(id) {
     const el = document.getElementById(id);
@@ -93,7 +93,7 @@ export default function Hero() {
                             onClick={() => scrollTo("contact")}
                             className="btn-acid"
                         >
-                            Hire Rajiv <ArrowUpRight size={14} strokeWidth={2.4} />
+                            Hire Rajeev <ArrowUpRight size={14} strokeWidth={2.4} />
                         </button>
                         <a
                             data-testid={HERO.callCta}
@@ -130,7 +130,7 @@ export default function Hero() {
                             <div className="relative w-full h-full overflow-hidden">
                                 <img
                                     src="https://images.unsplash.com/photo-1616851273103-5f0ec44e546f?crop=entropy&cs=srgb&fm=jpg&q=85&w=800"
-                                    alt="Rajiv"
+                                    alt="Rajeev"
                                     className="w-full h-full object-cover grayscale contrast-[1.1]"
                                     style={{ filter: "grayscale(1) contrast(1.15) brightness(0.9)" }}
                                 />
@@ -140,7 +140,7 @@ export default function Hero() {
                         <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between">
                             <div>
                                 <p className="font-mono text-[10px] tracking-[0.24em] uppercase text-acid">Portrait</p>
-                                <p className="font-serif text-bone text-xl mt-1">Rajiv, 2025</p>
+                                <p className="font-serif text-bone text-xl mt-1">Rajeev, 2025</p>
                             </div>
                             <p className="font-mono text-[10px] tracking-[0.2em] uppercase text-ash">/ 001</p>
                         </div>

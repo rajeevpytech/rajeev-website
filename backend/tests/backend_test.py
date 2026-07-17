@@ -1,4 +1,4 @@
-"""Backend API tests for RajivFreelancer.com
+"""Backend API tests for RajeevFreelancer.com
 
 Covers:
 - Root /api/ health
@@ -39,7 +39,7 @@ class TestRoot:
         r = api.get(f"{BASE_URL}/api/", timeout=30)
         assert r.status_code == 200, r.text
         data = r.json()
-        assert data.get("message") == "Rajiv Freelancer API"
+        assert data.get("message") == "Rajeev Freelancer API"
         assert data.get("status") == "ok"
 
 

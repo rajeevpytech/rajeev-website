@@ -23,10 +23,10 @@ db = client[os.environ['DB_NAME']]
 # Email (Emergent Managed Resend)
 EMAIL_BASE_URL = "https://integrations.emergentagent.com"
 EMAIL_KEY = os.environ.get("EMERGENT_EMAIL_KEY")
-EMAIL_FROM_NAME = os.environ.get("EMAIL_FROM_NAME", "Rajiv Freelancer")
-CONTACT_INBOX = os.environ.get("CONTACT_INBOX", "hello@rajivfreelancer.com")
+EMAIL_FROM_NAME = os.environ.get("EMAIL_FROM_NAME", "Rajeev Freelancer")
+CONTACT_INBOX = os.environ.get("CONTACT_INBOX", "hello@rajeevfreelancer.com")
 
-app = FastAPI(title="Rajiv Freelancer API")
+app = FastAPI(title="Rajeev Freelancer API")
 api_router = APIRouter(prefix="/api")
 
 
@@ -156,7 +156,7 @@ PROJECTS = [
 ]
 
 TESTIMONIALS = [
-    TestimonialOut(id="t1", quote="Rajiv shipped in weeks what our internal team couldn't in a year. Rare combination of engineer and operator.",
+    TestimonialOut(id="t1", quote="Rajeev shipped in weeks what our internal team couldn't in a year. Rare combination of engineer and operator.",
                    author="Priya Menon", role="VP Product", company="Series B SaaS"),
     TestimonialOut(id="t2", quote="He translated a messy brief into a beautiful, performant product. Genuinely one of the best freelancers we've hired.",
                    author="Daniel Rasmussen", role="Founder", company="DTC Retail"),
@@ -192,7 +192,7 @@ EXPERIENCE = [
 # ---------------------- ROUTES ----------------------
 @api_router.get("/")
 async def root():
-    return {"message": "Rajiv Freelancer API", "status": "ok"}
+    return {"message": "Rajeev Freelancer API", "status": "ok"}
 
 
 @api_router.get("/content", response_model=SiteContent)
@@ -213,7 +213,7 @@ async def create_lead(payload: LeadCreate):
           <tr><td>
             <table width='560' align='center' cellpadding='0' cellspacing='0' style='background:#121212;border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:32px'>
               <tr><td style='padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,0.1)'>
-                <div style='font-family:monospace;color:#D4FF00;font-size:12px;letter-spacing:0.2em'>NEW LEAD // RAJIVFREELANCER.COM</div>
+                <div style='font-family:monospace;color:#D4FF00;font-size:12px;letter-spacing:0.2em'>NEW LEAD // RAJEEVFREELANCER.COM</div>
                 <div style='font-family:Georgia,serif;color:#F4F4F5;font-size:28px;margin-top:8px'>{lead.name}</div>
                 <div style='color:#A1A1AA;font-size:14px;margin-top:4px'>{lead.email}</div>
               </td></tr>

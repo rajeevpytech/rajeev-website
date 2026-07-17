@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="max-w-[1440px] mx-auto px-6 md:px-10">
                 {/* Massive last-word signature */}
                 <div className="font-serif text-bone leading-[0.85] tracking-tighter text-[22vw] md:text-[16vw] whitespace-nowrap overflow-hidden select-none pb-8 md:pb-16">
-                    RAJIV<span className="text-acid italic">.</span>
+                    RAJEEV<span className="text-acid italic">.</span>
                 </div>
 
                 <div className="grid grid-cols-12 gap-8 md:gap-10 pt-10 border-t border-white/10">
@@ -54,7 +54,7 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a data-testid={FOOTER.email} href="mailto:hello@rajivfreelancer.com" className="link-sweep inline-flex items-center gap-2">
+                                <a data-testid={FOOTER.email} href="mailto:hello@rajeevfreelancer.com" className="link-sweep inline-flex items-center gap-2">
                                     <Mail size={14} /> Email
                                 </a>
                             </li>
@@ -71,7 +71,7 @@ export default function Footer() {
 
                 <div className="mt-14 pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-3">
                     <p className="font-mono text-[11px] tracking-[0.22em] uppercase text-ash">
-                        © {new Date().getFullYear()} Rajiv Freelancer — All rights reserved.
+                        © {new Date().getFullYear()} Rajeev Freelancer — All rights reserved.
                     </p>
                     <p className="font-mono text-[11px] tracking-[0.22em] uppercase text-ash">
                         Handcrafted / Portfolio v.03

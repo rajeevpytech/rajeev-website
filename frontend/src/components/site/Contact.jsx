@@ -7,8 +7,8 @@ import { RevealUp } from "@/components/motion/Reveal";
 import { CONTACT } from "@/constants/testIds";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
-const WHATSAPP = "https://wa.me/919999999999?text=Hi%20Rajiv%2C%20I%27d%20like%20to%20work%20with%20you.";
-const CALENDLY = "https://calendly.com/rajiv-freelancer/intro";
+const WHATSAPP = "https://wa.me/919999999999?text=Hi%20Rajeev%2C%20I%27d%20like%20to%20work%20with%20you.";
+const CALENDLY = "https://calendly.com/rajeev-freelancer/intro";
 
 const projectTypes = ["Web Development", "Software Engineering", "Digital Marketing", "SEO Consulting", "Not sure yet"];
 const budgets = ["$1k – $3k", "$3k – $10k", "$10k – $25k", "$25k+"];
@@ -30,7 +30,7 @@ export default function Contact() {
         try {
             await axios.post(`${API}/leads`, form);
             setSent(true);
-            toast.success("Message received. Rajiv will reply within 24h.");
+            toast.success("Message received. Rajeev will reply within 24h.");
             setForm({ name: "", email: "", project_type: projectTypes[0], budget: budgets[1], message: "" });
         } catch (err) {
             console.error(err);
@@ -91,7 +91,7 @@ export default function Contact() {
                             <ArrowUpRight className="text-ash group-hover:text-acid transition-colors" size={18} />
                         </a>
                         <a
-                            href="mailto:hello@rajivfreelancer.com"
+                            href="mailto:hello@rajeevfreelancer.com"
                             className="group flex items-center justify-between p-5 frame rounded-2xl hover:border-acid/40 transition-colors duration-500"
                         >
                             <div className="flex items-center gap-4">
@@ -100,7 +100,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <p className="font-mono text-[11px] tracking-[0.22em] uppercase text-ash">Email</p>
-                                    <p className="font-serif text-bone text-xl mt-0.5">hello@rajivfreelancer.com</p>
+                                    <p className="font-serif text-bone text-xl mt-0.5">hello@rajeevfreelancer.com</p>
                                 </div>
                             </div>
                             <ArrowUpRight className="text-ash group-hover:text-acid transition-colors" size={18} />
@@ -125,7 +125,7 @@ export default function Contact() {
                                     </div>
                                     <h3 className="font-serif text-bone text-3xl md:text-4xl">Message received.</h3>
                                     <p className="mt-4 text-ash max-w-md mx-auto">
-                                        Thanks for reaching out. Rajiv reads every message personally — expect a reply within 24 hours.
+                                        Thanks for reaching out. Rajeev reads every message personally — expect a reply within 24 hours.
                                     </p>
                                     <button
                                         onClick={() => setSent(false)}
