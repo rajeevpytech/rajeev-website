@@ -1,0 +1,114 @@
+{
+  "theme": "dark",
+  "art_direction": {
+    "concept": "Editorial Brutalism meets High-End Tech",
+    "description": "An award-winning, motion-forward aesthetic combining massive editorial typography with raw developer cues. Uses a striking Void Black base with an Electric Chartreuse accent to break the generic template mold. The design relies heavily on purposeful motion (masked text reveals, Lenis smooth scroll) and strict, asymmetrical grids."
+  },
+  "colors": {
+    "background": "#050505",
+    "surface": "#121212",
+    "surface_glass": "rgba(18, 18, 18, 0.6)",
+    "border": "rgba(255, 255, 255, 0.1)",
+    "text_primary": "#F4F4F5",
+    "text_secondary": "#A1A1AA",
+    "accent_primary": "#D4FF00",
+    "accent_hover": "#BEE600",
+    "accent_subtle": "rgba(212, 255, 0, 0.1)"
+  },
+  "typography": {
+    "imports": "@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400&family=JetBrains+Mono:wght@400;700&family=Manrope:wght@300;400;600&display=swap');",
+    "font_families": {
+      "heading": "Playfair Display, serif",
+      "mono": "JetBrains Mono, monospace",
+      "body": "Manrope, sans-serif"
+    },
+    "hierarchy": {
+      "h1_hero": "text-5xl md:text-7xl lg:text-[7rem] leading-[0.9] tracking-tighter font-serif font-semibold",
+      "h2_section": "text-4xl md:text-6xl tracking-tight font-serif",
+      "h3_card": "text-2xl md:text-3xl tracking-tight font-serif",
+      "overline": "text-xs md:text-sm uppercase tracking-[0.2em] font-mono text-text_secondary",
+      "body": "text-base md:text-lg font-sans text-text_secondary leading-relaxed",
+      "manifesto_number": "text-4xl md:text-5xl font-mono text-accent_primary"
+    }
+  },
+  "spacing_and_layout": {
+    "general": "Generous spacing. Use p-8 to p-24 for section padding. Containers must have internal padding.",
+    "grid_strategy": "Tetris Bento Grid for portfolio/services. High asymmetry. Mix col-span-8, col-span-4, row-span-2. Never fill the grid perfectly—leave negative space.",
+    "borders": "1px solid rgba(255,255,255,0.1) on cards and sections to create a structural 'architectural' feel."
+  },
+  "motion_and_interactions": {
+    "libraries_required": [
+      "framer-motion",
+      "lenis",
+      "react-fast-marquee",
+      "lucide-react"
+    ],
+    "hero_reveal": "Masked line-by-line reveal using framer-motion. Wrapper must have overflow: hidden. Text lines animate y from '100%' to '0%' over 1.2s with easeOut cubic-bezier(0.16, 1, 0.3, 1).",
+    "scroll_animations": "Elements should slide up gently (y: 30 to y: 0) and fade in as they enter viewport using whileInView.",
+    "parallax": "Use framer-motion useScroll and useTransform to move hero images or background abstract shapes at a different speed than the scroll.",
+    "hover_states": "Interactive elements should not use generic transitions. Use transform: translateY(-4px) and brighten border color on cards. CTAs should have a background color fill sweep."
+  },
+  "components": {
+    "hero": {
+      "description": "Kinetic Hero with masked line-by-line reveal. Massive 'RAJIV' in serif, overlapping a clipped, subtly parallaxing cinematic tech image.",
+      "layout": "Min-h-screen, flex flex-col justify-center, heavy padding-x."
+    },
+    "manifesto_chapters": {
+      "description": "Numbered sections replacing standard 'About/Services'. Format: '01 / The Craft', '02 / The Code'.",
+      "styling": "Numbers in JetBrains Mono, Titles in Playfair Display. Laid out with extreme left alignment and massive right margins."
+    },
+    "editorial_marquee": {
+      "description": "Slow moving, border-top/bottom separated marquee.",
+      "styling": "react-fast-marquee, font-serif, very slow speed. Interspersing text like 'SOFTWARE ARCHITECT' with star or dot separators."
+    },
+    "portfolio_grid": {
+      "description": "Spotlight clipped frames. Real photography treated deliberately.",
+      "styling": "Bento layout. Images nested inside cards with overflow-hidden and subtle zoom-on-hover scale(1.05)."
+    },
+    "navigation": {
+      "description": "Sticky navigation, crystal glassmorphism.",
+      "styling": "fixed top-0 z-50 w-full backdrop-blur-xl bg-[#050505]/60 border-b border-white/10."
+    }
+  },
+  "media_and_images": {
+    "image_urls": {
+      "hero_background": {
+        "url": "https://images.unsplash.com/photo-1709377059113-3c429b2e0796?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHRlY2glMjBtaW5pbWFsJTIwZ2VvbWV0cnklMjBkYXJrfGVufDB8fHxibGFja3wxNzg0MzIxMDk5fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Abstract minimal geometry to be used with low opacity as a parallax background."
+      },
+      "portrait_rajiv": {
+        "url": "https://images.unsplash.com/photo-1616851273103-5f0ec44e546f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBtYW4lMjBwb3J0cmFpdCUyMHNoYWRvd3xlbnwwfHx8YmxhY2tfYW5kX3doaXRlfDE3ODQzMjEwODV8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Professional high-contrast black and white portrait for the About/Manifesto section."
+      },
+      "portfolio_web_dev": {
+        "url": "https://images.unsplash.com/photo-1773349807434-374473797148?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHwyfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGUlMjBkYXJrJTIwbW9kZSUyMHNjcmVlbnxlbnwwfHx8fDE3ODQzMjEwOTl8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Dark mode code screen for Software/Web Development service card."
+      },
+      "portfolio_marketing": {
+        "url": "https://images.unsplash.com/photo-1584180944316-439a99f331c7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwyfHxjaW5lbWF0aWMlMjB0ZWNoJTIwb2ZmaWNlJTIwc2V0dXAlMjBkYXJrfGVufDB8fHxibGFja19hbmRfd2hpdGV8MTc4NDMyMTA4NXww&ixlib=rb-4.1.0&q=85",
+        "description": "Cinematic dark tech setup for Marketing/SEO case studies."
+      }
+    },
+    "treatment": "Images must never have a generic look. Overlay them with bg-[#050505]/40 to maintain contrast, or use them as pure black and white assets."
+  },
+  "instructions_to_main_agent": [
+    "NOTE: You have .js files not .tsx files, so strictly use Javascript (JSX) for components, not TypeScript.",
+    "Install required dependencies: framer-motion, lenis (or @studio-freight/lenis), react-fast-marquee, lucide-react.",
+    "Implement Lenis smooth scrolling at the root App level to ensure all scroll-triggered framer-motion animations have a premium momentum feel.",
+    "DO NOT use Inter or Space Grotesk. Inject the Google Fonts link into index.css and configure tailwind.config.js to use 'Playfair Display' for serif, 'JetBrains Mono' for mono, and 'Manrope' for sans.",
+    "Build the masked text reveal component for the Hero section. Ensure the wrapper has overflow-hidden, and the text itself translates Y from 100% to 0.",
+    "Use Electric Chartreuse (#D4FF00) strictly for accents, primary CTA buttons, and manifesto numbers. Do not overuse it.",
+    "Ensure all interactive elements have data-testid attributes for testing.",
+    "No complete transparent backgrounds for header/overlay. Use backdrop-blur and a semi-solid dark color."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. Avoid this. Make creative, distinctive frontends that surprise and delight.",
+    "Do not make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy and glass-morphism effects with backdrop filters.",
+    "You MUST NOT apply universal transition. Eg: 'transition: all'. This results in breaking transforms. Always add transitions for specific interactive elements.",
+    "You MUST NOT center align the app container, ie do not add '.App { text-align: center; }' in the css file.",
+    "NEVER use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "All interactive and key informational elements MUST include a data-testid attribute."
+  ]
+}
