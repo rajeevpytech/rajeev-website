@@ -1,29 +1,22 @@
 import React, { useState, useEffect } from "react";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { NAV } from "@/constants/testIds";
 
 const links = [
-    { id: "work", label: "Work", testid: NAV.work },
-    { id: "manifesto", label: "About", testid: NAV.about },
-    { id: "services", label: "Services", testid: NAV.services },
-    { id: "experience", label: "Journey", testid: NAV.experience },
-    { id: "contact", label: "Contact", testid: NAV.contact },
+    { to: "/work", label: "Work", testid: NAV.work },
+    { to: "/about", label: "About", testid: NAV.about },
+    { to: "/services", label: "Services", testid: NAV.services },
+    { to: "/journey", label: "Journey", testid: NAV.experience },
+    { to: "/blog", label: "Journal", testid: "nav-blog" },
+    { to: "/contact", label: "Contact", testid: NAV.contact },
 ];
-
-function scrollTo(id) {
-    const el = document.getElementById(id);
-    if (!el) return;
-    if (window.__lenis) {
-        window.__lenis.scrollTo(el, { offset: -80 });
-    } else {
-        el.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-}
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const onScroll = () => setScrolled(window.scrollY > 30);
@@ -39,34 +32,38 @@ export default function Navbar() {
             }`}
         >
             <div className="max-w-[1440px] mx-auto px-6 md:px-10 h-16 md:h-20 flex items-center justify-between">
-                <button
+                <Link
                     data-testid={NAV.home}
-                    onClick={() => scrollTo("top")}
+                    to="/"
                     className="flex items-center gap-3 group"
                 >
                     <span className="w-2.5 h-2.5 rounded-full bg-acid shadow-[0_0_20px_rgba(212,255,0,0.7)]" />
                     <span className="font-mono text-[11px] tracking-[0.28em] text-bone/90 uppercase">
                         Rajeev<span className="text-ash">/</span>Freelancer
                     </span>
-                </button>
+                </Link>
 
-                <nav className="hidden md:flex items-center gap-8">
+                <nav className="hidden md:flex items-center gap-7">
                     {links.map((l) => (
-                        <button
-                            key={l.id}
+                        <NavLink
+                            key={l.to}
+                            to={l.to}
                             data-testid={l.testid}
-                            onClick={() => scrollTo(l.id)}
-                            className="link-sweep font-mono text-[11px] tracking-[0.22em] uppercase text-bone/80 hover:text-acid transition-colors duration-300"
+                            className={({ isActive }) =>
+                                `link-sweep font-mono text-[11px] tracking-[0.22em] uppercase transition-colors duration-300 ${
+                                    isActive ? "text-acid" : "text-bone/80 hover:text-acid"
+                                }`
+                            }
                         >
                             {l.label}
-                        </button>
+                        </NavLink>
                     ))}
                 </nav>
 
                 <div className="hidden md:block">
                     <button
                         data-testid={NAV.hireCta}
-                        onClick={() => scrollTo("contact")}
+                        onClick={() => navigate("/contact")}
                         className="btn-acid"
                     >
                         Hire Me <ArrowUpRight size={14} strokeWidth={2.4} />
@@ -94,22 +91,24 @@ export default function Navbar() {
                     >
                         <div className="px-6 py-6 flex flex-col gap-5">
                             {links.map((l) => (
-                                <button
-                                    key={l.id}
+                                <Link
+                                    key={l.to}
+                                    to={l.to}
                                     data-testid={l.testid + "-mobile"}
-                                    onClick={() => { setOpen(false); scrollTo(l.id); }}
+                                    onClick={() => setOpen(false)}
                                     className="text-left font-serif text-3xl text-bone hover:text-acid transition-colors"
                                 >
                                     {l.label}
-                                </button>
+                                </Link>
                             ))}
-                            <button
+                            <Link
+                                to="/contact"
                                 data-testid={NAV.hireCta + "-mobile"}
-                                onClick={() => { setOpen(false); scrollTo("contact"); }}
+                                onClick={() => setOpen(false)}
                                 className="btn-acid w-full justify-center mt-4"
                             >
                                 Hire Me <ArrowUpRight size={14} strokeWidth={2.4} />
-                            </button>
+                            </Link>
                         </div>
                     </motion.div>
                 )}

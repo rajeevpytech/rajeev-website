@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { ArrowUpRight, Clock } from "lucide-react";
 import { RevealUp } from "@/components/motion/Reveal";
 import { BLOG } from "@/constants/testIds";
@@ -30,6 +31,8 @@ const posts = [
     },
 ];
 
+export { posts };
+
 export default function Blog() {
     return (
         <section data-testid={BLOG.root} className="relative py-24 md:py-40 bg-ink">
@@ -52,9 +55,9 @@ export default function Blog() {
                 <div className="grid grid-cols-12 gap-4 md:gap-6">
                     {posts.map((p, i) => (
                         <RevealUp key={p.slug} delay={i * 0.08} className={`col-span-12 ${i === 0 ? "md:col-span-6 md:row-span-2" : "md:col-span-6"}`}>
-                            <a
+                            <Link
                                 data-testid={BLOG.card(p.slug)}
-                                href="#"
+                                to={`/blog/${p.slug}`}
                                 className="group frame rounded-2xl overflow-hidden block h-full"
                             >
                                 <div className={`relative overflow-hidden ${i === 0 ? "aspect-[16/12]" : "aspect-[16/8]"}`}>
@@ -74,7 +77,7 @@ export default function Blog() {
                                         <ArrowUpRight className="text-ash group-hover:text-acid transition-colors" size={18} />
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </RevealUp>
                     ))}
                 </div>

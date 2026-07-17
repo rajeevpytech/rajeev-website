@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
 import { RevealUp } from "@/components/motion/Reveal";
 import { WORK } from "@/constants/testIds";
 
-export default function Work({ projects = [] }) {
+export default function Work({ projects = [], sectionNumber = "003", limit }) {
+    const list = limit ? projects.slice(0, limit) : projects;
     return (
         <section id="work" data-testid={WORK.root} className="relative py-24 md:py-40 bg-ink">
             <div className="max-w-[1440px] mx-auto px-6 md:px-10">
@@ -23,11 +25,11 @@ export default function Work({ projects = [] }) {
                 </div>
 
                 <div className="grid grid-cols-12 gap-4 md:gap-6">
-                    {projects.map((p, i) => (
+                    {list.map((p, i) => (
                         <RevealUp key={p.id} delay={i * 0.06} className={p.span}>
-                            <a
+                            <Link
                                 data-testid={WORK.card(p.slug)}
-                                href={p.href || "#"}
+                                to={`/work/${p.slug}`}
                                 className="group block frame rounded-2xl overflow-hidden h-full"
                             >
                                 <div className="relative aspect-[16/10] md:aspect-[16/9] overflow-hidden">
@@ -71,10 +73,22 @@ export default function Work({ projects = [] }) {
                                         ))}
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </RevealUp>
                     ))}
                 </div>
+
+                {limit && projects.length > limit && (
+                    <RevealUp delay={0.2} className="mt-12 md:mt-16 flex justify-center">
+                        <Link
+                            data-testid={WORK.viewAll}
+                            to="/work"
+                            className="btn-ghost"
+                        >
+                            View all case studies <ArrowUpRight size={14} strokeWidth={2.4} />
+                        </Link>
+                    </RevealUp>
+                )}
             </div>
         </section>
     );

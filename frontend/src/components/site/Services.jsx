@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Code2, Layers, Megaphone, LineChart, ArrowUpRight } from "lucide-react";
 import { RevealUp } from "@/components/motion/Reveal";
 import { SERVICES } from "@/constants/testIds";
@@ -38,14 +39,7 @@ const services = [
     },
 ];
 
-function scrollTo(id) {
-    const el = document.getElementById(id);
-    if (!el) return;
-    if (window.__lenis) window.__lenis.scrollTo(el, { offset: -60 });
-    else el.scrollIntoView({ behavior: "smooth" });
-}
-
-export default function Services() {
+export default function Services({ compact = false, sectionNumber = "002" }) {
     return (
         <section
             id="services"
@@ -55,7 +49,7 @@ export default function Services() {
             <div className="max-w-[1440px] mx-auto px-6 md:px-10">
                 <div className="grid grid-cols-12 gap-6 md:gap-10 items-end mb-12 md:mb-20">
                     <RevealUp className="col-span-12 md:col-span-7">
-                        <p className="eyebrow mb-6">/ 002 — What I do</p>
+                        <p className="eyebrow mb-6">/ {sectionNumber} — What I do</p>
                         <h2 className="font-serif text-bone text-5xl md:text-6xl lg:text-7xl leading-[0.95] tracking-tight">
                             Four disciplines, <span className="italic text-ash">one operator.</span>
                         </h2>
@@ -77,9 +71,10 @@ export default function Services() {
                                 delay={i * 0.08}
                                 className="col-span-12 md:col-span-6"
                             >
-                                <div
+                                <Link
+                                    to={`/services/${s.slug}`}
                                     data-testid={SERVICES.card(s.slug)}
-                                    className="group frame rounded-2xl p-8 md:p-10 h-full flex flex-col justify-between hover:border-acid/40 transition-colors duration-500"
+                                    className="group frame rounded-2xl p-8 md:p-10 h-full flex flex-col justify-between hover:border-acid/40 transition-colors duration-500 block"
                                     style={{ transition: "border-color 500ms, transform 500ms" }}
                                 >
                                     <div>
@@ -111,7 +106,7 @@ export default function Services() {
                                             strokeWidth={1.6}
                                         />
                                     </div>
-                                </div>
+                                </Link>
                             </RevealUp>
                         );
                     })}
@@ -121,13 +116,13 @@ export default function Services() {
                     <p className="font-serif italic text-bone text-xl md:text-2xl max-w-xl">
                         Not sure which one you need? That's usually a good time to talk.
                     </p>
-                    <button
+                    <Link
                         data-testid={SERVICES.quoteCta}
-                        onClick={() => scrollTo("contact")}
+                        to="/contact"
                         className="btn-acid"
                     >
                         Get a quote <ArrowUpRight size={14} strokeWidth={2.4} />
-                    </button>
+                    </Link>
                 </RevealUp>
             </div>
         </section>

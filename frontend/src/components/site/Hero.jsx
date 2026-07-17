@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown, ArrowUpRight, MessageCircle, Calendar } from "lucide-react";
 import { MaskedLines } from "@/components/motion/Reveal";
@@ -6,13 +7,6 @@ import { HERO } from "@/constants/testIds";
 
 const WHATSAPP = "https://wa.me/919711623561?text=Hi%20Rajeev%2C%20I%27d%20like%20to%20work%20with%20you.";
 const CALENDLY = "https://calendly.com/rajeev-freelancer/intro";
-
-function scrollTo(id) {
-    const el = document.getElementById(id);
-    if (!el) return;
-    if (window.__lenis) window.__lenis.scrollTo(el, { offset: -60 });
-    else el.scrollIntoView({ behavior: "smooth" });
-}
 
 export default function Hero() {
     const { scrollY } = useScroll();
@@ -88,13 +82,13 @@ export default function Hero() {
                         transition={{ delay: 1.4, duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
                         className="mt-10 md:mt-14 flex flex-wrap items-center gap-3"
                     >
-                        <button
+                        <Link
                             data-testid={HERO.hireCta}
-                            onClick={() => scrollTo("contact")}
+                            to="/contact"
                             className="btn-acid"
                         >
                             Hire Rajeev <ArrowUpRight size={14} strokeWidth={2.4} />
-                        </button>
+                        </Link>
                         <a
                             data-testid={HERO.callCta}
                             href={CALENDLY}

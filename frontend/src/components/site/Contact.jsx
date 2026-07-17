@@ -13,7 +13,7 @@ const CALENDLY = "https://calendly.com/rajeev-freelancer/intro";
 const projectTypes = ["Web Development", "Software Engineering", "Digital Marketing", "SEO Consulting", "Not sure yet"];
 const budgets = ["$1k – $3k", "$3k – $10k", "$10k – $25k", "$25k+"];
 
-export default function Contact() {
+export default function Contact({ hideHeader = false }) {
     const [form, setForm] = useState({ name: "", email: "", project_type: projectTypes[0], budget: budgets[1], message: "" });
     const [submitting, setSubmitting] = useState(false);
     const [sent, setSent] = useState(false);
@@ -44,14 +44,21 @@ export default function Contact() {
         <section id="contact" data-testid={CONTACT.root} className="relative py-24 md:py-40">
             <div className="max-w-[1440px] mx-auto px-6 md:px-10 grid grid-cols-12 gap-6 md:gap-16">
                 <RevealUp className="col-span-12 md:col-span-5">
-                    <p className="eyebrow mb-6">/ 007 — Start a project</p>
-                    <h2 className="font-serif text-bone text-5xl md:text-6xl lg:text-7xl leading-[0.94] tracking-tight">
-                        Let's <span className="italic text-acid">talk.</span>
-                    </h2>
-                    <p className="mt-6 text-ash text-base md:text-lg leading-relaxed max-w-md">
-                        Tell me about your project — I'll reply within 24 hours with an honest read on
-                        fit, timeline, and price. Or reach out directly:
-                    </p>
+                    {!hideHeader && (
+                        <>
+                            <p className="eyebrow mb-6">/ 007 — Start a project</p>
+                            <h2 className="font-serif text-bone text-5xl md:text-6xl lg:text-7xl leading-[0.94] tracking-tight">
+                                Let's <span className="italic text-acid">talk.</span>
+                            </h2>
+                            <p className="mt-6 text-ash text-base md:text-lg leading-relaxed max-w-md">
+                                Tell me about your project — I'll reply within 24 hours with an honest read on
+                                fit, timeline, and price. Or reach out directly:
+                            </p>
+                        </>
+                    )}
+                    {hideHeader && (
+                        <p className="eyebrow mb-6">/ Direct channels</p>
+                    )}
 
                     <div className="mt-10 space-y-4">
                         <a

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://rajeevfreelancer.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://rajeevfreelancer.com/about</loc><priority>0.9</priority></url>
+  <url><loc>https://rajeevfreelancer.com/journey</loc><priority>0.7</priority></url>
+  <url><loc>https://rajeevfreelancer.com/services</loc><priority>0.9</priority></url>
+  <url><loc>https://rajeevfreelancer.com/services/web-development</loc><priority>0.8</priority></url>
+  <url><loc>https://rajeevfreelancer.com/services/software-engineering</loc><priority>0.8</priority></url>
+  <url><loc>https://rajeevfreelancer.com/services/digital-marketing</loc><priority>0.8</priority></url>
+  <url><loc>https://rajeevfreelancer.com/services/seo-consulting</loc><priority>0.8</priority></url>
+  <url><loc>https://rajeevfreelancer.com/work</loc><priority>0.9</priority></url>
+  <url><loc>https://rajeevfreelancer.com/work/cardano-scaling</loc><priority>0.6</priority></url>
+  <url><loc>https://rajeevfreelancer.com/work/fintech-growth</loc><priority>0.6</priority></url>
+  <url><loc>https://rajeevfreelancer.com/work/commerce-headless</loc><priority>0.6</priority></url>
+  <url><loc>https://rajeevfreelancer.com/work/saas-analytics</loc><priority>0.6</priority></url>
+  <url><loc>https://rajeevfreelancer.com/work/seo-consulting</loc><priority>0.6</priority></url>
+  <url><loc>https://rajeevfreelancer.com/work/ai-copilot</loc><priority>0.6</priority></url>
+  <url><loc>https://rajeevfreelancer.com/blog</loc><priority>0.8</priority></url>
+  <url><loc>https://rajeevfreelancer.com/blog/senior-freelance-playbook</loc><priority>0.6</priority></url>
+  <url><loc>https://rajeevfreelancer.com/blog/rag-for-real</loc><priority>0.6</priority></url>
+  <url><loc>https://rajeevfreelancer.com/blog/seo-in-the-llm-era</loc><priority>0.6</priority></url>
+  <url><loc>https://rajeevfreelancer.com/contact</loc><priority>0.9</priority></url>
+  <url><loc>https://rajeevfreelancer.com/faq</loc><priority>0.7</priority></url>
+  <url><loc>https://rajeevfreelancer.com/sitemap</loc><priority>0.5</priority></url>
+  <url><loc>https://rajeevfreelancer.com/freelancer-in/bengaluru</loc><priority>0.7</priority></url>
+  <url><loc>https://rajeevfreelancer.com/freelancer-in/mumbai</loc><priority>0.7</priority></url>
+  <url><loc>https://rajeevfreelancer.com/freelancer-in/delhi</loc><priority>0.7</priority></url>
+  <url><loc>https://rajeevfreelancer.com/freelancer-in/london</loc><priority>0.7</priority></url>
+  <url><loc>https://rajeevfreelancer.com/freelancer-in/new-york</loc><priority>0.7</priority></url>
+  <url><loc>https://rajeevfreelancer.com/freelancer-in/dubai</loc><priority>0.7</priority></url>
+  <url><loc>https://rajeevfreelancer.com/freelancer-in/singapore</loc><priority>0.7</priority></url>
+  <url><loc>https://rajeevfreelancer.com/freelancer-in/sydney</loc><priority>0.7</priority></url>
+  <url><loc>https://rajeevfreelancer.com/privacy</loc><priority>0.3</priority></url>
+  <url><loc>https://rajeevfreelancer.com/terms</loc><priority>0.3</priority></url>
+  <url><loc>https://rajeevfreelancer.com/cookies</loc><priority>0.3</priority></url>
+</urlset>
