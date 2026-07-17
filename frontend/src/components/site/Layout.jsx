@@ -4,25 +4,29 @@ import { Toaster } from "sonner";
 import useLenis from "@/hooks/useLenis";
 import Navbar from "@/components/site/Navbar";
 import Footer from "@/components/site/Footer";
+import ConsultationProvider from "@/components/site/ConsultationProvider";
+import FloatingConsultButton from "@/components/site/FloatingConsultButton";
 
 export default function Layout() {
     useLenis();
     const { pathname } = useLocation();
 
-    // Ensure top-of-page on route change (Lenis-aware)
     useEffect(() => {
         window.scrollTo({ top: 0, behavior: "instant" });
         if (window.__lenis) window.__lenis.scrollTo(0, { immediate: true });
     }, [pathname]);
 
     return (
-        <div className="grain-overlay relative min-h-screen bg-ink">
-            <Toaster theme="dark" position="bottom-right" richColors />
-            <Navbar />
-            <main>
-                <Outlet />
-            </main>
-            <Footer />
-        </div>
+        <ConsultationProvider>
+            <div className="grain-overlay relative min-h-screen bg-ink">
+                <Toaster theme="dark" position="bottom-right" richColors />
+                <Navbar />
+                <main>
+                    <Outlet />
+                </main>
+                <Footer />
+                <FloatingConsultButton />
+            </div>
+        </ConsultationProvider>
     );
 }
