@@ -172,8 +172,16 @@ export default function Hero() {
                                     <div className="mx-auto w-14 h-14 rounded-full bg-acid text-ink flex items-center justify-center mb-6">
                                         <Check size={22} strokeWidth={2.4} />
                                     </div>
-                                    <h3 className="font-serif text-bone text-3xl">Sent.</h3>
-                                    <p className="mt-3 text-ash">Rajeev will reply within 30 minutes on business hours.</p>
+                                    <h3 className="font-serif text-bone text-3xl">Opening WhatsApp…</h3>
+                                    <p className="mt-3 text-ash">If the chat didn't open, tap the button below.</p>
+                                    <a
+                                        href={waUrl(WA_MESSAGES.hire)}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="btn-acid mt-6"
+                                    >
+                                        <MessageCircle size={14} strokeWidth={2.2} /> Open WhatsApp
+                                    </a>
                                 </div>
                             ) : (
                                 <form onSubmit={submit} data-testid="hero-quote-form" className="space-y-4">
