@@ -1,9 +1,10 @@
 import React from "react";
-import { useParams, Link, Navigate } from "react-router-dom";
-import { Check, ArrowUpRight } from "lucide-react";
+import { useParams, Navigate } from "react-router-dom";
+import { Check, ArrowUpRight, MessageCircle } from "lucide-react";
 import { PageHeader, CTAStrip } from "@/components/site/PageHeader";
 import { RevealUp } from "@/components/motion/Reveal";
 import useSEO from "@/hooks/useSEO";
+import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
 
 const SERVICES = {
     "web-development": {
@@ -132,16 +133,22 @@ export default function ServiceDetail() {
                                         {s.stack.map((t) => <span key={t} className="tag">{t}</span>)}
                                     </div>
                                 </div>
-                                <Link to="/contact" className="btn-acid w-full justify-center mt-2">
-                                    Get a quote <ArrowUpRight size={14} strokeWidth={2.4} />
-                                </Link>
+                                <a
+                                    href={waUrl(WA_MESSAGES.service(s.title))}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="btn-acid w-full justify-center mt-2"
+                                    data-testid={`service-${slug}-wa`}
+                                >
+                                    <MessageCircle size={14} strokeWidth={2.2} /> Get a quote on WhatsApp <ArrowUpRight size={14} strokeWidth={2.4} />
+                                </a>
                             </div>
                         </div>
                     </RevealUp>
                 </div>
             </section>
 
-            <CTAStrip title={`Interested in ${s.title.toLowerCase()}?`} />
+            <CTAStrip title={`Interested in ${s.title.toLowerCase()}?`} waMessage={WA_MESSAGES.service(s.title)} />
         </>
     );
 }

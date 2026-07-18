@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { AnimatePresence, motion } from "framer-motion";
-import { X, ArrowUpRight, Check, Sparkles, Clock, ShieldCheck, MessageSquare } from "lucide-react";
+import { X, ArrowUpRight, Check, Sparkles, Clock, ShieldCheck, MessageSquare, MessageCircle } from "lucide-react";
 import { toast } from "sonner";
+import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 
@@ -281,6 +282,23 @@ export default function FreeConsultationModal({ open, onClose }) {
                                                     No spam · Unsubscribe anytime
                                                 </p>
                                             </div>
+
+                                            <div className="relative flex items-center gap-4 pt-3">
+                                                <span className="flex-1 h-px bg-white/10" />
+                                                <span className="font-mono text-[10px] tracking-[0.24em] uppercase text-ash">or</span>
+                                                <span className="flex-1 h-px bg-white/10" />
+                                            </div>
+
+                                            <a
+                                                data-testid="consult-wa"
+                                                href={waUrl(WA_MESSAGES.consultation)}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                className="btn-ghost w-full justify-center"
+                                            >
+                                                <MessageCircle size={14} strokeWidth={2.2} /> Ping on WhatsApp instead
+                                                <ArrowUpRight size={14} strokeWidth={2.4} />
+                                            </a>
                                         </motion.form>
                                     )}
                                 </AnimatePresence>

@@ -1,8 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Code2, Layers, Megaphone, LineChart, ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, MessageCircle } from "lucide-react";
 import { RevealUp } from "@/components/motion/Reveal";
 import { SERVICES } from "@/constants/testIds";
+import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
+
+import { Code2, Layers, Megaphone, LineChart } from "lucide-react";
 
 const services = [
     {
@@ -116,13 +119,15 @@ export default function Services({ compact = false, sectionNumber = "002" }) {
                     <p className="font-serif italic text-bone text-xl md:text-2xl max-w-xl">
                         Not sure which one you need? That's usually a good time to talk.
                     </p>
-                    <Link
+                    <a
                         data-testid={SERVICES.quoteCta}
-                        to="/contact"
+                        href={waUrl(WA_MESSAGES.quote)}
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn-acid"
                     >
-                        Get a quote <ArrowUpRight size={14} strokeWidth={2.4} />
-                    </Link>
+                        <MessageCircle size={14} strokeWidth={2.2} /> Get a quote on WhatsApp <ArrowUpRight size={14} strokeWidth={2.4} />
+                    </a>
                 </RevealUp>
             </div>
         </section>

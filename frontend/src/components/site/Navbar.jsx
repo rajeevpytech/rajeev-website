@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
-import { Menu, X, ArrowUpRight } from "lucide-react";
+import { Menu, X, ArrowUpRight, MessageCircle } from "lucide-react";
 import { NAV } from "@/constants/testIds";
+import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
 
 const links = [
     { to: "/work", label: "Work", testid: NAV.work },
@@ -16,7 +17,6 @@ const links = [
 export default function Navbar() {
     const [open, setOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
-    const navigate = useNavigate();
 
     useEffect(() => {
         const onScroll = () => setScrolled(window.scrollY > 30);
@@ -61,13 +61,15 @@ export default function Navbar() {
                 </nav>
 
                 <div className="hidden md:block">
-                    <button
+                    <a
                         data-testid={NAV.hireCta}
-                        onClick={() => navigate("/contact")}
+                        href={waUrl(WA_MESSAGES.hire)}
+                        target="_blank"
+                        rel="noreferrer"
                         className="btn-acid"
                     >
-                        Hire Me <ArrowUpRight size={14} strokeWidth={2.4} />
-                    </button>
+                        <MessageCircle size={14} strokeWidth={2.2} /> Hire Me <ArrowUpRight size={14} strokeWidth={2.4} />
+                    </a>
                 </div>
 
                 <button
@@ -101,14 +103,16 @@ export default function Navbar() {
                                     {l.label}
                                 </Link>
                             ))}
-                            <Link
-                                to="/contact"
+                            <a
+                                href={waUrl(WA_MESSAGES.hire)}
+                                target="_blank"
+                                rel="noreferrer"
                                 data-testid={NAV.hireCta + "-mobile"}
                                 onClick={() => setOpen(false)}
                                 className="btn-acid w-full justify-center mt-4"
                             >
-                                Hire Me <ArrowUpRight size={14} strokeWidth={2.4} />
-                            </Link>
+                                <MessageCircle size={14} strokeWidth={2.2} /> Hire Me on WhatsApp <ArrowUpRight size={14} strokeWidth={2.4} />
+                            </a>
                         </div>
                     </motion.div>
                 )}

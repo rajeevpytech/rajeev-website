@@ -6,6 +6,7 @@ import Navbar from "@/components/site/Navbar";
 import Footer from "@/components/site/Footer";
 import ConsultationProvider from "@/components/site/ConsultationProvider";
 import FloatingConsultButton from "@/components/site/FloatingConsultButton";
+import MobileStickyBar from "@/components/site/MobileStickyBar";
 
 export default function Layout() {
     useLenis();
@@ -26,6 +27,7 @@ export default function Layout() {
                 </main>
                 <Footer />
                 <FloatingConsultButton />
+                <MobileStickyBar />
             </div>
         </ConsultationProvider>
     );

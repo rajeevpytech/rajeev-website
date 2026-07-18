@@ -9,6 +9,8 @@ import Stats from "@/components/site/Stats";
 import Testimonials from "@/components/site/Testimonials";
 import Badges from "@/components/site/Badges";
 import Blog from "@/components/site/Blog";
+import { InlineCTA } from "@/components/site/MobileStickyBar";
+import { WA_MESSAGES } from "@/lib/whatsapp";
 import useSEO from "@/hooks/useSEO";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
@@ -31,11 +33,14 @@ export default function Home() {
             <Hero />
             <EditorialMarquee />
             <Manifesto />
+            <InlineCTA label="Skip the manifesto. Start the conversation." message={WA_MESSAGES.hire} testid="home-cta-after-manifesto" />
             <Services />
+            <InlineCTA label="Not sure which service? Ask directly." message={WA_MESSAGES.quote} testid="home-cta-after-services" />
             <Work projects={content.projects} limit={4} />
             <Stats items={content.stats} />
             <Testimonials items={content.testimonials} />
             <Badges />
+            <InlineCTA label="Ready to build something like these?" message={WA_MESSAGES.hire} testid="home-cta-after-badges" />
             <Blog />
         </>
     );

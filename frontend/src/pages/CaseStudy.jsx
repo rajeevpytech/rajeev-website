@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { useParams, Link } from "react-router-dom";
-import { ArrowUpRight } from "lucide-react";
+import { useParams } from "react-router-dom";
+import { ArrowUpRight, MessageCircle } from "lucide-react";
 import { PageHeader, CTAStrip } from "@/components/site/PageHeader";
 import { RevealUp } from "@/components/motion/Reveal";
 import useSEO from "@/hooks/useSEO";
+import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 
@@ -89,9 +90,15 @@ export default function CaseStudy() {
                                             {p.tags.map((t) => <span key={t} className="tag">{t}</span>)}
                                         </div>
                                     </div>
-                                    <Link to="/contact" className="btn-acid w-full justify-center">
-                                        Similar project? <ArrowUpRight size={14} strokeWidth={2.4} />
-                                    </Link>
+                                    <a
+                                        href={waUrl(WA_MESSAGES.caseStudy(p.title))}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="btn-acid w-full justify-center"
+                                        data-testid={`case-${slug}-wa`}
+                                    >
+                                        <MessageCircle size={14} strokeWidth={2.2} /> Similar project? <ArrowUpRight size={14} strokeWidth={2.4} />
+                                    </a>
                                 </div>
                             </RevealUp>
                         </div>
@@ -99,7 +106,7 @@ export default function CaseStudy() {
                 </section>
             )}
 
-            <CTAStrip />
+            <CTAStrip waMessage={p ? WA_MESSAGES.caseStudy(p.title) : WA_MESSAGES.general} />
         </>
     );
 }

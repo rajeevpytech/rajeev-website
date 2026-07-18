@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Linkedin, Github, Twitter, Mail, Phone, ArrowUpRight } from "lucide-react";
+import { Linkedin, Github, Twitter, Mail, Phone, MessageCircle, ArrowUpRight } from "lucide-react";
 import { FOOTER } from "@/constants/testIds";
+import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
 
 const services = [
     { to: "/services/web-development", label: "Web Development" },
@@ -65,9 +66,15 @@ export default function Footer() {
                                 <Mail size={14} /> hello@rajeevfreelancer.com
                             </a>
                         </div>
-                        <Link to="/contact" className="btn-acid mt-8">
-                            Start a project <ArrowUpRight size={14} strokeWidth={2.4} />
-                        </Link>
+                        <a
+                            href={waUrl(WA_MESSAGES.hire)}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn-acid mt-8"
+                            data-testid="footer-wa-cta"
+                        >
+                            <MessageCircle size={14} strokeWidth={2.2} /> Ping on WhatsApp <ArrowUpRight size={14} strokeWidth={2.4} />
+                        </a>
                     </div>
 
                     <FooterCol title="Services" items={services} />

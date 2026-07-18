@@ -1,9 +1,10 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
-import { ArrowUpRight } from "lucide-react";
+import { useParams } from "react-router-dom";
+import { ArrowUpRight, MessageCircle } from "lucide-react";
 import { PageHeader, CTAStrip } from "@/components/site/PageHeader";
 import { RevealUp } from "@/components/motion/Reveal";
 import useSEO from "@/hooks/useSEO";
+import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
 
 const CITIES = {
     bengaluru: { name: "Bengaluru", country: "India", tz: "IST +05:30", note: "My home base. Most in-person meetings happen here." },
@@ -79,15 +80,21 @@ export default function LocationPage() {
                                 <p className="font-mono text-[11px] tracking-[0.22em] uppercase text-ash">Availability</p>
                                 <p className="font-serif text-bone text-2xl mt-2">Remote-first, on-site on request</p>
                             </div>
-                            <Link to="/contact" className="btn-acid w-full justify-center mt-2">
-                                Start a project <ArrowUpRight size={14} strokeWidth={2.4} />
-                            </Link>
+                            <a
+                                href={waUrl(WA_MESSAGES.location(c.name))}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="btn-acid w-full justify-center mt-2"
+                                data-testid={`location-${city}-wa`}
+                            >
+                                <MessageCircle size={14} strokeWidth={2.2} /> Ping on WhatsApp <ArrowUpRight size={14} strokeWidth={2.4} />
+                            </a>
                         </div>
                     </RevealUp>
                 </div>
             </section>
 
-            <CTAStrip title={`Have a project in ${c.name}?`} />
+            <CTAStrip title={`Have a project in ${c.name}?`} waMessage={WA_MESSAGES.location(c.name)} />
         </>
     );
 }

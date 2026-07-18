@@ -1,10 +1,11 @@
 import React from "react";
-import { useParams, Link, Navigate } from "react-router-dom";
-import { Clock } from "lucide-react";
+import { useParams, Navigate } from "react-router-dom";
+import { Clock, MessageCircle, ArrowUpRight } from "lucide-react";
 import { PageHeader, CTAStrip } from "@/components/site/PageHeader";
 import { RevealUp } from "@/components/motion/Reveal";
 import { posts } from "@/components/site/Blog";
 import useSEO from "@/hooks/useSEO";
+import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
 
 // Longer body content for each post
 const BODIES = {
@@ -71,13 +72,21 @@ export default function BlogPost() {
                     <RevealUp delay={0.3}>
                         <div className="mt-16 pt-10 border-t border-white/10 flex flex-wrap items-center justify-between gap-4">
                             <p className="font-serif italic text-bone text-2xl">Enjoyed this? Working on something similar?</p>
-                            <Link to="/contact" className="btn-acid">Say hello</Link>
+                            <a
+                                href={waUrl(WA_MESSAGES.blog(post.title))}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="btn-acid"
+                                data-testid="blog-post-wa"
+                            >
+                                <MessageCircle size={14} strokeWidth={2.2} /> Say hello on WhatsApp <ArrowUpRight size={14} strokeWidth={2.4} />
+                            </a>
                         </div>
                     </RevealUp>
                 </div>
             </section>
 
-            <CTAStrip title="Reading is nice. Shipping is better." />
+            <CTAStrip title="Reading is nice. Shipping is better." waMessage={WA_MESSAGES.blog(post.title)} />
         </>
     );
 }

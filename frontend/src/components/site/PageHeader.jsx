@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ArrowUpRight, ArrowLeft } from "lucide-react";
+import { ArrowUpRight, ArrowLeft, MessageCircle } from "lucide-react";
 import { RevealUp } from "@/components/motion/Reveal";
+import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
 
 export const PageHeader = ({ eyebrow, title, italic, subtitle, back }) => (
     <section className="relative pt-36 md:pt-44 pb-14 md:pb-24 spotlight">
@@ -30,8 +31,8 @@ export const PageHeader = ({ eyebrow, title, italic, subtitle, back }) => (
     </section>
 );
 
-export const CTAStrip = ({ title = "Ready when you are.", note = "Reply within 24 hours." }) => (
-    <section className="border-y border-white/10 bg-ink">
+export const CTAStrip = ({ title = "Ready when you are.", note = "Reply within 24 hours.", waMessage = WA_MESSAGES.general }) => (
+    <section className="border-y border-white/10 bg-ink" data-testid="cta-strip">
         <div className="max-w-[1440px] mx-auto px-6 md:px-10 py-16 md:py-24 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
             <div>
                 <p className="eyebrow mb-4">/ Next step</p>
@@ -41,17 +42,18 @@ export const CTAStrip = ({ title = "Ready when you are.", note = "Reply within 2
                 <p className="mt-4 text-ash">{note}</p>
             </div>
             <div className="flex flex-wrap gap-3">
-                <Link to="/contact" className="btn-acid">
-                    Start a project <ArrowUpRight size={14} strokeWidth={2.4} />
-                </Link>
                 <a
-                    href="https://wa.me/919711623561?text=Hi%20Rajeev"
+                    data-testid="cta-strip-wa"
+                    href={waUrl(waMessage)}
                     target="_blank"
                     rel="noreferrer"
-                    className="btn-ghost"
+                    className="btn-acid"
                 >
-                    WhatsApp <ArrowUpRight size={14} strokeWidth={2.4} />
+                    <MessageCircle size={14} strokeWidth={2.2} /> WhatsApp Rajeev <ArrowUpRight size={14} strokeWidth={2.4} />
                 </a>
+                <Link to="/contact" className="btn-ghost" data-testid="cta-strip-form">
+                    Send a brief <ArrowUpRight size={14} strokeWidth={2.4} />
+                </Link>
             </div>
         </div>
     </section>

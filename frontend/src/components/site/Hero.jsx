@@ -4,8 +4,8 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown, ArrowUpRight, MessageCircle, Calendar } from "lucide-react";
 import { MaskedLines } from "@/components/motion/Reveal";
 import { HERO } from "@/constants/testIds";
+import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
 
-const WHATSAPP = "https://wa.me/919711623561?text=Hi%20Rajeev%2C%20I%27d%20like%20to%20work%20with%20you.";
 const CALENDLY = "https://calendly.com/rajeev-freelancer/intro";
 
 export default function Hero() {
@@ -82,13 +82,15 @@ export default function Hero() {
                         transition={{ delay: 1.4, duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
                         className="mt-10 md:mt-14 flex flex-wrap items-center gap-3"
                     >
-                        <Link
+                        <a
                             data-testid={HERO.hireCta}
-                            to="/contact"
+                            href={waUrl(WA_MESSAGES.hire)}
+                            target="_blank"
+                            rel="noreferrer"
                             className="btn-acid"
                         >
-                            Hire Rajeev <ArrowUpRight size={14} strokeWidth={2.4} />
-                        </Link>
+                            <MessageCircle size={14} strokeWidth={2.2} /> Hire on WhatsApp <ArrowUpRight size={14} strokeWidth={2.4} />
+                        </a>
                         <a
                             data-testid={HERO.callCta}
                             href={CALENDLY}
@@ -100,12 +102,12 @@ export default function Hero() {
                         </a>
                         <a
                             data-testid={HERO.whatsappCta}
-                            href={WHATSAPP}
+                            href={waUrl(WA_MESSAGES.general)}
                             target="_blank"
                             rel="noreferrer"
                             className="btn-ghost"
                         >
-                            <MessageCircle size={14} /> WhatsApp
+                            <MessageCircle size={14} /> Send a message
                         </a>
                     </motion.div>
                 </div>
