@@ -7,14 +7,15 @@ import useSEO, { localBusinessSchema, breadcrumbSchema } from "@/hooks/useSEO";
 import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
 
 const CITIES = {
-    bengaluru: { name: "Bengaluru", country: "India", tz: "IST +05:30", note: "My home base. Most in-person meetings happen here." },
-    mumbai: { name: "Mumbai", country: "India", tz: "IST +05:30", note: "Frequent client visits for fintech and D2C engagements." },
-    delhi: { name: "Delhi NCR", country: "India", tz: "IST +05:30", note: "Regular travel for enterprise and SaaS engagements." },
-    london: { name: "London", country: "United Kingdom", tz: "GMT / BST", note: "5-hour overlap with UK working hours. Fully asynchronous when needed." },
-    "new-york": { name: "New York", country: "United States", tz: "ET −05:00", note: "Regular working hours overlap from 6:30pm IST onwards." },
-    dubai: { name: "Dubai", country: "UAE", tz: "GST +04:00", note: "Same-day communication with GCC-based clients." },
-    singapore: { name: "Singapore", country: "Singapore", tz: "SGT +08:00", note: "Almost full working-hours overlap with SEA clients." },
-    sydney: { name: "Sydney", country: "Australia", tz: "AEST +10:00", note: "Morning sync windows with AU/NZ clients." },
+    gurgaon: { name: "Gurgaon", country: "India", tz: "IST +05:30", note: "My current base. In-person meetings and workshops available." },
+    delhi: { name: "Delhi NCR", country: "India", tz: "IST +05:30", note: "Same-city coverage from Gurgaon — on-site work regularly." },
+    bengaluru: { name: "Bengaluru", country: "India", tz: "IST +05:30", note: "Frequent travel for engagements. On-site sprints on request." },
+    mumbai: { name: "Mumbai", country: "India", tz: "IST +05:30", note: "Client visits for fintech and D2C engagements." },
+    london: { name: "London", country: "United Kingdom", tz: "GMT / BST", note: "Open to relocating on-site for the length of the engagement." },
+    "new-york": { name: "New York", country: "United States", tz: "ET −05:00", note: "Open to on-site work; fly-in for kick-off and delivery." },
+    dubai: { name: "Dubai", country: "UAE", tz: "GST +04:00", note: "Open to relocating on-site — same-day GCC collaboration." },
+    singapore: { name: "Singapore", country: "Singapore", tz: "SGT +08:00", note: "Open to on-site engagements across SEA." },
+    sydney: { name: "Sydney", country: "Australia", tz: "AEST +10:00", note: "Open to fly-in and relocate on-site for AU/NZ clients." },
 };
 
 const SERVICES = [
@@ -87,7 +88,7 @@ export default function LocationPage() {
                             )}
                             <div>
                                 <p className="font-mono text-[11px] tracking-[0.22em] uppercase text-ash">Availability</p>
-                                <p className="font-serif text-bone text-2xl mt-2">Remote-first, on-site on request</p>
+                                <p className="font-serif text-bone text-2xl mt-2">Remote-first · Open to relocate on-site</p>
                             </div>
                             <a
                                 href={waUrl(WA_MESSAGES.location(c.name))}

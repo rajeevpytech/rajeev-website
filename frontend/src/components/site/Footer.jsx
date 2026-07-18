@@ -12,7 +12,7 @@ const services = [
 ];
 
 const locations = [
-    { to: "/freelancer-in/bengaluru", label: "Freelancer in Bengaluru" },
+    { to: "/freelancer-in/gurgaon", label: "Freelancer in Gurgaon" },
     { to: "/freelancer-in/mumbai", label: "Freelancer in Mumbai" },
     { to: "/freelancer-in/delhi", label: "Freelancer in Delhi" },
     { to: "/freelancer-in/london", label: "Freelancer in London" },
@@ -55,8 +55,11 @@ export default function Footer() {
                 <div className="grid grid-cols-12 gap-8 md:gap-10 pt-10 border-t border-white/10">
                     <div className="col-span-12 md:col-span-4">
                         <p className="font-mono text-[11px] tracking-[0.22em] uppercase text-ash mb-4">Currently based in</p>
-                        <p className="font-serif text-bone text-3xl">Bengaluru, IN</p>
-                        <p className="text-ash text-sm mt-2">Working with teams globally · IST +05:30</p>
+                        <p className="font-serif text-bone text-3xl">Gurgaon, IN</p>
+                        <p className="text-ash text-sm mt-2 leading-relaxed">
+                            Open to relocate & work on-site — anywhere in the world.<br/>
+                            <span className="text-acid/80">Remote-first · IST +05:30</span>
+                        </p>
                         <div className="mt-6 space-y-2">
                             <a href="tel:+919711623561" className="link-sweep inline-flex items-center gap-2 text-bone">
                                 <Phone size={14} /> +91 97116 23561

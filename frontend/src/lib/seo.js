@@ -26,7 +26,7 @@ export const SITE = {
         email: "hello@rajeevfreelancer.com",
         phone: "+91-97116-23561",
         whatsapp: "+919711623561",
-        city: "Bengaluru",
+        city: "Gurgaon",
         country: "IN",
     },
 };

@@ -20,7 +20,7 @@ export default function Journey() {
         <>
             <PageHeader
                 eyebrow="/ Journey"
-                title="From Bengaluru"
+                title="From Gurgaon"
                 italic="to global — the long way."
                 subtitle="Twelve years, four continents, and one professional through-line: doing serious work for serious people."
             />

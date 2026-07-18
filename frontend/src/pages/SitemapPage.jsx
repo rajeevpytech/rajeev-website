@@ -30,7 +30,7 @@ const GROUPS = [
     {
         title: "Locations",
         links: [
-            { to: "/freelancer-in/bengaluru", label: "Freelancer in Bengaluru" },
+            { to: "/freelancer-in/gurgaon", label: "Freelancer in Gurgaon" },
             { to: "/freelancer-in/mumbai", label: "Freelancer in Mumbai" },
             { to: "/freelancer-in/delhi", label: "Freelancer in Delhi" },
             { to: "/freelancer-in/london", label: "Freelancer in London" },

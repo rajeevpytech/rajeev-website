@@ -78,13 +78,18 @@ export default function Hero() {
             <div className="relative max-w-[1440px] mx-auto px-5 md:px-10">
                 {/* Availability badge */}
                 <RevealUp>
-                    <span className="inline-flex items-center gap-2 rounded-full border border-acid/40 bg-acid/10 px-3 py-1.5 font-mono text-[10px] tracking-[0.24em] uppercase text-acid mb-8">
-                        <span className="relative flex w-2 h-2">
-                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-acid opacity-70" />
-                            <span className="relative inline-flex rounded-full h-2 w-2 bg-acid" />
+                    <div className="flex flex-wrap items-center gap-3 mb-8">
+                        <span className="inline-flex items-center gap-2 rounded-full border border-acid/40 bg-acid/10 px-3 py-1.5 font-mono text-[10px] tracking-[0.24em] uppercase text-acid">
+                            <span className="relative flex w-2 h-2">
+                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-acid opacity-70" />
+                                <span className="relative inline-flex rounded-full h-2 w-2 bg-acid" />
+                            </span>
+                            Available · Jan 2026
                         </span>
-                        Available for new projects · Jan 2026
-                    </span>
+                        <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.02] px-3 py-1.5 font-mono text-[10px] tracking-[0.24em] uppercase text-ash">
+                            <Globe size={11} className="text-acid" /> Based in Gurgaon · Open to relocate worldwide
+                        </span>
+                    </div>
                 </RevealUp>
 
                 <div className="grid grid-cols-12 gap-6 md:gap-10 lg:gap-16 items-start">

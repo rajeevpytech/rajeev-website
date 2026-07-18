@@ -10,7 +10,7 @@ export default function Experience({ items = [] }) {
                     <RevealUp className="col-span-12 md:col-span-8">
                         <p className="eyebrow mb-6">/ 004 — Journey</p>
                         <h2 className="font-serif text-bone text-5xl md:text-6xl lg:text-7xl leading-[0.95] tracking-tight">
-                            From <span className="italic">Bengaluru</span> to global — <br className="hidden md:block"/> the long way.
+                            From <span className="italic">Gurgaon</span> to global — <br className="hidden md:block"/> the long way.
                         </h2>
                     </RevealUp>
                 </div>

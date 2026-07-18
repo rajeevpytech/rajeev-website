@@ -11,7 +11,7 @@ const SECTIONS = [
     { title: "5. Confidentiality", body: "The freelancer treats all client information as confidential. A mutual NDA can be signed on request." },
     { title: "6. Limitation of liability", body: "Total liability for any engagement is limited to the fees paid for that engagement over the preceding twelve months." },
     { title: "7. Termination", body: "Either party may terminate an engagement with 14 days written notice. Work delivered up to the termination date is billed pro-rata." },
-    { title: "8. Governing law", body: "These terms are governed by the laws of India, with disputes resolved in the courts of Bengaluru." },
+    { title: "8. Governing law", body: "These terms are governed by the laws of India, with disputes resolved in the courts of Gurgaon." },
 ];
 
 export default function Terms() {
