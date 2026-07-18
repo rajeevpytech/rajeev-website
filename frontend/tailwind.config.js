@@ -15,12 +15,12 @@ module.exports = {
             colors: {
                 background: 'hsl(var(--background))',
                 foreground: 'hsl(var(--foreground))',
-                ink: '#050505',
-                surface: '#121212',
-                bone: '#F4F4F5',
-                ash: '#A1A1AA',
-                acid: '#D4FF00',
-                acidHover: '#BEE600',
+                ink: '#0A0806',
+                surface: '#141110',
+                bone: '#F5EDD8',
+                ash: '#A8A29E',
+                acid: '#D4AF37',
+                acidHover: '#E5C158',
                 card: {
                     DEFAULT: 'hsl(var(--card))',
                     foreground: 'hsl(var(--card-foreground))'

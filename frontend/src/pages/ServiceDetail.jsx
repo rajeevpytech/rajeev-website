@@ -3,7 +3,7 @@ import { useParams, Navigate } from "react-router-dom";
 import { Check, ArrowUpRight, MessageCircle } from "lucide-react";
 import { PageHeader, CTAStrip } from "@/components/site/PageHeader";
 import { RevealUp } from "@/components/motion/Reveal";
-import useSEO from "@/hooks/useSEO";
+import useSEO, { serviceSchema, breadcrumbSchema } from "@/hooks/useSEO";
 import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
 
 const SERVICES = {
@@ -77,9 +77,18 @@ export default function ServiceDetail() {
     const { slug } = useParams();
     const s = SERVICES[slug];
     useSEO({
-        title: s ? `${s.title} — Rajeev Freelancer` : "Service — Rajeev Freelancer",
+        title: s ? `${s.title} — Freelance ${s.title}` : "Service",
         description: s?.tagline || "",
         path: `/services/${slug}`,
+        keywords: s ? [s.title.toLowerCase(), `freelance ${s.title.toLowerCase()}`, "get a quote"] : [],
+        structuredData: s ? [
+            serviceSchema({ name: s.title, description: s.tagline, slug, priceFrom: s.priceFrom }),
+            breadcrumbSchema([
+                { name: "Home", path: "/" },
+                { name: "Services", path: "/services" },
+                { name: s.title, path: `/services/${slug}` },
+            ]),
+        ] : [],
     });
     if (!s) return <Navigate to="/services" replace />;
 

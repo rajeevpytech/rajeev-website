@@ -1,7 +1,7 @@
 import React from "react";
 import { PageHeader, CTAStrip } from "@/components/site/PageHeader";
 import { RevealUp } from "@/components/motion/Reveal";
-import useSEO from "@/hooks/useSEO";
+import useSEO, { faqSchema } from "@/hooks/useSEO";
 
 const FAQS = [
     {
@@ -36,9 +36,11 @@ const FAQS = [
 
 export default function Faq() {
     useSEO({
-        title: "FAQ — Rajeev Freelancer",
-        description: "Common questions about working with Rajeev — engagement length, pricing, geography, NDAs.",
+        title: "FAQ — Working with Rajeev",
+        description: "Common questions about working with Rajeev — engagement length, pricing, geography, NDAs, timelines, and process.",
         path: "/faq",
+        keywords: ["freelancer faq", "how to hire freelancer", "freelancer pricing"],
+        structuredData: [faqSchema(FAQS)],
     });
     return (
         <>

@@ -4,7 +4,7 @@ import { Clock, MessageCircle, ArrowUpRight } from "lucide-react";
 import { PageHeader, CTAStrip } from "@/components/site/PageHeader";
 import { RevealUp } from "@/components/motion/Reveal";
 import { posts } from "@/components/site/Blog";
-import useSEO from "@/hooks/useSEO";
+import useSEO, { articleSchema, breadcrumbSchema } from "@/hooks/useSEO";
 import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
 
 // Longer body content for each post
@@ -30,9 +30,20 @@ export default function BlogPost() {
     const { slug } = useParams();
     const post = posts.find((p) => p.slug === slug);
     useSEO({
-        title: post ? `${post.title} — Journal · Rajeev` : "Post · Rajeev",
+        title: post ? post.title : "Journal Post",
         description: post?.excerpt || "",
         path: `/blog/${slug}`,
+        type: "article",
+        ogImage: post?.image,
+        keywords: post ? [post.tag.toLowerCase(), "freelance blog", "rajeev journal"] : [],
+        structuredData: post ? [
+            articleSchema({ title: post.title, description: post.excerpt, slug, image: post.image }),
+            breadcrumbSchema([
+                { name: "Home", path: "/" },
+                { name: "Journal", path: "/blog" },
+                { name: post.title, path: `/blog/${slug}` },
+            ]),
+        ] : [],
     });
 
     if (!post) return <Navigate to="/blog" replace />;

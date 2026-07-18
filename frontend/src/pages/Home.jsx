@@ -9,35 +9,36 @@ import Stats from "@/components/site/Stats";
 import Testimonials from "@/components/site/Testimonials";
 import Badges from "@/components/site/Badges";
 import Blog from "@/components/site/Blog";
+import TrustedBrands from "@/components/site/TrustedBrands";
 import { InlineCTA } from "@/components/site/MobileStickyBar";
 import { WA_MESSAGES } from "@/lib/whatsapp";
-import useSEO from "@/hooks/useSEO";
+import useSEO, { orgSchema, personSchema, websiteSchema } from "@/hooks/useSEO";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 
 export default function Home() {
     useSEO({
-        title: "Rajeev — Senior Freelance Engineer & Marketer",
+        title: "Senior Freelance Engineer & Marketer",
         description:
-            "12+ years shipping software, campaigns, and revenue. Ex-IOG, Accenture, Google. Senior-only freelance engagements. Book a call or start a project.",
+            "Hire Rajeev — a senior freelance engineer & digital marketer with 12+ years of experience. Web development, software engineering, digital marketing & SEO. Ex-IOG, Accenture, Google. Available worldwide.",
         path: "/",
+        keywords: ["hire freelancer", "senior freelance developer", "freelance digital marketer", "web development freelancer", "seo consultant"],
+        structuredData: [websiteSchema(), personSchema(), orgSchema()],
     });
     const [content, setContent] = useState({ projects: [], testimonials: [], stats: [], experience: [] });
-
-    useEffect(() => {
-        axios.get(`${API}/content`).then((r) => setContent(r.data)).catch(() => {});
-    }, []);
+    useEffect(() => { axios.get(`${API}/content`).then((r) => setContent(r.data)).catch(() => {}); }, []);
 
     return (
         <>
             <Hero />
+            <Stats items={content.stats} />
+            <TrustedBrands />
             <EditorialMarquee />
             <Manifesto />
             <InlineCTA label="Skip the manifesto. Start the conversation." message={WA_MESSAGES.hire} testid="home-cta-after-manifesto" />
             <Services />
             <InlineCTA label="Not sure which service? Ask directly." message={WA_MESSAGES.quote} testid="home-cta-after-services" />
             <Work projects={content.projects} limit={4} />
-            <Stats items={content.stats} />
             <Testimonials items={content.testimonials} />
             <Badges />
             <InlineCTA label="Ready to build something like these?" message={WA_MESSAGES.hire} testid="home-cta-after-badges" />

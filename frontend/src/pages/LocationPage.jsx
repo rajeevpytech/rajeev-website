@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { ArrowUpRight, MessageCircle } from "lucide-react";
 import { PageHeader, CTAStrip } from "@/components/site/PageHeader";
 import { RevealUp } from "@/components/motion/Reveal";
-import useSEO from "@/hooks/useSEO";
+import useSEO, { localBusinessSchema, breadcrumbSchema } from "@/hooks/useSEO";
 import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
 
 const CITIES = {
@@ -28,9 +28,18 @@ export default function LocationPage() {
     const { city } = useParams();
     const c = CITIES[city] || { name: city.replace(/-/g, " "), country: "", tz: "", note: "Working with clients globally." };
     useSEO({
-        title: `Freelance Engineer & Marketer in ${c.name} — Rajeev`,
-        description: `Senior freelance engineering, software, and marketing services for teams in ${c.name}${c.country ? ", " + c.country : ""}. 12+ years experience.`,
+        title: `Freelance Engineer & Marketer in ${c.name}`,
+        description: `Hire Rajeev — senior freelance engineering, software development, and digital marketing services for teams in ${c.name}${c.country ? ", " + c.country : ""}. 12+ years of experience.`,
         path: `/freelancer-in/${city}`,
+        keywords: [`freelancer in ${c.name.toLowerCase()}`, `hire freelancer ${c.name.toLowerCase()}`, `${c.name.toLowerCase()} web developer`, `${c.name.toLowerCase()} digital marketer`],
+        structuredData: [
+            localBusinessSchema(c.name),
+            breadcrumbSchema([
+                { name: "Home", path: "/" },
+                { name: "Sitemap", path: "/sitemap" },
+                { name: `Freelancer in ${c.name}`, path: `/freelancer-in/${city}` },
+            ]),
+        ],
     });
 
     return (
