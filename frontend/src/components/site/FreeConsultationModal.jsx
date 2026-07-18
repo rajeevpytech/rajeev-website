@@ -3,7 +3,7 @@ import axios from "axios";
 import { AnimatePresence, motion } from "framer-motion";
 import { X, ArrowUpRight, Check, Sparkles, Clock, ShieldCheck, MessageSquare, MessageCircle } from "lucide-react";
 import { toast } from "sonner";
-import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
+import { waUrl, waUrlFromForm, WA_MESSAGES } from "@/lib/whatsapp";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 
@@ -52,24 +52,33 @@ export default function FreeConsultationModal({ open, onClose }) {
             return;
         }
         setSubmitting(true);
-        try {
-            await axios.post(`${API}/leads`, {
-                name: form.name,
-                email: form.email,
-                project_type: "Free Consultation",
-                budget: form.phone ? `Phone: ${form.phone}` : "Not shared",
-                message: form.message || "Requested free 30-min consultation.",
-                source: "free-consultation-modal",
-            });
-            setDone(true);
-            toast.success("Booked. Rajeev will reach out within 24h.");
-            try { localStorage.setItem("consult_booked", "1"); } catch (_) {}
-        } catch (err) {
-            console.error(err);
-            toast.error("Couldn't send. Try WhatsApp or the contact form.");
-        } finally {
-            setSubmitting(false);
-        }
+
+        // Open WhatsApp with the details (primary action)
+        const url = waUrlFromForm(
+            {
+                Name: form.name,
+                Email: form.email,
+                "Phone / WhatsApp": form.phone,
+                About: form.message,
+            },
+            "Free Consultation Request",
+        );
+        window.open(url, "_blank");
+
+        // Best-effort backup save
+        axios.post(`${API}/leads`, {
+            name: form.name,
+            email: form.email,
+            project_type: "Free Consultation",
+            budget: form.phone ? `Phone: ${form.phone}` : "Not shared",
+            message: form.message || "Requested free 30-min consultation.",
+            source: "free-consultation-modal",
+        }).catch(() => {});
+
+        try { localStorage.setItem("consult_booked", "1"); } catch (_) {}
+        setDone(true);
+        toast.success("Opening WhatsApp — Rajeev usually replies within an hour.");
+        setSubmitting(false);
     };
 
     return (
@@ -195,18 +204,20 @@ export default function FreeConsultationModal({ open, onClose }) {
                                                 <Check size={22} strokeWidth={2.4} />
                                             </div>
                                             <h3 className="font-serif text-bone text-4xl md:text-5xl leading-tight tracking-tight">
-                                                Booked.
+                                                Opening WhatsApp…
                                             </h3>
                                             <p className="mt-4 text-ash text-base md:text-lg leading-relaxed max-w-md">
-                                                Rajeev will personally reach out within 24 hours with a calendar link.
-                                                Keep an eye on your inbox — and check spam, just in case.
+                                                Your details are prefilled in the chat. If it didn't open automatically,
+                                                tap the button below.
                                             </p>
-                                            <button
-                                                onClick={onClose}
-                                                className="mt-10 btn-ghost"
+                                            <a
+                                                href={waUrl(WA_MESSAGES.consultation)}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                className="mt-8 btn-acid"
                                             >
-                                                Close <X size={14} />
-                                            </button>
+                                                <MessageCircle size={14} strokeWidth={2.2} /> Open WhatsApp
+                                            </a>
                                         </motion.div>
                                     ) : (
                                         <motion.form

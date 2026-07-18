@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowUpRight, MessageCircle, ShieldCheck, Sparkles, Globe, Award, Star, Check } from "lucide-react";
 import { MaskedLines, RevealUp } from "@/components/motion/Reveal";
 import { HERO } from "@/constants/testIds";
-import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
+import { waUrl, waUrlFromForm, WA_MESSAGES } from "@/lib/whatsapp";
 import { toast } from "sonner";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
@@ -36,22 +36,34 @@ export default function Hero() {
             return;
         }
         setSubmitting(true);
-        try {
-            await axios.post(`${API}/leads`, {
-                name: form.name,
-                email: form.email,
-                project_type: form.service || "Free Quote",
-                budget: `${form.budget || "Not shared"} · ${form.phone || "No phone"}`,
-                message: form.message || "Requested a free project quote.",
-                source: "hero-quote-form",
-            });
-            setSent(true);
-            toast.success("Sent! Reply under 30 minutes on business hours.");
-        } catch (err) {
-            toast.error("Couldn't send. Try WhatsApp instead.");
-        } finally {
-            setSubmitting(false);
-        }
+
+        // Build WhatsApp URL and open in new tab (primary action)
+        const url = waUrlFromForm(
+            {
+                Name: form.name,
+                Email: form.email,
+                Phone: form.phone,
+                Service: form.service,
+                Budget: form.budget,
+                Details: form.message,
+            },
+            "Free Project Quote",
+        );
+        window.open(url, "_blank");
+
+        // Best-effort backup to Mongo (does not block or fail UX)
+        axios.post(`${API}/leads`, {
+            name: form.name,
+            email: form.email,
+            project_type: form.service || "Free Quote",
+            budget: `${form.budget || "Not shared"} · ${form.phone || "No phone"}`,
+            message: form.message || "Requested a free project quote.",
+            source: "hero-quote-form",
+        }).catch(() => {});
+
+        setSent(true);
+        toast.success("Opening WhatsApp — reply usually within 30 min.");
+        setSubmitting(false);
     };
 
     return (

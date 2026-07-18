@@ -5,9 +5,9 @@ import { toast } from "sonner";
 import { motion, AnimatePresence } from "framer-motion";
 import { RevealUp } from "@/components/motion/Reveal";
 import { CONTACT } from "@/constants/testIds";
+import { waUrl, waUrlFromForm, WA_MESSAGES } from "@/lib/whatsapp";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
-const WHATSAPP = "https://wa.me/919711623561?text=Hi%20Rajeev%2C%20I%27d%20like%20to%20work%20with%20you.";
 const CALENDLY = "https://calendly.com/rajeev-freelancer/intro";
 
 const projectTypes = ["Web Development", "Software Engineering", "Digital Marketing", "SEO Consulting", "Not sure yet"];
@@ -27,17 +27,27 @@ export default function Contact({ hideHeader = false }) {
             return;
         }
         setSubmitting(true);
-        try {
-            await axios.post(`${API}/leads`, form);
-            setSent(true);
-            toast.success("Message received. Rajeev will reply within 24h.");
-            setForm({ name: "", email: "", project_type: projectTypes[0], budget: budgets[1], message: "" });
-        } catch (err) {
-            console.error(err);
-            toast.error("Could not send. Please try WhatsApp or email.");
-        } finally {
-            setSubmitting(false);
-        }
+
+        // Open WhatsApp with the details (primary action)
+        const url = waUrlFromForm(
+            {
+                Name: form.name,
+                Email: form.email,
+                "Project type": form.project_type,
+                Budget: form.budget,
+                Brief: form.message,
+            },
+            "Project Enquiry",
+        );
+        window.open(url, "_blank");
+
+        // Best-effort backup save
+        axios.post(`${API}/leads`, form).catch(() => {});
+
+        setSent(true);
+        toast.success("Opening WhatsApp — Rajeev replies quickly.");
+        setForm({ name: "", email: "", project_type: projectTypes[0], budget: budgets[1], message: "" });
+        setSubmitting(false);
     };
 
     return (
@@ -81,7 +91,7 @@ export default function Contact({ hideHeader = false }) {
                         </a>
                         <a
                             data-testid={CONTACT.whatsapp}
-                            href={WHATSAPP}
+                            href={waUrl(WA_MESSAGES.general)}
                             target="_blank"
                             rel="noreferrer"
                             className="group flex items-center justify-between p-5 frame rounded-2xl hover:border-acid/40 transition-colors duration-500"

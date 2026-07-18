@@ -6,6 +6,22 @@ export function waUrl(message = "Hi Rajeev, I'd like to talk about a project.") 
     return `https://wa.me/${WA_PHONE}?text=${encodeURIComponent(message)}`;
 }
 
+// Build a WhatsApp URL from a form submission
+export function waUrlFromForm(fields = {}, headline = "New Project Enquiry") {
+    const lines = [
+        `Hi Rajeev, I'd like to talk about a project.`,
+        ``,
+        `📋 ${headline} — from RajeevFreelancer.com`,
+        ``,
+    ];
+    Object.entries(fields).forEach(([label, value]) => {
+        if (value && String(value).trim()) {
+            lines.push(`${label}: ${value}`);
+        }
+    });
+    return waUrl(lines.join("\n"));
+}
+
 // Prebuilt messages per intent
 export const WA_MESSAGES = {
     general: "Hi Rajeev, I'd like to talk about a project.",
