@@ -1,5 +1,31 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import axios from "axios";
 import { SITE, url as siteUrl } from "@/lib/seo";
+
+const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+
+// Runtime cache of SEO overrides (loaded from backend, in-memory)
+let overrideCache = null;
+let overridePromise = null;
+export function loadOverrides() {
+    if (overrideCache) return Promise.resolve(overrideCache);
+    if (overridePromise) return overridePromise;
+    overridePromise = axios
+        .get(`${API}/seo/overrides`)
+        .then((r) => {
+            overrideCache = {};
+            (r.data || []).forEach((o) => {
+                if (o?.path) overrideCache[o.path] = o;
+            });
+            return overrideCache;
+        })
+        .catch(() => (overrideCache = {}));
+    return overridePromise;
+}
+export function invalidateOverrides() {
+    overrideCache = null;
+    overridePromise = null;
+}
 
 /*
  * Comprehensive SEO hook — handles title, description, keywords, canonical,
@@ -26,40 +52,52 @@ export default function useSEO({
     noindex = false,
     structuredData = [],
 } = {}) {
+    const [ovr, setOvr] = useState(null);
+
     useEffect(() => {
-        const fullTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+        loadOverrides().then((all) => setOvr(all?.[path] || {}));
+    }, [path]);
+
+    useEffect(() => {
+        // Apply overrides on top of the defaults passed in
+        const effectiveTitle = ovr?.title || title;
+        const effectiveDescription = ovr?.description || description;
+        const effectiveKeywords = ovr?.keywords
+            ? ovr.keywords.split(",").map((s) => s.trim()).filter(Boolean)
+            : keywords;
+        const effectiveOgImage = ovr?.og_image || ogImage;
+        const effectiveNoindex = ovr?.noindex || noindex;
+
+        const fullTitle = effectiveTitle ? `${effectiveTitle} · ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
         const canonical = siteUrl(path);
-        const allKeywords = Array.from(new Set([...(keywords || []), ...SITE.keywords])).join(", ");
+        const allKeywords = Array.from(new Set([...(effectiveKeywords || []), ...SITE.keywords])).join(", ");
 
         document.title = fullTitle;
 
-        setMeta("description", description);
+        setMeta("description", effectiveDescription);
         setMeta("keywords", allKeywords);
         setMeta("author", SITE.author);
-        setMeta("robots", noindex ? "noindex,nofollow" : "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1");
+        setMeta("robots", effectiveNoindex ? "noindex,nofollow" : "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1");
 
         setLink("canonical", canonical);
 
-        // OpenGraph
         setMetaProp("og:title", fullTitle);
-        setMetaProp("og:description", description);
+        setMetaProp("og:description", effectiveDescription);
         setMetaProp("og:url", canonical);
         setMetaProp("og:type", type);
         setMetaProp("og:site_name", SITE.name);
-        setMetaProp("og:image", ogImage);
+        setMetaProp("og:image", effectiveOgImage);
         setMetaProp("og:image:width", "1200");
         setMetaProp("og:image:height", "630");
         setMetaProp("og:locale", "en_US");
 
-        // Twitter Card
         setMeta("twitter:card", "summary_large_image");
         setMeta("twitter:title", fullTitle);
-        setMeta("twitter:description", description);
-        setMeta("twitter:image", ogImage);
+        setMeta("twitter:description", effectiveDescription);
+        setMeta("twitter:image", effectiveOgImage);
         setMeta("twitter:site", SITE.twitter);
         setMeta("twitter:creator", SITE.twitter);
 
-        // Inject JSON-LD structured data
         clearScripts("data-seo-ld");
         (Array.isArray(structuredData) ? structuredData : [structuredData])
             .filter(Boolean)
@@ -71,13 +109,12 @@ export default function useSEO({
                 document.head.appendChild(script);
             });
 
-        // Scroll to top on route change (Lenis-aware)
         window.scrollTo({ top: 0, behavior: "instant" });
         if (window.__lenis) window.__lenis.scrollTo(0, { immediate: true });
 
         return () => clearScripts("data-seo-ld");
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [title, description, path, JSON.stringify(keywords), ogImage, type, noindex, JSON.stringify(structuredData)]);
+    }, [title, description, path, JSON.stringify(keywords), ogImage, type, noindex, JSON.stringify(structuredData), JSON.stringify(ovr)]);
 }
 
 function setMeta(name, content) {
@@ -131,7 +168,7 @@ export const orgSchema = () => ({
     priceRange: "$$-$$$",
     address: { "@type": "PostalAddress", addressLocality: SITE.contact.city, addressCountry: SITE.contact.country },
     areaServed: "Worldwide",
-    sameAs: ["https://www.linkedin.com/", "https://github.com/", "https://www.upwork.com/", "https://www.peopleperhour.com/"],
+    sameAs: ["https://www.linkedin.com/in/rajeev90/", "https://github.com/pytech95", "https://www.upwork.com/freelancers/~01b43c870c622b9459", "https://www.peopleperhour.com/"],
 });
 
 export const personSchema = () => ({
@@ -155,7 +192,7 @@ export const personSchema = () => ({
         "Web Development", "Software Engineering", "Digital Marketing",
         "SEO", "Brand Identity", "Mobile App Development",
     ],
-    sameAs: ["https://www.linkedin.com/", "https://github.com/", "https://www.upwork.com/", "https://www.peopleperhour.com/"],
+    sameAs: ["https://www.linkedin.com/in/rajeev90/", "https://github.com/pytech95", "https://www.upwork.com/freelancers/~01b43c870c622b9459", "https://www.peopleperhour.com/"],
 });
 
 export const websiteSchema = () => ({

@@ -8,6 +8,13 @@ export const SITE = {
     twitter: "@rajeevfreelancer",
     ogImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200&h=630",
     author: "Rajeev",
+    social: {
+        github: "https://github.com/pytech95",
+        linkedin: "https://www.linkedin.com/in/rajeev90/",
+        upwork: "https://www.upwork.com/freelancers/~01b43c870c622b9459",
+        peopleperhour: "https://www.peopleperhour.com/",
+        twitter: "https://twitter.com/",
+    },
     keywords: [
         "freelance web developer",
         "freelance software engineer",
@@ -23,7 +30,7 @@ export const SITE = {
         "senior freelance developer",
     ],
     contact: {
-        email: "hello@rajeevfreelancer.com",
+        email: "rajeev.pytech@gmail.com",
         phone: "+91-97116-23561",
         whatsapp: "+919711623561",
         city: "Gurgaon",

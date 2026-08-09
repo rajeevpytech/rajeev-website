@@ -11,7 +11,7 @@ const badges = [
         title: "Top Rated Plus",
         stat: "100% Job Success",
         subline: "5.0 · 84 completed contracts",
-        href: "https://www.upwork.com/",
+        href: "https://www.upwork.com/freelancers/~01b43c870c622b9459",
     },
     {
         id: "pph",

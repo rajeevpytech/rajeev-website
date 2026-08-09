@@ -32,7 +32,7 @@ const company = [
 const resources = [
     { to: "/blog", label: "Journal" },
     { to: "/sitemap", label: "Sitemap" },
-    { href: "https://www.upwork.com/", label: "Upwork Profile" },
+    { href: "https://www.upwork.com/freelancers/~01b43c870c622b9459", label: "Upwork Profile" },
     { href: "https://www.peopleperhour.com/", label: "PeoplePerHour Profile" },
 ];
 
@@ -87,12 +87,12 @@ export default function Footer() {
                         <FooterCol title="Elsewhere" items={[]} plain>
                             <ul className="space-y-3 text-bone">
                                 <li>
-                                    <a data-testid={FOOTER.linkedin} href="https://www.linkedin.com/" target="_blank" rel="noreferrer" className="link-sweep inline-flex items-center gap-2">
+                                    <a data-testid={FOOTER.linkedin} href="https://www.linkedin.com/in/rajeev90/" target="_blank" rel="noreferrer" className="link-sweep inline-flex items-center gap-2">
                                         <Linkedin size={14} /> LinkedIn
                                     </a>
                                 </li>
                                 <li>
-                                    <a data-testid={FOOTER.github} href="https://github.com/" target="_blank" rel="noreferrer" className="link-sweep inline-flex items-center gap-2">
+                                    <a data-testid={FOOTER.github} href="https://github.com/pytech95" target="_blank" rel="noreferrer" className="link-sweep inline-flex items-center gap-2">
                                         <Github size={14} /> GitHub
                                     </a>
                                 </li>

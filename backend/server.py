@@ -1,4 +1,4 @@
-from fastapi import FastAPI, APIRouter, HTTPException
+from fastapi import FastAPI, APIRouter, HTTPException, Header
 from dotenv import load_dotenv
 from starlette.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
@@ -25,6 +25,11 @@ EMAIL_BASE_URL = "https://integrations.emergentagent.com"
 EMAIL_KEY = os.environ.get("EMERGENT_EMAIL_KEY")
 EMAIL_FROM_NAME = os.environ.get("EMAIL_FROM_NAME", "Rajeev Freelancer")
 CONTACT_INBOX = os.environ.get("CONTACT_INBOX", "hello@rajeevfreelancer.com")
+ADMIN_TOKEN = os.environ.get("ADMIN_TOKEN", "change-me")
+
+def require_admin(x_admin_token: Optional[str]) -> None:
+    if not x_admin_token or x_admin_token != ADMIN_TOKEN:
+        raise HTTPException(status_code=401, detail="Invalid admin token")
 
 app = FastAPI(title="Rajeev Freelancer API")
 api_router = APIRouter(prefix="/api")
@@ -254,6 +259,51 @@ async def create_lead(payload: LeadCreate):
 async def list_leads():
     docs = await db.leads.find({}, {"_id": 0}).sort("created_at", -1).to_list(500)
     return docs
+
+
+# ---------------------- SEO OVERRIDES ----------------------
+class SEOOverride(BaseModel):
+    path: str
+    title: Optional[str] = None
+    description: Optional[str] = None
+    keywords: Optional[str] = None
+    og_image: Optional[str] = None
+    noindex: bool = False
+
+
+@api_router.get("/seo/overrides")
+async def list_seo_overrides():
+    docs = await db.seo_overrides.find({}, {"_id": 0}).to_list(500)
+    return docs
+
+
+@api_router.get("/seo/overrides/by-path")
+async def get_seo_override(path: str):
+    doc = await db.seo_overrides.find_one({"path": path}, {"_id": 0})
+    return doc or {}
+
+
+@api_router.post("/seo/overrides")
+async def upsert_seo_override(payload: SEOOverride, x_admin_token: Optional[str] = Header(None)):
+    require_admin(x_admin_token)
+    doc = payload.model_dump()
+    await db.seo_overrides.update_one({"path": payload.path}, {"$set": doc}, upsert=True)
+    return doc
+
+
+@api_router.delete("/seo/overrides")
+async def delete_seo_override(path: str, x_admin_token: Optional[str] = Header(None)):
+    require_admin(x_admin_token)
+    await db.seo_overrides.delete_one({"path": path})
+    return {"ok": True}
+
+
+@api_router.post("/admin/login")
+async def admin_login(payload: dict):
+    token = (payload or {}).get("token", "")
+    if token != ADMIN_TOKEN:
+        raise HTTPException(status_code=401, detail="Invalid token")
+    return {"ok": True}
 
 
 # Wire router

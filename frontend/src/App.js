@@ -14,6 +14,7 @@ import ContactPage from "@/pages/ContactPage";
 import Privacy from "@/pages/Privacy";
 import Terms from "@/pages/Terms";
 import Cookies from "@/pages/Cookies";
+import AdminSEO from "@/pages/AdminSEO";
 import Faq from "@/pages/Faq";
 import SitemapPage from "@/pages/SitemapPage";
 import LocationPage from "@/pages/LocationPage";
@@ -41,6 +42,7 @@ function App() {
                         <Route path="/privacy" element={<Privacy />} />
                         <Route path="/terms" element={<Terms />} />
                         <Route path="/cookies" element={<Cookies />} />
+                        <Route path="/admin/seo" element={<AdminSEO />} />
                         <Route path="*" element={<NotFound />} />
                     </Route>
                 </Routes>
