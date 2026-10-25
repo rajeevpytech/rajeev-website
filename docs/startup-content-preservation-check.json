@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-10-25T17:51:33.455151+00:00",
+  "scope": "Local startup-preservation regression only; no deployment, browser, production database or provider requests.",
+  "result": "pass",
+  "change": {
+    "automatic_existing_slug_normalization_removed": true,
+    "obsolete_reslug_helper_removed": true,
+    "automatic_blog_source_seeding_removed": true,
+    "automatic_case_study_source_seeding_removed": true,
+    "source_seed_helpers_retained_for_deliberate_setup": true,
+    "frontend_or_existing_business_copy_changed": false
+  },
+  "verified_regression": {
+    "actual_normalization_risk": "Existing underscore slugs such as existing_guide and case_study were normalized to hyphens by the obsolete startup migration.",
+    "unicode_correction": "The existing _slug function already preserves Unicode. Unicode URL continuity is tested, but Unicode stripping was not the reproduced bug.",
+    "startup_runs": 2,
+    "existing_blog_and_case_documents": 6,
+    "fixture_slug_types": [
+      "Unicode",
+      "ASCII",
+      "underscore"
+    ],
+    "existing_slug_title_description_body_and_flags_unchanged": true,
+    "document_write_attempts": 0,
+    "missing_or_deleted_source_seed_articles_restored": false,
+    "exact_original_blog_and_case_api_paths_return_existing_documents": true,
+    "normalized_alternative_and_deleted_seed_paths_return_404": true,
+    "schedulers_storage_and_external_setup": "Local stubs; scheduled coroutines recorded and closed without running."
+  },
+  "validation": {
+    "focused_test_file": "backend/tests/test_startup_url_preservation.py",
+    "focused_tests_passed": 2,
+    "combined_backend_tests_passed": 199,
+    "combined_backend_tests_failed": 0,
+    "syntax_compile": "pass",
+    "metadata_preservation": {
+      "result": "pass",
+      "original_source_declarations": 18,
+      "captured_live_snapshots": 21,
+      "built_html_heads_checked": 279
+    },
+    "warnings": [
+      "Two installed Starlette dependency deprecation warnings."
+    ]
+  },
+  "limitations": [
+    "This prevents future automatic source migrations and resurrection after deployment; no live MongoDB documents were inspected, repaired or overwritten.",
+    "Startup still performs its existing administrator/index/scheduler/storage setup. The preservation fixture uses an already configured administrator and verifies zero document writes."
+  ],
+  "final_recheck": {
+    "checked_at": "2026-10-25T17:54:58.056025+00:00",
+    "combined_backend_tests_passed": 203,
+    "failed": 0
+  }
+}

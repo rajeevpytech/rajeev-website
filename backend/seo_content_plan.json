@@ -1,0 +1,1351 @@
+{
+  "schema_version": 1,
+  "plan_id": "rajeev-seo90-20261025",
+  "prepared_on": "2026-10-25",
+  "site": "https://rajeevfreelancer.com",
+  "activation_relative": true,
+  "activation_date": null,
+  "duration_days": 90,
+  "week_note": "Weeks 1–12 contain seven days; Week 13 is Days 85–90. The calendar starts only when activated, not retroactively on the prepared date.",
+  "default_article_status": "draft",
+  "source_drafts_are_live_posts": false,
+  "existing_metadata_policy": "All existing/indexed website pages and posts are read-only, including titles, descriptions, slugs and body content. Existing-review references must never be merged, applied, replaced or queued as new posts. The one newly created CMS post is now also an existing protected record.",
+  "sources": [
+    {
+      "id": "google-seo-starter",
+      "title": "Search Engine Optimization Starter Guide",
+      "publisher": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "google-ai-search",
+      "title": "Optimizing your website for generative AI features on Google Search",
+      "publisher": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "google-technical",
+      "title": "Google Search technical requirements",
+      "publisher": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/essentials/technical",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "google-canonicals",
+      "title": "How to specify a canonical URL",
+      "publisher": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "google-helpful-content",
+      "title": "Creating helpful, reliable, people-first content",
+      "publisher": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "google-structured-data",
+      "title": "General structured data guidelines",
+      "publisher": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "webdev-vitals",
+      "title": "Web Vitals",
+      "publisher": "Google web.dev",
+      "url": "https://web.dev/articles/vitals",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "w3c-easy-checks",
+      "title": "Easy Checks: A first review of web accessibility",
+      "publisher": "W3C Web Accessibility Initiative",
+      "url": "https://www.w3.org/WAI/test-evaluate/preliminary/",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "w3c-accessibility-plan",
+      "title": "Plan: Planning and Managing Web Accessibility",
+      "publisher": "W3C Web Accessibility Initiative",
+      "url": "https://www.w3.org/WAI/planning-and-managing/plan/",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "github-environments",
+      "title": "Managing environments for deployment",
+      "publisher": "GitHub Docs",
+      "url": "https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "owasp-secrets",
+      "title": "Secrets Management Cheat Sheet",
+      "publisher": "OWASP",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "google-gbp-guidelines",
+      "title": "Guidelines for representing your business on Google",
+      "publisher": "Google Business Profile Help",
+      "url": "https://support.google.com/business/answer/3038177?hl=en",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "google-gbp-service-area",
+      "title": "Manage your service areas",
+      "publisher": "Google Business Profile Help",
+      "url": "https://support.google.com/business/answer/9157481?hl=en",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "google-site-moves",
+      "title": "Site moves with URL changes",
+      "publisher": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "google-redirects",
+      "title": "Redirects and Google Search",
+      "publisher": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/301-redirects",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "google-http-status",
+      "title": "How HTTP status codes affect Google crawlers",
+      "publisher": "Google Crawling Documentation",
+      "url": "https://developers.google.com/crawling/docs/troubleshooting/http-status-codes",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "google-crawlable-links",
+      "title": "Link best practices for Google",
+      "publisher": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "w3c-form-validation",
+      "title": "Validating Input",
+      "publisher": "W3C Web Accessibility Initiative",
+      "url": "https://www.w3.org/WAI/tutorials/forms/validation/",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "w3c-form-notifications",
+      "title": "User Notifications",
+      "publisher": "W3C Web Accessibility Initiative",
+      "url": "https://www.w3.org/WAI/tutorials/forms/notifications/",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "owasp-input-validation",
+      "title": "Input Validation Cheat Sheet",
+      "publisher": "OWASP",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    },
+    {
+      "id": "owasp-csrf",
+      "title": "Cross-Site Request Forgery Prevention Cheat Sheet",
+      "publisher": "OWASP",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html",
+      "researched_on": "2026-10-25",
+      "source_type": "official_primary"
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "day_start": 1,
+      "day_end": 7,
+      "topic_id": "hire-web-freelancer-gurgaon",
+      "title": "Hiring a Web Freelancer in Gurgaon: A Practical Decision Checklist",
+      "slug": "hire-web-freelancer-gurgaon-checklist",
+      "search_intent": "Commercial research: selecting a website developer for a Gurgaon business.",
+      "brief": "Define the business action, compare proof of work, ask about ownership and testable acceptance. Provide a practical proposal-comparison worksheet without fabricated prices, local offices or endorsements.",
+      "internal_links": [
+        "/freelancer-website-developer",
+        "/contact"
+      ],
+      "source_ids": [
+        "google-seo-starter",
+        "webdev-vitals",
+        "w3c-easy-checks"
+      ],
+      "status": "refresh_candidate",
+      "article_state": "complete_draft_in_plan",
+      "publication_target": "READ-ONLY: inspect the existing article and record recommendations only. Do not merge, overwrite, replace, publish a duplicate or queue this task.",
+      "must_preserve_existing_metadata": true,
+      "source_draft_slug": "hire-web-freelancer-gurgaon-checklist",
+      "source_draft_title": "Hiring a Web Freelancer in Gurgaon: A Practical Decision Checklist",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_reviewed_on": "2026-10-25",
+      "intent_review_basis": "Authenticated CMS inventory of 31 published titles/slugs observed by primary agent; existing bodies not exhaustively compared.",
+      "intent_action": "refresh_candidate",
+      "queue_eligible": false,
+      "new_post_eligible": false,
+      "existing_target_slugs": [
+        "freelance-website-developer-gurgaon",
+        "hiring-freelancer-vs-agency"
+      ],
+      "existing_post_slug": "freelance-website-developer-gurgaon",
+      "intent_review_note": "Existing matching/adjacent intent was observed. This task is a read-only review recommendation; the existing title, description, slug and body are immutable. Reference source text is not an automatic merge or replacement.",
+      "target_markets": [
+        "India",
+        "United Kingdom",
+        "United States",
+        "United Arab Emirates",
+        "Canada",
+        "Australia",
+        "Ireland",
+        "Singapore",
+        "Germany"
+      ],
+      "audience_scope": "Worldwide remote SMBs; existing Gurgaon hiring topic remains a local refresh within the broader programme.",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false,
+      "existing_content_action": "read_only_review_recommendation"
+    },
+    {
+      "week": 2,
+      "day_start": 8,
+      "day_end": 14,
+      "topic_id": "remote-website-project-scope",
+      "title": "How to Scope a Remote Website Project Before Development Starts",
+      "slug": "scope-remote-website-project",
+      "search_intent": "Project planning: preparing an actionable website brief.",
+      "brief": "Work from visitor tasks to a page/integration inventory, acceptance criteria, account ownership, change control and a reversible launch checklist. Include a worked hypothetical service-business example.",
+      "internal_links": [
+        "/freelancer-website-developer",
+        "/contact"
+      ],
+      "source_ids": [
+        "github-environments",
+        "owasp-secrets",
+        "w3c-accessibility-plan",
+        "google-canonicals"
+      ],
+      "status": "published",
+      "article_state": "created_and_admin_published_public_unconfirmed",
+      "publication_target": "Already created and admin-marked published. Do not queue again; verify public content only after server deployment.",
+      "must_preserve_existing_metadata": true,
+      "source_draft_slug": "scope-remote-website-project",
+      "source_draft_title": "How to Scope a Remote Website Project Before Development Starts",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_reviewed_on": "2026-10-25",
+      "intent_review_basis": "Authenticated CMS inventory of 31 published titles/slugs observed by primary agent; existing bodies not exhaustively compared.",
+      "intent_action": "already_published",
+      "queue_eligible": false,
+      "new_post_eligible": false,
+      "existing_target_slugs": [
+        "scope-remote-website-project"
+      ],
+      "intent_review_note": "No clear matching topic found in the observed 31-title inventory. Recheck the live inventory and actual content before creating a post.",
+      "existing_post_slug": "scope-remote-website-project",
+      "publication_verification": {
+        "slug": "scope-remote-website-project",
+        "url": "https://rajeevfreelancer.com/blog/scope-remote-website-project",
+        "created_date": "2026-10-25",
+        "admin_published_date": "2026-10-25",
+        "timestamp_precision": "date_only; exact time not observed",
+        "admin_status": "created_and_admin_published",
+        "published_posts_before": 31,
+        "published_posts_after": 32,
+        "category": "Guide",
+        "source_body_word_count": 991,
+        "faq_items_added": 3,
+        "public_visibility": "unconfirmed_pending_server_deployment",
+        "public_observation": "Public listing/direct page still returned the current shell without confirmed article content.",
+        "application_deployed": false,
+        "existing_post_overwritten": false,
+        "next_step": "User deploys the latest ZIP to the server; then verify the public article and the updated routing. No further live verification was performed after that instruction."
+      },
+      "target_markets": [
+        "India",
+        "United Kingdom",
+        "United States",
+        "United Arab Emirates",
+        "Canada",
+        "Australia",
+        "Ireland",
+        "Singapore",
+        "Germany"
+      ],
+      "audience_scope": "Worldwide remote SMBs with initial market priorities from the dated GSC country evidence.",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false
+    },
+    {
+      "week": 3,
+      "day_start": 15,
+      "day_end": 21,
+      "topic_id": "seo-geo-search-eligibility",
+      "title": "SEO and GEO: Check Search Eligibility Before Chasing AI Visibility",
+      "slug": "seo-geo-search-eligibility-checklist",
+      "search_intent": "Informational: understanding what helps Search and generative-AI discovery.",
+      "brief": "Separate fetching, indexing, snippet eligibility, canonical signals and actual visibility. Explain useful answers, truthful schema, optional llms.txt and measurement without guaranteed rankings or citations.",
+      "internal_links": [
+        "/freelancer-seo-expert",
+        "/contact"
+      ],
+      "source_ids": [
+        "google-ai-search",
+        "google-technical",
+        "google-canonicals",
+        "google-helpful-content",
+        "google-structured-data"
+      ],
+      "status": "refresh_candidate",
+      "article_state": "complete_draft_in_plan",
+      "publication_target": "READ-ONLY: inspect the existing article and record recommendations only. Do not merge, overwrite, replace, publish a duplicate or queue this task.",
+      "must_preserve_existing_metadata": true,
+      "source_draft_slug": "seo-geo-search-eligibility-checklist",
+      "source_draft_title": "SEO and GEO: Check Search Eligibility Before Chasing AI Visibility",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_reviewed_on": "2026-10-25",
+      "intent_review_basis": "Authenticated CMS inventory of 31 published titles/slugs observed by primary agent; existing bodies not exhaustively compared.",
+      "intent_action": "refresh_candidate",
+      "queue_eligible": false,
+      "new_post_eligible": false,
+      "existing_target_slugs": [
+        "seo-vs-geo-2026",
+        "getting-cited-by-ai-answers"
+      ],
+      "existing_post_slug": "seo-vs-geo-2026",
+      "intent_review_note": "Existing matching/adjacent intent was observed. This task is a read-only review recommendation; the existing title, description, slug and body are immutable. Reference source text is not an automatic merge or replacement.",
+      "target_markets": [
+        "India",
+        "United Kingdom",
+        "United States",
+        "United Arab Emirates",
+        "Canada",
+        "Australia",
+        "Ireland",
+        "Singapore",
+        "Germany"
+      ],
+      "audience_scope": "Worldwide remote SMBs with initial market priorities from the dated GSC country evidence.",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false,
+      "existing_content_action": "read_only_review_recommendation"
+    },
+    {
+      "week": 4,
+      "day_start": 22,
+      "day_end": 28,
+      "topic_id": "redesign-url-continuity",
+      "title": "Redesigning a Website Without Losing Track of Existing URLs",
+      "slug": "website-redesign-url-continuity",
+      "search_intent": "Migration planning: protecting existing discoverable pages.",
+      "brief": "Show an inventory worksheet for old URL, present status, selected canonical, intended replacement and acceptance check. Use labelled examples; avoid implying redirects preserve every ranking.",
+      "internal_links": [
+        "/freelancer-website-developer",
+        "/freelancer-seo-expert"
+      ],
+      "source_ids": [
+        "google-site-moves",
+        "google-redirects",
+        "google-http-status",
+        "google-crawlable-links"
+      ],
+      "status": "planned",
+      "article_state": "complete_unpublished_source_draft",
+      "publication_target": "A genuinely new article after duplicate-intent, source and preview checks; no overwrite of an existing record.",
+      "must_preserve_existing_metadata": true,
+      "source_draft_slug": "website-redesign-url-continuity",
+      "source_draft_title": "Redesigning a Website Without Losing Track of Existing URLs",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_reviewed_on": "2026-10-25",
+      "intent_review_basis": "Authenticated CMS inventory of 31 published titles/slugs observed by primary agent; existing bodies not exhaustively compared.",
+      "intent_action": "new_article",
+      "queue_eligible": true,
+      "new_post_eligible": true,
+      "existing_target_slugs": [],
+      "intent_review_note": "No clear matching topic found in the observed 31-title inventory. Recheck the live inventory and actual content before creating a post.",
+      "target_markets": [
+        "India",
+        "United Kingdom",
+        "United States",
+        "United Arab Emirates",
+        "Canada",
+        "Australia",
+        "Ireland",
+        "Singapore",
+        "Germany"
+      ],
+      "audience_scope": "Worldwide remote SMBs with initial market priorities from the dated GSC country evidence.",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false
+    },
+    {
+      "week": 5,
+      "day_start": 29,
+      "day_end": 35,
+      "topic_id": "cwv-insufficient-data",
+      "title": "What to Measure When Core Web Vitals Has Insufficient Data",
+      "slug": "core-web-vitals-insufficient-data-plan",
+      "search_intent": "Technical research: lab versus field performance.",
+      "brief": "Explain field-data scarcity and a repeatable lab test record using device/network conditions, key pages, image dimensions and interaction tasks. Publish real measurements only when taken.",
+      "internal_links": [
+        "/freelancer-website-developer",
+        "/freelancer-seo-expert"
+      ],
+      "source_ids": [
+        "webdev-vitals"
+      ],
+      "status": "refresh_candidate",
+      "article_state": "brief_only_not_written",
+      "publication_target": "READ-ONLY: inspect the existing article and record recommendations only. Do not merge, overwrite, replace, publish a duplicate or queue this task.",
+      "must_preserve_existing_metadata": true,
+      "source_draft_slug": "core-web-vitals-insufficient-data-plan",
+      "source_draft_title": "What to Measure When Core Web Vitals Has Insufficient Data",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_reviewed_on": "2026-10-25",
+      "intent_review_basis": "Authenticated CMS inventory of 31 published titles/slugs observed by primary agent; existing bodies not exhaustively compared.",
+      "intent_action": "refresh_candidate",
+      "queue_eligible": false,
+      "new_post_eligible": false,
+      "existing_target_slugs": [
+        "core-web-vitals-checklist",
+        "core-web-vitals-praxis-guide-deutsch"
+      ],
+      "existing_post_slug": "core-web-vitals-checklist",
+      "intent_review_note": "Existing matching/adjacent intent was observed. This task is a read-only review recommendation; the existing title, description, slug and body are immutable. Reference source text is not an automatic merge or replacement.",
+      "target_markets": [
+        "India",
+        "United Kingdom",
+        "United States",
+        "United Arab Emirates",
+        "Canada",
+        "Australia",
+        "Ireland",
+        "Singapore",
+        "Germany"
+      ],
+      "audience_scope": "Worldwide remote SMBs with initial market priorities from the dated GSC country evidence.",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false,
+      "existing_content_action": "read_only_review_recommendation"
+    },
+    {
+      "week": 6,
+      "day_start": 36,
+      "day_end": 42,
+      "topic_id": "service-page-buyer-questions",
+      "title": "What a Useful Service Page Should Answer Before a Visitor Enquires",
+      "slug": "service-page-buyer-questions",
+      "search_intent": "Conversion planning: reducing uncertainty before an enquiry.",
+      "brief": "Map buyer questions to deliverables, exclusions, process, genuine evidence, next action and contact choices. Include an original page-outline worksheet, not conversion uplift claims.",
+      "internal_links": [
+        "/services",
+        "/contact"
+      ],
+      "source_ids": [
+        "google-helpful-content",
+        "google-seo-starter"
+      ],
+      "status": "refresh_candidate",
+      "article_state": "brief_only_not_written",
+      "publication_target": "READ-ONLY: inspect the existing article and record recommendations only. Do not merge, overwrite, replace, publish a duplicate or queue this task.",
+      "must_preserve_existing_metadata": true,
+      "source_draft_slug": "service-page-buyer-questions",
+      "source_draft_title": "What a Useful Service Page Should Answer Before a Visitor Enquires",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_reviewed_on": "2026-10-25",
+      "intent_review_basis": "Authenticated CMS inventory of 31 published titles/slugs observed by primary agent; existing bodies not exhaustively compared.",
+      "intent_action": "refresh_candidate",
+      "queue_eligible": false,
+      "new_post_eligible": false,
+      "existing_target_slugs": [
+        "conversion-first-web-design",
+        "ecommerce-conversion-rate-playbook"
+      ],
+      "existing_post_slug": "conversion-first-web-design",
+      "intent_review_note": "Existing matching/adjacent intent was observed. This task is a read-only review recommendation; the existing title, description, slug and body are immutable. Reference source text is not an automatic merge or replacement.",
+      "target_markets": [
+        "India",
+        "United Kingdom",
+        "United States",
+        "United Arab Emirates",
+        "Canada",
+        "Australia",
+        "Ireland",
+        "Singapore",
+        "Germany"
+      ],
+      "audience_scope": "Worldwide remote SMBs with initial market priorities from the dated GSC country evidence.",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false,
+      "existing_content_action": "read_only_review_recommendation"
+    },
+    {
+      "week": 7,
+      "day_start": 43,
+      "day_end": 49,
+      "topic_id": "contact-form-acceptance",
+      "title": "Testing a Website Enquiry Form From Submit to Follow-up",
+      "slug": "website-enquiry-form-acceptance",
+      "search_intent": "Implementation planning: verifying lead capture end to end.",
+      "brief": "Provide acceptance cases for required fields, duplicate submission, error handling, notification receipt and internal ownership. Use synthetic test details; do not claim production message delivery until tested.",
+      "internal_links": [
+        "/freelancer-website-developer",
+        "/contact"
+      ],
+      "source_ids": [
+        "owasp-input-validation",
+        "w3c-form-validation",
+        "w3c-form-notifications",
+        "owasp-csrf"
+      ],
+      "status": "planned",
+      "article_state": "complete_unpublished_source_draft",
+      "publication_target": "A genuinely new article after duplicate-intent, source and preview checks; no overwrite of an existing record.",
+      "must_preserve_existing_metadata": true,
+      "source_draft_slug": "website-enquiry-form-acceptance",
+      "source_draft_title": "Testing a Website Enquiry Form From Submit to Follow-up",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_reviewed_on": "2026-10-25",
+      "intent_review_basis": "Authenticated CMS inventory of 31 published titles/slugs observed by primary agent; existing bodies not exhaustively compared.",
+      "intent_action": "new_article",
+      "queue_eligible": true,
+      "new_post_eligible": true,
+      "existing_target_slugs": [],
+      "intent_review_note": "No clear matching topic found in the observed 31-title inventory. Recheck the live inventory and actual content before creating a post.",
+      "target_markets": [
+        "India",
+        "United Kingdom",
+        "United States",
+        "United Arab Emirates",
+        "Canada",
+        "Australia",
+        "Ireland",
+        "Singapore",
+        "Germany"
+      ],
+      "audience_scope": "Worldwide remote SMBs with initial market priorities from the dated GSC country evidence.",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false
+    },
+    {
+      "week": 8,
+      "day_start": 50,
+      "day_end": 56,
+      "topic_id": "cms-editor-decisions",
+      "title": "Choosing Website Editing Features Before Choosing a CMS",
+      "slug": "website-editing-features-cms-brief",
+      "search_intent": "Buying research: deciding editorial and administrative requirements.",
+      "brief": "Compare a page editor, blog workflow, media handling, user roles and export needs by task. Demonstrate a requirements matrix; verify product-specific facts before naming plans or limits.",
+      "internal_links": [
+        "/freelancer-website-developer",
+        "/contact"
+      ],
+      "source_ids": [
+        "w3c-accessibility-plan",
+        "github-environments"
+      ],
+      "status": "planned",
+      "article_state": "brief_only_not_written",
+      "publication_target": "A genuinely new article after duplicate-intent, source and preview checks; no overwrite of an existing record.",
+      "must_preserve_existing_metadata": true,
+      "source_draft_slug": "website-editing-features-cms-brief",
+      "source_draft_title": "Choosing Website Editing Features Before Choosing a CMS",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_reviewed_on": "2026-10-25",
+      "intent_review_basis": "Authenticated CMS inventory of 31 published titles/slugs observed by primary agent; existing bodies not exhaustively compared.",
+      "intent_action": "new_article",
+      "queue_eligible": true,
+      "new_post_eligible": true,
+      "existing_target_slugs": [],
+      "intent_review_note": "No clear matching topic found in the observed 31-title inventory. Recheck the live inventory and actual content before creating a post.",
+      "target_markets": [
+        "India",
+        "United Kingdom",
+        "United States",
+        "United Arab Emirates",
+        "Canada",
+        "Australia",
+        "Ireland",
+        "Singapore",
+        "Germany"
+      ],
+      "audience_scope": "Worldwide remote SMBs with initial market priorities from the dated GSC country evidence.",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false
+    },
+    {
+      "week": 9,
+      "day_start": 57,
+      "day_end": 63,
+      "topic_id": "accessibility-procurement",
+      "title": "A Small Business Accessibility Checklist for Website Procurement",
+      "slug": "website-accessibility-procurement-checklist",
+      "search_intent": "Procurement: agreeing an accessibility scope and evidence.",
+      "brief": "Define keyboard, focus, labels, contrast, content alternatives and evaluation scope. Distinguish quick checks from full conformance assessment; no certification claim.",
+      "internal_links": [
+        "/freelancer-website-developer",
+        "/contact"
+      ],
+      "source_ids": [
+        "w3c-easy-checks",
+        "w3c-accessibility-plan"
+      ],
+      "status": "intent_review_required",
+      "article_state": "brief_only_not_written",
+      "publication_target": "Read-only comparison of the existing body/audience. No existing edits and no new-post queue until a distinct new scope is established.",
+      "must_preserve_existing_metadata": true,
+      "source_draft_slug": "website-accessibility-procurement-checklist",
+      "source_draft_title": "A Small Business Accessibility Checklist for Website Procurement",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_reviewed_on": "2026-10-25",
+      "intent_review_basis": "Authenticated CMS inventory of 31 published titles/slugs observed by primary agent; existing bodies not exhaustively compared.",
+      "intent_action": "review_existing_before_new",
+      "queue_eligible": false,
+      "new_post_eligible": false,
+      "existing_target_slugs": [
+        "ada-compliance-ecommerce-guide-us"
+      ],
+      "intent_review_note": "A procurement checklist may differ from the existing US ecommerce compliance guide, but title-only review cannot establish the content gap. Compare the body and audience before queueing a new article.",
+      "target_markets": [
+        "India",
+        "United Kingdom",
+        "United States",
+        "United Arab Emirates",
+        "Canada",
+        "Australia",
+        "Ireland",
+        "Singapore",
+        "Germany"
+      ],
+      "audience_scope": "Worldwide remote SMBs with initial market priorities from the dated GSC country evidence.",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false
+    },
+    {
+      "week": 10,
+      "day_start": 64,
+      "day_end": 70,
+      "topic_id": "useful-location-pages",
+      "title": "When a Location Page Helps Customers and When It Adds Duplication",
+      "slug": "useful-location-pages-remote-services",
+      "search_intent": "SEO planning: useful international and local service coverage.",
+      "brief": "Use a decision tree: real customer need, truthful delivery model, differentiated operational detail, valid geographic evidence and review before indexing. Never fabricate a local office or results.",
+      "internal_links": [
+        "/locations",
+        "/freelancer-seo-expert"
+      ],
+      "source_ids": [
+        "google-helpful-content",
+        "google-ai-search",
+        "google-canonicals"
+      ],
+      "status": "refresh_candidate",
+      "article_state": "brief_only_not_written",
+      "publication_target": "READ-ONLY: inspect the existing article and record recommendations only. Do not merge, overwrite, replace, publish a duplicate or queue this task.",
+      "must_preserve_existing_metadata": true,
+      "source_draft_slug": "useful-location-pages-remote-services",
+      "source_draft_title": "When a Location Page Helps Customers and When It Adds Duplication",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_reviewed_on": "2026-10-25",
+      "intent_review_basis": "Authenticated CMS inventory of 31 published titles/slugs observed by primary agent; existing bodies not exhaustively compared.",
+      "intent_action": "refresh_candidate",
+      "queue_eligible": false,
+      "new_post_eligible": false,
+      "existing_target_slugs": [
+        "programmatic-seo-done-right",
+        "local-seo-for-service-businesses"
+      ],
+      "existing_post_slug": "programmatic-seo-done-right",
+      "intent_review_note": "Existing matching/adjacent intent was observed. This task is a read-only review recommendation; the existing title, description, slug and body are immutable. Reference source text is not an automatic merge or replacement.",
+      "target_markets": [
+        "India",
+        "United Kingdom",
+        "United States",
+        "United Arab Emirates",
+        "Canada",
+        "Australia",
+        "Ireland",
+        "Singapore",
+        "Germany"
+      ],
+      "audience_scope": "Worldwide remote SMBs with initial market priorities from the dated GSC country evidence.",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false,
+      "existing_content_action": "read_only_review_recommendation"
+    },
+    {
+      "week": 11,
+      "day_start": 71,
+      "day_end": 77,
+      "topic_id": "case-study-evidence",
+      "title": "How to Prepare a Credible Website Project Case Study",
+      "slug": "credible-website-project-case-study",
+      "search_intent": "Evidence building: documenting actual work for prospective buyers.",
+      "brief": "Create a template for permission, baseline date, work performed, measured result definitions, limits and source evidence. Use a blank worksheet instead of inventing a client success story.",
+      "internal_links": [
+        "/case-studies",
+        "/contact"
+      ],
+      "source_ids": [
+        "google-helpful-content",
+        "google-structured-data"
+      ],
+      "status": "planned",
+      "article_state": "brief_only_not_written",
+      "publication_target": "A genuinely new article after duplicate-intent, source and preview checks; no overwrite of an existing record.",
+      "must_preserve_existing_metadata": true,
+      "source_draft_slug": "credible-website-project-case-study",
+      "source_draft_title": "How to Prepare a Credible Website Project Case Study",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_reviewed_on": "2026-10-25",
+      "intent_review_basis": "Authenticated CMS inventory of 31 published titles/slugs observed by primary agent; existing bodies not exhaustively compared.",
+      "intent_action": "new_article",
+      "queue_eligible": true,
+      "new_post_eligible": true,
+      "existing_target_slugs": [],
+      "intent_review_note": "No clear matching topic found in the observed 31-title inventory. Recheck the live inventory and actual content before creating a post.",
+      "target_markets": [
+        "India",
+        "United Kingdom",
+        "United States",
+        "United Arab Emirates",
+        "Canada",
+        "Australia",
+        "Ireland",
+        "Singapore",
+        "Germany"
+      ],
+      "audience_scope": "Worldwide remote SMBs with initial market priorities from the dated GSC country evidence.",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false
+    },
+    {
+      "week": 12,
+      "day_start": 78,
+      "day_end": 84,
+      "topic_id": "gbp-real-service-area",
+      "title": "Google Business Profile for Remote and Service-Area Businesses",
+      "slug": "google-business-profile-service-area-checklist",
+      "search_intent": "Local discovery: checking eligibility and accurate representation.",
+      "brief": "Explain the difference between remote reach and eligible in-person operation, accurate name/contact, service areas and honest reviews. Recheck current official policy and actual account fields before publication.",
+      "internal_links": [
+        "/contact",
+        "/freelancer-seo-expert"
+      ],
+      "source_ids": [
+        "google-gbp-guidelines",
+        "google-gbp-service-area"
+      ],
+      "status": "refresh_candidate",
+      "article_state": "brief_only_not_written",
+      "publication_target": "READ-ONLY: inspect the existing article and record recommendations only. Do not merge, overwrite, replace, publish a duplicate or queue this task.",
+      "must_preserve_existing_metadata": true,
+      "source_draft_slug": "google-business-profile-service-area-checklist",
+      "source_draft_title": "Google Business Profile for Remote and Service-Area Businesses",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_reviewed_on": "2026-10-25",
+      "intent_review_basis": "Authenticated CMS inventory of 31 published titles/slugs observed by primary agent; existing bodies not exhaustively compared.",
+      "intent_action": "refresh_candidate",
+      "queue_eligible": false,
+      "new_post_eligible": false,
+      "existing_target_slugs": [
+        "local-seo-for-service-businesses"
+      ],
+      "existing_post_slug": "local-seo-for-service-businesses",
+      "intent_review_note": "Existing matching/adjacent intent was observed. This task is a read-only review recommendation; the existing title, description, slug and body are immutable. Reference source text is not an automatic merge or replacement.",
+      "target_markets": [
+        "India",
+        "United Kingdom",
+        "United States",
+        "United Arab Emirates",
+        "Canada",
+        "Australia",
+        "Ireland",
+        "Singapore",
+        "Germany"
+      ],
+      "audience_scope": "Worldwide remote SMBs with initial market priorities from the dated GSC country evidence.",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false,
+      "existing_content_action": "read_only_review_recommendation"
+    },
+    {
+      "week": 13,
+      "day_start": 85,
+      "day_end": 90,
+      "topic_id": "seo-quarter-review",
+      "title": "A 90-Day SEO Review That Separates Work Completed From Results",
+      "slug": "90-day-seo-review-evidence",
+      "search_intent": "Measurement: evaluating a technical and content programme.",
+      "brief": "Use same-range Web comparisons, dated indexing samples, separate AI report views, qualified enquiries and a decision log. Explain why counts, impressions and completed tasks are different evidence.",
+      "internal_links": [
+        "/freelancer-seo-expert",
+        "/contact"
+      ],
+      "source_ids": [
+        "google-ai-search",
+        "google-technical",
+        "google-helpful-content"
+      ],
+      "status": "planned",
+      "article_state": "brief_only_not_written",
+      "publication_target": "A genuinely new article after duplicate-intent, source and preview checks; no overwrite of an existing record.",
+      "must_preserve_existing_metadata": true,
+      "source_draft_slug": "90-day-seo-review-evidence",
+      "source_draft_title": "A 90-Day SEO Review That Separates Work Completed From Results",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_reviewed_on": "2026-10-25",
+      "intent_review_basis": "Authenticated CMS inventory of 31 published titles/slugs observed by primary agent; existing bodies not exhaustively compared.",
+      "intent_action": "new_article",
+      "queue_eligible": true,
+      "new_post_eligible": true,
+      "existing_target_slugs": [],
+      "intent_review_note": "No clear matching topic found in the observed 31-title inventory. Recheck the live inventory and actual content before creating a post.",
+      "target_markets": [
+        "India",
+        "United Kingdom",
+        "United States",
+        "United Arab Emirates",
+        "Canada",
+        "Australia",
+        "Ireland",
+        "Singapore",
+        "Germany"
+      ],
+      "audience_scope": "Worldwide remote SMBs with initial market priorities from the dated GSC country evidence.",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false
+    }
+  ],
+  "articles": [
+    {
+      "id": "rajeev-seo90-20261025-hire-web-freelancer-gurgaon",
+      "topic_id": "hire-web-freelancer-gurgaon",
+      "slug": "hire-web-freelancer-gurgaon-checklist",
+      "title": "Hiring a Web Freelancer in Gurgaon: A Practical Decision Checklist",
+      "excerpt": "Compare a Gurgaon website freelancer using a clear brief, relevant work, ownership terms and testable mobile, editing and launch checks.",
+      "content": "A useful shortlist starts with the work your website must do. A beautiful homepage is not enough if customers cannot understand the service, send an enquiry or find an existing page after a redesign. For a Gurgaon business comparing freelancers, the most productive first step is a small written brief that lets every candidate respond to the same requirements.\n\nThis guide provides a practical way to compare proposals. It does not assume that a local address proves competence, that a remote developer is unsuitable, or that a particular budget buys a guaranteed search position.\n\n## 1. Describe the customer action before the technology\n\nWrite one sentence: “The website should help this customer complete this task.” For a service business, that might be requesting a callback with the service required and a preferred contact time. For a product business, it might be finding a product, checking availability and completing an order.\n\nList the pages and administration tasks that support that action. Separate launch requirements from later ideas. A blog editor, customer login, booking calendar and WhatsApp integration are different pieces of work. Treating all of them as “a normal website” makes proposals difficult to compare.\n\nA useful brief names the intended audience, the main enquiry or purchase action, the existing website if there is one, and the person who will maintain content.\n\n## 2. Compare evidence that relates to your project\n\nAsk the freelancer to explain two relevant examples rather than sending a long unexplained portfolio. Useful questions include:\n\n- Which parts did you personally design or develop?\n- What was the business problem, and what changed in the delivered product?\n- Can you demonstrate the editing or administration workflow?\n- Which details can be shown with the client's permission?\n- What would you approach differently if building it again?\n\nA confidential project can still support a discussion about process without exposing private data. Conversely, an attractive screenshot alone does not show whether forms, payments or administration work. References and measured results should be genuine and clearly attributed.\n\n## 3. Put competing proposals in one worksheet\n\nUse the same comparison headings for each proposal:\n\n| Question | Evidence to request |\n| --- | --- |\n| What is included? | Named pages, features, integrations and content responsibilities |\n| What is excluded? | Items that require a separate scope or third-party account |\n| How is approval recorded? | Milestones, a demonstration link and written acceptance criteria |\n| What will the business own? | Repository, content, design files, domain and account arrangements |\n| What continues after launch? | Hosting, subscriptions, maintenance and support boundaries |\n\nCompare the complete operating arrangement, including recurring services. Do not assume every quotation includes writing, translation, product entry or future changes. Ask for uncertain items to be clarified before development starts.\n\n## 4. Ask for testable mobile and accessibility work\n\nRequest a demonstration on a normal phone connection, not only a desktop design preview. Try opening the menu, reading service details, completing the enquiry form and correcting an error. Check whether large images move the page while loading and whether buttons remain usable when text is enlarged.\n\nKeyboard navigation, visible focus, meaningful form labels and readable contrast are useful initial checks. W3C explains that such quick checks do not establish complete accessibility conformance; agree a fuller evaluation where the project needs it. [1]\n\nFor performance, ask which pages and devices will be measured and how results will be recorded. Google's Web Vitals guidance covers loading, interaction and layout stability. A test should identify conditions and limitations, rather than presenting one unexplained score as a promise about every visitor. [2]\n\n## 5. Protect the pages you already have\n\nIf this is a redesign, give the freelancer an inventory of important existing URLs, enquiries and search pages. Ask how the proposal handles useful old pages, redirects, page titles and Search Console access. Avoid approving a domain or URL change simply because a new platform prefers a different pattern.\n\nGoogle's SEO starter guidance is a useful baseline for discussing crawlable pages, understandable navigation and useful content. It does not turn an implementation checklist into a ranking guarantee. [3]\n\n## 6. Agree ownership and handover early\n\nWrite down who controls the domain, hosting, email, source repository, analytics and third-party services. Decide how the business can grant access, remove access and recover an account. Also ask who owns licences for purchased themes, fonts or media.\n\nThe handover should be an observable task: an authorised business user can edit a page, receive an enquiry, find the source files and follow the deployment instructions. Record the support window, what counts as a defect and how a new feature will be quoted or scheduled. These are scope decisions to agree, not assumptions about a freelancer's standard package.\n\n## 7. Make local coordination specific\n\nIf an in-person meeting in Gurgaon matters, ask whether it is available, where it can take place and who will attend. If the project is remote, agree a time window, review frequency and method for recording decisions. Neither arrangement replaces a useful demonstration and a clear written scope.\n\nBefore choosing, send the same short request to each candidate: describe the proposed solution, show relevant work, list exclusions, explain ownership, and propose the first acceptance milestone. Choose the response that makes delivery easiest to verify.\n\nFor a project discussion, prepare that brief and [send it through the contact page](/contact). You can also [review website development services](/freelancer-website-developer) before deciding which capabilities belong in the scope.\n\n## Sources\n\nResearched 25 October 2026. The proposal worksheet and selection process above are practical planning suggestions; the references support the technical checks.\n\n1. [W3C WAI: Easy Checks, a first review of accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)\n2. [Google web.dev: Web Vitals](https://web.dev/articles/vitals)\n3. [Google Search Central: SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)\n",
+      "author": "Rajeev Freelancer",
+      "category": "Guides",
+      "status": "refresh_candidate",
+      "source_ids": [
+        "google-seo-starter",
+        "webdev-vitals",
+        "w3c-easy-checks"
+      ],
+      "editorial_status": "complete_read_only_existing_review_reference",
+      "prepared_on": "2026-10-25",
+      "research_checked_on": "2026-10-25",
+      "actual_published_at": null,
+      "word_count": 951,
+      "internal_links": [
+        "/freelancer-website-developer",
+        "/contact"
+      ],
+      "publication_checks": [
+        "READ-ONLY reference material: do not merge, replace or modify the existing article.",
+        "Preserve every existing title, description, slug and body.",
+        "Do not create a duplicate new post or append this candidate to the publishing queue."
+      ],
+      "source_draft_only": true,
+      "source_draft_slug": "hire-web-freelancer-gurgaon-checklist",
+      "source_draft_title": "Hiring a Web Freelancer in Gurgaon: A Practical Decision Checklist",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_action": "refresh_candidate",
+      "queue_eligible": false,
+      "new_post_eligible": false,
+      "existing_target_slugs": [
+        "freelance-website-developer-gurgaon",
+        "hiring-freelancer-vs-agency"
+      ],
+      "intent_review_note": "Reference only for a read-only existing-content review. No merge, replacement, new-post queue or existing-page edit is authorised.",
+      "existing_post_slug": "freelance-website-developer-gurgaon",
+      "existing_target_title_observed": "Freelance Website Developer in Gurgaon: A Practical Hiring Guide",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false,
+      "existing_content_action": "read_only_review_recommendation"
+    },
+    {
+      "id": "rajeev-seo90-20261025-remote-website-project-scope",
+      "topic_id": "remote-website-project-scope",
+      "slug": "scope-remote-website-project",
+      "title": "How to Scope a Remote Website Project Before Development Starts",
+      "excerpt": "Turn a remote website idea into visitor journeys, acceptance checks, integration responsibilities and a reversible launch plan.",
+      "content": "A remote website project becomes easier to manage when the brief describes observable behaviour. “Build a modern website with an admin panel” leaves essential decisions open: who updates the content, what an enquiry contains, what happens when submission fails, and how the business takes over the finished system.\n\nA useful scope connects each requirement to a test and a responsible person. The following process can be used before asking for a development proposal or before approving the next stage of an existing project.\n\n## Start with three visitor journeys\n\nChoose the three most important things a visitor should accomplish. For a hypothetical service business, they might be understanding a service, sending a project enquiry and finding contact options. This is a planning example, not a description of an actual client result.\n\nWrite each journey as a sequence. The visitor opens a service page, reads what is included, selects an enquiry action, provides contact details and receives a clear result. Then describe the internal journey: the enquiry is stored, the right team member is notified, and a responsible person can find and follow it up.\n\nThis reveals missing work earlier than a list of page names. A contact button, a stored lead and a delivered notification are three separate acceptance checks.\n\n## Build a page and content inventory\n\nFor every page, record its purpose, content owner, source material and editing needs. Mark content as ready, to be written or dependent on approval. Include photographs, translations, policy text, downloads and existing URLs.\n\nDo not use a launch date that silently assumes all copy and media will arrive immediately. Instead, connect each milestone to its actual dependencies. Agree what can use temporary material on a private preview and what must be final before public launch.\n\nFor an existing website, record important old paths and their intended treatment. Google treats redirects and canonical annotations as different canonicalisation signals; changing URLs requires deliberate mapping rather than a blanket assumption that a new spelling is better. [1]\n\n## Specify behaviour with acceptance examples\n\nUse a compact requirement table. The example below is intentionally generic:\n\n| Requirement | Acceptance check |\n| --- | --- |\n| Service enquiry | A visitor submits valid required fields and sees an unambiguous success result |\n| Form error | Invalid input identifies the field and can be corrected without losing everything |\n| Stored lead | An authorised administrator can find the submitted enquiry and its timestamp |\n| Notification | A designated recipient receives the test notification through the agreed channel |\n| Editing | An authorised content user changes one service paragraph without changing other pages |\n| Missing page | An unknown URL returns a genuine missing-page response with a helpful next step |\n\nUse synthetic test details. Do not use a real customer's private record simply because it is convenient. Specify who performs acceptance and what evidence closes each item.\n\n## List integrations as small projects\n\nFor each payment, calendar, CRM, email, map or messaging integration, record the account owner, required credentials, test mode, limits and failure behaviour. Ask whether the provider supports the proposed workflow before committing to it.\n\nFor example, “send WhatsApp alerts” needs more detail: what triggers an alert, which recipient is used, whether templates or approval are needed, and what happens when delivery is delayed. The scope should identify these questions rather than promise that every external platform behaves identically.\n\nWhere credentials are involved, agree a secure access and removal process. OWASP's secrets-management guidance supports controlling access and managing credentials through their lifecycle; credentials should not be pasted into public repositories or treated as ordinary project content. [2]\n\n## Agree preview, review and change control\n\nUse a separate preview environment for unfinished work. Define the review interval, the person who consolidates feedback and where decisions are recorded. GitHub's environment documentation illustrates how deployment environments can have access and protection rules, although specific features depend on the repository and account plan. Equivalent controls can be implemented with other deployment tools. [3]\n\nKeep a decision log with the date, item, decision and effect on the scope. Classify feedback as a defect against an agreed requirement, clarification, or a new request. This prevents a small wording correction and a new customer portal from competing in the same unstructured message thread.\n\n## Include accessibility and operations in the definition of done\n\nAgree which browsers, screen sizes and assistive interactions will be checked. Assign responsibility for keyboard navigation, labels, content alternatives and review evidence. W3C recommends planning accessibility work and evaluation rather than leaving it until the end. A quick review should not be presented as full certification. [4]\n\nOperations also need acceptance: can the authorised owner access the repository, identify the deployment steps and locate the backup procedure? Who manages dependencies and service renewals? When is an incident a support task, and when is it a new feature? Record these boundaries while the team is available to answer.\n\n## Make launch a reversible checklist\n\nBefore launch, confirm the final domain, routing, required content, test enquiries, access controls and backup responsibilities. Identify the rollback trigger and who can execute it. Recheck critical visitor journeys after the production change; a successful build does not prove that a live notification reached its destination.\n\nThe final brief should fit a clear structure: goals, journeys, pages, integrations, acceptance criteria, owners, dependencies and launch responsibilities. It does not need to predict every detail. It needs to make unresolved decisions visible.\n\nYou can [send a brief for discussion](/contact) or [review website development services](/freelancer-website-developer). Include the current website and the customer action that matters most, so the first conversation can address the actual scope.\n\n## Sources\n\nResearched 25 October 2026. The workflow and hypothetical acceptance table are original planning aids, not claims about a completed client project.\n\n1. [Google Search Central: Canonical URLs](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)\n2. [OWASP: Secrets Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html)\n3. [GitHub Docs: Managing deployment environments](https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments)\n4. [W3C WAI: Planning accessibility work](https://www.w3.org/WAI/planning-and-managing/plan/)\n",
+      "author": "Rajeev Freelancer",
+      "category": "Guide",
+      "status": "published",
+      "source_ids": [
+        "github-environments",
+        "owasp-secrets",
+        "w3c-accessibility-plan",
+        "google-canonicals"
+      ],
+      "editorial_status": "admin_published_public_verification_pending",
+      "prepared_on": "2026-10-25",
+      "research_checked_on": "2026-10-25",
+      "actual_published_at": "2026-10-25",
+      "word_count": 991,
+      "internal_links": [
+        "/freelancer-website-developer",
+        "/contact"
+      ],
+      "publication_checks": [
+        "Recheck the actual live inventory immediately before creating the genuinely new slug.",
+        "Preserve all existing post titles, metadata, slugs and content.",
+        "Confirm source links, byline and rendered preview, then verify actual publication through the CMS."
+      ],
+      "source_draft_only": true,
+      "source_draft_slug": "scope-remote-website-project",
+      "source_draft_title": "How to Scope a Remote Website Project Before Development Starts",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_action": "already_published",
+      "queue_eligible": false,
+      "new_post_eligible": false,
+      "existing_target_slugs": [
+        "scope-remote-website-project"
+      ],
+      "intent_review_note": "No clear matching topic found in the observed 31-title inventory. Recheck the live inventory and actual content before creating a post.",
+      "manual_publication_status": "created_and_admin_published",
+      "existing_post_slug": "scope-remote-website-project",
+      "actual_created_date": "2026-10-25",
+      "actual_published_date": "2026-10-25",
+      "timestamp_precision": "date_only",
+      "publication_verification": {
+        "slug": "scope-remote-website-project",
+        "url": "https://rajeevfreelancer.com/blog/scope-remote-website-project",
+        "created_date": "2026-10-25",
+        "admin_published_date": "2026-10-25",
+        "timestamp_precision": "date_only; exact time not observed",
+        "admin_status": "created_and_admin_published",
+        "published_posts_before": 31,
+        "published_posts_after": 32,
+        "category": "Guide",
+        "source_body_word_count": 991,
+        "faq_items_added": 3,
+        "public_visibility": "unconfirmed_pending_server_deployment",
+        "public_observation": "Public listing/direct page still returned the current shell without confirmed article content.",
+        "application_deployed": false,
+        "existing_post_overwritten": false,
+        "next_step": "User deploys the latest ZIP to the server; then verify the public article and the updated routing. No further live verification was performed after that instruction."
+      },
+      "has_matching_created_cms_post": true,
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false
+    },
+    {
+      "id": "rajeev-seo90-20261025-seo-geo-search-eligibility",
+      "topic_id": "seo-geo-search-eligibility",
+      "slug": "seo-geo-search-eligibility-checklist",
+      "title": "SEO and GEO: Check Search Eligibility Before Chasing AI Visibility",
+      "excerpt": "Check crawling, indexing, canonical signals, useful content and honest measurement before pursuing generative-AI search visibility.",
+      "content": "Before asking how a website can appear in an AI-generated search answer, check whether the intended page can enter and remain in the underlying search index. A new article, structured-data block or AI text file does not repair an inaccessible page, an accidental noindex instruction or conflicting URL signals.\n\nAEO and GEO describe answer-engine and generative discovery. For Google, begin with search eligibility and useful content. This audit separates technical access, indexing decisions and measured visibility.\n\n## Check one exact URL at a time\n\nMake a small inventory of important pages: homepage, key service pages, an article and a genuine location page where relevant. Record the exact URL, purpose, current response, intended indexability and evidence date. Treat an old path and a newer spelling as separate URLs until their relationship is understood.\n\nFor a public page you want indexed, verify that the crawler can access it, receives a successful response and can find indexable content. Google's technical requirements describe these minimum conditions and explicitly do not guarantee indexing. [1]\n\nA page that returns success but only shows an empty application shell needs further investigation. Inspect the content Google can render and the actual server response. The question is whether the intended content is accessible, not whether the site uses a fashionable framework.\n\n## Separate noindex, redirects and duplication\n\nA page excluded by noindex is a different case from a page discovered but not crawled. A useful redirect is different from an empty page that looks like a missing result. Record the exclusion reason before proposing a fix.\n\nDo not remove every noindex instruction. Administration, private previews and incomplete pages may intentionally stay out of search. Conversely, an important service page should not remain excluded simply because its template copied a preview setting.\n\nFor duplicate paths, compare existing indexing and Google's selected canonical before changing the preferred URL. Redirects, canonical annotations, internal links and sitemap entries should support a coherent decision. Google describes these as signals, not a promise that it will always select the submitted preference. [2]\n\n## Check snippet and generative-AI eligibility\n\nGoogle's current AI-search guidance connects generative features with normal Search eligibility: the page must be indexed and eligible to show a snippet. The guidance also identifies Search Console inclusion in generative AI features as part of eligibility. Confirm the applicable setting in the actual property rather than guessing from an external tool. [3]\n\nThat same guidance says Google does not require a special AI schema or an llms.txt file. Such files may help another documented consumer, but they should not be sold as a required Google ranking switch. Being eligible also does not mean a page will be selected for a particular answer. [3]\n\nThese statements describe Google's guidance. Other services have their own crawling, product and citation behaviour, which should be checked against their documentation.\n\n## Make the page useful without inventing authority\n\nChoose a real question your prospective customer needs to resolve. Answer it with a process, comparison, worked example or evidence that helps them make a decision. For a website project, that could be a testable launch checklist or an explanation of what a proposal includes.\n\nLabel hypothetical examples. Attribute outside facts and show genuine project evidence only with appropriate permission. Do not fabricate a client, office, reviewer, credential or measured improvement to make a page appear experienced.\n\nGoogle's people-first guidance emphasises useful original work and trustworthy presentation. Adding sources is helpful when they support the claim, but a long source list does not replace an original contribution. [4]\n\n## Use structured data to describe visible facts\n\nStructured data can identify the organisation, author, article, breadcrumb or service where appropriate. Check that the values match what the visitor can actually read. A schema validator accepting JSON is not proof that a review is genuine or a result is eligible to appear.\n\nGoogle's structured-data policies require accurate, representative markup and compliance with relevant feature guidance. Do not add a rating simply because a template has an AggregateRating field. Remove unsupported claims rather than surrounding them with more markup. [5]\n\n## Keep a small evidence worksheet\n\nUse one row for each page:\n\n| Field | What to record |\n| --- | --- |\n| Intended purpose | Which reader question or action the page supports |\n| Technical access | Response, crawl access and indexability |\n| URL decision | Exact preferred path and canonical evidence |\n| Content evidence | Original explanation, verified facts and named sources |\n| Search observation | Report, date range, clicks/impressions and limitations |\n| Next action | Named owner and a specific check or improvement |\n\nThis keeps “work completed” separate from “visibility observed.” A published page is a deliverable; an indexed page is an engine decision; an impression is exposure; a qualified enquiry is a business outcome.\n\n## Measure changes without combining unrelated totals\n\nSave a baseline before changing important pages. Compare the same search type, date ranges, page groups and countries. Record that reports can lag and exports can contain limited examples. Historical impressions do not prove that a page is indexed today.\n\nWhere a separate generative-AI report is available, read its scope and metric definitions. Do not automatically add a subset view to the overall search total or describe impressions as confirmed leads. Use actual enquiry records for conversion assessment.\n\nFor help applying this process, [review SEO services](/freelancer-seo-expert) or [send the exact URLs and question](/contact). A useful first review should explain the evidence and the next action, without guaranteeing a ranking or an AI citation.\n\n## Sources\n\nResearched 25 October 2026. Technical guidance can change; recheck the linked primary documentation before publishing a later update.\n\n1. [Google Search technical requirements](https://developers.google.com/search/docs/essentials/technical)\n2. [Google Search: Canonical URL signals](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)\n3. [Google Search: Optimising for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)\n4. [Google Search: Helpful, reliable content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)\n5. [Google Search: Structured-data policies](https://developers.google.com/search/docs/appearance/structured-data/sd-policies)\n",
+      "author": "Rajeev Freelancer",
+      "category": "Guides",
+      "status": "refresh_candidate",
+      "source_ids": [
+        "google-ai-search",
+        "google-technical",
+        "google-canonicals",
+        "google-helpful-content",
+        "google-structured-data"
+      ],
+      "editorial_status": "complete_read_only_existing_review_reference",
+      "prepared_on": "2026-10-25",
+      "research_checked_on": "2026-10-25",
+      "actual_published_at": null,
+      "word_count": 987,
+      "internal_links": [
+        "/freelancer-seo-expert",
+        "/contact"
+      ],
+      "publication_checks": [
+        "READ-ONLY reference material: do not merge, replace or modify the existing article.",
+        "Preserve every existing title, description, slug and body.",
+        "Do not create a duplicate new post or append this candidate to the publishing queue."
+      ],
+      "source_draft_only": true,
+      "source_draft_slug": "seo-geo-search-eligibility-checklist",
+      "source_draft_title": "SEO and GEO: Check Search Eligibility Before Chasing AI Visibility",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_action": "refresh_candidate",
+      "queue_eligible": false,
+      "new_post_eligible": false,
+      "existing_target_slugs": [
+        "seo-vs-geo-2026",
+        "getting-cited-by-ai-answers"
+      ],
+      "intent_review_note": "Reference only for a read-only existing-content review. No merge, replacement, new-post queue or existing-page edit is authorised.",
+      "existing_post_slug": "seo-vs-geo-2026",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false,
+      "existing_content_action": "read_only_review_recommendation"
+    },
+    {
+      "id": "rajeev-seo90-20261025-redesign-url-continuity",
+      "topic_id": "redesign-url-continuity",
+      "slug": "website-redesign-url-continuity",
+      "title": "Redesigning a Website Without Losing Track of Existing URLs",
+      "excerpt": "Plan a website redesign with an exact URL register, purposeful mappings, testable responses and post-launch checks for a remote small business.",
+      "content": "A redesign can improve the way a website works without changing the address of every useful page. Before approving a new navigation or publishing platform, separate visual and technical changes from URL changes. An existing link might be used by a customer, a saved proposal, an email campaign or a search result even when it is absent from the new menu.\n\nFor a small business working with a remote development team, a simple continuity register makes these dependencies visible. The aim is an accountable migration process, not a promise that a redesign will preserve every search position.\n\n## Decide whether a URL change is necessary\n\nFirst ask what actually needs to change. A new design, content editor or hosting arrangement does not automatically require new paths. Google distinguishes moves that change URLs from infrastructure changes that do not; its migration guidance recommends planning and testing the appropriate type of move. [1]\n\nIf the current page still serves the same customer need, keeping its path can reduce avoidable decisions. Where a change is justified, record the reason and the destination before development is considered complete.\n\n## Build a register from more than one source\n\nStart with the current sitemap, but do not stop there. Add important landing pages from search reports, analytics, internal links and business records. If an export is limited, label the sample instead of describing it as the whole website.\n\nRecord these fields for each significant URL:\n\n| Field | Purpose |\n| --- | --- |\n| Existing address | The exact path, including meaningful spelling and language |\n| Customer purpose | What the visitor expects to read or do |\n| Evidence | Source and date: search report, internal link or business dependency |\n| Proposed treatment | Retain, redirect to a real equivalent, or deliberately retire |\n| Expected response | The required status and final destination |\n| Acceptance owner | Who checks the result and records the outcome |\n\nKeep important downloads, images and form destinations in the register as well. A page can look complete while its brochure link or enquiry action still points to a retired system.\n\n## Map by customer purpose, not by convenience\n\nConsider a hypothetical consultancy serving customers in several countries. Its old `/services/operations-review` page explains a specific service. A redesign introduces a shorter `/operations` path. If the content and intended audience are equivalent, the team can evaluate a deliberate mapping. If the new page is merely a generic homepage, it does not meet the same expectation.\n\nA second old page might describe a service that is no longer offered. That needs an explicit retirement decision, not an automatic redirect to whichever page is easiest to configure. Preserve a useful explanation or return an appropriate missing-page response according to the actual content decision.\n\nGoogle documents permanent and temporary redirects as different signals. Use the correct behaviour for the intended move; do not choose a redirect type solely because the browser appears to reach the destination. [2]\n\n## Preserve meaning before improving presentation\n\nFor retained pages, carry across the agreed title, description, main topic, useful content and important actions. Treat an editorial rewrite as a separate decision with its own review. This makes it easier to identify whether a problem came from routing, missing material or a changed message.\n\nFor multilingual content, record each real language variant and its relationship to the others. Do not translate an address mechanically and assume the translated page exists. For international enquiry forms, check the same journey with an appropriate test name, country code and contact preference rather than assuming every visitor uses the business's local format.\n\n## Test the server response and the visitor journey\n\nA migration test should check more than “the page opens.” For each important case, verify the response, final URL, visible content, preferred-URL signals and navigation links. Also try the page directly in a fresh session.\n\nA successful HTTP response alone does not establish search eligibility or quality. Google's status-code guidance explains that content behind a success response may still be an error or empty result, and that success does not guarantee indexing. [3]\n\nCheck the enquiry or purchase action separately. Confirm that a submission reaches the intended system and that the responsible person can find it. Use synthetic data and log the actual result. A front-end success message is not evidence of a delivered notification.\n\n## Update internal discovery and keep launch reversible\n\nUpdate navigation and contextual links to the agreed preferred pages. Use meaningful link text and proper links rather than click-only interface elements. Google's linking guidance supports crawlable links that help visitors understand where they lead. [4]\n\nBefore launch, save the current routing/configuration, agree the rollback trigger and identify the person able to restore service. Confirm that the preview environment's access and indexing restrictions will not accidentally be copied to wanted public pages. Recheck important journeys immediately after the production change.\n\n## Monitor the same evidence after launch\n\nKeep a dated change log and compare the same page groups and report periods. Search systems need time to process changes; Google notes that significant moves can cause temporary fluctuations. [1] Investigate a specific affected path before making another broad change.\n\nA useful completion report states what was retained, what moved, what was retired, which samples were checked and what remains unverified. It should not present a successful deployment as proof that every search engine has accepted the result.\n\nIf you are preparing a redesign, [send the current website and important customer journeys](/contact). You can also [review website development services](/freelancer-website-developer) and identify which changes genuinely require new URLs before agreeing the build.\n\n## Sources\n\nResearched 25 October 2026. The register and consultancy example are original planning aids; the example does not describe an actual client.\n\n1. [Google Search Central: Site moves with URL changes](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes)\n2. [Google Search Central: Redirects](https://developers.google.com/search/docs/crawling-indexing/301-redirects)\n3. [Google crawling documentation: HTTP status codes](https://developers.google.com/crawling/docs/troubleshooting/http-status-codes)\n4. [Google Search Central: Crawlable links](https://developers.google.com/search/docs/crawling-indexing/links-crawlable)\n",
+      "author": "Rajeev Freelancer",
+      "category": "Guides",
+      "status": "draft",
+      "source_ids": [
+        "google-site-moves",
+        "google-redirects",
+        "google-http-status",
+        "google-crawlable-links"
+      ],
+      "editorial_status": "complete_distinct_new_article_ready",
+      "prepared_on": "2026-10-25",
+      "research_checked_on": "2026-10-25",
+      "actual_published_at": null,
+      "word_count": 992,
+      "internal_links": [
+        "/freelancer-website-developer",
+        "/freelancer-seo-expert"
+      ],
+      "publication_checks": [
+        "Recheck the actual live blog inventory and reader intent before creating a new post.",
+        "Preserve existing titles, descriptions, slugs and published content.",
+        "Confirm current primary sources, links, byline and rendered preview.",
+        "Record actual CMS and public verification as separate states."
+      ],
+      "source_draft_only": true,
+      "source_draft_slug": "website-redesign-url-continuity",
+      "source_draft_title": "Redesigning a Website Without Losing Track of Existing URLs",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_action": "new_article",
+      "queue_eligible": true,
+      "new_post_eligible": true,
+      "existing_target_slugs": [],
+      "audience_scope": "Worldwide remote small and medium businesses; examples are hypothetical.",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false
+    },
+    {
+      "id": "rajeev-seo90-20261025-contact-form-acceptance",
+      "topic_id": "contact-form-acceptance",
+      "slug": "website-enquiry-form-acceptance",
+      "title": "Testing a Website Enquiry Form From Submit to Follow-up",
+      "excerpt": "Test an enquiry from browser submission through storage, notification and human follow-up, with international inputs and clear acceptance evidence.",
+      "content": "A website enquiry form is a small workflow, not just a button and a thank-you message. A submission may look successful while the record is missing, the notification is delayed or nobody knows who should respond. Acceptance testing should follow one synthetic enquiry from the visitor's screen to an authorised team member's follow-up queue.\n\nThe process below is a planning and testing worksheet. It does not claim that a particular website has passed these checks or that any test message has been delivered.\n\n## Define success before running the test\n\nFor a hypothetical business serving customers remotely across several countries, success might mean: a visitor submits a service question, receives an accurate result, and the business can find and assign that enquiry. Decide which fields are necessary, which contact channels are supported and what the visitor should expect next.\n\nKeep the stages separate: browser submission, server acceptance, stored record, notification attempt, notification receipt and human ownership. An email provider accepting a request is different from someone receiving or answering it. Agree which stages are required for launch and how each will be demonstrated.\n\n## Prepare synthetic data and a controlled destination\n\nUse a staging environment where possible and a mailbox or messaging destination controlled by the test team. Give each test a reference such as `FORM-TEST-07`. Avoid real customer details, private documents or random phone numbers. Record the expected result before submitting.\n\nInclude international input: a name with accents, a name in another supported script, a country code, a long but permitted company name and a message containing ordinary punctuation. Do not assume that every customer has a local phone number or uses an English-only name. If a channel is optional, test the form without it.\n\nOWASP recommends defining field rules and preserving legitimate Unicode and punctuation while applying appropriate validation. It also distinguishes format checks from other protections; a valid-looking email address does not prove mailbox access. [1]\n\n## Check input and accessible recovery\n\nSubmit an empty required field, an incomplete email address and a value beyond the agreed length limit. Then correct each error. Check that the form identifies the relevant field, explains what to change and retains other useful input.\n\nRequired fields should be understandable before submission. Test keyboard navigation, visible focus and the connection between a label and its control. W3C's form guidance covers required input, forgiving formats and validation on the server as well as in the browser. [2]\n\nSuccess and failure feedback should also be perceivable. Do not rely only on a colour change or a brief disappearing toast. W3C describes clear overall and field-level notifications, including accessible ways to identify and reach errors. [3]\n\n## Follow the request beyond the browser\n\nAsk an authorised developer or tester to correlate the test reference with the application response and stored record. Confirm that the expected fields survived, the timestamp is usable and only appropriate administrators can view the enquiry.\n\nRecord the actual result at each boundary:\n\n| Test | Acceptance evidence |\n| --- | --- |\n| Valid submission | Accurate visitor response and the intended stored record |\n| Invalid input | Clear rejection; no misleading success message |\n| International details | Supported names and contact format retained correctly |\n| Repeated click or retry | Agreed duplicate policy; no accidental duplicate notification burst |\n| Storage failure | No false claim that the enquiry was saved |\n| Notification failure | Stored lead remains findable; failure is visible to the responsible team |\n| Follow-up assignment | Named role or person can find and act on the test enquiry |\n\nLog a request reference rather than copying full personal data into screenshots or shared test notes. Do not expose credentials or technical stack traces in the visitor's error message.\n\n## Agree retry and duplicate behaviour\n\nA slow connection can make someone tap twice or refresh after a timeout. Define what happens when the same request is retried: for example, the application may recognise a request identifier and return the earlier result. That is different from rejecting every future enquiry from the same email address.\n\nTest a delayed response, an interrupted connection and a controlled retry. Keep the test small and authorised; acceptance testing is not a reason to flood a production endpoint. State what remains uncertain if the infrastructure cannot simulate a particular failure safely.\n\n## Verify notifications and human ownership\n\nCheck the controlled inbox or channel, including relevant filtering folders. Compare the received details with the stored test record and inspect any documented retry status. If delivery cannot be demonstrated, record it as unverified rather than calling the whole form working.\n\nThen ask the responsible team member to find, assign and close the synthetic enquiry. Agree coverage across time zones, escalation for unassigned leads and a realistic response expectation. The public confirmation should match that expectation; it should not promise an instant callback unless the business actually supports one.\n\nFor cookie-authenticated workflows, ask the developer to identify the applicable CSRF protection and its test evidence. OWASP recommends using appropriate framework protections and selecting defences for the authentication model. An anonymous contact form's spam controls are a separate concern; one checkbox does not certify either problem as solved. [4]\n\n## Keep a repeatable acceptance record\n\nSave the page URL, environment, release version, test reference, device, expected result, actual result and unresolved issue owner. Recheck the critical journey after deployment or changes to storage, email or messaging configuration. A successful frontend build does not verify the production hand-off.\n\nTo discuss the workflow, [send a project brief](/contact) or [review website development services](/freelancer-website-developer). Describe where an enquiry should go after submission, so implementation and acceptance can cover the complete journey.\n\n## Sources\n\nResearched 25 October 2026. The acceptance worksheet and hypothetical workflow are original practical suggestions; the references support the validation, feedback and security checks.\n\n1. [OWASP: Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)\n2. [W3C WAI: Validating Input](https://www.w3.org/WAI/tutorials/forms/validation/)\n3. [W3C WAI: User Notifications](https://www.w3.org/WAI/tutorials/forms/notifications/)\n4. [OWASP: Cross-Site Request Forgery Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)\n",
+      "author": "Rajeev Freelancer",
+      "category": "Guides",
+      "status": "draft",
+      "source_ids": [
+        "owasp-input-validation",
+        "w3c-form-validation",
+        "w3c-form-notifications",
+        "owasp-csrf"
+      ],
+      "editorial_status": "complete_distinct_new_article_ready",
+      "prepared_on": "2026-10-25",
+      "research_checked_on": "2026-10-25",
+      "actual_published_at": null,
+      "word_count": 993,
+      "internal_links": [
+        "/freelancer-website-developer",
+        "/contact"
+      ],
+      "publication_checks": [
+        "Recheck the actual live blog inventory and reader intent before creating a new post.",
+        "Preserve existing titles, descriptions, slugs and published content.",
+        "Confirm current primary sources, links, byline and rendered preview.",
+        "Record actual CMS and public verification as separate states."
+      ],
+      "source_draft_only": true,
+      "source_draft_slug": "website-enquiry-form-acceptance",
+      "source_draft_title": "Testing a Website Enquiry Form From Submit to Follow-up",
+      "existing_metadata_must_remain_unchanged": true,
+      "intent_action": "new_article",
+      "queue_eligible": true,
+      "new_post_eligible": true,
+      "existing_target_slugs": [],
+      "audience_scope": "Worldwide remote small and medium businesses; examples are hypothetical.",
+      "existing_body_must_remain_unchanged": true,
+      "may_merge_into_existing": false,
+      "may_replace_existing": false
+    }
+  ],
+  "delivery_status": {
+    "weekly_editorial_tasks": 13,
+    "complete_source_texts": 5,
+    "complete_refresh_candidates": 2,
+    "complete_new_unpublished_articles": 2,
+    "created_and_admin_published_public_unconfirmed": 1,
+    "brief_only_tasks": 8,
+    "refresh_candidate_tasks": 6,
+    "needs_existing_content_review_tasks": 1,
+    "new_unpublished_topic_tasks": 5,
+    "already_created_topic_tasks": 1,
+    "cms_posts_created_in_task": 1,
+    "cms_posts_publicly_verified": 0,
+    "production_application_deployments": 0,
+    "existing_posts_overwritten": 0
+  },
+  "live_inventory_review": {
+    "observed_on": "2026-10-25",
+    "existing_published_posts_observed": 31,
+    "existing_slugs": [
+      "freelance-website-developer-gurgaon",
+      "seo-vs-geo-2026",
+      "getting-cited-by-ai-answers",
+      "freelancer-oder-agentur-kosten-vergleich",
+      "core-web-vitals-praxis-guide-deutsch",
+      "3x-organic-traffic-case-study",
+      "ki-automatisierung-mittelstand-workflows",
+      "ai-automation-for-small-teams",
+      "website-kosten-freelancer-2026-deutschland",
+      "whatsapp-first-communication",
+      "ada-compliance-ecommerce-guide-us",
+      "core-web-vitals-checklist",
+      "uk-gdpr-websites-post-brexit",
+      "programmatic-seo-done-right",
+      "impressum-dsgvo-leitfaden-websites",
+      "hiring-freelancer-vs-agency",
+      "support-bot-cut-response-time",
+      "local-seo-for-service-businesses",
+      "structured-data-that-earns-rich-results",
+      "conversion-first-web-design",
+      "seo-for-real-estate-agents",
+      "digital-marketing-for-clinics",
+      "ecommerce-conversion-rate-playbook",
+      "local-seo-for-restaurants",
+      "whatsapp-automation-deep-dive",
+      "shopify-seo-guide",
+      "nextjs-vs-react-for-seo",
+      "google-ads-for-small-business",
+      "seo-for-dubai-businesses",
+      "case-study-local-service-leads",
+      "freelancer-app-developer-in-gurgaon"
+    ],
+    "basis": "Authenticated CMS titles/slugs read by primary agent; no exhaustive body comparison.",
+    "existing_records_modified": false,
+    "report": "../docs/LIVE-BLOG-INTENT-REVIEW.md",
+    "post_creation_published_count": 32,
+    "new_post_slug_after_initial_review": "scope-remote-website-project"
+  },
+  "publishing_policy": "Skip refresh_candidate, refresh_existing and any queue_eligible=false item for new-post queueing. Existing target records and metadata are read-only through this plan. Historical titles alone do not authorise replacement. Only a distinct new post may be created after the live duplicate check.",
+  "market_priorities": [
+    {
+      "order": 1,
+      "market": "India",
+      "gsc_web_clicks": 170,
+      "gsc_web_impressions": 6149,
+      "gsc_average_position": 17.59,
+      "evidence_period": "2026-07-24 to 2026-10-23",
+      "basis": "Observed Search Console country visibility plus business-selected initial remote-service focus; not market share or a guaranteed ranking.",
+      "language_note": "Use supported accurate English content; preserve existing real German /de content for Germany. Do not invent translation or local-office availability."
+    },
+    {
+      "order": 2,
+      "market": "United Kingdom",
+      "gsc_web_clicks": 9,
+      "gsc_web_impressions": 2239,
+      "gsc_average_position": 26.7,
+      "evidence_period": "2026-07-24 to 2026-10-23",
+      "basis": "Observed Search Console country visibility plus business-selected initial remote-service focus; not market share or a guaranteed ranking.",
+      "language_note": "Use supported accurate English content; preserve existing real German /de content for Germany. Do not invent translation or local-office availability."
+    },
+    {
+      "order": 3,
+      "market": "United States",
+      "gsc_web_clicks": 4,
+      "gsc_web_impressions": 1404,
+      "gsc_average_position": 18.49,
+      "evidence_period": "2026-07-24 to 2026-10-23",
+      "basis": "Observed Search Console country visibility plus business-selected initial remote-service focus; not market share or a guaranteed ranking.",
+      "language_note": "Use supported accurate English content; preserve existing real German /de content for Germany. Do not invent translation or local-office availability."
+    },
+    {
+      "order": 4,
+      "market": "United Arab Emirates",
+      "gsc_web_clicks": 10,
+      "gsc_web_impressions": 246,
+      "gsc_average_position": 17.3,
+      "evidence_period": "2026-07-24 to 2026-10-23",
+      "basis": "Observed Search Console country visibility plus business-selected initial remote-service focus; not market share or a guaranteed ranking.",
+      "language_note": "Use supported accurate English content; preserve existing real German /de content for Germany. Do not invent translation or local-office availability."
+    },
+    {
+      "order": 5,
+      "market": "Canada",
+      "gsc_web_clicks": 4,
+      "gsc_web_impressions": 177,
+      "gsc_average_position": 21.77,
+      "evidence_period": "2026-07-24 to 2026-10-23",
+      "basis": "Observed Search Console country visibility plus business-selected initial remote-service focus; not market share or a guaranteed ranking.",
+      "language_note": "Use supported accurate English content; preserve existing real German /de content for Germany. Do not invent translation or local-office availability."
+    },
+    {
+      "order": 6,
+      "market": "Australia",
+      "gsc_web_clicks": 1,
+      "gsc_web_impressions": 633,
+      "gsc_average_position": 31.52,
+      "evidence_period": "2026-07-24 to 2026-10-23",
+      "basis": "Observed Search Console country visibility plus business-selected initial remote-service focus; not market share or a guaranteed ranking.",
+      "language_note": "Use supported accurate English content; preserve existing real German /de content for Germany. Do not invent translation or local-office availability."
+    },
+    {
+      "order": 7,
+      "market": "Ireland",
+      "gsc_web_clicks": 10,
+      "gsc_web_impressions": 462,
+      "gsc_average_position": 23.85,
+      "evidence_period": "2026-07-24 to 2026-10-23",
+      "basis": "Observed Search Console country visibility plus business-selected initial remote-service focus; not market share or a guaranteed ranking.",
+      "language_note": "Use supported accurate English content; preserve existing real German /de content for Germany. Do not invent translation or local-office availability."
+    },
+    {
+      "order": 8,
+      "market": "Singapore",
+      "gsc_web_clicks": 1,
+      "gsc_web_impressions": 271,
+      "gsc_average_position": 31.95,
+      "evidence_period": "2026-07-24 to 2026-10-23",
+      "basis": "Observed Search Console country visibility plus business-selected initial remote-service focus; not market share or a guaranteed ranking.",
+      "language_note": "Use supported accurate English content; preserve existing real German /de content for Germany. Do not invent translation or local-office availability."
+    },
+    {
+      "order": 9,
+      "market": "Germany",
+      "gsc_web_clicks": 3,
+      "gsc_web_impressions": 336,
+      "gsc_average_position": 37.63,
+      "evidence_period": "2026-07-24 to 2026-10-23",
+      "basis": "Observed Search Console country visibility plus business-selected initial remote-service focus; not market share or a guaranteed ranking.",
+      "language_note": "Use supported accurate English content; preserve existing real German /de content for Germany. Do not invent translation or local-office availability."
+    }
+  ],
+  "worldwide_scope": {
+    "focus": "Worldwide remote-business website, app and search services, not only Gurgaon.",
+    "catalog_countries_territories": 246,
+    "catalog_locations": 471,
+    "new_location_pages_added_by_this_content_step": 0,
+    "priorities_are_not_a_market_share_ranking": true,
+    "keyword_intent_rule": "Candidate phrases are planning hypotheses, not verified search-volume/ranking claims or instructions to rewrite existing metadata.",
+    "keyword_intent_clusters": [
+      {
+        "intent": "Hiring and scoping remote development",
+        "candidate_phrases": [
+          "remote website developer for small business",
+          "website project brief for remote developer",
+          "hire website freelancer UK",
+          "remote website development UAE"
+        ],
+        "use": "Use existing service/country paths and distinct useful guides; no fabricated foreign offices."
+      },
+      {
+        "intent": "Redesign continuity",
+        "candidate_phrases": [
+          "website redesign preserve existing URLs",
+          "small business website migration checklist",
+          "website redesign SEO checklist"
+        ],
+        "use": "Week4 original guide; preserve exact current useful paths and metadata."
+      },
+      {
+        "intent": "Enquiry workflow quality",
+        "candidate_phrases": [
+          "website enquiry form testing checklist",
+          "contact form not receiving enquiries",
+          "international lead form acceptance testing"
+        ],
+        "use": "Week7 original guide; diagnostic examples are hypothetical until actual tests are performed."
+      },
+      {
+        "intent": "Search eligibility and useful international pages",
+        "candidate_phrases": [
+          "SEO GEO eligibility checklist",
+          "remote services location page content",
+          "technical SEO for small business website"
+        ],
+        "use": "Refresh existing matching articles and review approved country/service content rather than publishing duplicates."
+      }
+    ],
+    "candidate_place_capacity_target": 5001,
+    "services_per_place_target": 8,
+    "candidate_url_capacity_target": 40008,
+    "capacity_state": "New review-gated candidate phase under integration; not a publication/indexing/ranking count.",
+    "existing_base_locations_immutable": 471,
+    "legacy_geography_aliases_immutable": 63,
+    "new_candidates_auto_published": false,
+    "new_candidates_auto_in_xml": false,
+    "no_fabricated_foreign_offices": true,
+    "global_near_me_local_presence_claims_allowed": false
+  },
+  "manual_publication": {
+    "slug": "scope-remote-website-project",
+    "url": "https://rajeevfreelancer.com/blog/scope-remote-website-project",
+    "created_date": "2026-10-25",
+    "admin_published_date": "2026-10-25",
+    "timestamp_precision": "date_only; exact time not observed",
+    "admin_status": "created_and_admin_published",
+    "published_posts_before": 31,
+    "published_posts_after": 32,
+    "category": "Guide",
+    "source_body_word_count": 991,
+    "faq_items_added": 3,
+    "public_visibility": "unconfirmed_pending_server_deployment",
+    "public_observation": "Public listing/direct page still returned the current shell without confirmed article content.",
+    "application_deployed": false,
+    "existing_post_overwritten": false,
+    "next_step": "User deploys the latest ZIP to the server; then verify the public article and the updated routing. No further live verification was performed after that instruction."
+  },
+  "existing_content_policy": {
+    "read_only": true,
+    "metadata_immutable": true,
+    "body_content_immutable": true,
+    "existing_post_overwrite_allowed": false,
+    "refresh_sources_are_reference_only": true,
+    "automatic_merge_allowed": false,
+    "existing_base_locations_immutable": 471,
+    "existing_legacy_aliases_immutable": 63
+  }
+}

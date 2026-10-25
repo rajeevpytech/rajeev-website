@@ -1,0 +1,1282 @@
+{
+  "observed_at": "2026-10-25",
+  "purpose": "Observed GSC legacy geography spellings only. Alias lookup does not make a route indexable; exact route policy decides that separately. These aliases are not counted as additional worldwide catalog places.",
+  "count": 63,
+  "aliases": {
+    "ballabgarh-faridabad": {
+      "city": "Ballabgarh",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "ballabgarh-faridabad",
+      "location_type": "locality",
+      "parent_city": "Faridabad",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://fmda.haryana.gov.in/",
+      "local_context": "Ballabgarh is a locality in the Faridabad area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Ballabgarh specifically or the wider Faridabad service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "chandni-chowk-delhi": {
+      "city": "Chandni Chowk",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "chandni-chowk-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Chandni Chowk is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Chandni Chowk specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "connaught-place-delhi": {
+      "city": "Connaught Place",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "connaught-place-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Connaught Place is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Connaught Place specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "crossings-republik-ghaziabad": {
+      "city": "Crossings Republik",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "crossings-republik-ghaziabad",
+      "location_type": "locality",
+      "parent_city": "Ghaziabad",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://gdaghaziabad.in/wp-content/uploads/2020/07/Zone-6.pdf",
+      "local_context": "Crossings Republik is a locality in the Ghaziabad area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Crossings Republik specifically or the wider Ghaziabad service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "cyber-city-gurgaon": {
+      "city": "Cyber City",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "cyber-city-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "Cyber City is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Cyber City specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "dlf-phase-3-gurgaon": {
+      "city": "DLF Phase 3",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "dlf-phase-3-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/static/docs/ROW_Management_27.03.2024.pdf",
+      "local_context": "DLF Phase 3 is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target DLF Phase 3 specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "dlf-phase-5-gurgaon": {
+      "city": "DLF Phase 5",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "dlf-phase-5-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "DLF Phase 5 is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target DLF Phase 5 specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "dwarka-delhi": {
+      "city": "Dwarka",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "dwarka-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Dwarka is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Dwarka specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation.",
+      "equivalent_location_slug": "dwarka-india"
+    },
+    "golf-course-extension-road-gurgaon": {
+      "city": "Golf Course Extension Road",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "golf-course-extension-road-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "Golf Course Extension Road is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Golf Course Extension Road specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "golf-course-road-gurgaon": {
+      "city": "Golf Course Road",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "golf-course-road-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "Golf Course Road is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Golf Course Road specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "greater-faridabad": {
+      "city": "Greater Faridabad",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "greater-faridabad",
+      "location_type": "locality",
+      "parent_city": "Faridabad",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://fmda.haryana.gov.in/",
+      "local_context": "Greater Faridabad is a locality in the Faridabad area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Greater Faridabad specifically or the wider Faridabad service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "greater-kailash-delhi": {
+      "city": "Greater Kailash",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "greater-kailash-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Greater Kailash is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Greater Kailash specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "greater-noida": {
+      "city": "Greater Noida",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "greater-noida",
+      "location_type": "city",
+      "parent_city": "Greater Noida",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.greaternoidaauthority.in/",
+      "local_context": "Greater Noida is a city in the Greater Noida area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Greater Noida specifically or the wider Greater Noida service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation.",
+      "equivalent_location_slug": "greater-noida-india"
+    },
+    "greater-noida-west": {
+      "city": "Greater Noida West",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "greater-noida-west",
+      "location_type": "locality",
+      "parent_city": "Greater Noida",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.greaternoidaauthority.in/",
+      "local_context": "Greater Noida West is a locality in the Greater Noida area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Greater Noida West specifically or the wider Greater Noida service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "greenfield-colony-faridabad": {
+      "city": "Greenfield Colony",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "greenfield-colony-faridabad",
+      "location_type": "locality",
+      "parent_city": "Faridabad",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://fmda.haryana.gov.in/",
+      "local_context": "Greenfield Colony is a locality in the Faridabad area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Greenfield Colony specifically or the wider Faridabad service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "hauz-khas-delhi": {
+      "city": "Hauz Khas",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "hauz-khas-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Hauz Khas is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Hauz Khas specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "imt-manesar-gurgaon": {
+      "city": "IMT Manesar",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "imt-manesar-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "IMT Manesar is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target IMT Manesar specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "indirapuram-ghaziabad": {
+      "city": "Indirapuram",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "indirapuram-ghaziabad",
+      "location_type": "locality",
+      "parent_city": "Ghaziabad",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://gdaghaziabad.in/wp-content/uploads/2020/07/Zone-6.pdf",
+      "local_context": "Indirapuram is a locality in the Ghaziabad area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Indirapuram specifically or the wider Ghaziabad service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "janakpuri-delhi": {
+      "city": "Janakpuri",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "janakpuri-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Janakpuri is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Janakpuri specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation.",
+      "equivalent_location_slug": "janakpuri-india"
+    },
+    "karol-bagh-delhi": {
+      "city": "Karol Bagh",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "karol-bagh-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Karol Bagh is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Karol Bagh specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation.",
+      "equivalent_location_slug": "karol-bagh-india"
+    },
+    "kaushambi-ghaziabad": {
+      "city": "Kaushambi",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "kaushambi-ghaziabad",
+      "location_type": "locality",
+      "parent_city": "Ghaziabad",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://gdaghaziabad.in/wp-content/uploads/2020/07/Zone-6.pdf",
+      "local_context": "Kaushambi is a locality in the Ghaziabad area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Kaushambi specifically or the wider Ghaziabad service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "knowledge-park-noida": {
+      "city": "Knowledge Park",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "knowledge-park-noida",
+      "location_type": "locality",
+      "parent_city": "Greater Noida",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.greaternoidaauthority.in/",
+      "local_context": "Knowledge Park is a locality in the Greater Noida area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Knowledge Park specifically or the wider Greater Noida service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "lajpat-nagar-delhi": {
+      "city": "Lajpat Nagar",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "lajpat-nagar-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Lajpat Nagar is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Lajpat Nagar specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation.",
+      "equivalent_location_slug": "lajpat-nagar-india"
+    },
+    "laxmi-nagar-delhi": {
+      "city": "Laxmi Nagar",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "laxmi-nagar-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "The Delhi government directory identifies Laxmi Nagar facilities near Jagat Ram Park and on Vikas Marg. Use the client’s actual address and service boundaries when writing directions or enquiry forms for this locality.",
+      "planning_notes": [
+        "Confirm whether the project should target Laxmi Nagar specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation.",
+      "equivalent_location_slug": "laxmi-nagar-india"
+    },
+    "mayur-vihar-delhi": {
+      "city": "Mayur Vihar",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "mayur-vihar-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Mayur Vihar is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Mayur Vihar specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation.",
+      "equivalent_location_slug": "mayur-vihar-india"
+    },
+    "mg-road-gurgaon": {
+      "city": "MG Road",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "mg-road-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "MG Road is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target MG Road specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "mohan-nagar-ghaziabad": {
+      "city": "Mohan Nagar",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "mohan-nagar-ghaziabad",
+      "location_type": "locality",
+      "parent_city": "Ghaziabad",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://gdaghaziabad.in/wp-content/uploads/2020/07/Zone-6.pdf",
+      "local_context": "Mohan Nagar is a locality in the Ghaziabad area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Mohan Nagar specifically or the wider Ghaziabad service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "nehru-place-delhi": {
+      "city": "Nehru Place",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "nehru-place-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Nehru Place is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Nehru Place specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation.",
+      "equivalent_location_slug": "nehru-place-india"
+    },
+    "new-gurgaon": {
+      "city": "New Gurgaon",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "new-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "New Gurgaon is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target New Gurgaon specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "nit-faridabad": {
+      "city": "NIT",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "nit-faridabad",
+      "location_type": "locality",
+      "parent_city": "Faridabad",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://fmda.haryana.gov.in/",
+      "local_context": "NIT is a locality in the Faridabad area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target NIT specifically or the wider Faridabad service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "noida-extension": {
+      "city": "Noida Extension",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "noida-extension",
+      "location_type": "locality",
+      "parent_city": "Greater Noida",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.greaternoidaauthority.in/",
+      "local_context": "Noida Extension is a locality in the Greater Noida area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Noida Extension specifically or the wider Greater Noida service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "okhla-delhi": {
+      "city": "Okhla",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "okhla-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Okhla is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Okhla specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation.",
+      "equivalent_location_slug": "okhla-india"
+    },
+    "palam-vihar-gurgaon": {
+      "city": "Palam Vihar",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "palam-vihar-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "Palam Vihar is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Palam Vihar specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "pitampura-delhi": {
+      "city": "Pitampura",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "pitampura-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Pitampura is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Pitampura specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation.",
+      "equivalent_location_slug": "pitampura-india"
+    },
+    "preet-vihar-delhi": {
+      "city": "Preet Vihar",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "preet-vihar-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "The Delhi government directory associates Jagatpuri and Gagan Vihar addresses with Preet Vihar. Confirm whether a project should cover Preet Vihar alone or also name those nearby areas; use the client’s own address for directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Preet Vihar specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation.",
+      "equivalent_location_slug": "preet-vihar-india"
+    },
+    "punjabi-bagh-delhi": {
+      "city": "Punjabi Bagh",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "punjabi-bagh-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Punjabi Bagh is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Punjabi Bagh specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "raj-nagar-extension-ghaziabad": {
+      "city": "Raj Nagar Extension",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "raj-nagar-extension-ghaziabad",
+      "location_type": "locality",
+      "parent_city": "Ghaziabad",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://gdaghaziabad.in/wp-content/uploads/2020/07/Zone-6.pdf",
+      "local_context": "Raj Nagar Extension is a locality in the Ghaziabad area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Raj Nagar Extension specifically or the wider Ghaziabad service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "rajouri-garden-delhi": {
+      "city": "Rajouri Garden",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "rajouri-garden-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Rajouri Garden is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Rajouri Garden specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation.",
+      "equivalent_location_slug": "rajouri-garden-india"
+    },
+    "rohini-delhi": {
+      "city": "Rohini",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "rohini-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Rohini is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Rohini specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation.",
+      "equivalent_location_slug": "rohini-india"
+    },
+    "saket-delhi": {
+      "city": "Saket",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "saket-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Saket is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Saket specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation.",
+      "equivalent_location_slug": "saket-india"
+    },
+    "sector-125-noida": {
+      "city": "Sector 125",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sector-125-noida",
+      "location_type": "locality",
+      "parent_city": "Noida",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.noidaauthorityonline.in/en/page/water-sewerage",
+      "local_context": "Sector 125 is a locality in the Noida area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sector 125 specifically or the wider Noida service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sector-135-noida": {
+      "city": "Sector 135",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sector-135-noida",
+      "location_type": "locality",
+      "parent_city": "Noida",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.noidaauthorityonline.in/en/page/water-sewerage",
+      "local_context": "Sector 135 is a locality in the Noida area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sector 135 specifically or the wider Noida service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sector-137-noida": {
+      "city": "Sector 137",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sector-137-noida",
+      "location_type": "locality",
+      "parent_city": "Noida",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.noidaauthorityonline.in/en/page/eoi-rfp?brd=1",
+      "local_context": "Sector 137 is a locality in the Noida area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sector 137 specifically or the wider Noida service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sector-14-gurgaon": {
+      "city": "Sector 14",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sector-14-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "Sector 14 is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sector 14 specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sector-15-faridabad": {
+      "city": "Sector 15",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sector-15-faridabad",
+      "location_type": "locality",
+      "parent_city": "Faridabad",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://fmda.haryana.gov.in/",
+      "local_context": "Sector 15 is a locality in the Faridabad area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sector 15 specifically or the wider Faridabad service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sector-150-noida": {
+      "city": "Sector 150",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sector-150-noida",
+      "location_type": "locality",
+      "parent_city": "Noida",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.noidaauthorityonline.in/site/writereaddata/siteContent/05-11-19/201911051544330373JAL-2a.pdf",
+      "local_context": "Sector 150 is a locality in the Noida area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sector 150 specifically or the wider Noida service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sector-16-noida": {
+      "city": "Sector 16",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sector-16-noida",
+      "location_type": "locality",
+      "parent_city": "Noida",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.noidaauthorityonline.in/en/page/water-sewerage",
+      "local_context": "Sector 16 is a locality in the Noida area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sector 16 specifically or the wider Noida service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sector-18-noida": {
+      "city": "Sector 18",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sector-18-noida",
+      "location_type": "locality",
+      "parent_city": "Noida",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.noidaauthorityonline.in/en/page/water-sewerage",
+      "local_context": "Sector 18 is a locality in the Noida area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sector 18 specifically or the wider Noida service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sector-21-faridabad": {
+      "city": "Sector 21",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sector-21-faridabad",
+      "location_type": "locality",
+      "parent_city": "Faridabad",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://fmda.haryana.gov.in/",
+      "local_context": "Sector 21 is a locality in the Faridabad area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sector 21 specifically or the wider Faridabad service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sector-29-gurgaon": {
+      "city": "Sector 29",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sector-29-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "Sector 29 is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sector 29 specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sector-49-gurgaon": {
+      "city": "Sector 49",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sector-49-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "Sector 49 is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sector 49 specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sector-56-gurgaon": {
+      "city": "Sector 56",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sector-56-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "Sector 56 is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sector 56 specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sector-62-noida": {
+      "city": "Sector 62",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sector-62-noida",
+      "location_type": "locality",
+      "parent_city": "Noida",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.noidaauthorityonline.in/en/page/water-sewerage",
+      "local_context": "Sector 62 is a locality in the Noida area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sector 62 specifically or the wider Noida service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sector-63-noida": {
+      "city": "Sector 63",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sector-63-noida",
+      "location_type": "locality",
+      "parent_city": "Noida",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.noidaauthorityonline.in/en/page/water-sewerage",
+      "local_context": "Sector 63 is a locality in the Noida area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sector 63 specifically or the wider Noida service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sector-82-gurgaon": {
+      "city": "Sector 82",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sector-82-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "Sector 82 is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sector 82 specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sohna-road-gurgaon": {
+      "city": "Sohna Road",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sohna-road-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "Sohna Road is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sohna Road specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "south-city-gurgaon": {
+      "city": "South City",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "south-city-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "South City is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target South City specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "south-extension-delhi": {
+      "city": "South Extension",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "south-extension-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "South Extension is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target South Extension specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "sushant-lok-gurgaon": {
+      "city": "Sushant Lok",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "sushant-lok-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "Sushant Lok is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Sushant Lok specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "udyog-vihar-gurgaon": {
+      "city": "Udyog Vihar",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "udyog-vihar-gurgaon",
+      "location_type": "locality",
+      "parent_city": "Gurgaon",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://www.gmda.gov.in/",
+      "local_context": "Udyog Vihar is a locality in the Gurgaon area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Udyog Vihar specifically or the wider Gurgaon service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "vaishali-ghaziabad": {
+      "city": "Vaishali",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "vaishali-ghaziabad",
+      "location_type": "locality",
+      "parent_city": "Ghaziabad",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://gdaghaziabad.in/wp-content/uploads/2020/07/Zone-6.pdf",
+      "local_context": "Vaishali is a locality in the Ghaziabad area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Vaishali specifically or the wider Ghaziabad service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    },
+    "vasant-kunj-delhi": {
+      "city": "Vasant Kunj",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "vasant-kunj-delhi",
+      "location_type": "locality",
+      "parent_city": "Delhi",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://erevenuecourt.delhi.gov.in/TrackCourtCases.aspx",
+      "local_context": "Vasant Kunj is a locality in the Delhi area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Vasant Kunj specifically or the wider Delhi service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation.",
+      "equivalent_location_slug": "vasant-kunj-india"
+    },
+    "vasundhara-ghaziabad": {
+      "city": "Vasundhara",
+      "country": "India",
+      "country_slug": "india",
+      "region": "Asia-Pacific",
+      "loc_slug": "vasundhara-ghaziabad",
+      "location_type": "locality",
+      "parent_city": "Ghaziabad",
+      "timezone": "Asia/Kolkata",
+      "source_url": "https://gdaghaziabad.in/wp-content/uploads/2020/07/Zone-6.pdf",
+      "local_context": "Vasundhara is a locality in the Ghaziabad area of Delhi NCR, India. The exact legacy location spelling is retained from observed Search Console URLs. Remote service delivery does not imply an office in this locality; confirm the client’s actual address and service boundaries before publishing directions.",
+      "planning_notes": [
+        "Confirm whether the project should target Vasundhara specifically or the wider Ghaziabad service area; use the client’s actual delivery boundaries.",
+        "Agree the pages, mobile enquiry flow, English/Hindi content and contact details in the project brief.",
+        "Use approved project examples and real customer questions. Do not infer a local office, rating or client history from this location URL."
+      ],
+      "is_new_location": true,
+      "route_evidence": "docs/gsc-observed-location-slugs.json or exact URL in docs/gsc-exports category Table.csv",
+      "geography_source_scope": "Municipal/regional geography reference; locality boundary and project-specific service coverage require editorial confirmation."
+    }
+  }
+}

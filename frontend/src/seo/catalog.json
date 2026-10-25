@@ -1,0 +1,7276 @@
+{
+  "countries": [
+    {
+      "name": "India",
+      "region": "Asia-Pacific",
+      "country_code": "IN",
+      "capital": "New Delhi",
+      "currency_code": "INR",
+      "languages": [
+        "en-IN",
+        "hi",
+        "bn",
+        "te",
+        "mr",
+        "ta",
+        "ur",
+        "gu",
+        "kn",
+        "ml",
+        "or",
+        "pa",
+        "as",
+        "bh",
+        "sat",
+        "ks",
+        "ne",
+        "sd",
+        "kok",
+        "doi",
+        "mni",
+        "sit",
+        "sa",
+        "fr",
+        "lus",
+        "inc"
+      ],
+      "language_names": [
+        "English (India)",
+        "Hindi",
+        "Bangla",
+        "Telugu",
+        "Marathi",
+        "Tamil",
+        "Urdu",
+        "Gujarati",
+        "Kannada",
+        "Malayalam",
+        "Odia",
+        "Punjabi",
+        "Assamese",
+        "Bhojpuri",
+        "Santali",
+        "Kashmiri",
+        "Nepali",
+        "Sindhi",
+        "Konkani",
+        "Dogri",
+        "Manipuri",
+        "sit",
+        "Sanskrit",
+        "French",
+        "Mizo",
+        "inc"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1269750/",
+      "is_new_country": false,
+      "slug": "india",
+      "cities": [
+        {
+          "city": "Delhi",
+          "loc_slug": "delhi-india"
+        },
+        {
+          "city": "Mumbai",
+          "loc_slug": "mumbai-india"
+        },
+        {
+          "city": "Bangalore",
+          "loc_slug": "bangalore-india"
+        },
+        {
+          "city": "Hyderabad",
+          "loc_slug": "hyderabad-india"
+        },
+        {
+          "city": "Chennai",
+          "loc_slug": "chennai-india"
+        },
+        {
+          "city": "Pune",
+          "loc_slug": "pune-india"
+        },
+        {
+          "city": "Kolkata",
+          "loc_slug": "kolkata-india"
+        },
+        {
+          "city": "Gurgaon",
+          "loc_slug": "gurgaon-india"
+        },
+        {
+          "city": "Noida",
+          "loc_slug": "noida-india"
+        },
+        {
+          "city": "Ahmedabad",
+          "loc_slug": "ahmedabad-india"
+        },
+        {
+          "city": "Jaipur",
+          "loc_slug": "jaipur-india"
+        },
+        {
+          "city": "Lucknow",
+          "loc_slug": "lucknow-india"
+        },
+        {
+          "city": "Kanpur",
+          "loc_slug": "kanpur-india"
+        },
+        {
+          "city": "Nagpur",
+          "loc_slug": "nagpur-india"
+        },
+        {
+          "city": "Indore",
+          "loc_slug": "indore-india"
+        },
+        {
+          "city": "Bhopal",
+          "loc_slug": "bhopal-india"
+        },
+        {
+          "city": "Surat",
+          "loc_slug": "surat-india"
+        },
+        {
+          "city": "Vadodara",
+          "loc_slug": "vadodara-india"
+        },
+        {
+          "city": "Rajkot",
+          "loc_slug": "rajkot-india"
+        },
+        {
+          "city": "Coimbatore",
+          "loc_slug": "coimbatore-india"
+        },
+        {
+          "city": "Kochi",
+          "loc_slug": "kochi-india"
+        },
+        {
+          "city": "Thiruvananthapuram",
+          "loc_slug": "thiruvananthapuram-india"
+        },
+        {
+          "city": "Visakhapatnam",
+          "loc_slug": "visakhapatnam-india"
+        },
+        {
+          "city": "Vijayawada",
+          "loc_slug": "vijayawada-india"
+        },
+        {
+          "city": "Bhubaneswar",
+          "loc_slug": "bhubaneswar-india"
+        },
+        {
+          "city": "Chandigarh",
+          "loc_slug": "chandigarh-india"
+        },
+        {
+          "city": "Ludhiana",
+          "loc_slug": "ludhiana-india"
+        },
+        {
+          "city": "Amritsar",
+          "loc_slug": "amritsar-india"
+        },
+        {
+          "city": "Jalandhar",
+          "loc_slug": "jalandhar-india"
+        },
+        {
+          "city": "Nashik",
+          "loc_slug": "nashik-india"
+        },
+        {
+          "city": "Faridabad",
+          "loc_slug": "faridabad-india"
+        },
+        {
+          "city": "Ghaziabad",
+          "loc_slug": "ghaziabad-india"
+        },
+        {
+          "city": "Agra",
+          "loc_slug": "agra-india"
+        },
+        {
+          "city": "Varanasi",
+          "loc_slug": "varanasi-india"
+        },
+        {
+          "city": "Prayagraj",
+          "loc_slug": "prayagraj-india"
+        },
+        {
+          "city": "Meerut",
+          "loc_slug": "meerut-india"
+        },
+        {
+          "city": "Ranchi",
+          "loc_slug": "ranchi-india"
+        },
+        {
+          "city": "Jamshedpur",
+          "loc_slug": "jamshedpur-india"
+        },
+        {
+          "city": "Dhanbad",
+          "loc_slug": "dhanbad-india"
+        },
+        {
+          "city": "Raipur",
+          "loc_slug": "raipur-india"
+        },
+        {
+          "city": "Guwahati",
+          "loc_slug": "guwahati-india"
+        },
+        {
+          "city": "Dehradun",
+          "loc_slug": "dehradun-india"
+        },
+        {
+          "city": "Jodhpur",
+          "loc_slug": "jodhpur-india"
+        },
+        {
+          "city": "Udaipur",
+          "loc_slug": "udaipur-india"
+        },
+        {
+          "city": "Mysore",
+          "loc_slug": "mysore-india"
+        },
+        {
+          "city": "Mangalore",
+          "loc_slug": "mangalore-india"
+        },
+        {
+          "city": "Madurai",
+          "loc_slug": "madurai-india"
+        },
+        {
+          "city": "Tiruchirappalli",
+          "loc_slug": "tiruchirappalli-india"
+        },
+        {
+          "city": "Salem",
+          "loc_slug": "salem-india"
+        },
+        {
+          "city": "Aurangabad",
+          "loc_slug": "aurangabad-india"
+        },
+        {
+          "city": "Jabalpur",
+          "loc_slug": "jabalpur-india"
+        },
+        {
+          "city": "Gwalior",
+          "loc_slug": "gwalior-india"
+        },
+        {
+          "city": "Patna",
+          "loc_slug": "patna-india"
+        },
+        {
+          "city": "Gaya",
+          "loc_slug": "gaya-india"
+        },
+        {
+          "city": "Bhagalpur",
+          "loc_slug": "bhagalpur-india"
+        },
+        {
+          "city": "Muzaffarpur",
+          "loc_slug": "muzaffarpur-india"
+        },
+        {
+          "city": "Darbhanga",
+          "loc_slug": "darbhanga-india"
+        },
+        {
+          "city": "Purnia",
+          "loc_slug": "purnia-india"
+        },
+        {
+          "city": "Bihar Sharif",
+          "loc_slug": "bihar-sharif-india"
+        },
+        {
+          "city": "Hazaribagh",
+          "loc_slug": "hazaribagh-india"
+        },
+        {
+          "city": "Greater Noida",
+          "loc_slug": "greater-noida-india"
+        },
+        {
+          "city": "Dwarka",
+          "loc_slug": "dwarka-india"
+        },
+        {
+          "city": "Rohini",
+          "loc_slug": "rohini-india"
+        },
+        {
+          "city": "Saket",
+          "loc_slug": "saket-india"
+        },
+        {
+          "city": "Nehru Place",
+          "loc_slug": "nehru-place-india"
+        },
+        {
+          "city": "Janakpuri",
+          "loc_slug": "janakpuri-india"
+        },
+        {
+          "city": "Pitampura",
+          "loc_slug": "pitampura-india"
+        },
+        {
+          "city": "Lajpat Nagar",
+          "loc_slug": "lajpat-nagar-india"
+        },
+        {
+          "city": "Karol Bagh",
+          "loc_slug": "karol-bagh-india"
+        },
+        {
+          "city": "Okhla",
+          "loc_slug": "okhla-india"
+        },
+        {
+          "city": "Vasant Kunj",
+          "loc_slug": "vasant-kunj-india"
+        },
+        {
+          "city": "Rajouri Garden",
+          "loc_slug": "rajouri-garden-india"
+        },
+        {
+          "city": "Mayur Vihar",
+          "loc_slug": "mayur-vihar-india"
+        },
+        {
+          "city": "Netaji Subhash Place",
+          "loc_slug": "netaji-subhash-place-india"
+        },
+        {
+          "city": "Manesar",
+          "loc_slug": "manesar-india"
+        },
+        {
+          "city": "Sohna",
+          "loc_slug": "sohna-india"
+        },
+        {
+          "city": "Bahadurgarh",
+          "loc_slug": "bahadurgarh-india"
+        },
+        {
+          "city": "Sonipat",
+          "loc_slug": "sonipat-india"
+        },
+        {
+          "city": "Bhiwadi",
+          "loc_slug": "bhiwadi-india"
+        },
+        {
+          "city": "Palwal",
+          "loc_slug": "palwal-india"
+        },
+        {
+          "city": "Laxmi Nagar",
+          "loc_slug": "laxmi-nagar-india"
+        },
+        {
+          "city": "Preet Vihar",
+          "loc_slug": "preet-vihar-india"
+        },
+        {
+          "city": "Patparganj",
+          "loc_slug": "patparganj-india"
+        },
+        {
+          "city": "Geeta Colony",
+          "loc_slug": "geeta-colony-india"
+        },
+        {
+          "city": "Pandav Nagar",
+          "loc_slug": "pandav-nagar-india"
+        },
+        {
+          "city": "New Ashok Nagar",
+          "loc_slug": "new-ashok-nagar-india"
+        },
+        {
+          "city": "Kalyanpuri",
+          "loc_slug": "kalyanpuri-india"
+        },
+        {
+          "city": "Trilokpuri",
+          "loc_slug": "trilokpuri-india"
+        },
+        {
+          "city": "Vasundhara Enclave",
+          "loc_slug": "vasundhara-enclave-india"
+        },
+        {
+          "city": "Ghazipur",
+          "loc_slug": "ghazipur-india"
+        }
+      ]
+    },
+    {
+      "name": "USA",
+      "region": "North America",
+      "country_code": "US",
+      "capital": "Washington",
+      "currency_code": "USD",
+      "languages": [
+        "en-US",
+        "es-US",
+        "haw",
+        "fr"
+      ],
+      "language_names": [
+        "American English",
+        "Spanish (United States)",
+        "Hawaiian",
+        "French"
+      ],
+      "geographic_source_url": "https://www.geonames.org/6252001/",
+      "is_new_country": false,
+      "slug": "usa",
+      "cities": [
+        {
+          "city": "New York",
+          "loc_slug": "new-york-usa"
+        },
+        {
+          "city": "San Francisco",
+          "loc_slug": "san-francisco-usa"
+        },
+        {
+          "city": "Los Angeles",
+          "loc_slug": "los-angeles-usa"
+        },
+        {
+          "city": "Chicago",
+          "loc_slug": "chicago-usa"
+        },
+        {
+          "city": "Austin",
+          "loc_slug": "austin-usa"
+        },
+        {
+          "city": "Seattle",
+          "loc_slug": "seattle-usa"
+        },
+        {
+          "city": "Boston",
+          "loc_slug": "boston-usa"
+        },
+        {
+          "city": "Miami",
+          "loc_slug": "miami-usa"
+        },
+        {
+          "city": "Dallas",
+          "loc_slug": "dallas-usa"
+        },
+        {
+          "city": "Atlanta",
+          "loc_slug": "atlanta-usa"
+        },
+        {
+          "city": "Washington",
+          "loc_slug": "washington-usa"
+        }
+      ]
+    },
+    {
+      "name": "UK",
+      "region": "Europe",
+      "country_code": "GB",
+      "capital": "London",
+      "currency_code": "GBP",
+      "languages": [
+        "en-GB",
+        "cy-GB",
+        "gd"
+      ],
+      "language_names": [
+        "British English",
+        "Welsh (United Kingdom)",
+        "Scottish Gaelic"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2635167/",
+      "is_new_country": false,
+      "slug": "uk",
+      "cities": [
+        {
+          "city": "London",
+          "loc_slug": "london-uk"
+        },
+        {
+          "city": "Manchester",
+          "loc_slug": "manchester-uk"
+        },
+        {
+          "city": "Birmingham",
+          "loc_slug": "birmingham-uk"
+        },
+        {
+          "city": "Leeds",
+          "loc_slug": "leeds-uk"
+        },
+        {
+          "city": "Bristol",
+          "loc_slug": "bristol-uk"
+        },
+        {
+          "city": "Edinburgh",
+          "loc_slug": "edinburgh-uk"
+        },
+        {
+          "city": "Glasgow",
+          "loc_slug": "glasgow-uk"
+        },
+        {
+          "city": "Liverpool",
+          "loc_slug": "liverpool-uk"
+        },
+        {
+          "city": "Sheffield",
+          "loc_slug": "sheffield-uk"
+        },
+        {
+          "city": "Newcastle",
+          "loc_slug": "newcastle-uk"
+        },
+        {
+          "city": "Nottingham",
+          "loc_slug": "nottingham-uk"
+        },
+        {
+          "city": "Southampton",
+          "loc_slug": "southampton-uk"
+        },
+        {
+          "city": "Cardiff",
+          "loc_slug": "cardiff-uk"
+        },
+        {
+          "city": "Belfast",
+          "loc_slug": "belfast-uk"
+        },
+        {
+          "city": "Leicester",
+          "loc_slug": "leicester-uk"
+        },
+        {
+          "city": "Brighton",
+          "loc_slug": "brighton-uk"
+        },
+        {
+          "city": "Oxford",
+          "loc_slug": "oxford-uk"
+        },
+        {
+          "city": "Cambridge",
+          "loc_slug": "cambridge-uk"
+        },
+        {
+          "city": "Reading",
+          "loc_slug": "reading-uk"
+        }
+      ]
+    },
+    {
+      "name": "Canada",
+      "region": "North America",
+      "country_code": "CA",
+      "capital": "Ottawa",
+      "currency_code": "CAD",
+      "languages": [
+        "en-CA",
+        "fr-CA",
+        "iu"
+      ],
+      "language_names": [
+        "Canadian English",
+        "Canadian French",
+        "Inuktitut"
+      ],
+      "geographic_source_url": "https://www.geonames.org/6251999/",
+      "is_new_country": false,
+      "slug": "canada",
+      "cities": [
+        {
+          "city": "Toronto",
+          "loc_slug": "toronto-canada"
+        },
+        {
+          "city": "Vancouver",
+          "loc_slug": "vancouver-canada"
+        },
+        {
+          "city": "Montreal",
+          "loc_slug": "montreal-canada"
+        },
+        {
+          "city": "Calgary",
+          "loc_slug": "calgary-canada"
+        },
+        {
+          "city": "Ottawa",
+          "loc_slug": "ottawa-canada"
+        }
+      ]
+    },
+    {
+      "name": "Australia",
+      "region": "Asia-Pacific",
+      "country_code": "AU",
+      "capital": "Canberra",
+      "currency_code": "AUD",
+      "languages": [
+        "en-AU"
+      ],
+      "language_names": [
+        "Australian English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2077456/",
+      "is_new_country": false,
+      "slug": "australia",
+      "cities": [
+        {
+          "city": "Sydney",
+          "loc_slug": "sydney-australia"
+        },
+        {
+          "city": "Melbourne",
+          "loc_slug": "melbourne-australia"
+        },
+        {
+          "city": "Brisbane",
+          "loc_slug": "brisbane-australia"
+        },
+        {
+          "city": "Perth",
+          "loc_slug": "perth-australia"
+        },
+        {
+          "city": "Adelaide",
+          "loc_slug": "adelaide-australia"
+        },
+        {
+          "city": "Canberra",
+          "loc_slug": "canberra-australia"
+        }
+      ]
+    },
+    {
+      "name": "UAE",
+      "region": "Middle East",
+      "country_code": "AE",
+      "capital": "Abu Dhabi",
+      "currency_code": "AED",
+      "languages": [
+        "ar-AE",
+        "fa",
+        "en",
+        "hi",
+        "ur"
+      ],
+      "language_names": [
+        "Arabic (United Arab Emirates)",
+        "Persian",
+        "English",
+        "Hindi",
+        "Urdu"
+      ],
+      "geographic_source_url": "https://www.geonames.org/290557/",
+      "is_new_country": false,
+      "slug": "uae",
+      "cities": [
+        {
+          "city": "Dubai",
+          "loc_slug": "dubai-uae"
+        },
+        {
+          "city": "Abu Dhabi",
+          "loc_slug": "abu-dhabi-uae"
+        },
+        {
+          "city": "Sharjah",
+          "loc_slug": "sharjah-uae"
+        }
+      ]
+    },
+    {
+      "name": "Singapore",
+      "region": "Asia-Pacific",
+      "country_code": "SG",
+      "capital": "Singapore",
+      "currency_code": "SGD",
+      "languages": [
+        "cmn",
+        "en-SG",
+        "ms-SG",
+        "ta-SG",
+        "zh-SG"
+      ],
+      "language_names": [
+        "Chinese",
+        "English (Singapore)",
+        "Malay (Singapore)",
+        "Tamil (Singapore)",
+        "Chinese (Singapore)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1880251/",
+      "is_new_country": false,
+      "slug": "singapore",
+      "cities": [
+        {
+          "city": "Singapore",
+          "loc_slug": "singapore-singapore"
+        }
+      ]
+    },
+    {
+      "name": "Germany",
+      "region": "Europe",
+      "country_code": "DE",
+      "capital": "Berlin",
+      "currency_code": "EUR",
+      "languages": [
+        "de"
+      ],
+      "language_names": [
+        "German"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2921044/",
+      "is_new_country": false,
+      "slug": "germany",
+      "cities": [
+        {
+          "city": "Berlin",
+          "loc_slug": "berlin-germany"
+        },
+        {
+          "city": "Munich",
+          "loc_slug": "munich-germany"
+        },
+        {
+          "city": "Frankfurt",
+          "loc_slug": "frankfurt-germany"
+        },
+        {
+          "city": "Hamburg",
+          "loc_slug": "hamburg-germany"
+        },
+        {
+          "city": "Cologne",
+          "loc_slug": "cologne-germany"
+        },
+        {
+          "city": "Stuttgart",
+          "loc_slug": "stuttgart-germany"
+        },
+        {
+          "city": "Düsseldorf",
+          "loc_slug": "düsseldorf-germany"
+        },
+        {
+          "city": "Leipzig",
+          "loc_slug": "leipzig-germany"
+        },
+        {
+          "city": "Dortmund",
+          "loc_slug": "dortmund-germany"
+        },
+        {
+          "city": "Essen",
+          "loc_slug": "essen-germany"
+        },
+        {
+          "city": "Bremen",
+          "loc_slug": "bremen-germany"
+        },
+        {
+          "city": "Dresden",
+          "loc_slug": "dresden-germany"
+        },
+        {
+          "city": "Hannover",
+          "loc_slug": "hannover-germany"
+        },
+        {
+          "city": "Nuremberg",
+          "loc_slug": "nuremberg-germany"
+        },
+        {
+          "city": "Bonn",
+          "loc_slug": "bonn-germany"
+        },
+        {
+          "city": "Heidelberg",
+          "loc_slug": "heidelberg-germany"
+        }
+      ]
+    },
+    {
+      "name": "France",
+      "region": "Europe",
+      "country_code": "FR",
+      "capital": "Paris",
+      "currency_code": "EUR",
+      "languages": [
+        "fr-FR",
+        "frp",
+        "br",
+        "co",
+        "ca",
+        "eu",
+        "oc"
+      ],
+      "language_names": [
+        "French (France)",
+        "Arpitan",
+        "Breton",
+        "Corsican",
+        "Catalan",
+        "Basque",
+        "Occitan"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3017382/",
+      "is_new_country": false,
+      "slug": "france",
+      "cities": [
+        {
+          "city": "Paris",
+          "loc_slug": "paris-france"
+        },
+        {
+          "city": "Lyon",
+          "loc_slug": "lyon-france"
+        },
+        {
+          "city": "Marseille",
+          "loc_slug": "marseille-france"
+        },
+        {
+          "city": "Toulouse",
+          "loc_slug": "toulouse-france"
+        }
+      ]
+    },
+    {
+      "name": "Netherlands",
+      "region": "Europe",
+      "country_code": "NL",
+      "capital": "Amsterdam",
+      "currency_code": "EUR",
+      "languages": [
+        "nl-NL",
+        "fy-NL"
+      ],
+      "language_names": [
+        "Dutch (Netherlands)",
+        "Western Frisian (Netherlands)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2750405/",
+      "is_new_country": false,
+      "slug": "netherlands",
+      "cities": [
+        {
+          "city": "Amsterdam",
+          "loc_slug": "amsterdam-netherlands"
+        },
+        {
+          "city": "Rotterdam",
+          "loc_slug": "rotterdam-netherlands"
+        },
+        {
+          "city": "The Hague",
+          "loc_slug": "the-hague-netherlands"
+        },
+        {
+          "city": "Eindhoven",
+          "loc_slug": "eindhoven-netherlands"
+        }
+      ]
+    },
+    {
+      "name": "Spain",
+      "region": "Europe",
+      "country_code": "ES",
+      "capital": "Madrid",
+      "currency_code": "EUR",
+      "languages": [
+        "es-ES",
+        "ca",
+        "gl",
+        "eu",
+        "oc"
+      ],
+      "language_names": [
+        "European Spanish",
+        "Catalan",
+        "Galician",
+        "Basque",
+        "Occitan"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2510769/",
+      "is_new_country": false,
+      "slug": "spain",
+      "cities": [
+        {
+          "city": "Madrid",
+          "loc_slug": "madrid-spain"
+        },
+        {
+          "city": "Barcelona",
+          "loc_slug": "barcelona-spain"
+        },
+        {
+          "city": "Valencia",
+          "loc_slug": "valencia-spain"
+        },
+        {
+          "city": "Seville",
+          "loc_slug": "seville-spain"
+        }
+      ]
+    },
+    {
+      "name": "Italy",
+      "region": "Europe",
+      "country_code": "IT",
+      "capital": "Rome",
+      "currency_code": "EUR",
+      "languages": [
+        "it-IT",
+        "de-IT",
+        "fr-IT",
+        "sc",
+        "ca",
+        "co",
+        "sl"
+      ],
+      "language_names": [
+        "Italian (Italy)",
+        "German (Italy)",
+        "French (Italy)",
+        "Sardinian",
+        "Catalan",
+        "Corsican",
+        "Slovenian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3175395/",
+      "is_new_country": false,
+      "slug": "italy",
+      "cities": [
+        {
+          "city": "Milan",
+          "loc_slug": "milan-italy"
+        },
+        {
+          "city": "Rome",
+          "loc_slug": "rome-italy"
+        },
+        {
+          "city": "Turin",
+          "loc_slug": "turin-italy"
+        },
+        {
+          "city": "Naples",
+          "loc_slug": "naples-italy"
+        }
+      ]
+    },
+    {
+      "name": "Ireland",
+      "region": "Europe",
+      "country_code": "IE",
+      "capital": "Dublin",
+      "currency_code": "EUR",
+      "languages": [
+        "en-IE",
+        "ga-IE"
+      ],
+      "language_names": [
+        "English (Ireland)",
+        "Irish (Ireland)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2963597/",
+      "is_new_country": false,
+      "slug": "ireland",
+      "cities": [
+        {
+          "city": "Dublin",
+          "loc_slug": "dublin-ireland"
+        },
+        {
+          "city": "Cork",
+          "loc_slug": "cork-ireland"
+        },
+        {
+          "city": "Galway",
+          "loc_slug": "galway-ireland"
+        }
+      ]
+    },
+    {
+      "name": "Saudi Arabia",
+      "region": "Middle East",
+      "country_code": "SA",
+      "capital": "Riyadh",
+      "currency_code": "SAR",
+      "languages": [
+        "ar-SA"
+      ],
+      "language_names": [
+        "Arabic (Saudi Arabia)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/102358/",
+      "is_new_country": false,
+      "slug": "saudi-arabia",
+      "cities": [
+        {
+          "city": "Riyadh",
+          "loc_slug": "riyadh-saudi-arabia"
+        },
+        {
+          "city": "Jeddah",
+          "loc_slug": "jeddah-saudi-arabia"
+        },
+        {
+          "city": "Dammam",
+          "loc_slug": "dammam-saudi-arabia"
+        },
+        {
+          "city": "Makkah",
+          "loc_slug": "makkah-saudi-arabia"
+        }
+      ]
+    },
+    {
+      "name": "Qatar",
+      "region": "Middle East",
+      "country_code": "QA",
+      "capital": "Doha",
+      "currency_code": "QAR",
+      "languages": [
+        "ar-QA",
+        "es"
+      ],
+      "language_names": [
+        "Arabic (Qatar)",
+        "Spanish"
+      ],
+      "geographic_source_url": "https://www.geonames.org/289688/",
+      "is_new_country": false,
+      "slug": "qatar",
+      "cities": [
+        {
+          "city": "Doha",
+          "loc_slug": "doha-qatar"
+        }
+      ]
+    },
+    {
+      "name": "South Africa",
+      "region": "Africa",
+      "country_code": "ZA",
+      "capital": "Pretoria",
+      "currency_code": "ZAR",
+      "languages": [
+        "zu",
+        "xh",
+        "af",
+        "nso",
+        "en-ZA",
+        "tn",
+        "st",
+        "ts",
+        "ss",
+        "ve",
+        "nr"
+      ],
+      "language_names": [
+        "Zulu",
+        "Xhosa",
+        "Afrikaans",
+        "Northern Sotho",
+        "English (South Africa)",
+        "Tswana",
+        "Southern Sotho",
+        "Tsonga",
+        "Swati",
+        "Venda",
+        "South Ndebele"
+      ],
+      "geographic_source_url": "https://www.geonames.org/953987/",
+      "is_new_country": false,
+      "slug": "south-africa",
+      "cities": [
+        {
+          "city": "Johannesburg",
+          "loc_slug": "johannesburg-south-africa"
+        },
+        {
+          "city": "Cape Town",
+          "loc_slug": "cape-town-south-africa"
+        },
+        {
+          "city": "Durban",
+          "loc_slug": "durban-south-africa"
+        },
+        {
+          "city": "Pretoria",
+          "loc_slug": "pretoria-south-africa"
+        }
+      ]
+    },
+    {
+      "name": "Nigeria",
+      "region": "Africa",
+      "country_code": "NG",
+      "capital": "Abuja",
+      "currency_code": "NGN",
+      "languages": [
+        "en-NG",
+        "ha",
+        "yo",
+        "ig",
+        "ff"
+      ],
+      "language_names": [
+        "English (Nigeria)",
+        "Hausa",
+        "Yoruba",
+        "Igbo",
+        "Fula"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2328926/",
+      "is_new_country": false,
+      "slug": "nigeria",
+      "cities": [
+        {
+          "city": "Lagos",
+          "loc_slug": "lagos-nigeria"
+        },
+        {
+          "city": "Abuja",
+          "loc_slug": "abuja-nigeria"
+        },
+        {
+          "city": "Port Harcourt",
+          "loc_slug": "port-harcourt-nigeria"
+        },
+        {
+          "city": "Kano",
+          "loc_slug": "kano-nigeria"
+        }
+      ]
+    },
+    {
+      "name": "Kenya",
+      "region": "Africa",
+      "country_code": "KE",
+      "capital": "Nairobi",
+      "currency_code": "KES",
+      "languages": [
+        "en-KE",
+        "sw-KE"
+      ],
+      "language_names": [
+        "English (Kenya)",
+        "Swahili (Kenya)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/192950/",
+      "is_new_country": false,
+      "slug": "kenya",
+      "cities": [
+        {
+          "city": "Nairobi",
+          "loc_slug": "nairobi-kenya"
+        },
+        {
+          "city": "Mombasa",
+          "loc_slug": "mombasa-kenya"
+        },
+        {
+          "city": "Kakamega",
+          "loc_slug": "kakamega-kenya"
+        }
+      ]
+    },
+    {
+      "name": "Egypt",
+      "region": "Africa",
+      "country_code": "EG",
+      "capital": "Cairo",
+      "currency_code": "EGP",
+      "languages": [
+        "ar-EG",
+        "en",
+        "fr"
+      ],
+      "language_names": [
+        "Arabic (Egypt)",
+        "English",
+        "French"
+      ],
+      "geographic_source_url": "https://www.geonames.org/357994/",
+      "is_new_country": false,
+      "slug": "egypt",
+      "cities": [
+        {
+          "city": "Cairo",
+          "loc_slug": "cairo-egypt"
+        },
+        {
+          "city": "Alexandria",
+          "loc_slug": "alexandria-egypt"
+        },
+        {
+          "city": "Giza",
+          "loc_slug": "giza-egypt"
+        }
+      ]
+    },
+    {
+      "name": "Brazil",
+      "region": "Latin America",
+      "country_code": "BR",
+      "capital": "Brasilia",
+      "currency_code": "BRL",
+      "languages": [
+        "pt-BR",
+        "es",
+        "en",
+        "fr"
+      ],
+      "language_names": [
+        "Brazilian Portuguese",
+        "Spanish",
+        "English",
+        "French"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3469034/",
+      "is_new_country": false,
+      "slug": "brazil",
+      "cities": [
+        {
+          "city": "Sao Paulo",
+          "loc_slug": "sao-paulo-brazil"
+        },
+        {
+          "city": "Rio de Janeiro",
+          "loc_slug": "rio-de-janeiro-brazil"
+        },
+        {
+          "city": "Brasilia",
+          "loc_slug": "brasilia-brazil"
+        },
+        {
+          "city": "Belo Horizonte",
+          "loc_slug": "belo-horizonte-brazil"
+        }
+      ]
+    },
+    {
+      "name": "Mexico",
+      "region": "Latin America",
+      "country_code": "MX",
+      "capital": "Mexico City",
+      "currency_code": "MXN",
+      "languages": [
+        "es-MX"
+      ],
+      "language_names": [
+        "Mexican Spanish"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3996063/",
+      "is_new_country": false,
+      "slug": "mexico",
+      "cities": [
+        {
+          "city": "Mexico City",
+          "loc_slug": "mexico-city-mexico"
+        },
+        {
+          "city": "Guadalajara",
+          "loc_slug": "guadalajara-mexico"
+        },
+        {
+          "city": "Monterrey",
+          "loc_slug": "monterrey-mexico"
+        },
+        {
+          "city": "Tijuana",
+          "loc_slug": "tijuana-mexico"
+        }
+      ]
+    },
+    {
+      "name": "Argentina",
+      "region": "Latin America",
+      "country_code": "AR",
+      "capital": "Buenos Aires",
+      "currency_code": "ARS",
+      "languages": [
+        "es-AR",
+        "en",
+        "it",
+        "de",
+        "fr",
+        "gn"
+      ],
+      "language_names": [
+        "Spanish (Argentina)",
+        "English",
+        "Italian",
+        "German",
+        "French",
+        "Guarani"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3865483/",
+      "is_new_country": false,
+      "slug": "argentina",
+      "cities": [
+        {
+          "city": "Buenos Aires",
+          "loc_slug": "buenos-aires-argentina"
+        },
+        {
+          "city": "Cordoba",
+          "loc_slug": "cordoba-argentina"
+        }
+      ]
+    },
+    {
+      "name": "Japan",
+      "region": "Asia-Pacific",
+      "country_code": "JP",
+      "capital": "Tokyo",
+      "currency_code": "JPY",
+      "languages": [
+        "ja"
+      ],
+      "language_names": [
+        "Japanese"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1861060/",
+      "is_new_country": false,
+      "slug": "japan",
+      "cities": [
+        {
+          "city": "Tokyo",
+          "loc_slug": "tokyo-japan"
+        },
+        {
+          "city": "Osaka",
+          "loc_slug": "osaka-japan"
+        },
+        {
+          "city": "Yokohama",
+          "loc_slug": "yokohama-japan"
+        }
+      ]
+    },
+    {
+      "name": "China",
+      "region": "Asia-Pacific",
+      "country_code": "CN",
+      "capital": "Beijing",
+      "currency_code": "CNY",
+      "languages": [
+        "zh-CN",
+        "yue",
+        "wuu",
+        "dta",
+        "ug",
+        "za"
+      ],
+      "language_names": [
+        "Chinese (China)",
+        "Cantonese",
+        "Wu Chinese",
+        "dta",
+        "Uyghur",
+        "Zhuang"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1814991/",
+      "is_new_country": false,
+      "slug": "china",
+      "cities": [
+        {
+          "city": "Shanghai",
+          "loc_slug": "shanghai-china"
+        },
+        {
+          "city": "Beijing",
+          "loc_slug": "beijing-china"
+        },
+        {
+          "city": "Shenzhen",
+          "loc_slug": "shenzhen-china"
+        },
+        {
+          "city": "Guangzhou",
+          "loc_slug": "guangzhou-china"
+        },
+        {
+          "city": "Chongqing",
+          "loc_slug": "chongqing-china"
+        }
+      ]
+    },
+    {
+      "name": "Hong Kong",
+      "region": "Asia-Pacific",
+      "country_code": "HK",
+      "capital": "Hong Kong",
+      "currency_code": "HKD",
+      "languages": [
+        "zh-HK",
+        "yue",
+        "zh",
+        "en"
+      ],
+      "language_names": [
+        "Chinese (Hong Kong SAR China)",
+        "Cantonese",
+        "Chinese",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1819730/",
+      "is_new_country": false,
+      "slug": "hong-kong",
+      "cities": [
+        {
+          "city": "Hong Kong",
+          "loc_slug": "hong-kong-hong-kong"
+        }
+      ]
+    },
+    {
+      "name": "Malaysia",
+      "region": "Asia-Pacific",
+      "country_code": "MY",
+      "capital": "Kuala Lumpur",
+      "currency_code": "MYR",
+      "languages": [
+        "ms-MY",
+        "en",
+        "zh",
+        "ta",
+        "te",
+        "ml",
+        "pa",
+        "th"
+      ],
+      "language_names": [
+        "Malay (Malaysia)",
+        "English",
+        "Chinese",
+        "Tamil",
+        "Telugu",
+        "Malayalam",
+        "Punjabi",
+        "Thai"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1733045/",
+      "is_new_country": false,
+      "slug": "malaysia",
+      "cities": [
+        {
+          "city": "Kuala Lumpur",
+          "loc_slug": "kuala-lumpur-malaysia"
+        },
+        {
+          "city": "Penang",
+          "loc_slug": "penang-malaysia"
+        },
+        {
+          "city": "Johor Bahru",
+          "loc_slug": "johor-bahru-malaysia"
+        }
+      ]
+    },
+    {
+      "name": "Indonesia",
+      "region": "Asia-Pacific",
+      "country_code": "ID",
+      "capital": "Jakarta",
+      "currency_code": "IDR",
+      "languages": [
+        "id",
+        "en",
+        "nl",
+        "jv"
+      ],
+      "language_names": [
+        "Indonesian",
+        "English",
+        "Dutch",
+        "Javanese"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1643084/",
+      "is_new_country": false,
+      "slug": "indonesia",
+      "cities": [
+        {
+          "city": "Jakarta",
+          "loc_slug": "jakarta-indonesia"
+        },
+        {
+          "city": "Surabaya",
+          "loc_slug": "surabaya-indonesia"
+        },
+        {
+          "city": "Bandung",
+          "loc_slug": "bandung-indonesia"
+        },
+        {
+          "city": "Bekasi",
+          "loc_slug": "bekasi-indonesia"
+        }
+      ]
+    },
+    {
+      "name": "Philippines",
+      "region": "Asia-Pacific",
+      "country_code": "PH",
+      "capital": "Manila",
+      "currency_code": "PHP",
+      "languages": [
+        "tl",
+        "en-PH",
+        "fil",
+        "ceb",
+        "ilo",
+        "hil",
+        "war",
+        "pam",
+        "bik",
+        "bcl",
+        "pag",
+        "mrw",
+        "tsg",
+        "mdh",
+        "cbk",
+        "krj",
+        "sgd",
+        "msb",
+        "akl",
+        "ibg",
+        "yka",
+        "mta",
+        "abx"
+      ],
+      "language_names": [
+        "Filipino",
+        "English (Philippines)",
+        "Cebuano",
+        "Iloko",
+        "Hiligaynon",
+        "Waray",
+        "Pampanga",
+        "Bikol",
+        "Pangasinan",
+        "mrw",
+        "tsg",
+        "mdh",
+        "cbk",
+        "Kinaray-a",
+        "sgd",
+        "msb",
+        "akl",
+        "ibg",
+        "yka",
+        "mta",
+        "abx"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1694008/",
+      "is_new_country": false,
+      "slug": "philippines",
+      "cities": [
+        {
+          "city": "Manila",
+          "loc_slug": "manila-philippines"
+        },
+        {
+          "city": "Cebu",
+          "loc_slug": "cebu-philippines"
+        },
+        {
+          "city": "Davao",
+          "loc_slug": "davao-philippines"
+        },
+        {
+          "city": "Quezon City",
+          "loc_slug": "quezon-city-philippines"
+        }
+      ]
+    },
+    {
+      "name": "Thailand",
+      "region": "Asia-Pacific",
+      "country_code": "TH",
+      "capital": "Bangkok",
+      "currency_code": "THB",
+      "languages": [
+        "th",
+        "en"
+      ],
+      "language_names": [
+        "Thai",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1605651/",
+      "is_new_country": false,
+      "slug": "thailand",
+      "cities": [
+        {
+          "city": "Bangkok",
+          "loc_slug": "bangkok-thailand"
+        },
+        {
+          "city": "Chiang Mai",
+          "loc_slug": "chiang-mai-thailand"
+        },
+        {
+          "city": "Phuket",
+          "loc_slug": "phuket-thailand"
+        }
+      ]
+    },
+    {
+      "name": "Vietnam",
+      "region": "Asia-Pacific",
+      "country_code": "VN",
+      "capital": "Hanoi",
+      "currency_code": "VND",
+      "languages": [
+        "vi",
+        "en",
+        "fr",
+        "zh",
+        "km"
+      ],
+      "language_names": [
+        "Vietnamese",
+        "English",
+        "French",
+        "Chinese",
+        "Khmer"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1562822/",
+      "is_new_country": false,
+      "slug": "vietnam",
+      "cities": [
+        {
+          "city": "Ho Chi Minh City",
+          "loc_slug": "ho-chi-minh-city-vietnam"
+        },
+        {
+          "city": "Hanoi",
+          "loc_slug": "hanoi-vietnam"
+        },
+        {
+          "city": "Da Nang",
+          "loc_slug": "da-nang-vietnam"
+        },
+        {
+          "city": "Haiphong",
+          "loc_slug": "haiphong-vietnam"
+        }
+      ]
+    },
+    {
+      "name": "Pakistan",
+      "region": "Asia-Pacific",
+      "country_code": "PK",
+      "capital": "Islamabad",
+      "currency_code": "PKR",
+      "languages": [
+        "ur-PK",
+        "en-PK",
+        "pa",
+        "sd",
+        "ps",
+        "brh"
+      ],
+      "language_names": [
+        "Urdu (Pakistan)",
+        "English (Pakistan)",
+        "Punjabi",
+        "Sindhi",
+        "Pashto",
+        "Brahui"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1168579/",
+      "is_new_country": false,
+      "slug": "pakistan",
+      "cities": [
+        {
+          "city": "Karachi",
+          "loc_slug": "karachi-pakistan"
+        },
+        {
+          "city": "Lahore",
+          "loc_slug": "lahore-pakistan"
+        },
+        {
+          "city": "Islamabad",
+          "loc_slug": "islamabad-pakistan"
+        },
+        {
+          "city": "Peshawar",
+          "loc_slug": "peshawar-pakistan"
+        }
+      ]
+    },
+    {
+      "name": "Bangladesh",
+      "region": "Asia-Pacific",
+      "country_code": "BD",
+      "capital": "Dhaka",
+      "currency_code": "BDT",
+      "languages": [
+        "bn-BD",
+        "en"
+      ],
+      "language_names": [
+        "Bangla (Bangladesh)",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1210997/",
+      "is_new_country": false,
+      "slug": "bangladesh",
+      "cities": [
+        {
+          "city": "Dhaka",
+          "loc_slug": "dhaka-bangladesh"
+        },
+        {
+          "city": "Chittagong",
+          "loc_slug": "chittagong-bangladesh"
+        },
+        {
+          "city": "Gazipur",
+          "loc_slug": "gazipur-bangladesh"
+        }
+      ]
+    },
+    {
+      "name": "Sri Lanka",
+      "region": "Asia-Pacific",
+      "country_code": "LK",
+      "capital": "Colombo",
+      "currency_code": "LKR",
+      "languages": [
+        "si",
+        "ta",
+        "en"
+      ],
+      "language_names": [
+        "Sinhala",
+        "Tamil",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1227603/",
+      "is_new_country": false,
+      "slug": "sri-lanka",
+      "cities": [
+        {
+          "city": "Colombo",
+          "loc_slug": "colombo-sri-lanka"
+        }
+      ]
+    },
+    {
+      "name": "New Zealand",
+      "region": "Asia-Pacific",
+      "country_code": "NZ",
+      "capital": "Wellington",
+      "currency_code": "NZD",
+      "languages": [
+        "en-NZ",
+        "mi"
+      ],
+      "language_names": [
+        "English (New Zealand)",
+        "Māori"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2186224/",
+      "is_new_country": false,
+      "slug": "new-zealand",
+      "cities": [
+        {
+          "city": "Auckland",
+          "loc_slug": "auckland-new-zealand"
+        },
+        {
+          "city": "Wellington",
+          "loc_slug": "wellington-new-zealand"
+        },
+        {
+          "city": "Christchurch",
+          "loc_slug": "christchurch-new-zealand"
+        }
+      ]
+    },
+    {
+      "name": "Sweden",
+      "region": "Europe",
+      "country_code": "SE",
+      "capital": "Stockholm",
+      "currency_code": "SEK",
+      "languages": [
+        "sv-SE",
+        "se",
+        "sma",
+        "fi-SE"
+      ],
+      "language_names": [
+        "Swedish (Sweden)",
+        "Northern Sami",
+        "Southern Sami",
+        "Finnish (Sweden)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2661886/",
+      "is_new_country": false,
+      "slug": "sweden",
+      "cities": [
+        {
+          "city": "Stockholm",
+          "loc_slug": "stockholm-sweden"
+        },
+        {
+          "city": "Gothenburg",
+          "loc_slug": "gothenburg-sweden"
+        },
+        {
+          "city": "Malmo",
+          "loc_slug": "malmo-sweden"
+        }
+      ]
+    },
+    {
+      "name": "Switzerland",
+      "region": "Europe",
+      "country_code": "CH",
+      "capital": "Bern",
+      "currency_code": "CHF",
+      "languages": [
+        "de-CH",
+        "fr-CH",
+        "it-CH",
+        "rm"
+      ],
+      "language_names": [
+        "Swiss High German",
+        "Swiss French",
+        "Italian (Switzerland)",
+        "Romansh"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2658434/",
+      "is_new_country": false,
+      "slug": "switzerland",
+      "cities": [
+        {
+          "city": "Zurich",
+          "loc_slug": "zurich-switzerland"
+        },
+        {
+          "city": "Geneva",
+          "loc_slug": "geneva-switzerland"
+        },
+        {
+          "city": "Basel",
+          "loc_slug": "basel-switzerland"
+        },
+        {
+          "city": "Bern",
+          "loc_slug": "bern-switzerland"
+        }
+      ]
+    },
+    {
+      "name": "Poland",
+      "region": "Europe",
+      "country_code": "PL",
+      "capital": "Warsaw",
+      "currency_code": "PLN",
+      "languages": [
+        "pl"
+      ],
+      "language_names": [
+        "Polish"
+      ],
+      "geographic_source_url": "https://www.geonames.org/798544/",
+      "is_new_country": false,
+      "slug": "poland",
+      "cities": [
+        {
+          "city": "Warsaw",
+          "loc_slug": "warsaw-poland"
+        },
+        {
+          "city": "Krakow",
+          "loc_slug": "krakow-poland"
+        },
+        {
+          "city": "Wroclaw",
+          "loc_slug": "wroclaw-poland"
+        }
+      ]
+    },
+    {
+      "name": "Turkey",
+      "region": "Europe",
+      "country_code": "TR",
+      "capital": "Ankara",
+      "currency_code": "TRY",
+      "languages": [
+        "tr-TR",
+        "ku",
+        "diq",
+        "az",
+        "av"
+      ],
+      "language_names": [
+        "Turkish (Türkiye)",
+        "Kurdish",
+        "Zaza",
+        "Azerbaijani",
+        "Avaric"
+      ],
+      "geographic_source_url": "https://www.geonames.org/298795/",
+      "is_new_country": false,
+      "slug": "turkey",
+      "cities": [
+        {
+          "city": "Istanbul",
+          "loc_slug": "istanbul-turkey"
+        },
+        {
+          "city": "Ankara",
+          "loc_slug": "ankara-turkey"
+        },
+        {
+          "city": "Izmir",
+          "loc_slug": "izmir-turkey"
+        },
+        {
+          "city": "Bursa",
+          "loc_slug": "bursa-turkey"
+        }
+      ]
+    },
+    {
+      "name": "Portugal",
+      "region": "Europe",
+      "country_code": "PT",
+      "capital": "Lisbon",
+      "currency_code": "EUR",
+      "languages": [
+        "pt-PT",
+        "mwl"
+      ],
+      "language_names": [
+        "European Portuguese",
+        "Mirandese"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2264397/",
+      "is_new_country": false,
+      "slug": "portugal",
+      "cities": [
+        {
+          "city": "Lisbon",
+          "loc_slug": "lisbon-portugal"
+        },
+        {
+          "city": "Porto",
+          "loc_slug": "porto-portugal"
+        }
+      ]
+    },
+    {
+      "name": "Belgium",
+      "region": "Europe",
+      "country_code": "BE",
+      "capital": "Brussels",
+      "currency_code": "EUR",
+      "languages": [
+        "nl-BE",
+        "fr-BE",
+        "de-BE"
+      ],
+      "language_names": [
+        "Flemish",
+        "French (Belgium)",
+        "German (Belgium)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2802361/",
+      "is_new_country": false,
+      "slug": "belgium",
+      "cities": [
+        {
+          "city": "Brussels",
+          "loc_slug": "brussels-belgium"
+        },
+        {
+          "city": "Antwerp",
+          "loc_slug": "antwerp-belgium"
+        }
+      ]
+    },
+    {
+      "name": "Finland",
+      "region": "Europe",
+      "country_code": "FI",
+      "capital": "Helsinki",
+      "currency_code": "EUR",
+      "languages": [
+        "fi-FI",
+        "sv-FI",
+        "smn"
+      ],
+      "language_names": [
+        "Finnish (Finland)",
+        "Swedish (Finland)",
+        "Inari Sami"
+      ],
+      "geographic_source_url": "https://www.geonames.org/660013/",
+      "is_new_country": false,
+      "slug": "finland",
+      "cities": [
+        {
+          "city": "Helsinki",
+          "loc_slug": "helsinki-finland"
+        },
+        {
+          "city": "Espoo",
+          "loc_slug": "espoo-finland"
+        },
+        {
+          "city": "Tampere",
+          "loc_slug": "tampere-finland"
+        },
+        {
+          "city": "Oulu",
+          "loc_slug": "oulu-finland"
+        }
+      ]
+    },
+    {
+      "name": "Norway",
+      "region": "Europe",
+      "country_code": "NO",
+      "capital": "Oslo",
+      "currency_code": "NOK",
+      "languages": [
+        "no",
+        "nb",
+        "nn",
+        "se",
+        "fi"
+      ],
+      "language_names": [
+        "Norwegian",
+        "Norwegian Bokmål",
+        "Norwegian Nynorsk",
+        "Northern Sami",
+        "Finnish"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3144096/",
+      "is_new_country": false,
+      "slug": "norway",
+      "cities": [
+        {
+          "city": "Oslo",
+          "loc_slug": "oslo-norway"
+        },
+        {
+          "city": "Bergen",
+          "loc_slug": "bergen-norway"
+        },
+        {
+          "city": "Trondheim",
+          "loc_slug": "trondheim-norway"
+        }
+      ]
+    },
+    {
+      "name": "Denmark",
+      "region": "Europe",
+      "country_code": "DK",
+      "capital": "Copenhagen",
+      "currency_code": "DKK",
+      "languages": [
+        "da-DK",
+        "en",
+        "fo",
+        "de-DK"
+      ],
+      "language_names": [
+        "Danish (Denmark)",
+        "English",
+        "Faroese",
+        "German (Denmark)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2623032/",
+      "is_new_country": false,
+      "slug": "denmark",
+      "cities": [
+        {
+          "city": "Copenhagen",
+          "loc_slug": "copenhagen-denmark"
+        },
+        {
+          "city": "Aarhus",
+          "loc_slug": "aarhus-denmark"
+        }
+      ]
+    },
+    {
+      "name": "Austria",
+      "region": "Europe",
+      "country_code": "AT",
+      "capital": "Vienna",
+      "currency_code": "EUR",
+      "languages": [
+        "de-AT",
+        "hr",
+        "hu",
+        "sl"
+      ],
+      "language_names": [
+        "Austrian German",
+        "Croatian",
+        "Hungarian",
+        "Slovenian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2782113/",
+      "is_new_country": false,
+      "slug": "austria",
+      "cities": [
+        {
+          "city": "Vienna",
+          "loc_slug": "vienna-austria"
+        },
+        {
+          "city": "Graz",
+          "loc_slug": "graz-austria"
+        },
+        {
+          "city": "Salzburg",
+          "loc_slug": "salzburg-austria"
+        }
+      ]
+    },
+    {
+      "name": "Kuwait",
+      "region": "Middle East",
+      "country_code": "KW",
+      "capital": "Kuwait City",
+      "currency_code": "KWD",
+      "languages": [
+        "ar-KW",
+        "en"
+      ],
+      "language_names": [
+        "Arabic (Kuwait)",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/285570/",
+      "is_new_country": false,
+      "slug": "kuwait",
+      "cities": [
+        {
+          "city": "Kuwait City",
+          "loc_slug": "kuwait-city-kuwait"
+        }
+      ]
+    },
+    {
+      "name": "Bahrain",
+      "region": "Middle East",
+      "country_code": "BH",
+      "capital": "Manama",
+      "currency_code": "BHD",
+      "languages": [
+        "ar-BH",
+        "en",
+        "fa",
+        "ur"
+      ],
+      "language_names": [
+        "Arabic (Bahrain)",
+        "English",
+        "Persian",
+        "Urdu"
+      ],
+      "geographic_source_url": "https://www.geonames.org/290291/",
+      "is_new_country": false,
+      "slug": "bahrain",
+      "cities": [
+        {
+          "city": "Manama",
+          "loc_slug": "manama-bahrain"
+        }
+      ]
+    },
+    {
+      "name": "Oman",
+      "region": "Middle East",
+      "country_code": "OM",
+      "capital": "Muscat",
+      "currency_code": "OMR",
+      "languages": [
+        "ar-OM",
+        "en",
+        "bal",
+        "ur"
+      ],
+      "language_names": [
+        "Arabic (Oman)",
+        "English",
+        "Baluchi",
+        "Urdu"
+      ],
+      "geographic_source_url": "https://www.geonames.org/286963/",
+      "is_new_country": false,
+      "slug": "oman",
+      "cities": [
+        {
+          "city": "Muscat",
+          "loc_slug": "muscat-oman"
+        }
+      ]
+    },
+    {
+      "name": "Nepal",
+      "region": "Asia-Pacific",
+      "country_code": "NP",
+      "capital": "Kathmandu",
+      "currency_code": "NPR",
+      "languages": [
+        "ne",
+        "en"
+      ],
+      "language_names": [
+        "Nepali",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1282988/",
+      "is_new_country": false,
+      "slug": "nepal",
+      "cities": [
+        {
+          "city": "Kathmandu",
+          "loc_slug": "kathmandu-nepal"
+        },
+        {
+          "city": "Pokhara",
+          "loc_slug": "pokhara-nepal"
+        }
+      ]
+    },
+    {
+      "name": "South Korea",
+      "region": "Asia-Pacific",
+      "country_code": "KR",
+      "capital": "Seoul",
+      "currency_code": "KRW",
+      "languages": [
+        "ko-KR",
+        "en"
+      ],
+      "language_names": [
+        "Korean (South Korea)",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1835841/",
+      "is_new_country": false,
+      "slug": "south-korea",
+      "cities": [
+        {
+          "city": "Seoul",
+          "loc_slug": "seoul-south-korea"
+        },
+        {
+          "city": "Busan",
+          "loc_slug": "busan-south-korea"
+        },
+        {
+          "city": "Incheon",
+          "loc_slug": "incheon-south-korea"
+        }
+      ]
+    },
+    {
+      "name": "Afghanistan",
+      "region": "Asia-Pacific",
+      "country_code": "AF",
+      "capital": "Kabul",
+      "currency_code": "AFN",
+      "languages": [
+        "fa-AF",
+        "ps",
+        "uz-AF",
+        "tk"
+      ],
+      "language_names": [
+        "Dari",
+        "Pashto",
+        "Uzbek (Afghanistan)",
+        "Turkmen"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1149361/",
+      "is_new_country": true,
+      "slug": "afghanistan",
+      "cities": [
+        {
+          "city": "Kabul",
+          "loc_slug": "kabul-afghanistan"
+        }
+      ]
+    },
+    {
+      "name": "Aland Islands",
+      "region": "Europe",
+      "country_code": "AX",
+      "capital": "Mariehamn",
+      "currency_code": "EUR",
+      "languages": [
+        "sv-AX"
+      ],
+      "language_names": [
+        "Swedish (Åland Islands)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/661882/",
+      "is_new_country": true,
+      "slug": "aland-islands",
+      "cities": [
+        {
+          "city": "Mariehamn",
+          "loc_slug": "mariehamn-aland-islands"
+        }
+      ]
+    },
+    {
+      "name": "Albania",
+      "region": "Europe",
+      "country_code": "AL",
+      "capital": "Tirana",
+      "currency_code": "ALL",
+      "languages": [
+        "sq",
+        "el"
+      ],
+      "language_names": [
+        "Albanian",
+        "Greek"
+      ],
+      "geographic_source_url": "https://www.geonames.org/783754/",
+      "is_new_country": true,
+      "slug": "albania",
+      "cities": [
+        {
+          "city": "Tirana",
+          "loc_slug": "tirana-albania"
+        }
+      ]
+    },
+    {
+      "name": "Algeria",
+      "region": "Africa",
+      "country_code": "DZ",
+      "capital": "Algiers",
+      "currency_code": "DZD",
+      "languages": [
+        "ar-DZ"
+      ],
+      "language_names": [
+        "Arabic (Algeria)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2589581/",
+      "is_new_country": true,
+      "slug": "algeria",
+      "cities": [
+        {
+          "city": "Algiers",
+          "loc_slug": "algiers-algeria"
+        }
+      ]
+    },
+    {
+      "name": "American Samoa",
+      "region": "Asia-Pacific",
+      "country_code": "AS",
+      "capital": "Pago Pago",
+      "currency_code": "USD",
+      "languages": [
+        "en-AS",
+        "sm",
+        "to"
+      ],
+      "language_names": [
+        "English (American Samoa)",
+        "Samoan",
+        "Tongan"
+      ],
+      "geographic_source_url": "https://www.geonames.org/5880801/",
+      "is_new_country": true,
+      "slug": "american-samoa",
+      "cities": [
+        {
+          "city": "Pago Pago",
+          "loc_slug": "pago-pago-american-samoa"
+        }
+      ]
+    },
+    {
+      "name": "Andorra",
+      "region": "Europe",
+      "country_code": "AD",
+      "capital": "Andorra la Vella",
+      "currency_code": "EUR",
+      "languages": [
+        "ca"
+      ],
+      "language_names": [
+        "Catalan"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3041565/",
+      "is_new_country": true,
+      "slug": "andorra",
+      "cities": [
+        {
+          "city": "Andorra la Vella",
+          "loc_slug": "andorra-la-vella-andorra"
+        }
+      ]
+    },
+    {
+      "name": "Angola",
+      "region": "Africa",
+      "country_code": "AO",
+      "capital": "Luanda",
+      "currency_code": "AOA",
+      "languages": [
+        "pt-AO"
+      ],
+      "language_names": [
+        "Portuguese (Angola)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3351879/",
+      "is_new_country": true,
+      "slug": "angola",
+      "cities": [
+        {
+          "city": "Luanda",
+          "loc_slug": "luanda-angola"
+        }
+      ]
+    },
+    {
+      "name": "Anguilla",
+      "region": "Latin America",
+      "country_code": "AI",
+      "capital": "The Valley",
+      "currency_code": "XCD",
+      "languages": [
+        "en-AI"
+      ],
+      "language_names": [
+        "English (Anguilla)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3573511/",
+      "is_new_country": true,
+      "slug": "anguilla",
+      "cities": [
+        {
+          "city": "The Valley",
+          "loc_slug": "the-valley-anguilla"
+        }
+      ]
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "region": "Latin America",
+      "country_code": "AG",
+      "capital": "St. John's",
+      "currency_code": "XCD",
+      "languages": [
+        "en-AG"
+      ],
+      "language_names": [
+        "English (Antigua & Barbuda)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3576396/",
+      "is_new_country": true,
+      "slug": "antigua-and-barbuda",
+      "cities": [
+        {
+          "city": "Saint John's",
+          "loc_slug": "saint-johns-antigua-and-barbuda"
+        }
+      ]
+    },
+    {
+      "name": "Armenia",
+      "region": "Asia-Pacific",
+      "country_code": "AM",
+      "capital": "Yerevan",
+      "currency_code": "AMD",
+      "languages": [
+        "hy"
+      ],
+      "language_names": [
+        "Armenian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/174982/",
+      "is_new_country": true,
+      "slug": "armenia",
+      "cities": [
+        {
+          "city": "Yerevan",
+          "loc_slug": "yerevan-armenia"
+        }
+      ]
+    },
+    {
+      "name": "Aruba",
+      "region": "Latin America",
+      "country_code": "AW",
+      "capital": "Oranjestad",
+      "currency_code": "AWG",
+      "languages": [
+        "nl-AW",
+        "pap",
+        "es",
+        "en"
+      ],
+      "language_names": [
+        "Dutch (Aruba)",
+        "Papiamento",
+        "Spanish",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3577279/",
+      "is_new_country": true,
+      "slug": "aruba",
+      "cities": [
+        {
+          "city": "Oranjestad",
+          "loc_slug": "oranjestad-aruba"
+        }
+      ]
+    },
+    {
+      "name": "Azerbaijan",
+      "region": "Asia-Pacific",
+      "country_code": "AZ",
+      "capital": "Baku",
+      "currency_code": "AZN",
+      "languages": [
+        "az",
+        "ru",
+        "hy"
+      ],
+      "language_names": [
+        "Azerbaijani",
+        "Russian",
+        "Armenian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/587116/",
+      "is_new_country": true,
+      "slug": "azerbaijan",
+      "cities": [
+        {
+          "city": "Baku",
+          "loc_slug": "baku-azerbaijan"
+        }
+      ]
+    },
+    {
+      "name": "Bahamas",
+      "region": "Latin America",
+      "country_code": "BS",
+      "capital": "Nassau",
+      "currency_code": "BSD",
+      "languages": [
+        "en-BS"
+      ],
+      "language_names": [
+        "English (Bahamas)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3572887/",
+      "is_new_country": true,
+      "slug": "bahamas",
+      "cities": [
+        {
+          "city": "Nassau",
+          "loc_slug": "nassau-bahamas"
+        }
+      ]
+    },
+    {
+      "name": "Barbados",
+      "region": "Latin America",
+      "country_code": "BB",
+      "capital": "Bridgetown",
+      "currency_code": "BBD",
+      "languages": [
+        "en-BB"
+      ],
+      "language_names": [
+        "English (Barbados)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3374084/",
+      "is_new_country": true,
+      "slug": "barbados",
+      "cities": [
+        {
+          "city": "Bridgetown",
+          "loc_slug": "bridgetown-barbados"
+        }
+      ]
+    },
+    {
+      "name": "Belarus",
+      "region": "Europe",
+      "country_code": "BY",
+      "capital": "Minsk",
+      "currency_code": "BYN",
+      "languages": [
+        "be",
+        "ru"
+      ],
+      "language_names": [
+        "Belarusian",
+        "Russian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/630336/",
+      "is_new_country": true,
+      "slug": "belarus",
+      "cities": [
+        {
+          "city": "Minsk",
+          "loc_slug": "minsk-belarus"
+        }
+      ]
+    },
+    {
+      "name": "Belize",
+      "region": "Latin America",
+      "country_code": "BZ",
+      "capital": "Belmopan",
+      "currency_code": "BZD",
+      "languages": [
+        "en-BZ",
+        "es"
+      ],
+      "language_names": [
+        "English (Belize)",
+        "Spanish"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3582678/",
+      "is_new_country": true,
+      "slug": "belize",
+      "cities": [
+        {
+          "city": "Belmopan",
+          "loc_slug": "belmopan-belize"
+        }
+      ]
+    },
+    {
+      "name": "Benin",
+      "region": "Africa",
+      "country_code": "BJ",
+      "capital": "Porto-Novo",
+      "currency_code": "XOF",
+      "languages": [
+        "fr-BJ"
+      ],
+      "language_names": [
+        "French (Benin)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2395170/",
+      "is_new_country": true,
+      "slug": "benin",
+      "cities": [
+        {
+          "city": "Porto-Novo",
+          "loc_slug": "porto-novo-benin"
+        }
+      ]
+    },
+    {
+      "name": "Bermuda",
+      "region": "North America",
+      "country_code": "BM",
+      "capital": "Hamilton",
+      "currency_code": "BMD",
+      "languages": [
+        "en-BM",
+        "pt"
+      ],
+      "language_names": [
+        "English (Bermuda)",
+        "Portuguese"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3573345/",
+      "is_new_country": true,
+      "slug": "bermuda",
+      "cities": [
+        {
+          "city": "Hamilton",
+          "loc_slug": "hamilton-bermuda"
+        }
+      ]
+    },
+    {
+      "name": "Bhutan",
+      "region": "Asia-Pacific",
+      "country_code": "BT",
+      "capital": "Thimphu",
+      "currency_code": "BTN",
+      "languages": [
+        "dz"
+      ],
+      "language_names": [
+        "Dzongkha"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1252634/",
+      "is_new_country": true,
+      "slug": "bhutan",
+      "cities": [
+        {
+          "city": "Thimphu",
+          "loc_slug": "thimphu-bhutan"
+        }
+      ]
+    },
+    {
+      "name": "Bolivia",
+      "region": "Latin America",
+      "country_code": "BO",
+      "capital": "Sucre",
+      "currency_code": "BOB",
+      "languages": [
+        "es-BO",
+        "qu",
+        "ay"
+      ],
+      "language_names": [
+        "Spanish (Bolivia)",
+        "Quechua",
+        "Aymara"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3923057/",
+      "is_new_country": true,
+      "slug": "bolivia",
+      "cities": [
+        {
+          "city": "Sucre",
+          "loc_slug": "sucre-bolivia"
+        }
+      ]
+    },
+    {
+      "name": "Bonaire, Saint Eustatius and Saba ",
+      "region": "Latin America",
+      "country_code": "BQ",
+      "capital": "",
+      "currency_code": "USD",
+      "languages": [
+        "nl",
+        "pap",
+        "en"
+      ],
+      "language_names": [
+        "Dutch",
+        "Papiamento",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/7626844/",
+      "is_new_country": true,
+      "slug": "bonaire-saint-eustatius-and-saba",
+      "cities": [
+        {
+          "city": "Kralendijk",
+          "loc_slug": "kralendijk-bonaire-saint-eustatius-and-saba"
+        }
+      ]
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "region": "Europe",
+      "country_code": "BA",
+      "capital": "Sarajevo",
+      "currency_code": "BAM",
+      "languages": [
+        "bs",
+        "hr-BA",
+        "sr-BA"
+      ],
+      "language_names": [
+        "Bosnian",
+        "Croatian (Bosnia & Herzegovina)",
+        "Serbian (Bosnia & Herzegovina)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3277605/",
+      "is_new_country": true,
+      "slug": "bosnia-and-herzegovina",
+      "cities": [
+        {
+          "city": "Sarajevo",
+          "loc_slug": "sarajevo-bosnia-and-herzegovina"
+        }
+      ]
+    },
+    {
+      "name": "Botswana",
+      "region": "Africa",
+      "country_code": "BW",
+      "capital": "Gaborone",
+      "currency_code": "BWP",
+      "languages": [
+        "en-BW",
+        "tn-BW"
+      ],
+      "language_names": [
+        "English (Botswana)",
+        "Tswana (Botswana)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/933860/",
+      "is_new_country": true,
+      "slug": "botswana",
+      "cities": [
+        {
+          "city": "Gaborone",
+          "loc_slug": "gaborone-botswana"
+        }
+      ]
+    },
+    {
+      "name": "British Indian Ocean Territory",
+      "region": "Asia-Pacific",
+      "country_code": "IO",
+      "capital": "Diego Garcia",
+      "currency_code": "USD",
+      "languages": [
+        "en-IO"
+      ],
+      "language_names": [
+        "English (British Indian Ocean Territory)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1282588/",
+      "is_new_country": true,
+      "slug": "british-indian-ocean-territory",
+      "cities": [
+        {
+          "city": "Diego Garcia",
+          "loc_slug": "diego-garcia-british-indian-ocean-territory"
+        }
+      ]
+    },
+    {
+      "name": "British Virgin Islands",
+      "region": "Latin America",
+      "country_code": "VG",
+      "capital": "Road Town",
+      "currency_code": "USD",
+      "languages": [
+        "en-VG"
+      ],
+      "language_names": [
+        "English (British Virgin Islands)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3577718/",
+      "is_new_country": true,
+      "slug": "british-virgin-islands",
+      "cities": [
+        {
+          "city": "Road Town",
+          "loc_slug": "road-town-british-virgin-islands"
+        }
+      ]
+    },
+    {
+      "name": "Brunei",
+      "region": "Asia-Pacific",
+      "country_code": "BN",
+      "capital": "Bandar Seri Begawan",
+      "currency_code": "BND",
+      "languages": [
+        "ms-BN",
+        "en-BN"
+      ],
+      "language_names": [
+        "Malay (Brunei)",
+        "English (Brunei)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1820814/",
+      "is_new_country": true,
+      "slug": "brunei",
+      "cities": [
+        {
+          "city": "Bandar Seri Begawan",
+          "loc_slug": "bandar-seri-begawan-brunei"
+        }
+      ]
+    },
+    {
+      "name": "Bulgaria",
+      "region": "Europe",
+      "country_code": "BG",
+      "capital": "Sofia",
+      "currency_code": "BGN",
+      "languages": [
+        "bg",
+        "tr-BG",
+        "rom"
+      ],
+      "language_names": [
+        "Bulgarian",
+        "Turkish (Bulgaria)",
+        "Romany"
+      ],
+      "geographic_source_url": "https://www.geonames.org/732800/",
+      "is_new_country": true,
+      "slug": "bulgaria",
+      "cities": [
+        {
+          "city": "Sofia",
+          "loc_slug": "sofia-bulgaria"
+        }
+      ]
+    },
+    {
+      "name": "Burkina Faso",
+      "region": "Africa",
+      "country_code": "BF",
+      "capital": "Ouagadougou",
+      "currency_code": "XOF",
+      "languages": [
+        "fr-BF",
+        "mos"
+      ],
+      "language_names": [
+        "French (Burkina Faso)",
+        "Mossi"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2361809/",
+      "is_new_country": true,
+      "slug": "burkina-faso",
+      "cities": [
+        {
+          "city": "Ouagadougou",
+          "loc_slug": "ouagadougou-burkina-faso"
+        }
+      ]
+    },
+    {
+      "name": "Burundi",
+      "region": "Africa",
+      "country_code": "BI",
+      "capital": "Gitega",
+      "currency_code": "BIF",
+      "languages": [
+        "fr-BI",
+        "rn"
+      ],
+      "language_names": [
+        "French (Burundi)",
+        "Rundi"
+      ],
+      "geographic_source_url": "https://www.geonames.org/433561/",
+      "is_new_country": true,
+      "slug": "burundi",
+      "cities": [
+        {
+          "city": "Gitega",
+          "loc_slug": "gitega-burundi"
+        }
+      ]
+    },
+    {
+      "name": "Cabo Verde",
+      "region": "Africa",
+      "country_code": "CV",
+      "capital": "Praia",
+      "currency_code": "CVE",
+      "languages": [
+        "pt-CV"
+      ],
+      "language_names": [
+        "Portuguese (Cape Verde)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3374766/",
+      "is_new_country": true,
+      "slug": "cabo-verde",
+      "cities": [
+        {
+          "city": "Praia",
+          "loc_slug": "praia-cabo-verde"
+        }
+      ]
+    },
+    {
+      "name": "Cambodia",
+      "region": "Asia-Pacific",
+      "country_code": "KH",
+      "capital": "Phnom Penh",
+      "currency_code": "KHR",
+      "languages": [
+        "km",
+        "fr",
+        "en"
+      ],
+      "language_names": [
+        "Khmer",
+        "French",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1831722/",
+      "is_new_country": true,
+      "slug": "cambodia",
+      "cities": [
+        {
+          "city": "Phnom Penh",
+          "loc_slug": "phnom-penh-cambodia"
+        }
+      ]
+    },
+    {
+      "name": "Cameroon",
+      "region": "Africa",
+      "country_code": "CM",
+      "capital": "Yaounde",
+      "currency_code": "XAF",
+      "languages": [
+        "en-CM",
+        "fr-CM"
+      ],
+      "language_names": [
+        "English (Cameroon)",
+        "French (Cameroon)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2233387/",
+      "is_new_country": true,
+      "slug": "cameroon",
+      "cities": [
+        {
+          "city": "Yaounde",
+          "loc_slug": "yaounde-cameroon"
+        }
+      ]
+    },
+    {
+      "name": "Cayman Islands",
+      "region": "Latin America",
+      "country_code": "KY",
+      "capital": "George Town",
+      "currency_code": "KYD",
+      "languages": [
+        "en-KY"
+      ],
+      "language_names": [
+        "English (Cayman Islands)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3580718/",
+      "is_new_country": true,
+      "slug": "cayman-islands",
+      "cities": [
+        {
+          "city": "George Town",
+          "loc_slug": "george-town-cayman-islands"
+        }
+      ]
+    },
+    {
+      "name": "Central African Republic",
+      "region": "Africa",
+      "country_code": "CF",
+      "capital": "Bangui",
+      "currency_code": "XAF",
+      "languages": [
+        "fr-CF",
+        "sg",
+        "ln",
+        "kg"
+      ],
+      "language_names": [
+        "French (Central African Republic)",
+        "Sango",
+        "Lingala",
+        "Kongo"
+      ],
+      "geographic_source_url": "https://www.geonames.org/239880/",
+      "is_new_country": true,
+      "slug": "central-african-republic",
+      "cities": [
+        {
+          "city": "Bangui",
+          "loc_slug": "bangui-central-african-republic"
+        }
+      ]
+    },
+    {
+      "name": "Chad",
+      "region": "Africa",
+      "country_code": "TD",
+      "capital": "N'Djamena",
+      "currency_code": "XAF",
+      "languages": [
+        "fr-TD",
+        "ar-TD",
+        "sre"
+      ],
+      "language_names": [
+        "French (Chad)",
+        "Arabic (Chad)",
+        "sre"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2434508/",
+      "is_new_country": true,
+      "slug": "chad",
+      "cities": [
+        {
+          "city": "N'Djamena",
+          "loc_slug": "ndjamena-chad"
+        }
+      ]
+    },
+    {
+      "name": "Chile",
+      "region": "Latin America",
+      "country_code": "CL",
+      "capital": "Santiago",
+      "currency_code": "CLP",
+      "languages": [
+        "es-CL"
+      ],
+      "language_names": [
+        "Spanish (Chile)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3895114/",
+      "is_new_country": true,
+      "slug": "chile",
+      "cities": [
+        {
+          "city": "Santiago",
+          "loc_slug": "santiago-chile"
+        }
+      ]
+    },
+    {
+      "name": "Christmas Island",
+      "region": "Asia-Pacific",
+      "country_code": "CX",
+      "capital": "Flying Fish Cove",
+      "currency_code": "AUD",
+      "languages": [
+        "en",
+        "zh",
+        "ms-CX"
+      ],
+      "language_names": [
+        "English",
+        "Chinese",
+        "Malay (Christmas Island)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2078138/",
+      "is_new_country": true,
+      "slug": "christmas-island",
+      "cities": [
+        {
+          "city": "Flying Fish Cove",
+          "loc_slug": "flying-fish-cove-christmas-island"
+        }
+      ]
+    },
+    {
+      "name": "Cocos Islands",
+      "region": "Asia-Pacific",
+      "country_code": "CC",
+      "capital": "West Island",
+      "currency_code": "AUD",
+      "languages": [
+        "ms-CC",
+        "en"
+      ],
+      "language_names": [
+        "Malay (Cocos [Keeling] Islands)",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1547376/",
+      "is_new_country": true,
+      "slug": "cocos-islands",
+      "cities": [
+        {
+          "city": "West Island",
+          "loc_slug": "west-island-cocos-islands"
+        }
+      ]
+    },
+    {
+      "name": "Colombia",
+      "region": "Latin America",
+      "country_code": "CO",
+      "capital": "Bogota",
+      "currency_code": "COP",
+      "languages": [
+        "es-CO"
+      ],
+      "language_names": [
+        "Spanish (Colombia)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3686110/",
+      "is_new_country": true,
+      "slug": "colombia",
+      "cities": [
+        {
+          "city": "Bogota",
+          "loc_slug": "bogota-colombia"
+        }
+      ]
+    },
+    {
+      "name": "Comoros",
+      "region": "Africa",
+      "country_code": "KM",
+      "capital": "Moroni",
+      "currency_code": "KMF",
+      "languages": [
+        "ar",
+        "fr-KM"
+      ],
+      "language_names": [
+        "Arabic",
+        "French (Comoros)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/921929/",
+      "is_new_country": true,
+      "slug": "comoros",
+      "cities": [
+        {
+          "city": "Moroni",
+          "loc_slug": "moroni-comoros"
+        }
+      ]
+    },
+    {
+      "name": "Cook Islands",
+      "region": "Asia-Pacific",
+      "country_code": "CK",
+      "capital": "Avarua",
+      "currency_code": "NZD",
+      "languages": [
+        "en-CK",
+        "mi"
+      ],
+      "language_names": [
+        "English (Cook Islands)",
+        "Māori"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1899402/",
+      "is_new_country": true,
+      "slug": "cook-islands",
+      "cities": [
+        {
+          "city": "Avarua",
+          "loc_slug": "avarua-cook-islands"
+        }
+      ]
+    },
+    {
+      "name": "Costa Rica",
+      "region": "Latin America",
+      "country_code": "CR",
+      "capital": "San Jose",
+      "currency_code": "CRC",
+      "languages": [
+        "es-CR",
+        "en"
+      ],
+      "language_names": [
+        "Spanish (Costa Rica)",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3624060/",
+      "is_new_country": true,
+      "slug": "costa-rica",
+      "cities": [
+        {
+          "city": "San Jose",
+          "loc_slug": "san-jose-costa-rica"
+        }
+      ]
+    },
+    {
+      "name": "Croatia",
+      "region": "Europe",
+      "country_code": "HR",
+      "capital": "Zagreb",
+      "currency_code": "EUR",
+      "languages": [
+        "hr-HR",
+        "sr"
+      ],
+      "language_names": [
+        "Croatian (Croatia)",
+        "Serbian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3202326/",
+      "is_new_country": true,
+      "slug": "croatia",
+      "cities": [
+        {
+          "city": "Zagreb",
+          "loc_slug": "zagreb-croatia"
+        }
+      ]
+    },
+    {
+      "name": "Cuba",
+      "region": "Latin America",
+      "country_code": "CU",
+      "capital": "Havana",
+      "currency_code": "CUP",
+      "languages": [
+        "es-CU",
+        "pap"
+      ],
+      "language_names": [
+        "Spanish (Cuba)",
+        "Papiamento"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3562981/",
+      "is_new_country": true,
+      "slug": "cuba",
+      "cities": [
+        {
+          "city": "Havana",
+          "loc_slug": "havana-cuba"
+        }
+      ]
+    },
+    {
+      "name": "Curacao",
+      "region": "Latin America",
+      "country_code": "CW",
+      "capital": " Willemstad",
+      "currency_code": "XCG",
+      "languages": [
+        "nl",
+        "pap"
+      ],
+      "language_names": [
+        "Dutch",
+        "Papiamento"
+      ],
+      "geographic_source_url": "https://www.geonames.org/7626836/",
+      "is_new_country": true,
+      "slug": "curacao",
+      "cities": [
+        {
+          "city": "Willemstad",
+          "loc_slug": "willemstad-curacao"
+        }
+      ]
+    },
+    {
+      "name": "Cyprus",
+      "region": "Europe",
+      "country_code": "CY",
+      "capital": "Nicosia",
+      "currency_code": "EUR",
+      "languages": [
+        "el-CY",
+        "tr-CY",
+        "en"
+      ],
+      "language_names": [
+        "Greek (Cyprus)",
+        "Turkish (Cyprus)",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/146669/",
+      "is_new_country": true,
+      "slug": "cyprus",
+      "cities": [
+        {
+          "city": "Nicosia",
+          "loc_slug": "nicosia-cyprus"
+        }
+      ]
+    },
+    {
+      "name": "Czechia",
+      "region": "Europe",
+      "country_code": "CZ",
+      "capital": "Prague",
+      "currency_code": "CZK",
+      "languages": [
+        "cs",
+        "sk"
+      ],
+      "language_names": [
+        "Czech",
+        "Slovak"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3077311/",
+      "is_new_country": true,
+      "slug": "czechia",
+      "cities": [
+        {
+          "city": "Prague",
+          "loc_slug": "prague-czechia"
+        }
+      ]
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "region": "Africa",
+      "country_code": "CD",
+      "capital": "Kinshasa",
+      "currency_code": "CDF",
+      "languages": [
+        "fr-CD",
+        "ln",
+        "ktu",
+        "kg",
+        "sw",
+        "lua"
+      ],
+      "language_names": [
+        "French (Congo - Kinshasa)",
+        "Lingala",
+        "ktu",
+        "Kongo",
+        "Swahili",
+        "Luba-Lulua"
+      ],
+      "geographic_source_url": "https://www.geonames.org/203312/",
+      "is_new_country": true,
+      "slug": "democratic-republic-of-the-congo",
+      "cities": [
+        {
+          "city": "Kinshasa",
+          "loc_slug": "kinshasa-democratic-republic-of-the-congo"
+        }
+      ]
+    },
+    {
+      "name": "Djibouti",
+      "region": "Africa",
+      "country_code": "DJ",
+      "capital": "Djibouti",
+      "currency_code": "DJF",
+      "languages": [
+        "fr-DJ",
+        "ar",
+        "so-DJ",
+        "aa"
+      ],
+      "language_names": [
+        "French (Djibouti)",
+        "Arabic",
+        "Somali (Djibouti)",
+        "Afar"
+      ],
+      "geographic_source_url": "https://www.geonames.org/223816/",
+      "is_new_country": true,
+      "slug": "djibouti",
+      "cities": [
+        {
+          "city": "Djibouti",
+          "loc_slug": "djibouti-djibouti"
+        }
+      ]
+    },
+    {
+      "name": "Dominica",
+      "region": "Latin America",
+      "country_code": "DM",
+      "capital": "Roseau",
+      "currency_code": "XCD",
+      "languages": [
+        "en-DM"
+      ],
+      "language_names": [
+        "English (Dominica)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3575830/",
+      "is_new_country": true,
+      "slug": "dominica",
+      "cities": [
+        {
+          "city": "Roseau",
+          "loc_slug": "roseau-dominica"
+        }
+      ]
+    },
+    {
+      "name": "Dominican Republic",
+      "region": "Latin America",
+      "country_code": "DO",
+      "capital": "Santo Domingo",
+      "currency_code": "DOP",
+      "languages": [
+        "es-DO"
+      ],
+      "language_names": [
+        "Spanish (Dominican Republic)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3508796/",
+      "is_new_country": true,
+      "slug": "dominican-republic",
+      "cities": [
+        {
+          "city": "Santo Domingo",
+          "loc_slug": "santo-domingo-dominican-republic"
+        }
+      ]
+    },
+    {
+      "name": "Ecuador",
+      "region": "Latin America",
+      "country_code": "EC",
+      "capital": "Quito",
+      "currency_code": "USD",
+      "languages": [
+        "es-EC"
+      ],
+      "language_names": [
+        "Spanish (Ecuador)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3658394/",
+      "is_new_country": true,
+      "slug": "ecuador",
+      "cities": [
+        {
+          "city": "Quito",
+          "loc_slug": "quito-ecuador"
+        }
+      ]
+    },
+    {
+      "name": "El Salvador",
+      "region": "Latin America",
+      "country_code": "SV",
+      "capital": "San Salvador",
+      "currency_code": "USD",
+      "languages": [
+        "es-SV"
+      ],
+      "language_names": [
+        "Spanish (El Salvador)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3585968/",
+      "is_new_country": true,
+      "slug": "el-salvador",
+      "cities": [
+        {
+          "city": "San Salvador",
+          "loc_slug": "san-salvador-el-salvador"
+        }
+      ]
+    },
+    {
+      "name": "Equatorial Guinea",
+      "region": "Africa",
+      "country_code": "GQ",
+      "capital": "Ciudad de la Paz",
+      "currency_code": "XAF",
+      "languages": [
+        "es-GQ",
+        "fr",
+        "pt"
+      ],
+      "language_names": [
+        "Spanish (Equatorial Guinea)",
+        "French",
+        "Portuguese"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2309096/",
+      "is_new_country": true,
+      "slug": "equatorial-guinea",
+      "cities": [
+        {
+          "city": "Ciudad de la Paz",
+          "loc_slug": "ciudad-de-la-paz-equatorial-guinea"
+        }
+      ]
+    },
+    {
+      "name": "Eritrea",
+      "region": "Africa",
+      "country_code": "ER",
+      "capital": "Asmara",
+      "currency_code": "ERN",
+      "languages": [
+        "aa-ER",
+        "ar",
+        "tig",
+        "kun",
+        "ti-ER"
+      ],
+      "language_names": [
+        "Afar (Eritrea)",
+        "Arabic",
+        "Tigre",
+        "kun",
+        "Tigrinya (Eritrea)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/338010/",
+      "is_new_country": true,
+      "slug": "eritrea",
+      "cities": [
+        {
+          "city": "Asmara",
+          "loc_slug": "asmara-eritrea"
+        }
+      ]
+    },
+    {
+      "name": "Estonia",
+      "region": "Europe",
+      "country_code": "EE",
+      "capital": "Tallinn",
+      "currency_code": "EUR",
+      "languages": [
+        "et",
+        "ru"
+      ],
+      "language_names": [
+        "Estonian",
+        "Russian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/453733/",
+      "is_new_country": true,
+      "slug": "estonia",
+      "cities": [
+        {
+          "city": "Tallinn",
+          "loc_slug": "tallinn-estonia"
+        }
+      ]
+    },
+    {
+      "name": "Eswatini",
+      "region": "Africa",
+      "country_code": "SZ",
+      "capital": "Mbabane",
+      "currency_code": "SZL",
+      "languages": [
+        "en-SZ",
+        "ss-SZ"
+      ],
+      "language_names": [
+        "English (Eswatini)",
+        "Swati (Eswatini)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/934841/",
+      "is_new_country": true,
+      "slug": "eswatini",
+      "cities": [
+        {
+          "city": "Mbabane",
+          "loc_slug": "mbabane-eswatini"
+        }
+      ]
+    },
+    {
+      "name": "Ethiopia",
+      "region": "Africa",
+      "country_code": "ET",
+      "capital": "Addis Ababa",
+      "currency_code": "ETB",
+      "languages": [
+        "am",
+        "en-ET",
+        "om-ET",
+        "ti-ET",
+        "so-ET",
+        "sid"
+      ],
+      "language_names": [
+        "Amharic",
+        "English (Ethiopia)",
+        "Oromo (Ethiopia)",
+        "Tigrinya (Ethiopia)",
+        "Somali (Ethiopia)",
+        "Sidamo"
+      ],
+      "geographic_source_url": "https://www.geonames.org/337996/",
+      "is_new_country": true,
+      "slug": "ethiopia",
+      "cities": [
+        {
+          "city": "Addis Ababa",
+          "loc_slug": "addis-ababa-ethiopia"
+        }
+      ]
+    },
+    {
+      "name": "Falkland Islands",
+      "region": "Latin America",
+      "country_code": "FK",
+      "capital": "Stanley",
+      "currency_code": "FKP",
+      "languages": [
+        "en-FK"
+      ],
+      "language_names": [
+        "English (Falkland Islands)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3474414/",
+      "is_new_country": true,
+      "slug": "falkland-islands",
+      "cities": [
+        {
+          "city": "Stanley",
+          "loc_slug": "stanley-falkland-islands"
+        }
+      ]
+    },
+    {
+      "name": "Faroe Islands",
+      "region": "Europe",
+      "country_code": "FO",
+      "capital": "Torshavn",
+      "currency_code": "DKK",
+      "languages": [
+        "fo",
+        "da-FO"
+      ],
+      "language_names": [
+        "Faroese",
+        "Danish (Faroe Islands)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2622320/",
+      "is_new_country": true,
+      "slug": "faroe-islands",
+      "cities": [
+        {
+          "city": "Torshavn",
+          "loc_slug": "torshavn-faroe-islands"
+        }
+      ]
+    },
+    {
+      "name": "Fiji",
+      "region": "Asia-Pacific",
+      "country_code": "FJ",
+      "capital": "Suva",
+      "currency_code": "FJD",
+      "languages": [
+        "en-FJ",
+        "fj"
+      ],
+      "language_names": [
+        "English (Fiji)",
+        "Fijian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2205218/",
+      "is_new_country": true,
+      "slug": "fiji",
+      "cities": [
+        {
+          "city": "Suva",
+          "loc_slug": "suva-fiji"
+        }
+      ]
+    },
+    {
+      "name": "French Guiana",
+      "region": "Latin America",
+      "country_code": "GF",
+      "capital": "Cayenne",
+      "currency_code": "EUR",
+      "languages": [
+        "fr-GF"
+      ],
+      "language_names": [
+        "French (French Guiana)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3381670/",
+      "is_new_country": true,
+      "slug": "french-guiana",
+      "cities": [
+        {
+          "city": "Cayenne",
+          "loc_slug": "cayenne-french-guiana"
+        }
+      ]
+    },
+    {
+      "name": "French Polynesia",
+      "region": "Asia-Pacific",
+      "country_code": "PF",
+      "capital": "Papeete",
+      "currency_code": "XPF",
+      "languages": [
+        "fr-PF",
+        "ty"
+      ],
+      "language_names": [
+        "French (French Polynesia)",
+        "Tahitian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/4030656/",
+      "is_new_country": true,
+      "slug": "french-polynesia",
+      "cities": [
+        {
+          "city": "Papeete",
+          "loc_slug": "papeete-french-polynesia"
+        }
+      ]
+    },
+    {
+      "name": "French Southern Territories",
+      "region": "Antarctica",
+      "country_code": "TF",
+      "capital": "Port-aux-Francais",
+      "currency_code": "EUR",
+      "languages": [
+        "fr"
+      ],
+      "language_names": [
+        "French"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1546748/",
+      "is_new_country": true,
+      "slug": "french-southern-territories",
+      "cities": [
+        {
+          "city": "Port-aux-Francais",
+          "loc_slug": "port-aux-francais-french-southern-territories"
+        }
+      ]
+    },
+    {
+      "name": "Gabon",
+      "region": "Africa",
+      "country_code": "GA",
+      "capital": "Libreville",
+      "currency_code": "XAF",
+      "languages": [
+        "fr-GA"
+      ],
+      "language_names": [
+        "French (Gabon)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2400553/",
+      "is_new_country": true,
+      "slug": "gabon",
+      "cities": [
+        {
+          "city": "Libreville",
+          "loc_slug": "libreville-gabon"
+        }
+      ]
+    },
+    {
+      "name": "Gambia",
+      "region": "Africa",
+      "country_code": "GM",
+      "capital": "Banjul",
+      "currency_code": "GMD",
+      "languages": [
+        "en-GM",
+        "mnk",
+        "wof",
+        "wo",
+        "ff"
+      ],
+      "language_names": [
+        "English (Gambia)",
+        "mnk",
+        "wof",
+        "Wolof",
+        "Fula"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2413451/",
+      "is_new_country": true,
+      "slug": "gambia",
+      "cities": [
+        {
+          "city": "Banjul",
+          "loc_slug": "banjul-gambia"
+        }
+      ]
+    },
+    {
+      "name": "Georgia",
+      "region": "Asia-Pacific",
+      "country_code": "GE",
+      "capital": "Tbilisi",
+      "currency_code": "GEL",
+      "languages": [
+        "ka",
+        "ru",
+        "hy",
+        "az"
+      ],
+      "language_names": [
+        "Georgian",
+        "Russian",
+        "Armenian",
+        "Azerbaijani"
+      ],
+      "geographic_source_url": "https://www.geonames.org/614540/",
+      "is_new_country": true,
+      "slug": "georgia",
+      "cities": [
+        {
+          "city": "Tbilisi",
+          "loc_slug": "tbilisi-georgia"
+        }
+      ]
+    },
+    {
+      "name": "Ghana",
+      "region": "Africa",
+      "country_code": "GH",
+      "capital": "Accra",
+      "currency_code": "GHS",
+      "languages": [
+        "en-GH",
+        "ak",
+        "ee",
+        "tw"
+      ],
+      "language_names": [
+        "English (Ghana)",
+        "Akan",
+        "Ewe"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2300660/",
+      "is_new_country": true,
+      "slug": "ghana",
+      "cities": [
+        {
+          "city": "Accra",
+          "loc_slug": "accra-ghana"
+        }
+      ]
+    },
+    {
+      "name": "Gibraltar",
+      "region": "Europe",
+      "country_code": "GI",
+      "capital": "Gibraltar",
+      "currency_code": "GIP",
+      "languages": [
+        "en-GI",
+        "es",
+        "it",
+        "pt"
+      ],
+      "language_names": [
+        "English (Gibraltar)",
+        "Spanish",
+        "Italian",
+        "Portuguese"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2411586/",
+      "is_new_country": true,
+      "slug": "gibraltar",
+      "cities": [
+        {
+          "city": "Gibraltar",
+          "loc_slug": "gibraltar-gibraltar"
+        }
+      ]
+    },
+    {
+      "name": "Greece",
+      "region": "Europe",
+      "country_code": "GR",
+      "capital": "Athens",
+      "currency_code": "EUR",
+      "languages": [
+        "el-GR",
+        "en",
+        "fr"
+      ],
+      "language_names": [
+        "Greek (Greece)",
+        "English",
+        "French"
+      ],
+      "geographic_source_url": "https://www.geonames.org/390903/",
+      "is_new_country": true,
+      "slug": "greece",
+      "cities": [
+        {
+          "city": "Athens",
+          "loc_slug": "athens-greece"
+        }
+      ]
+    },
+    {
+      "name": "Greenland",
+      "region": "North America",
+      "country_code": "GL",
+      "capital": "Nuuk",
+      "currency_code": "DKK",
+      "languages": [
+        "kl",
+        "da-GL",
+        "en"
+      ],
+      "language_names": [
+        "Kalaallisut",
+        "Danish (Greenland)",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3425505/",
+      "is_new_country": true,
+      "slug": "greenland",
+      "cities": [
+        {
+          "city": "Nuuk",
+          "loc_slug": "nuuk-greenland"
+        }
+      ]
+    },
+    {
+      "name": "Grenada",
+      "region": "Latin America",
+      "country_code": "GD",
+      "capital": "St. George's",
+      "currency_code": "XCD",
+      "languages": [
+        "en-GD"
+      ],
+      "language_names": [
+        "English (Grenada)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3580239/",
+      "is_new_country": true,
+      "slug": "grenada",
+      "cities": [
+        {
+          "city": "Saint George's",
+          "loc_slug": "saint-georges-grenada"
+        }
+      ]
+    },
+    {
+      "name": "Guadeloupe",
+      "region": "Latin America",
+      "country_code": "GP",
+      "capital": "Basse-Terre",
+      "currency_code": "EUR",
+      "languages": [
+        "fr-GP"
+      ],
+      "language_names": [
+        "French (Guadeloupe)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3579143/",
+      "is_new_country": true,
+      "slug": "guadeloupe",
+      "cities": [
+        {
+          "city": "Basse-Terre",
+          "loc_slug": "basse-terre-guadeloupe"
+        }
+      ]
+    },
+    {
+      "name": "Guam",
+      "region": "Asia-Pacific",
+      "country_code": "GU",
+      "capital": "Hagatna",
+      "currency_code": "USD",
+      "languages": [
+        "en-GU",
+        "ch-GU"
+      ],
+      "language_names": [
+        "English (Guam)",
+        "Chamorro (Guam)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/4043988/",
+      "is_new_country": true,
+      "slug": "guam",
+      "cities": [
+        {
+          "city": "Hagatna",
+          "loc_slug": "hagatna-guam"
+        }
+      ]
+    },
+    {
+      "name": "Guatemala",
+      "region": "Latin America",
+      "country_code": "GT",
+      "capital": "Guatemala City",
+      "currency_code": "GTQ",
+      "languages": [
+        "es-GT"
+      ],
+      "language_names": [
+        "Spanish (Guatemala)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3595528/",
+      "is_new_country": true,
+      "slug": "guatemala",
+      "cities": [
+        {
+          "city": "Guatemala City",
+          "loc_slug": "guatemala-city-guatemala"
+        }
+      ]
+    },
+    {
+      "name": "Guernsey",
+      "region": "Europe",
+      "country_code": "GG",
+      "capital": "St Peter Port",
+      "currency_code": "GBP",
+      "languages": [
+        "en",
+        "nrf"
+      ],
+      "language_names": [
+        "English",
+        "nrf"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3042362/",
+      "is_new_country": true,
+      "slug": "guernsey",
+      "cities": [
+        {
+          "city": "Saint Peter Port",
+          "loc_slug": "saint-peter-port-guernsey"
+        }
+      ]
+    },
+    {
+      "name": "Guinea",
+      "region": "Africa",
+      "country_code": "GN",
+      "capital": "Conakry",
+      "currency_code": "GNF",
+      "languages": [
+        "fr-GN"
+      ],
+      "language_names": [
+        "French (Guinea)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2420477/",
+      "is_new_country": true,
+      "slug": "guinea",
+      "cities": [
+        {
+          "city": "Conakry",
+          "loc_slug": "conakry-guinea"
+        }
+      ]
+    },
+    {
+      "name": "Guinea-Bissau",
+      "region": "Africa",
+      "country_code": "GW",
+      "capital": "Bissau",
+      "currency_code": "XOF",
+      "languages": [
+        "pt-GW",
+        "pov"
+      ],
+      "language_names": [
+        "Portuguese (Guinea-Bissau)",
+        "pov"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2372248/",
+      "is_new_country": true,
+      "slug": "guinea-bissau",
+      "cities": [
+        {
+          "city": "Bissau",
+          "loc_slug": "bissau-guinea-bissau"
+        }
+      ]
+    },
+    {
+      "name": "Guyana",
+      "region": "Latin America",
+      "country_code": "GY",
+      "capital": "Georgetown",
+      "currency_code": "GYD",
+      "languages": [
+        "en-GY"
+      ],
+      "language_names": [
+        "English (Guyana)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3378535/",
+      "is_new_country": true,
+      "slug": "guyana",
+      "cities": [
+        {
+          "city": "Georgetown",
+          "loc_slug": "georgetown-guyana"
+        }
+      ]
+    },
+    {
+      "name": "Haiti",
+      "region": "Latin America",
+      "country_code": "HT",
+      "capital": "Port-au-Prince",
+      "currency_code": "HTG",
+      "languages": [
+        "ht",
+        "fr-HT"
+      ],
+      "language_names": [
+        "Haitian Creole",
+        "French (Haiti)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3723988/",
+      "is_new_country": true,
+      "slug": "haiti",
+      "cities": [
+        {
+          "city": "Port-au-Prince",
+          "loc_slug": "port-au-prince-haiti"
+        }
+      ]
+    },
+    {
+      "name": "Honduras",
+      "region": "Latin America",
+      "country_code": "HN",
+      "capital": "Tegucigalpa",
+      "currency_code": "HNL",
+      "languages": [
+        "es-HN",
+        "cab",
+        "miq"
+      ],
+      "language_names": [
+        "Spanish (Honduras)",
+        "cab",
+        "miq"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3608932/",
+      "is_new_country": true,
+      "slug": "honduras",
+      "cities": [
+        {
+          "city": "Tegucigalpa",
+          "loc_slug": "tegucigalpa-honduras"
+        }
+      ]
+    },
+    {
+      "name": "Hungary",
+      "region": "Europe",
+      "country_code": "HU",
+      "capital": "Budapest",
+      "currency_code": "HUF",
+      "languages": [
+        "hu-HU"
+      ],
+      "language_names": [
+        "Hungarian (Hungary)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/719819/",
+      "is_new_country": true,
+      "slug": "hungary",
+      "cities": [
+        {
+          "city": "Budapest",
+          "loc_slug": "budapest-hungary"
+        }
+      ]
+    },
+    {
+      "name": "Iceland",
+      "region": "Europe",
+      "country_code": "IS",
+      "capital": "Reykjavik",
+      "currency_code": "ISK",
+      "languages": [
+        "is",
+        "en",
+        "de",
+        "da",
+        "sv",
+        "no"
+      ],
+      "language_names": [
+        "Icelandic",
+        "English",
+        "German",
+        "Danish",
+        "Swedish",
+        "Norwegian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2629691/",
+      "is_new_country": true,
+      "slug": "iceland",
+      "cities": [
+        {
+          "city": "Reykjavik",
+          "loc_slug": "reykjavik-iceland"
+        }
+      ]
+    },
+    {
+      "name": "Iran",
+      "region": "Middle East",
+      "country_code": "IR",
+      "capital": "Tehran",
+      "currency_code": "IRR",
+      "languages": [
+        "fa-IR",
+        "ku"
+      ],
+      "language_names": [
+        "Persian (Iran)",
+        "Kurdish"
+      ],
+      "geographic_source_url": "https://www.geonames.org/130758/",
+      "is_new_country": true,
+      "slug": "iran",
+      "cities": [
+        {
+          "city": "Tehran",
+          "loc_slug": "tehran-iran"
+        }
+      ]
+    },
+    {
+      "name": "Iraq",
+      "region": "Middle East",
+      "country_code": "IQ",
+      "capital": "Baghdad",
+      "currency_code": "IQD",
+      "languages": [
+        "ar-IQ",
+        "ku",
+        "hy"
+      ],
+      "language_names": [
+        "Arabic (Iraq)",
+        "Kurdish",
+        "Armenian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/99237/",
+      "is_new_country": true,
+      "slug": "iraq",
+      "cities": [
+        {
+          "city": "Baghdad",
+          "loc_slug": "baghdad-iraq"
+        }
+      ]
+    },
+    {
+      "name": "Isle of Man",
+      "region": "Europe",
+      "country_code": "IM",
+      "capital": "Douglas",
+      "currency_code": "GBP",
+      "languages": [
+        "en",
+        "gv"
+      ],
+      "language_names": [
+        "English",
+        "Manx"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3042225/",
+      "is_new_country": true,
+      "slug": "isle-of-man",
+      "cities": [
+        {
+          "city": "Douglas",
+          "loc_slug": "douglas-isle-of-man"
+        }
+      ]
+    },
+    {
+      "name": "Israel",
+      "region": "Middle East",
+      "country_code": "IL",
+      "capital": "Jerusalem",
+      "currency_code": "ILS",
+      "languages": [
+        "he",
+        "ar-IL",
+        "en-IL",
+        ""
+      ],
+      "language_names": [
+        "Hebrew",
+        "Arabic (Israel)",
+        "English (Israel)",
+        ""
+      ],
+      "geographic_source_url": "https://www.geonames.org/294640/",
+      "is_new_country": true,
+      "slug": "israel",
+      "cities": [
+        {
+          "city": "Jerusalem",
+          "loc_slug": "jerusalem-israel"
+        }
+      ]
+    },
+    {
+      "name": "Ivory Coast",
+      "region": "Africa",
+      "country_code": "CI",
+      "capital": "Yamoussoukro",
+      "currency_code": "XOF",
+      "languages": [
+        "fr-CI"
+      ],
+      "language_names": [
+        "French (Côte d’Ivoire)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2287781/",
+      "is_new_country": true,
+      "slug": "ivory-coast",
+      "cities": [
+        {
+          "city": "Yamoussoukro",
+          "loc_slug": "yamoussoukro-ivory-coast"
+        }
+      ]
+    },
+    {
+      "name": "Jamaica",
+      "region": "Latin America",
+      "country_code": "JM",
+      "capital": "Kingston",
+      "currency_code": "JMD",
+      "languages": [
+        "en-JM"
+      ],
+      "language_names": [
+        "English (Jamaica)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3489940/",
+      "is_new_country": true,
+      "slug": "jamaica",
+      "cities": [
+        {
+          "city": "Kingston",
+          "loc_slug": "kingston-jamaica"
+        }
+      ]
+    },
+    {
+      "name": "Jersey",
+      "region": "Europe",
+      "country_code": "JE",
+      "capital": "Saint Helier",
+      "currency_code": "GBP",
+      "languages": [
+        "en",
+        "fr",
+        "nrf"
+      ],
+      "language_names": [
+        "English",
+        "French",
+        "nrf"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3042142/",
+      "is_new_country": true,
+      "slug": "jersey",
+      "cities": [
+        {
+          "city": "Saint Helier",
+          "loc_slug": "saint-helier-jersey"
+        }
+      ]
+    },
+    {
+      "name": "Jordan",
+      "region": "Middle East",
+      "country_code": "JO",
+      "capital": "Amman",
+      "currency_code": "JOD",
+      "languages": [
+        "ar-JO",
+        "en"
+      ],
+      "language_names": [
+        "Arabic (Jordan)",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/248816/",
+      "is_new_country": true,
+      "slug": "jordan",
+      "cities": [
+        {
+          "city": "Amman",
+          "loc_slug": "amman-jordan"
+        }
+      ]
+    },
+    {
+      "name": "Kazakhstan",
+      "region": "Asia-Pacific",
+      "country_code": "KZ",
+      "capital": "Nur-Sultan",
+      "currency_code": "KZT",
+      "languages": [
+        "kk",
+        "ru"
+      ],
+      "language_names": [
+        "Kazakh",
+        "Russian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1522867/",
+      "is_new_country": true,
+      "slug": "kazakhstan",
+      "cities": [
+        {
+          "city": "Astana",
+          "loc_slug": "astana-kazakhstan"
+        }
+      ]
+    },
+    {
+      "name": "Kiribati",
+      "region": "Asia-Pacific",
+      "country_code": "KI",
+      "capital": "Tarawa",
+      "currency_code": "AUD",
+      "languages": [
+        "en-KI",
+        "gil"
+      ],
+      "language_names": [
+        "English (Kiribati)",
+        "Gilbertese"
+      ],
+      "geographic_source_url": "https://www.geonames.org/4030945/",
+      "is_new_country": true,
+      "slug": "kiribati",
+      "cities": [
+        {
+          "city": "Tarawa",
+          "loc_slug": "tarawa-kiribati"
+        }
+      ]
+    },
+    {
+      "name": "Kosovo",
+      "region": "Europe",
+      "country_code": "XK",
+      "capital": "Pristina",
+      "currency_code": "EUR",
+      "languages": [
+        "sq",
+        "sr"
+      ],
+      "language_names": [
+        "Albanian",
+        "Serbian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/831053/",
+      "is_new_country": true,
+      "slug": "kosovo",
+      "cities": [
+        {
+          "city": "Pristina",
+          "loc_slug": "pristina-kosovo"
+        }
+      ]
+    },
+    {
+      "name": "Kyrgyzstan",
+      "region": "Asia-Pacific",
+      "country_code": "KG",
+      "capital": "Bishkek",
+      "currency_code": "KGS",
+      "languages": [
+        "ky",
+        "uz",
+        "ru"
+      ],
+      "language_names": [
+        "Kyrgyz",
+        "Uzbek",
+        "Russian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1527747/",
+      "is_new_country": true,
+      "slug": "kyrgyzstan",
+      "cities": [
+        {
+          "city": "Bishkek",
+          "loc_slug": "bishkek-kyrgyzstan"
+        }
+      ]
+    },
+    {
+      "name": "Laos",
+      "region": "Asia-Pacific",
+      "country_code": "LA",
+      "capital": "Vientiane",
+      "currency_code": "LAK",
+      "languages": [
+        "lo",
+        "fr",
+        "en"
+      ],
+      "language_names": [
+        "Lao",
+        "French",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1655842/",
+      "is_new_country": true,
+      "slug": "laos",
+      "cities": [
+        {
+          "city": "Vientiane",
+          "loc_slug": "vientiane-laos"
+        }
+      ]
+    },
+    {
+      "name": "Latvia",
+      "region": "Europe",
+      "country_code": "LV",
+      "capital": "Riga",
+      "currency_code": "EUR",
+      "languages": [
+        "lv",
+        "ru",
+        "lt"
+      ],
+      "language_names": [
+        "Latvian",
+        "Russian",
+        "Lithuanian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/458258/",
+      "is_new_country": true,
+      "slug": "latvia",
+      "cities": [
+        {
+          "city": "Riga",
+          "loc_slug": "riga-latvia"
+        }
+      ]
+    },
+    {
+      "name": "Lebanon",
+      "region": "Middle East",
+      "country_code": "LB",
+      "capital": "Beirut",
+      "currency_code": "LBP",
+      "languages": [
+        "ar-LB",
+        "fr-LB",
+        "en",
+        "hy"
+      ],
+      "language_names": [
+        "Arabic (Lebanon)",
+        "French (Lebanon)",
+        "English",
+        "Armenian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/272103/",
+      "is_new_country": true,
+      "slug": "lebanon",
+      "cities": [
+        {
+          "city": "Beirut",
+          "loc_slug": "beirut-lebanon"
+        }
+      ]
+    },
+    {
+      "name": "Lesotho",
+      "region": "Africa",
+      "country_code": "LS",
+      "capital": "Maseru",
+      "currency_code": "LSL",
+      "languages": [
+        "en-LS",
+        "st",
+        "zu",
+        "xh"
+      ],
+      "language_names": [
+        "English (Lesotho)",
+        "Southern Sotho",
+        "Zulu",
+        "Xhosa"
+      ],
+      "geographic_source_url": "https://www.geonames.org/932692/",
+      "is_new_country": true,
+      "slug": "lesotho",
+      "cities": [
+        {
+          "city": "Maseru",
+          "loc_slug": "maseru-lesotho"
+        }
+      ]
+    },
+    {
+      "name": "Liberia",
+      "region": "Africa",
+      "country_code": "LR",
+      "capital": "Monrovia",
+      "currency_code": "LRD",
+      "languages": [
+        "en-LR"
+      ],
+      "language_names": [
+        "English (Liberia)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2275384/",
+      "is_new_country": true,
+      "slug": "liberia",
+      "cities": [
+        {
+          "city": "Monrovia",
+          "loc_slug": "monrovia-liberia"
+        }
+      ]
+    },
+    {
+      "name": "Libya",
+      "region": "Africa",
+      "country_code": "LY",
+      "capital": "Tripoli",
+      "currency_code": "LYD",
+      "languages": [
+        "ar-LY",
+        "it",
+        "en"
+      ],
+      "language_names": [
+        "Arabic (Libya)",
+        "Italian",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2215636/",
+      "is_new_country": true,
+      "slug": "libya",
+      "cities": [
+        {
+          "city": "Tripoli",
+          "loc_slug": "tripoli-libya"
+        }
+      ]
+    },
+    {
+      "name": "Liechtenstein",
+      "region": "Europe",
+      "country_code": "LI",
+      "capital": "Vaduz",
+      "currency_code": "CHF",
+      "languages": [
+        "de-LI"
+      ],
+      "language_names": [
+        "German (Liechtenstein)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3042058/",
+      "is_new_country": true,
+      "slug": "liechtenstein",
+      "cities": [
+        {
+          "city": "Vaduz",
+          "loc_slug": "vaduz-liechtenstein"
+        }
+      ]
+    },
+    {
+      "name": "Lithuania",
+      "region": "Europe",
+      "country_code": "LT",
+      "capital": "Vilnius",
+      "currency_code": "EUR",
+      "languages": [
+        "lt",
+        "ru",
+        "pl"
+      ],
+      "language_names": [
+        "Lithuanian",
+        "Russian",
+        "Polish"
+      ],
+      "geographic_source_url": "https://www.geonames.org/597427/",
+      "is_new_country": true,
+      "slug": "lithuania",
+      "cities": [
+        {
+          "city": "Vilnius",
+          "loc_slug": "vilnius-lithuania"
+        }
+      ]
+    },
+    {
+      "name": "Luxembourg",
+      "region": "Europe",
+      "country_code": "LU",
+      "capital": "Luxembourg",
+      "currency_code": "EUR",
+      "languages": [
+        "lb",
+        "de-LU",
+        "fr-LU"
+      ],
+      "language_names": [
+        "Luxembourgish",
+        "German (Luxembourg)",
+        "French (Luxembourg)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2960313/",
+      "is_new_country": true,
+      "slug": "luxembourg",
+      "cities": [
+        {
+          "city": "Luxembourg",
+          "loc_slug": "luxembourg-luxembourg"
+        }
+      ]
+    },
+    {
+      "name": "Macao",
+      "region": "Asia-Pacific",
+      "country_code": "MO",
+      "capital": "Macao",
+      "currency_code": "MOP",
+      "languages": [
+        "zh",
+        "zh-MO",
+        "pt"
+      ],
+      "language_names": [
+        "Chinese",
+        "Chinese (Macao SAR China)",
+        "Portuguese"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1821275/",
+      "is_new_country": true,
+      "slug": "macao",
+      "cities": [
+        {
+          "city": "Macau",
+          "loc_slug": "macau-macao"
+        }
+      ]
+    },
+    {
+      "name": "Madagascar",
+      "region": "Africa",
+      "country_code": "MG",
+      "capital": "Antananarivo",
+      "currency_code": "MGA",
+      "languages": [
+        "fr-MG",
+        "mg"
+      ],
+      "language_names": [
+        "French (Madagascar)",
+        "Malagasy"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1062947/",
+      "is_new_country": true,
+      "slug": "madagascar",
+      "cities": [
+        {
+          "city": "Antananarivo",
+          "loc_slug": "antananarivo-madagascar"
+        }
+      ]
+    },
+    {
+      "name": "Malawi",
+      "region": "Africa",
+      "country_code": "MW",
+      "capital": "Lilongwe",
+      "currency_code": "MWK",
+      "languages": [
+        "ny",
+        "yao",
+        "tum",
+        "swk"
+      ],
+      "language_names": [
+        "Nyanja",
+        "Yao",
+        "Tumbuka",
+        "swk"
+      ],
+      "geographic_source_url": "https://www.geonames.org/927384/",
+      "is_new_country": true,
+      "slug": "malawi",
+      "cities": [
+        {
+          "city": "Lilongwe",
+          "loc_slug": "lilongwe-malawi"
+        }
+      ]
+    },
+    {
+      "name": "Maldives",
+      "region": "Asia-Pacific",
+      "country_code": "MV",
+      "capital": "Male",
+      "currency_code": "MVR",
+      "languages": [
+        "dv",
+        "en"
+      ],
+      "language_names": [
+        "Divehi",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1282028/",
+      "is_new_country": true,
+      "slug": "maldives",
+      "cities": [
+        {
+          "city": "Male",
+          "loc_slug": "male-maldives"
+        }
+      ]
+    },
+    {
+      "name": "Mali",
+      "region": "Africa",
+      "country_code": "ML",
+      "capital": "Bamako",
+      "currency_code": "XOF",
+      "languages": [
+        "fr-ML",
+        "bm"
+      ],
+      "language_names": [
+        "French (Mali)",
+        "Bambara"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2453866/",
+      "is_new_country": true,
+      "slug": "mali",
+      "cities": [
+        {
+          "city": "Bamako",
+          "loc_slug": "bamako-mali"
+        }
+      ]
+    },
+    {
+      "name": "Malta",
+      "region": "Europe",
+      "country_code": "MT",
+      "capital": "Valletta",
+      "currency_code": "EUR",
+      "languages": [
+        "mt",
+        "en-MT"
+      ],
+      "language_names": [
+        "Maltese",
+        "English (Malta)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2562770/",
+      "is_new_country": true,
+      "slug": "malta",
+      "cities": [
+        {
+          "city": "Valletta",
+          "loc_slug": "valletta-malta"
+        }
+      ]
+    },
+    {
+      "name": "Marshall Islands",
+      "region": "Asia-Pacific",
+      "country_code": "MH",
+      "capital": "Majuro",
+      "currency_code": "USD",
+      "languages": [
+        "mh",
+        "en-MH"
+      ],
+      "language_names": [
+        "Marshallese",
+        "English (Marshall Islands)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2080185/",
+      "is_new_country": true,
+      "slug": "marshall-islands",
+      "cities": [
+        {
+          "city": "Majuro",
+          "loc_slug": "majuro-marshall-islands"
+        }
+      ]
+    },
+    {
+      "name": "Martinique",
+      "region": "Latin America",
+      "country_code": "MQ",
+      "capital": "Fort-de-France",
+      "currency_code": "EUR",
+      "languages": [
+        "fr-MQ"
+      ],
+      "language_names": [
+        "French (Martinique)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3570311/",
+      "is_new_country": true,
+      "slug": "martinique",
+      "cities": [
+        {
+          "city": "Fort-de-France",
+          "loc_slug": "fort-de-france-martinique"
+        }
+      ]
+    },
+    {
+      "name": "Mauritania",
+      "region": "Africa",
+      "country_code": "MR",
+      "capital": "Nouakchott",
+      "currency_code": "MRU",
+      "languages": [
+        "ar-MR",
+        "fuc",
+        "snk",
+        "fr",
+        "mey",
+        "wo"
+      ],
+      "language_names": [
+        "Arabic (Mauritania)",
+        "Fula",
+        "Soninke",
+        "French",
+        "mey",
+        "Wolof"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2378080/",
+      "is_new_country": true,
+      "slug": "mauritania",
+      "cities": [
+        {
+          "city": "Nouakchott",
+          "loc_slug": "nouakchott-mauritania"
+        }
+      ]
+    },
+    {
+      "name": "Mauritius",
+      "region": "Africa",
+      "country_code": "MU",
+      "capital": "Port Louis",
+      "currency_code": "MUR",
+      "languages": [
+        "en-MU",
+        "bho",
+        "fr"
+      ],
+      "language_names": [
+        "English (Mauritius)",
+        "Bhojpuri",
+        "French"
+      ],
+      "geographic_source_url": "https://www.geonames.org/934292/",
+      "is_new_country": true,
+      "slug": "mauritius",
+      "cities": [
+        {
+          "city": "Port Louis",
+          "loc_slug": "port-louis-mauritius"
+        }
+      ]
+    },
+    {
+      "name": "Mayotte",
+      "region": "Africa",
+      "country_code": "YT",
+      "capital": "Mamoudzou",
+      "currency_code": "EUR",
+      "languages": [
+        "fr-YT"
+      ],
+      "language_names": [
+        "French (Mayotte)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1024031/",
+      "is_new_country": true,
+      "slug": "mayotte",
+      "cities": [
+        {
+          "city": "Mamoudzou",
+          "loc_slug": "mamoudzou-mayotte"
+        }
+      ]
+    },
+    {
+      "name": "Micronesia",
+      "region": "Asia-Pacific",
+      "country_code": "FM",
+      "capital": "Palikir",
+      "currency_code": "USD",
+      "languages": [
+        "en-FM",
+        "chk",
+        "pon",
+        "yap",
+        "kos",
+        "uli",
+        "woe",
+        "nkr",
+        "kpg"
+      ],
+      "language_names": [
+        "English (Micronesia)",
+        "Chuukese",
+        "Pohnpeian",
+        "Yapese",
+        "Kosraean",
+        "uli",
+        "woe",
+        "nkr",
+        "kpg"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2081918/",
+      "is_new_country": true,
+      "slug": "micronesia",
+      "cities": [
+        {
+          "city": "Palikir",
+          "loc_slug": "palikir-micronesia"
+        }
+      ]
+    },
+    {
+      "name": "Moldova",
+      "region": "Europe",
+      "country_code": "MD",
+      "capital": "Chisinau",
+      "currency_code": "MDL",
+      "languages": [
+        "ro",
+        "ru",
+        "gag",
+        "tr"
+      ],
+      "language_names": [
+        "Romanian",
+        "Russian",
+        "Gagauz",
+        "Turkish"
+      ],
+      "geographic_source_url": "https://www.geonames.org/617790/",
+      "is_new_country": true,
+      "slug": "moldova",
+      "cities": [
+        {
+          "city": "Chisinau",
+          "loc_slug": "chisinau-moldova"
+        }
+      ]
+    },
+    {
+      "name": "Monaco",
+      "region": "Europe",
+      "country_code": "MC",
+      "capital": "Monaco",
+      "currency_code": "EUR",
+      "languages": [
+        "fr-MC",
+        "en",
+        "it"
+      ],
+      "language_names": [
+        "French (Monaco)",
+        "English",
+        "Italian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2993457/",
+      "is_new_country": true,
+      "slug": "monaco",
+      "cities": [
+        {
+          "city": "Monaco",
+          "loc_slug": "monaco-monaco"
+        }
+      ]
+    },
+    {
+      "name": "Mongolia",
+      "region": "Asia-Pacific",
+      "country_code": "MN",
+      "capital": "Ulaanbaatar",
+      "currency_code": "MNT",
+      "languages": [
+        "mn",
+        "ru"
+      ],
+      "language_names": [
+        "Mongolian",
+        "Russian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2029969/",
+      "is_new_country": true,
+      "slug": "mongolia",
+      "cities": [
+        {
+          "city": "Ulan Bator",
+          "loc_slug": "ulan-bator-mongolia"
+        }
+      ]
+    },
+    {
+      "name": "Montenegro",
+      "region": "Europe",
+      "country_code": "ME",
+      "capital": "Podgorica",
+      "currency_code": "EUR",
+      "languages": [
+        "sr",
+        "hu",
+        "bs",
+        "sq",
+        "hr",
+        "rom"
+      ],
+      "language_names": [
+        "Serbian",
+        "Hungarian",
+        "Bosnian",
+        "Albanian",
+        "Croatian",
+        "Romany"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3194884/",
+      "is_new_country": true,
+      "slug": "montenegro",
+      "cities": [
+        {
+          "city": "Podgorica",
+          "loc_slug": "podgorica-montenegro"
+        }
+      ]
+    },
+    {
+      "name": "Montserrat",
+      "region": "Latin America",
+      "country_code": "MS",
+      "capital": "Plymouth",
+      "currency_code": "XCD",
+      "languages": [
+        "en-MS"
+      ],
+      "language_names": [
+        "English (Montserrat)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3578097/",
+      "is_new_country": true,
+      "slug": "montserrat",
+      "cities": [
+        {
+          "city": "Plymouth",
+          "loc_slug": "plymouth-montserrat"
+        }
+      ]
+    },
+    {
+      "name": "Morocco",
+      "region": "Africa",
+      "country_code": "MA",
+      "capital": "Rabat",
+      "currency_code": "MAD",
+      "languages": [
+        "ar-MA",
+        "ber",
+        "fr"
+      ],
+      "language_names": [
+        "Arabic (Morocco)",
+        "ber",
+        "French"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2542007/",
+      "is_new_country": true,
+      "slug": "morocco",
+      "cities": [
+        {
+          "city": "Rabat",
+          "loc_slug": "rabat-morocco"
+        }
+      ]
+    },
+    {
+      "name": "Mozambique",
+      "region": "Africa",
+      "country_code": "MZ",
+      "capital": "Maputo",
+      "currency_code": "MZN",
+      "languages": [
+        "pt-MZ",
+        "vmw"
+      ],
+      "language_names": [
+        "Portuguese (Mozambique)",
+        "Makhuwa"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1036973/",
+      "is_new_country": true,
+      "slug": "mozambique",
+      "cities": [
+        {
+          "city": "Maputo",
+          "loc_slug": "maputo-mozambique"
+        }
+      ]
+    },
+    {
+      "name": "Myanmar",
+      "region": "Asia-Pacific",
+      "country_code": "MM",
+      "capital": "Nay Pyi Taw",
+      "currency_code": "MMK",
+      "languages": [
+        "my"
+      ],
+      "language_names": [
+        "Burmese"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1327865/",
+      "is_new_country": true,
+      "slug": "myanmar",
+      "cities": [
+        {
+          "city": "Nay Pyi Taw",
+          "loc_slug": "nay-pyi-taw-myanmar"
+        }
+      ]
+    },
+    {
+      "name": "Namibia",
+      "region": "Africa",
+      "country_code": "NA",
+      "capital": "Windhoek",
+      "currency_code": "NAD",
+      "languages": [
+        "en-NA",
+        "af",
+        "de",
+        "hz",
+        "naq"
+      ],
+      "language_names": [
+        "English (Namibia)",
+        "Afrikaans",
+        "German",
+        "Herero",
+        "Nama"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3355338/",
+      "is_new_country": true,
+      "slug": "namibia",
+      "cities": [
+        {
+          "city": "Windhoek",
+          "loc_slug": "windhoek-namibia"
+        }
+      ]
+    },
+    {
+      "name": "Nauru",
+      "region": "Asia-Pacific",
+      "country_code": "NR",
+      "capital": "Yaren",
+      "currency_code": "AUD",
+      "languages": [
+        "na",
+        "en-NR"
+      ],
+      "language_names": [
+        "Nauru",
+        "English (Nauru)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2110425/",
+      "is_new_country": true,
+      "slug": "nauru",
+      "cities": [
+        {
+          "city": "Yaren",
+          "loc_slug": "yaren-nauru"
+        }
+      ]
+    },
+    {
+      "name": "New Caledonia",
+      "region": "Asia-Pacific",
+      "country_code": "NC",
+      "capital": "Noumea",
+      "currency_code": "XPF",
+      "languages": [
+        "fr-NC"
+      ],
+      "language_names": [
+        "French (New Caledonia)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2139685/",
+      "is_new_country": true,
+      "slug": "new-caledonia",
+      "cities": [
+        {
+          "city": "Noumea",
+          "loc_slug": "noumea-new-caledonia"
+        }
+      ]
+    },
+    {
+      "name": "Nicaragua",
+      "region": "Latin America",
+      "country_code": "NI",
+      "capital": "Managua",
+      "currency_code": "NIO",
+      "languages": [
+        "es-NI",
+        "en"
+      ],
+      "language_names": [
+        "Spanish (Nicaragua)",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3617476/",
+      "is_new_country": true,
+      "slug": "nicaragua",
+      "cities": [
+        {
+          "city": "Managua",
+          "loc_slug": "managua-nicaragua"
+        }
+      ]
+    },
+    {
+      "name": "Niger",
+      "region": "Africa",
+      "country_code": "NE",
+      "capital": "Niamey",
+      "currency_code": "XOF",
+      "languages": [
+        "fr-NE",
+        "ha",
+        "kr",
+        "dje"
+      ],
+      "language_names": [
+        "French (Niger)",
+        "Hausa",
+        "Kanuri",
+        "Zarma"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2440476/",
+      "is_new_country": true,
+      "slug": "niger",
+      "cities": [
+        {
+          "city": "Niamey",
+          "loc_slug": "niamey-niger"
+        }
+      ]
+    },
+    {
+      "name": "Niue",
+      "region": "Asia-Pacific",
+      "country_code": "NU",
+      "capital": "Alofi",
+      "currency_code": "NZD",
+      "languages": [
+        "niu",
+        "en-NU"
+      ],
+      "language_names": [
+        "Niuean",
+        "English (Niue)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/4036232/",
+      "is_new_country": true,
+      "slug": "niue",
+      "cities": [
+        {
+          "city": "Alofi",
+          "loc_slug": "alofi-niue"
+        }
+      ]
+    },
+    {
+      "name": "Norfolk Island",
+      "region": "Asia-Pacific",
+      "country_code": "NF",
+      "capital": "Kingston",
+      "currency_code": "AUD",
+      "languages": [
+        "en-NF"
+      ],
+      "language_names": [
+        "English (Norfolk Island)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2155115/",
+      "is_new_country": true,
+      "slug": "norfolk-island",
+      "cities": [
+        {
+          "city": "Kingston",
+          "loc_slug": "kingston-norfolk-island"
+        }
+      ]
+    },
+    {
+      "name": "North Korea",
+      "region": "Asia-Pacific",
+      "country_code": "KP",
+      "capital": "Pyongyang",
+      "currency_code": "KPW",
+      "languages": [
+        "ko-KP"
+      ],
+      "language_names": [
+        "Korean (North Korea)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1873107/",
+      "is_new_country": true,
+      "slug": "north-korea",
+      "cities": [
+        {
+          "city": "Pyongyang",
+          "loc_slug": "pyongyang-north-korea"
+        }
+      ]
+    },
+    {
+      "name": "North Macedonia",
+      "region": "Europe",
+      "country_code": "MK",
+      "capital": "Skopje",
+      "currency_code": "MKD",
+      "languages": [
+        "mk",
+        "sq",
+        "tr",
+        "rmm",
+        "sr"
+      ],
+      "language_names": [
+        "Macedonian",
+        "Albanian",
+        "Turkish",
+        "rmm",
+        "Serbian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/718075/",
+      "is_new_country": true,
+      "slug": "north-macedonia",
+      "cities": [
+        {
+          "city": "Skopje",
+          "loc_slug": "skopje-north-macedonia"
+        }
+      ]
+    },
+    {
+      "name": "Northern Mariana Islands",
+      "region": "Asia-Pacific",
+      "country_code": "MP",
+      "capital": "Saipan",
+      "currency_code": "USD",
+      "languages": [
+        "fil",
+        "tl",
+        "zh",
+        "ch-MP",
+        "en-MP"
+      ],
+      "language_names": [
+        "Filipino",
+        "Chinese",
+        "Chamorro (Northern Mariana Islands)",
+        "English (Northern Mariana Islands)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/4041468/",
+      "is_new_country": true,
+      "slug": "northern-mariana-islands",
+      "cities": [
+        {
+          "city": "Saipan",
+          "loc_slug": "saipan-northern-mariana-islands"
+        }
+      ]
+    },
+    {
+      "name": "Palau",
+      "region": "Asia-Pacific",
+      "country_code": "PW",
+      "capital": "Melekeok",
+      "currency_code": "USD",
+      "languages": [
+        "pau",
+        "sov",
+        "en-PW",
+        "tox",
+        "ja",
+        "fil",
+        "zh"
+      ],
+      "language_names": [
+        "Palauan",
+        "sov",
+        "English (Palau)",
+        "tox",
+        "Japanese",
+        "Filipino",
+        "Chinese"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1559582/",
+      "is_new_country": true,
+      "slug": "palau",
+      "cities": [
+        {
+          "city": "Ngerulmud",
+          "loc_slug": "ngerulmud-palau"
+        }
+      ]
+    },
+    {
+      "name": "Palestinian Territory",
+      "region": "Middle East",
+      "country_code": "PS",
+      "capital": "East Jerusalem",
+      "currency_code": "ILS",
+      "languages": [
+        "ar-PS"
+      ],
+      "language_names": [
+        "Arabic (Palestinian Territories)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/6254930/",
+      "is_new_country": true,
+      "slug": "palestinian-territory",
+      "cities": [
+        {
+          "city": "East Jerusalem",
+          "loc_slug": "east-jerusalem-palestinian-territory"
+        }
+      ]
+    },
+    {
+      "name": "Panama",
+      "region": "Latin America",
+      "country_code": "PA",
+      "capital": "Panama City",
+      "currency_code": "PAB",
+      "languages": [
+        "es-PA",
+        "en"
+      ],
+      "language_names": [
+        "Spanish (Panama)",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3703430/",
+      "is_new_country": true,
+      "slug": "panama",
+      "cities": [
+        {
+          "city": "Panama City",
+          "loc_slug": "panama-city-panama"
+        }
+      ]
+    },
+    {
+      "name": "Papua New Guinea",
+      "region": "Asia-Pacific",
+      "country_code": "PG",
+      "capital": "Port Moresby",
+      "currency_code": "PGK",
+      "languages": [
+        "en-PG",
+        "ho",
+        "meu",
+        "tpi"
+      ],
+      "language_names": [
+        "English (Papua New Guinea)",
+        "Hiri Motu",
+        "meu",
+        "Tok Pisin"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2088628/",
+      "is_new_country": true,
+      "slug": "papua-new-guinea",
+      "cities": [
+        {
+          "city": "Port Moresby",
+          "loc_slug": "port-moresby-papua-new-guinea"
+        }
+      ]
+    },
+    {
+      "name": "Paraguay",
+      "region": "Latin America",
+      "country_code": "PY",
+      "capital": "Asuncion",
+      "currency_code": "PYG",
+      "languages": [
+        "es-PY",
+        "gn"
+      ],
+      "language_names": [
+        "Spanish (Paraguay)",
+        "Guarani"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3437598/",
+      "is_new_country": true,
+      "slug": "paraguay",
+      "cities": [
+        {
+          "city": "Asuncion",
+          "loc_slug": "asuncion-paraguay"
+        }
+      ]
+    },
+    {
+      "name": "Peru",
+      "region": "Latin America",
+      "country_code": "PE",
+      "capital": "Lima",
+      "currency_code": "PEN",
+      "languages": [
+        "es-PE",
+        "qu",
+        "ay"
+      ],
+      "language_names": [
+        "Spanish (Peru)",
+        "Quechua",
+        "Aymara"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3932488/",
+      "is_new_country": true,
+      "slug": "peru",
+      "cities": [
+        {
+          "city": "Lima",
+          "loc_slug": "lima-peru"
+        }
+      ]
+    },
+    {
+      "name": "Pitcairn",
+      "region": "Asia-Pacific",
+      "country_code": "PN",
+      "capital": "Adamstown",
+      "currency_code": "NZD",
+      "languages": [
+        "en-PN"
+      ],
+      "language_names": [
+        "English (Pitcairn Islands)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/4030699/",
+      "is_new_country": true,
+      "slug": "pitcairn",
+      "cities": [
+        {
+          "city": "Adamstown",
+          "loc_slug": "adamstown-pitcairn"
+        }
+      ]
+    },
+    {
+      "name": "Puerto Rico",
+      "region": "Latin America",
+      "country_code": "PR",
+      "capital": "San Juan",
+      "currency_code": "USD",
+      "languages": [
+        "en-PR",
+        "es-PR"
+      ],
+      "language_names": [
+        "English (Puerto Rico)",
+        "Spanish (Puerto Rico)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/4566966/",
+      "is_new_country": true,
+      "slug": "puerto-rico",
+      "cities": [
+        {
+          "city": "San Juan",
+          "loc_slug": "san-juan-puerto-rico"
+        }
+      ]
+    },
+    {
+      "name": "Republic of the Congo",
+      "region": "Africa",
+      "country_code": "CG",
+      "capital": "Brazzaville",
+      "currency_code": "XAF",
+      "languages": [
+        "fr-CG",
+        "kg",
+        "ln-CG"
+      ],
+      "language_names": [
+        "French (Congo - Brazzaville)",
+        "Kongo",
+        "Lingala (Congo - Brazzaville)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2260494/",
+      "is_new_country": true,
+      "slug": "republic-of-the-congo",
+      "cities": [
+        {
+          "city": "Brazzaville",
+          "loc_slug": "brazzaville-republic-of-the-congo"
+        }
+      ]
+    },
+    {
+      "name": "Reunion",
+      "region": "Africa",
+      "country_code": "RE",
+      "capital": "Saint-Denis",
+      "currency_code": "EUR",
+      "languages": [
+        "fr-RE"
+      ],
+      "language_names": [
+        "French (Réunion)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/935317/",
+      "is_new_country": true,
+      "slug": "reunion",
+      "cities": [
+        {
+          "city": "Saint-Denis",
+          "loc_slug": "saint-denis-reunion"
+        }
+      ]
+    },
+    {
+      "name": "Romania",
+      "region": "Europe",
+      "country_code": "RO",
+      "capital": "Bucharest",
+      "currency_code": "RON",
+      "languages": [
+        "ro",
+        "hu",
+        "rom"
+      ],
+      "language_names": [
+        "Romanian",
+        "Hungarian",
+        "Romany"
+      ],
+      "geographic_source_url": "https://www.geonames.org/798549/",
+      "is_new_country": true,
+      "slug": "romania",
+      "cities": [
+        {
+          "city": "Bucharest",
+          "loc_slug": "bucharest-romania"
+        }
+      ]
+    },
+    {
+      "name": "Russia",
+      "region": "Europe",
+      "country_code": "RU",
+      "capital": "Moscow",
+      "currency_code": "RUB",
+      "languages": [
+        "ru",
+        "tt",
+        "xal",
+        "cau",
+        "ady",
+        "kv",
+        "ce",
+        "tyv",
+        "cv",
+        "udm",
+        "tut",
+        "mns",
+        "bua",
+        "myv",
+        "mdf",
+        "chm",
+        "ba",
+        "inh",
+        "kbd",
+        "krc",
+        "av",
+        "sah",
+        "nog"
+      ],
+      "language_names": [
+        "Russian",
+        "Tatar",
+        "Kalmyk",
+        "cau",
+        "Adyghe",
+        "Komi",
+        "Chechen",
+        "Tuvinian",
+        "Chuvash",
+        "Udmurt",
+        "tut",
+        "mns",
+        "Buriat",
+        "Erzya",
+        "Moksha",
+        "Mari",
+        "Bashkir",
+        "Ingush",
+        "Kabardian",
+        "Karachay-Balkar",
+        "Avaric",
+        "Yakut",
+        "Nogai"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2017370/",
+      "is_new_country": true,
+      "slug": "russia",
+      "cities": [
+        {
+          "city": "Moscow",
+          "loc_slug": "moscow-russia"
+        }
+      ]
+    },
+    {
+      "name": "Rwanda",
+      "region": "Africa",
+      "country_code": "RW",
+      "capital": "Kigali",
+      "currency_code": "RWF",
+      "languages": [
+        "rw",
+        "en-RW",
+        "fr-RW",
+        "sw"
+      ],
+      "language_names": [
+        "Kinyarwanda",
+        "English (Rwanda)",
+        "French (Rwanda)",
+        "Swahili"
+      ],
+      "geographic_source_url": "https://www.geonames.org/49518/",
+      "is_new_country": true,
+      "slug": "rwanda",
+      "cities": [
+        {
+          "city": "Kigali",
+          "loc_slug": "kigali-rwanda"
+        }
+      ]
+    },
+    {
+      "name": "Saint Barthelemy",
+      "region": "Latin America",
+      "country_code": "BL",
+      "capital": "Gustavia",
+      "currency_code": "EUR",
+      "languages": [
+        "fr"
+      ],
+      "language_names": [
+        "French"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3578476/",
+      "is_new_country": true,
+      "slug": "saint-barthelemy",
+      "cities": [
+        {
+          "city": "Gustavia",
+          "loc_slug": "gustavia-saint-barthelemy"
+        }
+      ]
+    },
+    {
+      "name": "Saint Helena",
+      "region": "Africa",
+      "country_code": "SH",
+      "capital": "Jamestown",
+      "currency_code": "SHP",
+      "languages": [
+        "en-SH"
+      ],
+      "language_names": [
+        "English (St. Helena)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3370751/",
+      "is_new_country": true,
+      "slug": "saint-helena",
+      "cities": [
+        {
+          "city": "Jamestown",
+          "loc_slug": "jamestown-saint-helena"
+        }
+      ]
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "region": "Latin America",
+      "country_code": "KN",
+      "capital": "Basseterre",
+      "currency_code": "XCD",
+      "languages": [
+        "en-KN"
+      ],
+      "language_names": [
+        "English (St. Kitts & Nevis)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3575174/",
+      "is_new_country": true,
+      "slug": "saint-kitts-and-nevis",
+      "cities": [
+        {
+          "city": "Basseterre",
+          "loc_slug": "basseterre-saint-kitts-and-nevis"
+        }
+      ]
+    },
+    {
+      "name": "Saint Lucia",
+      "region": "Latin America",
+      "country_code": "LC",
+      "capital": "Castries",
+      "currency_code": "XCD",
+      "languages": [
+        "en-LC"
+      ],
+      "language_names": [
+        "English (St. Lucia)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3576468/",
+      "is_new_country": true,
+      "slug": "saint-lucia",
+      "cities": [
+        {
+          "city": "Castries",
+          "loc_slug": "castries-saint-lucia"
+        }
+      ]
+    },
+    {
+      "name": "Saint Martin",
+      "region": "Latin America",
+      "country_code": "MF",
+      "capital": "Marigot",
+      "currency_code": "EUR",
+      "languages": [
+        "fr"
+      ],
+      "language_names": [
+        "French"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3578421/",
+      "is_new_country": true,
+      "slug": "saint-martin",
+      "cities": [
+        {
+          "city": "Marigot",
+          "loc_slug": "marigot-saint-martin"
+        }
+      ]
+    },
+    {
+      "name": "Saint Pierre and Miquelon",
+      "region": "North America",
+      "country_code": "PM",
+      "capital": "Saint-Pierre",
+      "currency_code": "EUR",
+      "languages": [
+        "fr-PM"
+      ],
+      "language_names": [
+        "French (St. Pierre & Miquelon)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3424932/",
+      "is_new_country": true,
+      "slug": "saint-pierre-and-miquelon",
+      "cities": [
+        {
+          "city": "Saint-Pierre",
+          "loc_slug": "saint-pierre-saint-pierre-and-miquelon"
+        }
+      ]
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "region": "Latin America",
+      "country_code": "VC",
+      "capital": "Kingstown",
+      "currency_code": "XCD",
+      "languages": [
+        "en-VC",
+        "fr"
+      ],
+      "language_names": [
+        "English (St. Vincent & Grenadines)",
+        "French"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3577815/",
+      "is_new_country": true,
+      "slug": "saint-vincent-and-the-grenadines",
+      "cities": [
+        {
+          "city": "Kingstown",
+          "loc_slug": "kingstown-saint-vincent-and-the-grenadines"
+        }
+      ]
+    },
+    {
+      "name": "Samoa",
+      "region": "Asia-Pacific",
+      "country_code": "WS",
+      "capital": "Apia",
+      "currency_code": "WST",
+      "languages": [
+        "sm",
+        "en-WS"
+      ],
+      "language_names": [
+        "Samoan",
+        "English (Samoa)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/4034894/",
+      "is_new_country": true,
+      "slug": "samoa",
+      "cities": [
+        {
+          "city": "Apia",
+          "loc_slug": "apia-samoa"
+        }
+      ]
+    },
+    {
+      "name": "San Marino",
+      "region": "Europe",
+      "country_code": "SM",
+      "capital": "San Marino",
+      "currency_code": "EUR",
+      "languages": [
+        "it-SM"
+      ],
+      "language_names": [
+        "Italian (San Marino)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3168068/",
+      "is_new_country": true,
+      "slug": "san-marino",
+      "cities": [
+        {
+          "city": "San Marino",
+          "loc_slug": "san-marino-san-marino"
+        }
+      ]
+    },
+    {
+      "name": "Sao Tome and Principe",
+      "region": "Africa",
+      "country_code": "ST",
+      "capital": "Sao Tome",
+      "currency_code": "STN",
+      "languages": [
+        "pt-ST"
+      ],
+      "language_names": [
+        "Portuguese (São Tomé & Príncipe)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2410758/",
+      "is_new_country": true,
+      "slug": "sao-tome-and-principe",
+      "cities": [
+        {
+          "city": "Sao Tome",
+          "loc_slug": "sao-tome-sao-tome-and-principe"
+        }
+      ]
+    },
+    {
+      "name": "Senegal",
+      "region": "Africa",
+      "country_code": "SN",
+      "capital": "Dakar",
+      "currency_code": "XOF",
+      "languages": [
+        "fr-SN",
+        "wo",
+        "fuc",
+        "mnk"
+      ],
+      "language_names": [
+        "French (Senegal)",
+        "Wolof",
+        "Fula",
+        "mnk"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2245662/",
+      "is_new_country": true,
+      "slug": "senegal",
+      "cities": [
+        {
+          "city": "Dakar",
+          "loc_slug": "dakar-senegal"
+        }
+      ]
+    },
+    {
+      "name": "Serbia",
+      "region": "Europe",
+      "country_code": "RS",
+      "capital": "Belgrade",
+      "currency_code": "RSD",
+      "languages": [
+        "sr",
+        "hu",
+        "bs",
+        "rom"
+      ],
+      "language_names": [
+        "Serbian",
+        "Hungarian",
+        "Bosnian",
+        "Romany"
+      ],
+      "geographic_source_url": "https://www.geonames.org/6290252/",
+      "is_new_country": true,
+      "slug": "serbia",
+      "cities": [
+        {
+          "city": "Belgrade",
+          "loc_slug": "belgrade-serbia"
+        }
+      ]
+    },
+    {
+      "name": "Seychelles",
+      "region": "Africa",
+      "country_code": "SC",
+      "capital": "Victoria",
+      "currency_code": "SCR",
+      "languages": [
+        "en-SC",
+        "fr-SC"
+      ],
+      "language_names": [
+        "English (Seychelles)",
+        "French (Seychelles)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/241170/",
+      "is_new_country": true,
+      "slug": "seychelles",
+      "cities": [
+        {
+          "city": "Victoria",
+          "loc_slug": "victoria-seychelles"
+        }
+      ]
+    },
+    {
+      "name": "Sierra Leone",
+      "region": "Africa",
+      "country_code": "SL",
+      "capital": "Freetown",
+      "currency_code": "SLE",
+      "languages": [
+        "en-SL",
+        "men",
+        "tem"
+      ],
+      "language_names": [
+        "English (Sierra Leone)",
+        "Mende",
+        "Timne"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2403846/",
+      "is_new_country": true,
+      "slug": "sierra-leone",
+      "cities": [
+        {
+          "city": "Freetown",
+          "loc_slug": "freetown-sierra-leone"
+        }
+      ]
+    },
+    {
+      "name": "Sint Maarten",
+      "region": "Latin America",
+      "country_code": "SX",
+      "capital": "Philipsburg",
+      "currency_code": "XCG",
+      "languages": [
+        "nl",
+        "en"
+      ],
+      "language_names": [
+        "Dutch",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/7609695/",
+      "is_new_country": true,
+      "slug": "sint-maarten",
+      "cities": [
+        {
+          "city": "Philipsburg",
+          "loc_slug": "philipsburg-sint-maarten"
+        }
+      ]
+    },
+    {
+      "name": "Slovakia",
+      "region": "Europe",
+      "country_code": "SK",
+      "capital": "Bratislava",
+      "currency_code": "EUR",
+      "languages": [
+        "sk",
+        "hu"
+      ],
+      "language_names": [
+        "Slovak",
+        "Hungarian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3057568/",
+      "is_new_country": true,
+      "slug": "slovakia",
+      "cities": [
+        {
+          "city": "Bratislava",
+          "loc_slug": "bratislava-slovakia"
+        }
+      ]
+    },
+    {
+      "name": "Slovenia",
+      "region": "Europe",
+      "country_code": "SI",
+      "capital": "Ljubljana",
+      "currency_code": "EUR",
+      "languages": [
+        "sl",
+        "sh"
+      ],
+      "language_names": [
+        "Slovenian",
+        "Serbian (Latin)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3190538/",
+      "is_new_country": true,
+      "slug": "slovenia",
+      "cities": [
+        {
+          "city": "Ljubljana",
+          "loc_slug": "ljubljana-slovenia"
+        }
+      ]
+    },
+    {
+      "name": "Solomon Islands",
+      "region": "Asia-Pacific",
+      "country_code": "SB",
+      "capital": "Honiara",
+      "currency_code": "SBD",
+      "languages": [
+        "en-SB",
+        "tpi"
+      ],
+      "language_names": [
+        "English (Solomon Islands)",
+        "Tok Pisin"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2103350/",
+      "is_new_country": true,
+      "slug": "solomon-islands",
+      "cities": [
+        {
+          "city": "Honiara",
+          "loc_slug": "honiara-solomon-islands"
+        }
+      ]
+    },
+    {
+      "name": "Somalia",
+      "region": "Africa",
+      "country_code": "SO",
+      "capital": "Mogadishu",
+      "currency_code": "SOS",
+      "languages": [
+        "so-SO",
+        "ar-SO",
+        "it",
+        "en-SO"
+      ],
+      "language_names": [
+        "Somali (Somalia)",
+        "Arabic (Somalia)",
+        "Italian",
+        "English (Somalia)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/51537/",
+      "is_new_country": true,
+      "slug": "somalia",
+      "cities": [
+        {
+          "city": "Mogadishu",
+          "loc_slug": "mogadishu-somalia"
+        }
+      ]
+    },
+    {
+      "name": "South Georgia and the South Sandwich Islands",
+      "region": "Antarctica",
+      "country_code": "GS",
+      "capital": "Grytviken",
+      "currency_code": "GBP",
+      "languages": [
+        "en"
+      ],
+      "language_names": [
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3474415/",
+      "is_new_country": true,
+      "slug": "south-georgia-and-the-south-sandwich-islands",
+      "cities": [
+        {
+          "city": "Grytviken",
+          "loc_slug": "grytviken-south-georgia-and-the-south-sandwich-islands"
+        }
+      ]
+    },
+    {
+      "name": "South Sudan",
+      "region": "Africa",
+      "country_code": "SS",
+      "capital": "Juba",
+      "currency_code": "SSP",
+      "languages": [
+        "en"
+      ],
+      "language_names": [
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/7909807/",
+      "is_new_country": true,
+      "slug": "south-sudan",
+      "cities": [
+        {
+          "city": "Juba",
+          "loc_slug": "juba-south-sudan"
+        }
+      ]
+    },
+    {
+      "name": "Sudan",
+      "region": "Africa",
+      "country_code": "SD",
+      "capital": "Khartoum",
+      "currency_code": "SDG",
+      "languages": [
+        "ar-SD",
+        "en",
+        "fia"
+      ],
+      "language_names": [
+        "Arabic (Sudan)",
+        "English",
+        "fia"
+      ],
+      "geographic_source_url": "https://www.geonames.org/366755/",
+      "is_new_country": true,
+      "slug": "sudan",
+      "cities": [
+        {
+          "city": "Khartoum",
+          "loc_slug": "khartoum-sudan"
+        }
+      ]
+    },
+    {
+      "name": "Suriname",
+      "region": "Latin America",
+      "country_code": "SR",
+      "capital": "Paramaribo",
+      "currency_code": "SRD",
+      "languages": [
+        "nl-SR",
+        "en",
+        "srn",
+        "hns",
+        "jv"
+      ],
+      "language_names": [
+        "Dutch (Suriname)",
+        "English",
+        "Sranan Tongo",
+        "hns",
+        "Javanese"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3382998/",
+      "is_new_country": true,
+      "slug": "suriname",
+      "cities": [
+        {
+          "city": "Paramaribo",
+          "loc_slug": "paramaribo-suriname"
+        }
+      ]
+    },
+    {
+      "name": "Svalbard and Jan Mayen",
+      "region": "Europe",
+      "country_code": "SJ",
+      "capital": "Longyearbyen",
+      "currency_code": "NOK",
+      "languages": [
+        "no",
+        "ru"
+      ],
+      "language_names": [
+        "Norwegian",
+        "Russian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/607072/",
+      "is_new_country": true,
+      "slug": "svalbard-and-jan-mayen",
+      "cities": [
+        {
+          "city": "Longyearbyen",
+          "loc_slug": "longyearbyen-svalbard-and-jan-mayen"
+        }
+      ]
+    },
+    {
+      "name": "Syria",
+      "region": "Middle East",
+      "country_code": "SY",
+      "capital": "Damascus",
+      "currency_code": "SYP",
+      "languages": [
+        "ar-SY",
+        "ku",
+        "hy",
+        "arc",
+        "fr",
+        "en"
+      ],
+      "language_names": [
+        "Arabic (Syria)",
+        "Kurdish",
+        "Armenian",
+        "Aramaic",
+        "French",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/163843/",
+      "is_new_country": true,
+      "slug": "syria",
+      "cities": [
+        {
+          "city": "Damascus",
+          "loc_slug": "damascus-syria"
+        }
+      ]
+    },
+    {
+      "name": "Taiwan",
+      "region": "Asia-Pacific",
+      "country_code": "TW",
+      "capital": "Taipei",
+      "currency_code": "TWD",
+      "languages": [
+        "zh-TW",
+        "zh",
+        "nan",
+        "hak"
+      ],
+      "language_names": [
+        "Chinese (Taiwan)",
+        "Chinese",
+        "Min Nan Chinese",
+        "Hakka Chinese"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1668284/",
+      "is_new_country": true,
+      "slug": "taiwan",
+      "cities": [
+        {
+          "city": "Taipei",
+          "loc_slug": "taipei-taiwan"
+        }
+      ]
+    },
+    {
+      "name": "Tajikistan",
+      "region": "Asia-Pacific",
+      "country_code": "TJ",
+      "capital": "Dushanbe",
+      "currency_code": "TJS",
+      "languages": [
+        "tg",
+        "ru"
+      ],
+      "language_names": [
+        "Tajik",
+        "Russian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1220409/",
+      "is_new_country": true,
+      "slug": "tajikistan",
+      "cities": [
+        {
+          "city": "Dushanbe",
+          "loc_slug": "dushanbe-tajikistan"
+        }
+      ]
+    },
+    {
+      "name": "Tanzania",
+      "region": "Africa",
+      "country_code": "TZ",
+      "capital": "Dodoma",
+      "currency_code": "TZS",
+      "languages": [
+        "sw-TZ",
+        "en",
+        "ar"
+      ],
+      "language_names": [
+        "Swahili (Tanzania)",
+        "English",
+        "Arabic"
+      ],
+      "geographic_source_url": "https://www.geonames.org/149590/",
+      "is_new_country": true,
+      "slug": "tanzania",
+      "cities": [
+        {
+          "city": "Dodoma",
+          "loc_slug": "dodoma-tanzania"
+        }
+      ]
+    },
+    {
+      "name": "Timor Leste",
+      "region": "Asia-Pacific",
+      "country_code": "TL",
+      "capital": "Dili",
+      "currency_code": "USD",
+      "languages": [
+        "tet",
+        "pt-TL",
+        "id",
+        "en"
+      ],
+      "language_names": [
+        "Tetum",
+        "Portuguese (Timor-Leste)",
+        "Indonesian",
+        "English"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1966436/",
+      "is_new_country": true,
+      "slug": "timor-leste",
+      "cities": [
+        {
+          "city": "Dili",
+          "loc_slug": "dili-timor-leste"
+        }
+      ]
+    },
+    {
+      "name": "Togo",
+      "region": "Africa",
+      "country_code": "TG",
+      "capital": "Lome",
+      "currency_code": "XOF",
+      "languages": [
+        "fr-TG",
+        "ee",
+        "hna",
+        "kbp",
+        "dag",
+        "ha"
+      ],
+      "language_names": [
+        "French (Togo)",
+        "Ewe",
+        "hna",
+        "kbp",
+        "dag",
+        "Hausa"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2363686/",
+      "is_new_country": true,
+      "slug": "togo",
+      "cities": [
+        {
+          "city": "Lome",
+          "loc_slug": "lome-togo"
+        }
+      ]
+    },
+    {
+      "name": "Tokelau",
+      "region": "Asia-Pacific",
+      "country_code": "TK",
+      "capital": "",
+      "currency_code": "NZD",
+      "languages": [
+        "tkl",
+        "en-TK"
+      ],
+      "language_names": [
+        "Tokelauan",
+        "English (Tokelau)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/4031074/",
+      "is_new_country": true,
+      "slug": "tokelau",
+      "cities": []
+    },
+    {
+      "name": "Tonga",
+      "region": "Asia-Pacific",
+      "country_code": "TO",
+      "capital": "Nuku'alofa",
+      "currency_code": "TOP",
+      "languages": [
+        "to",
+        "en-TO"
+      ],
+      "language_names": [
+        "Tongan",
+        "English (Tonga)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/4032283/",
+      "is_new_country": true,
+      "slug": "tonga",
+      "cities": [
+        {
+          "city": "Nuku'alofa",
+          "loc_slug": "nukualofa-tonga"
+        }
+      ]
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "region": "Latin America",
+      "country_code": "TT",
+      "capital": "Port of Spain",
+      "currency_code": "TTD",
+      "languages": [
+        "en-TT",
+        "hns",
+        "fr",
+        "es",
+        "zh"
+      ],
+      "language_names": [
+        "English (Trinidad & Tobago)",
+        "hns",
+        "French",
+        "Spanish",
+        "Chinese"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3573591/",
+      "is_new_country": true,
+      "slug": "trinidad-and-tobago",
+      "cities": [
+        {
+          "city": "Port of Spain",
+          "loc_slug": "port-of-spain-trinidad-and-tobago"
+        }
+      ]
+    },
+    {
+      "name": "Tunisia",
+      "region": "Africa",
+      "country_code": "TN",
+      "capital": "Tunis",
+      "currency_code": "TND",
+      "languages": [
+        "ar-TN",
+        "fr"
+      ],
+      "language_names": [
+        "Arabic (Tunisia)",
+        "French"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2464461/",
+      "is_new_country": true,
+      "slug": "tunisia",
+      "cities": [
+        {
+          "city": "Tunis",
+          "loc_slug": "tunis-tunisia"
+        }
+      ]
+    },
+    {
+      "name": "Turkmenistan",
+      "region": "Asia-Pacific",
+      "country_code": "TM",
+      "capital": "Ashgabat",
+      "currency_code": "TMT",
+      "languages": [
+        "tk",
+        "ru",
+        "uz"
+      ],
+      "language_names": [
+        "Turkmen",
+        "Russian",
+        "Uzbek"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1218197/",
+      "is_new_country": true,
+      "slug": "turkmenistan",
+      "cities": [
+        {
+          "city": "Ashgabat",
+          "loc_slug": "ashgabat-turkmenistan"
+        }
+      ]
+    },
+    {
+      "name": "Turks and Caicos Islands",
+      "region": "Latin America",
+      "country_code": "TC",
+      "capital": "Cockburn Town",
+      "currency_code": "USD",
+      "languages": [
+        "en-TC"
+      ],
+      "language_names": [
+        "English (Turks & Caicos Islands)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3576916/",
+      "is_new_country": true,
+      "slug": "turks-and-caicos-islands",
+      "cities": [
+        {
+          "city": "Cockburn Town",
+          "loc_slug": "cockburn-town-turks-and-caicos-islands"
+        }
+      ]
+    },
+    {
+      "name": "Tuvalu",
+      "region": "Asia-Pacific",
+      "country_code": "TV",
+      "capital": "Funafuti",
+      "currency_code": "AUD",
+      "languages": [
+        "tvl",
+        "en",
+        "sm",
+        "gil"
+      ],
+      "language_names": [
+        "Tuvalu",
+        "English",
+        "Samoan",
+        "Gilbertese"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2110297/",
+      "is_new_country": true,
+      "slug": "tuvalu",
+      "cities": [
+        {
+          "city": "Funafuti",
+          "loc_slug": "funafuti-tuvalu"
+        }
+      ]
+    },
+    {
+      "name": "U.S. Virgin Islands",
+      "region": "Latin America",
+      "country_code": "VI",
+      "capital": "Charlotte Amalie",
+      "currency_code": "USD",
+      "languages": [
+        "en-VI"
+      ],
+      "language_names": [
+        "English (U.S. Virgin Islands)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/4796775/",
+      "is_new_country": true,
+      "slug": "u-s-virgin-islands",
+      "cities": [
+        {
+          "city": "Charlotte Amalie",
+          "loc_slug": "charlotte-amalie-u-s-virgin-islands"
+        }
+      ]
+    },
+    {
+      "name": "Uganda",
+      "region": "Africa",
+      "country_code": "UG",
+      "capital": "Kampala",
+      "currency_code": "UGX",
+      "languages": [
+        "en-UG",
+        "lg",
+        "sw",
+        "ar"
+      ],
+      "language_names": [
+        "English (Uganda)",
+        "Ganda",
+        "Swahili",
+        "Arabic"
+      ],
+      "geographic_source_url": "https://www.geonames.org/226074/",
+      "is_new_country": true,
+      "slug": "uganda",
+      "cities": [
+        {
+          "city": "Kampala",
+          "loc_slug": "kampala-uganda"
+        }
+      ]
+    },
+    {
+      "name": "Ukraine",
+      "region": "Europe",
+      "country_code": "UA",
+      "capital": "Kyiv",
+      "currency_code": "UAH",
+      "languages": [
+        "uk",
+        "ru-UA",
+        "rom",
+        "pl",
+        "hu"
+      ],
+      "language_names": [
+        "Ukrainian",
+        "Russian (Ukraine)",
+        "Romany",
+        "Polish",
+        "Hungarian"
+      ],
+      "geographic_source_url": "https://www.geonames.org/690791/",
+      "is_new_country": true,
+      "slug": "ukraine",
+      "cities": [
+        {
+          "city": "Kyiv",
+          "loc_slug": "kyiv-ukraine"
+        }
+      ]
+    },
+    {
+      "name": "Uruguay",
+      "region": "Latin America",
+      "country_code": "UY",
+      "capital": "Montevideo",
+      "currency_code": "UYU",
+      "languages": [
+        "es-UY"
+      ],
+      "language_names": [
+        "Spanish (Uruguay)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3439705/",
+      "is_new_country": true,
+      "slug": "uruguay",
+      "cities": [
+        {
+          "city": "Montevideo",
+          "loc_slug": "montevideo-uruguay"
+        }
+      ]
+    },
+    {
+      "name": "Uzbekistan",
+      "region": "Asia-Pacific",
+      "country_code": "UZ",
+      "capital": "Tashkent",
+      "currency_code": "UZS",
+      "languages": [
+        "uz",
+        "ru",
+        "tg"
+      ],
+      "language_names": [
+        "Uzbek",
+        "Russian",
+        "Tajik"
+      ],
+      "geographic_source_url": "https://www.geonames.org/1512440/",
+      "is_new_country": true,
+      "slug": "uzbekistan",
+      "cities": [
+        {
+          "city": "Tashkent",
+          "loc_slug": "tashkent-uzbekistan"
+        }
+      ]
+    },
+    {
+      "name": "Vanuatu",
+      "region": "Asia-Pacific",
+      "country_code": "VU",
+      "capital": "Port Vila",
+      "currency_code": "VUV",
+      "languages": [
+        "bi",
+        "en-VU",
+        "fr-VU"
+      ],
+      "language_names": [
+        "Bislama",
+        "English (Vanuatu)",
+        "French (Vanuatu)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2134431/",
+      "is_new_country": true,
+      "slug": "vanuatu",
+      "cities": [
+        {
+          "city": "Port-Vila",
+          "loc_slug": "port-vila-vanuatu"
+        }
+      ]
+    },
+    {
+      "name": "Vatican",
+      "region": "Europe",
+      "country_code": "VA",
+      "capital": "Vatican City",
+      "currency_code": "EUR",
+      "languages": [
+        "la",
+        "it",
+        "fr"
+      ],
+      "language_names": [
+        "Latin",
+        "Italian",
+        "French"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3164670/",
+      "is_new_country": true,
+      "slug": "vatican",
+      "cities": [
+        {
+          "city": "Vatican City",
+          "loc_slug": "vatican-city-vatican"
+        }
+      ]
+    },
+    {
+      "name": "Venezuela",
+      "region": "Latin America",
+      "country_code": "VE",
+      "capital": "Caracas",
+      "currency_code": "VES",
+      "languages": [
+        "es-VE"
+      ],
+      "language_names": [
+        "Spanish (Venezuela)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/3625428/",
+      "is_new_country": true,
+      "slug": "venezuela",
+      "cities": [
+        {
+          "city": "Caracas",
+          "loc_slug": "caracas-venezuela"
+        }
+      ]
+    },
+    {
+      "name": "Wallis and Futuna",
+      "region": "Asia-Pacific",
+      "country_code": "WF",
+      "capital": "Mata Utu",
+      "currency_code": "XPF",
+      "languages": [
+        "wls",
+        "fud",
+        "fr-WF"
+      ],
+      "language_names": [
+        "wls",
+        "fud",
+        "French (Wallis & Futuna)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/4034749/",
+      "is_new_country": true,
+      "slug": "wallis-and-futuna",
+      "cities": [
+        {
+          "city": "Mata-Utu",
+          "loc_slug": "mata-utu-wallis-and-futuna"
+        }
+      ]
+    },
+    {
+      "name": "Western Sahara",
+      "region": "Africa",
+      "country_code": "EH",
+      "capital": "El-Aaiun",
+      "currency_code": "MAD",
+      "languages": [
+        "ar",
+        "mey"
+      ],
+      "language_names": [
+        "Arabic",
+        "mey"
+      ],
+      "geographic_source_url": "https://www.geonames.org/2461445/",
+      "is_new_country": true,
+      "slug": "western-sahara",
+      "cities": [
+        {
+          "city": "Laayoune",
+          "loc_slug": "laayoune-western-sahara"
+        }
+      ]
+    },
+    {
+      "name": "Yemen",
+      "region": "Middle East",
+      "country_code": "YE",
+      "capital": "Sanaa",
+      "currency_code": "YER",
+      "languages": [
+        "ar-YE"
+      ],
+      "language_names": [
+        "Arabic (Yemen)"
+      ],
+      "geographic_source_url": "https://www.geonames.org/69543/",
+      "is_new_country": true,
+      "slug": "yemen",
+      "cities": [
+        {
+          "city": "Sanaa",
+          "loc_slug": "sanaa-yemen"
+        }
+      ]
+    },
+    {
+      "name": "Zambia",
+      "region": "Africa",
+      "country_code": "ZM",
+      "capital": "Lusaka",
+      "currency_code": "ZMW",
+      "languages": [
+        "en-ZM",
+        "bem",
+        "loz",
+        "lun",
+        "lue",
+        "ny",
+        "toi"
+      ],
+      "language_names": [
+        "English (Zambia)",
+        "Bemba",
+        "Lozi",
+        "Lunda",
+        "lue",
+        "Nyanja",
+        "toi"
+      ],
+      "geographic_source_url": "https://www.geonames.org/895949/",
+      "is_new_country": true,
+      "slug": "zambia",
+      "cities": [
+        {
+          "city": "Lusaka",
+          "loc_slug": "lusaka-zambia"
+        }
+      ]
+    },
+    {
+      "name": "Zimbabwe",
+      "region": "Africa",
+      "country_code": "ZW",
+      "capital": "Harare",
+      "currency_code": "ZWG",
+      "languages": [
+        "en-ZW",
+        "sn",
+        "nr",
+        "nd"
+      ],
+      "language_names": [
+        "English (Zimbabwe)",
+        "Shona",
+        "South Ndebele",
+        "North Ndebele"
+      ],
+      "geographic_source_url": "https://www.geonames.org/878675/",
+      "is_new_country": true,
+      "slug": "zimbabwe",
+      "cities": [
+        {
+          "city": "Harare",
+          "loc_slug": "harare-zimbabwe"
+        }
+      ]
+    }
+  ],
+  "total_cities": 471
+}

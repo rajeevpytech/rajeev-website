@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-10-25T17:18:53.505846+00:00",
+  "scope": "Latest local source only. Isolated storage fixtures; no production fetches, writes, LLM requests or search-engine submissions.",
+  "existing_content_policy": {
+    "cached_public_reads_schedule_generation": false,
+    "cached_public_reads_schedule_indexnow": false,
+    "cached_public_reads_write_database": false,
+    "warmup_overwrites_existing_documents": false,
+    "complete_or_partial_existing_content_is_preserved": true,
+    "existing_title_description_body_ai_and_review_flags_are_preserved": true,
+    "legacy_records_without_key_are_protected_by_canonical_lookup": true,
+    "concurrent_creator_wins_without_replacement": true,
+    "new_missing_page_generation": "First-insert winner only; background completion requires the exact initially inserted fallback and unchanged AI/review flags. Warmup inserts missing keys with $setOnInsert only."
+  },
+  "new_expansion_integration": {
+    "router_registered": true,
+    "missing_page_fallback_writes_database": false,
+    "missing_page_fallback_calls_llm_or_indexnow": false,
+    "cached_original_pages_have_priority": true,
+    "new_review_actor_checks_and_notes_are_private": true
+  },
+  "sitemap_capacity": {
+    "max_urls_per_file": 45000,
+    "max_utf8_bytes_per_file": 45000000,
+    "small_inventory_root_is_urlset": true,
+    "large_inventory_uses_namespaced_shards": true,
+    "namespace_examples": [
+      "sitemaps/public-0001.xml",
+      "sitemaps/content-0001.xml"
+    ],
+    "isolated_tests_passed": 14
+  },
+  "validation": {
+    "result": "pass",
+    "combined_backend_tests_passed": 158,
+    "combined_backend_tests_failed": 0,
+    "test_files": [
+      "test_seo_edgecases.py",
+      "test_world_locations.py",
+      "test_warmup_preservation.py",
+      "test_indexnow.py",
+      "test_ai_discovery.py",
+      "test_world_expansion.py",
+      "test_world_expansion_catalog.py",
+      "test_manual_blog_delivery.py",
+      "test_seo_workflow.py",
+      "test_autopilot_queue_preservation.py",
+      "test_indexnow_server_integration.py",
+      "test_sitemap_shards.py",
+      "test_existing_page_readonly.py"
+    ],
+    "dedicated_readonly_cases": 24,
+    "dedicated_readonly_and_prior_warmup_tests_passed": 25,
+    "syntax_compile": "pass",
+    "metadata_preservation": {
+      "result": "pass",
+      "original_declarations": 18,
+      "captured_live_snapshots": 21,
+      "built_html_heads_checked": 277
+    },
+    "warnings": [
+      "Two installed Starlette dependency deprecation warnings; no functional test failures."
+    ]
+  },
+  "production_state": {
+    "new_remote_scoping_post_admin_confirmed": true,
+    "new_remote_scoping_post_slug": "scope-remote-website-project",
+    "public_article_body_visibility": "not_confirmed_pending_latest_server_deployment",
+    "existing_articles_overwritten": false,
+    "autopilot_settings_changed": false,
+    "live_autopilot_success_confirmed": false,
+    "live_autopilot_blocker": "Previously observed upstream HTTP401 provider authorization failure. A valid server provider key is required for a controlled generator test."
+  },
+  "limitations": [
+    "Fixture tests prove local behavior, not that this source is deployed or that any search engine has indexed or ranked a page.",
+    "Metadata built-head check covered the 277-head build available at execution time; the final rebuilt release should run its release checker again."
+  ]
+}

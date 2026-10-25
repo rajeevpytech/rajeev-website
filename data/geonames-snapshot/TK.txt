@@ -1,0 +1,118 @@
+4031072	Te Atu Motu Chain	Te Atu Motu Chain		-9.39889	-171.19785	T	ISLS	TK		F				0		7	Pacific/Fakaofo	2010-11-30
+4031073	Tokelau Islands	Tokelau Islands	Illes Tokelau,Tokalau Islands,Tokelan Islands,Tokelau Group,Tokelau Islands,Tokelau Islands Dependency,Tokolau,Union Group,Union Islands	-9.167	-171.829	T	ATOL	TK		00				1466		-9999	Pacific/Fakaofo	2010-11-29
+4031074	Tokelau	Tokelau	Takelau,Thokelawu,Tocala,Tokela,Tokelaaw,Tokelao,Tokelaou,Tokelau,Tokelau nutome,Tokelauoearna,Tokelauöarna,Tokelawu,Tokelo,Tokoloo,Tócalá,Tókelá,i-Tokelau,it-Tokelau,teakkelu,tokalaung,tokela'u,tokelav,tokelea,tokellau,tokelo,tokerau,tuo ke lao,tuo ke lao qun dao,twklayw,twkylaw,twkylw,twkېlav,tʼokʼelau,Τοκελάου,Такелау,Токелау,Տոկելաու,טוקלאו,توكيلو,توكېلاۋ,توکلائو,توکیلاو,توکیلو,ٹوکیلاؤ,ٽwڪlayw,ٽوڪلائو,तोकेलाउ,টোকেলাউ,ਟੋਕੇਲਾਉ,ટોકેલાઉ,ଟୋକେଲାଉ,டோகேலோ,టోకెలావ్,ಟೊಕೆಲಾವ್,ടോക്കെലൂ,ටොකලාවු,โตเกเลา,ໂຕເກເລາ,ໂຕເກເລົາ,ཏ་ཀ་ལའ་ མཚ་གང,ཏོ་ཀེ་ལའུ་ མཚོ་གླིང,တိုကလောင်,ტოკელაუ,ቶክላው,តខេឡៅ,តូខេឡៅ,トケラウ,托克劳,托克勞群島,토켈라우	-9.167	-171.83	A	PCLD	TK	NZ	00				1466		-9999	Pacific/Fakaofo	2021-08-16
+4031077	Ahaga Loa Closed Reef Awash	Ahaga Loa Closed Reef Awash		-9.35283	-171.25252	H	RFC	TK		F				0	0	-9999	Pacific/Fakaofo	2011-02-24
+4031079	Puka i Mua	Puka i Mua		-9.21688	-171.83477	T	ISLET	TK		N				0		13	Pacific/Fakaofo	2011-02-24
+4031081	Vini	Vini		-9.33263	-171.20296	T	ISL	TK		F				0		19	Pacific/Fakaofo	2010-12-04
+4031086	Palea	Palea		-9.36454	-171.18843	T	ISL	TK		F				0		14	Pacific/Fakaofo	2010-11-30
+4031090	Nukunonu Atoll	Nukunonu Atoll	Duke of Clarence Island,Nukuno,Nukunono,Nukunonu Atoll	-9.169	-171.829	T	ATOL	TK		N				426		-9999	Pacific/Fakaofo	2010-11-29
+4031091	Nukunonu	Nukunonu	Atol Nukunono,Nuko Nono Island,Nukunomu,Nukunono,Nukunonu,nukunono dao,nukunonu,nwkwnwnw,Нукуному,Нукунону,نوكونونو,نوکونونو,নুকুনোনু,ਨੁਕੁਨੋਨੁ,ኑኩኖኑ,ヌクノノ島	-9.169	-171.83	A	ADM1	TK		N				426		-9999	Pacific/Fakaofo	2026-10-14
+4031092	Nukumatau	Nukumatau		-9.39505	-171.23773	T	ISL	TK		F				0		11	Pacific/Fakaofo	2010-11-30
+4031094	Nukulakia	Nukulakia		-9.41867	-171.21631	T	ISL	TK		F				0		14	Pacific/Fakaofo	2010-11-30
+4031095	Fakanava	Fakanava		-9.11786	-171.86065	T	ISL	TK		N				0		15	Pacific/Fakaofo	2010-11-30
+4031096	Te Tu Fa Motu Chain	Te Tu Fa Motu Chain		-9.37571	-171.19484	T	ISLS	TK		F				0		15	Pacific/Fakaofo	2010-11-30
+4031103	Matagi	Matagi	Matangi,Matangi Island	-9.35831	-171.18285	T	ISL	TK		F				0		16	Pacific/Fakaofo	2010-11-30
+4031107	Mulifenua	Mulifenua	Fonua Muli,Mulifonua	-9.32653	-171.21192	T	ISL	TK		F				0		19	Pacific/Fakaofo	2010-11-30
+4031108	Fenua Loa	Fenua Loa	Fonua Loa,Fonua Loa Island	-9.44303	-171.20661	T	ISL	TK		F				0		11	Pacific/Fakaofo	2010-11-30
+4031109	Fenua Fala	Fenua Fala	Fenua Fala,Fonua Fala,Fonua Fala Island	-9.37573	-171.26953	T	ISL	TK		F				0		21	Pacific/Fakaofo	2010-11-30
+4031110	Fale old settlement	Fale old settlement	Abadii kuҳnai Fale,Alte Siedlung Fale,Ancien etablissement de Fale,Ancien établissement de Fale,Antigo assentamento de Fale,Antiguo asentamiento de Fale,Fakaofu Village,Fale,Fale ehski zhajgashuusu,Fale eski auyly,Fale eski yerlesimi,Fale eski yerleşimi,Fale iskə jasaulygy,Fale koehnə yasayis yeri,Fale köhnə yaşayış yeri,Fale old settlement,Fale qadimgi jamoasi,Magalada hore ee Fale,Makazi ya zamani ya Fale,Pemukiman lama Fale,Pemukiman lawas Fale,Permukiman lama Fale,Staroe poselenie Fale,Tsohon gidaje Fale,Yeroo durii jidhaala Fale,d falې pratې skwnt,falے prany abady,fare jiu ji luo,mstwtnt faly alqdymt,phale purani basati,phale purani basti,phale purano basati,shhrk qdymy falh,Абадии кӯҳнаи Фале,Старое поселение Фале,Фале eski ауылы,Фале искә ясаулыгы,Фале эски жайгашуусу,د فالې پراتې سکونت,شهرک قدیمی فاله,فالے پرانی آبادی,مستوطنة فالي القديمة,फाले पुरानी बस्ती,ফালে পুরানো বসতি,ਫਾਲੇ ਪੁਰਾਣੀ ਬਸਤੀ,ፋle diro menoriya,ፋሌ ድሮ መኖሪያ,ファレ旧集落	-9.38516	-171.24675	P	PPLA	TK		F				120		7	Pacific/Fakaofo	2026-04-14
+4031111	Fakaofo Atoll	Fakaofo Atoll	Bowditch Island,De Wolf Island,Fakaafo,Fakaofo Atoll,Fakaofu	-9.376	-171.232	T	ATOL	TK		F				483		-9999	Pacific/Fakaofo	2010-12-04
+4031112	Fakaofo	Fakaofo	Fakaofo,Fakaofu,fakaaofo,fakawfw,fakaywfw,fkawfw,phaka'opho,Факаофо,فاکاؤفو,فاکائوفو,فکاؤفو,ফাকাওফো,ਫਾਕਾਓਫੋ,ፋkaʿoፎ,ፋካኦፎ,ファカアオフォ	-9.376	-171.233	A	ADM1	TK	NZ	F				483		-9999	Pacific/Fakaofo	2026-10-14
+4031113	Te Lafu Island Chain	Te Lafu Island Chain		-9.33972	-171.19562	T	ISLS	TK		F				0		17	Pacific/Fakaofo	2010-11-30
+4031114	Te Loto	Te Loto		-9.41784	-171.19493	T	ISL	TK		F				0		15	Pacific/Fakaofo	2010-11-30
+4031115	Atafu Atoll	Atafu Atoll	Atafu,Atafu Atoll,Duke of York Island,Neu Lauenburg,Oatafu,atafu dao,atapu seom,اٹافو,アタフ島,아타푸 섬	-8.558	-172.496	T	ATOL	TK		A				524		-9999	Pacific/Fakaofo	2012-07-26
+4031116	Atafu	Atafu	Atafu,Atafu Island,Atáfu Island	-8.558	-172.497	A	ADM1	TK		A				524		-9999	Pacific/Fakaofo	2026-10-14
+4031117	Fale	Fale		-9.38574	-171.24732	T	ISL	TK		F				0		11	Pacific/Fakaofo	2010-11-30
+4034890	Polynesia	Polynesia	Polynesia - Tokelau	-9.167	-171.828	L	RGN	TK		00				0		-9999	Pacific/Fakaofo	2010-11-29
+7522181	Nukunonu	Nukunonu	Nukunomu,Nukunonu,Nukunonu Village,nukunonu,nwkwnwnw,Нукуному,نوكونونو,نوکونونو,नुकुनोनु,নুকুনোনু,ਨੁਕੁਨੋਨੁ,ኑኩኖኑ,ヌクノヌ	-9.20045	-171.84804	P	PPLA	TK	NZ	N				531		10	Pacific/Fakaofo	2026-04-14
+7522183	Atafu Village	Atafu Village	Aldeia de Atafu,Atafu,Atafu Koeyue,Atafu Köyü,Atafu Village,Atafu ajyly,Atafu auyly,Atafu avyly,Atafu gida,Atafu kəndi,Atafu qishlog'i,Atafu авылы,Dekhai Atafu,Derevnja Atafu,Desa Atafu,Dorf Atafu,Duke of York Group,Kampung Atafu,Kijiji cha Atafu,Pueblo de Atafu,Tuulo Atafu,Village d'Atafu,atafu cun,atafw gawں,ataphu gamva,ataphu grama,ataphu pida,d atafw kly,qryt atafw,rwstay atafw,ʿetaፉ menideri,Атафу айылы,Атафу ауылы,Деревня Атафу,Дехаи Атафу,آتافو گاؤں,د آتافو کلي,روستای آتافو,قرية أتافو,अटाफु गाँव,আতাফু গ্রাম,ਅਟਾਫੂ ਪਿੰਡ,አታፉ መንደር,アタフ村	-8.54212	-172.51591	P	PPLA	TK	NZ	A				524		10	Pacific/Fakaofo	2026-04-14
+7603020	Nukunonu Lagoon	Nukunonu Lagoon		-9.169	-171.828	H	LGN	TK		N				0		-9999	Pacific/Fakaofo	2010-11-29
+7603021	Fakaofo Lagoon	Fakaofo Lagoon		-9.376	-171.231	H	LGN	TK		F				0		-9999	Pacific/Fakaofo	2010-11-29
+7603022	Atafu Lagoon	Atafu Lagoon		-8.558	-172.495	H	LGN	TK		A				0		-9999	Pacific/Fakaofo	2010-11-29
+7603108	Tialeniu School	Tialeniu School		-9.37338	-171.26409	S	SCH	TK		F				0		6	Pacific/Fakaofo	2010-12-04
+7603109	Former Hospital	Former Hospital		-9.38373	-171.2489	S	HSE	TK		F				0		-9999	Pacific/Fakaofo	2010-11-30
+7603115	Vessel Ai Sokula Wreck	Vessel Ai Sokula Wreck		-9.32511	-171.21483	S	WRCK	TK		F				0		-9999	Pacific/Fakaofo	2010-12-04
+7603117	Fenua Fala New Settlement	Fenua Fala New Settlement		-9.37387	-171.26536	P	PPLX	TK		F				0		9	Pacific/Fakaofo	2010-12-04
+7603118	Atafu	Atafu		-8.53464	-172.51947	T	ISL	TK		A				0		16	Pacific/Fakaofo	2010-12-02
+7603119	Kokoloa	Kokoloa		-8.53426	-172.49544	T	ISL	TK		A				0		19	Pacific/Fakaofo	2010-11-30
+7603120	Fogalaki	Fogalaki		-8.53453	-172.51069	T	ISLX	TK		A				0		12	Pacific/Fakaofo	2010-12-01
+7603121	Fogalaki i Lalo	Fogalaki i Lalo		-8.53559	-172.50814	T	ISLET	TK		A				0		7	Pacific/Fakaofo	2011-02-24
+7603122	Fogalaki i Matagi	Fogalaki i Matagi		-8.53591	-172.5032	T	ISLET	TK		A				0		-9999	Pacific/Fakaofo	2011-02-24
+7603123	Hakatagu Motu Chain	Hakatagu Motu Chain		-8.54612	-172.48441	T	ISLS	TK		A				0		10	Pacific/Fakaofo	2010-11-30
+7603124	Te Lafu	Te Lafu		-8.5653	-172.46767	T	ISL	TK		A				0		13	Pacific/Fakaofo	2010-11-30
+7603125	Te Atu Hakea Motu Chain	Te Atu Hakea Motu Chain		-8.57688	-172.48926	T	ISLS	TK		A				0		13	Pacific/Fakaofo	2010-11-30
+7603126	Fenualoa	Fenualoa		-8.58393	-172.50743	T	ISL	TK		A				0		13	Pacific/Fakaofo	2010-11-30
+7603127	Alofi	Alofi		-8.56846	-172.50938	T	ISL	TK		A				0		14	Pacific/Fakaofo	2010-11-30
+7603128	Alofi Lahi	Alofi Lahi		-8.573	-172.50844	T	ISL	TK		A				0		14	Pacific/Fakaofo	2010-11-30
+7603129	Motuhaga	Motuhaga		-9.20311	-171.84591	P	PPLX	TK		N				0		13	Pacific/Fakaofo	2010-11-30
+7603130	Motuhaga	Motuhaga		-9.20462	-171.84528	T	ISL	TK		N				0		11	Pacific/Fakaofo	2010-11-30
+7603131	Nokunonu	Nokunonu		-9.19425	-171.85531	T	ISL	TK		N				0		13	Pacific/Fakaofo	2010-11-30
+7603132	Tauhunu Reef Flat Awash	Tauhunu Reef Flat Awash		-9.17754	-171.86709	H	RFC	TK		N				0	0	-9999	Pacific/Fakaofo	2011-02-24
+7603133	Kamu	Kamu		-9.15796	-171.85943	T	ISL	TK		N				0		15	Pacific/Fakaofo	2010-11-30
+7603134	Puka i Muli	Puka i Muli		-9.14216	-171.85849	T	ISL	TK		N				0		16	Pacific/Fakaofo	2010-11-30
+7603135	Ahaga Loa Closed Reef Flat Awash	Ahaga Loa Closed Reef Flat Awash		-9.11464	-171.82188	H	RFC	TK		N				0	0	-9999	Pacific/Fakaofo	2011-02-24
+7603136	Tokelau	Tokelau		-9.10438	-171.78184	T	ISL	TK		N				0		16	Pacific/Fakaofo	2010-11-30
+7603137	Kavakava Motu Chain	Kavakava Motu Chain		-9.12498	-171.78832	T	ISLET	TK		N				0		15	Pacific/Fakaofo	2011-02-24
+7603138	Na Taulaga	Na Taulaga		-9.19955	-171.7709	T	ISL	TK		N				0		18	Pacific/Fakaofo	2010-11-30
+7603139	Te Tawha Motu Chain	Te Tawha Motu Chain		-9.22647	-171.80918	T	ISLET	TK		N				0		12	Pacific/Fakaofo	2011-02-24
+7603140	Catholic Church	Catholic Church		-9.1997	-171.84916	S	CH	TK		N				0		9	Pacific/Fakaofo	2010-12-01
+7603141	Blasted Boat Pass	Blasted Boat Pass		-9.2012	-171.85067	H	CNL	TK		N				0		-9999	Pacific/Fakaofo	2011-02-24
+7603142	Nokunonu Landing	Nokunonu Landing		-9.20028	-171.84958	S	LDNG	TK		N				0		9	Pacific/Fakaofo	2010-12-01
+7603143	Blasted Canoe Pass	Blasted Canoe Pass		-9.37224	-171.27065	H	CNL	TK		F				0		-9999	Pacific/Fakaofo	2011-02-24
+7603144	Fenua Fala Landing	Fenua Fala Landing		-9.37295	-171.26923	S	LDNG	TK		F				0		-9999	Pacific/Fakaofo	2010-12-01
+7603145	Blasted Boat Pass	Blasted Boat Pass		-9.38677	-171.24993	H	CNL	TK		F				0		-9999	Pacific/Fakaofo	2011-02-24
+7603146	Fale Landing	Fale Landing		-9.38592	-171.24857	S	LDNG	TK		F				0		8	Pacific/Fakaofo	2010-12-01
+7603147	Highwater Lighter Passage	Highwater Lighter Passage		-9.38618	-171.24666	H	CHN	TK		F				0		9	Pacific/Fakaofo	2010-12-01
+7603148	Blasted Boat Channel	Blasted Boat Channel		-8.54316	-172.5188	H	CNL	TK		A				0		-9999	Pacific/Fakaofo	2011-02-24
+7603149	Atafu Landing	Atafu Landing		-8.54279	-172.51742	S	LDNG	TK		A				0		-9999	Pacific/Fakaofo	2010-12-01
+7603150	Highwater Lighter Channel	Highwater Lighter Channel		-8.54329	-172.51561	H	CHN	TK		A				0		7	Pacific/Fakaofo	2010-12-01
+7603151	Pao Pao Seamount	Pao Pao Seamount		-7.19628	-173.64166	U	SMU	TK						0	-300	-9999	Pacific/Fakaofo	2010-12-01
+7603152	Pogisa Seamount	Pogisa Seamount		-8.15712	-172.67487	U	SMU	TK						0	-1000	-9999	Pacific/Fakaofo	2010-12-01
+7603153	Ufiata Seamount	Ufiata Seamount		-8.18566	-172.88361	U	SMU	TK						0	-900	-9999	Pacific/Fakaofo	2010-12-01
+7603154	Tokelau Seamount Chain	Tokelau Seamount Chain		-9.167	-171.827	U	SMSU	TK		00				0		-9999	Pacific/Fakaofo	2010-12-03
+7603155	Luana Liki Hotel	Luana Liki Hotel		-9.1981	-171.85002	S	HTL	TK		N				0		8	Pacific/Fakaofo	2010-12-03
+7603156	Te Alofi Reef Awash	Te Alofi Reef Awash		-8.55598	-172.51299	H	RFC	TK		A				0	0	-9999	Pacific/Fakaofo	2011-02-24
+7603179	USCG LORAN Slave Station Phoenix Chain WW2	USCG LORAN Slave Station Phoenix Chain WW2		-8.53348	-172.51839	S	TRIG	TK		A				0		11	Pacific/Fakaofo	2010-12-02
+7603180	Sea Turtle Nesting Area	Sea Turtle Nesting Area		-8.54317	-172.48608	L	RGN	TK		A				0		-9999	Pacific/Fakaofo	2010-12-02
+7603181	Lotomau Artificial Island	Lotomau Artificial Island		-8.53726	-172.51626	T	ISLF	TK		A				0		-9999	Pacific/Fakaofo	2010-12-02
+7603182	Lotomau Hospital Isolation Ward	Lotomau Hospital Isolation Ward		-8.53722	-172.51607	S	HSP	TK		A				0		-9999	Pacific/Fakaofo	2010-12-02
+7603216	Matauala School	Matauala School		-8.53744	-172.51858	S	SCH	TK		A				0		6	Pacific/Fakaofo	2010-12-02
+7603224	New Lotala	New Lotala		-8.54153	-172.51667	S	CTRCM	TK		A				0		7	Pacific/Fakaofo	2010-12-02
+7603225	Atafu Taupulaga	Atafu Taupulaga		-8.54151	-172.51654	S	GOVL	TK		A				0		7	Pacific/Fakaofo	2010-12-02
+7603231	University of the South Pacific Extension	University of the South Pacific Extension		-8.53711	-172.51898	S	UNIV	TK		A				0		9	Pacific/Fakaofo	2010-12-02
+7603248	Atafu Marine Conservation Area	Atafu Marine Conservation Area		-8.58398	-172.50551	L	RESW	TK		A				0		-9999	Pacific/Fakaofo	2010-12-02
+7603261	Congregational Church	Congregational Church		-8.54088	-172.51673	S	CH	TK		A				0		9	Pacific/Fakaofo	2010-12-03
+7603262	Nukunonu Marine Conservation Area	Nukunonu Marine Conservation Area		-9.11286	-171.81081	L	RESW	TK		N				0		-9999	Pacific/Fakaofo	2010-12-03
+7603263	Motuhaga Bridge	Motuhaga Bridge		-9.2016	-171.84722	S	BDG	TK		N				0		8	Pacific/Fakaofo	2010-12-03
+7603264	Motu Fala	Motu Fala		-9.22035	-171.77296	T	ISLET	TK		N				0		9	Pacific/Fakaofo	2011-02-24
+7603265	Motu Akea	Motu Akea		-9.22926	-171.78991	T	ISLET	TK		N				0		11	Pacific/Fakaofo	2011-02-24
+7603272	Nukunonu School	Nukunonu School		-9.19803	-171.85079	S	SCH	TK		N				0		9	Pacific/Fakaofo	2010-12-03
+7603273	Nukunonu Taupulaga	Nukunonu Taupulaga		-9.19872	-171.84947	S	GOVL	TK		N				0		0	Pacific/Fakaofo	2010-12-03
+7603275	Haumagalu	Haumagalu	Sydney Islet	-9.12818	-171.78904	T	ISLET	TK		N				0		7	Pacific/Fakaofo	2011-02-24
+7603276	Coconut Grove	Coconut Grove		-9.17226	-171.78218	V	GRVC	TK		N				0		18	Pacific/Fakaofo	2010-12-03
+7603277	Coconuts	Coconuts		-9.15883	-171.85947	V	GRVC	TK		N				0		14	Pacific/Fakaofo	2010-12-03
+7603278	Highest Water Channel	Highest Water Channel		-9.20134	-171.84602	H	CHN	TK		N				0		0	Pacific/Fakaofo	2010-12-03
+7603279	Sea Turtle Nesting Area	Sea Turtle Nesting Area		-9.18381	-171.77684	L	RGN	TK		N				0		12	Pacific/Fakaofo	2010-12-03
+7603290	Hurricane Population Refuge Area	Hurricane Population Refuge Area		-9.10642	-171.78497	L	RGN	TK		N				0		14	Pacific/Fakaofo	2010-12-03
+7604070	Fishing Pigs of Fakaofo	Fishing Pigs of Fakaofo		-9.38416	-171.24941	L	CMN	TK		F				0		2	Pacific/Fakaofo	2010-12-04
+7604118	Pig Pens on Reef Flat	Pig Pens on Reef Flat		-9.38419	-171.24914	H	FLTT	TK		F				0		2	Pacific/Fakaofo	2010-12-04
+7605752	Te Afua Tau Tahi	Te Afua Tau Tahi		-9.37856	-171.25364	T	ISLET	TK		F				0		-9999	Pacific/Fakaofo	2011-02-24
+7605814	Catholic Cemetery	Catholic Cemetery		-9.37849	-171.25341	S	CMTY	TK		F				0		-9999	Pacific/Fakaofo	2010-12-04
+7605888	Te Afua Tau Lua	Te Afua Tau Lua		-9.37675	-171.25838	T	ISLET	TK		F				0		10	Pacific/Fakaofo	2011-02-24
+7606385	Fakaofo Conservation Area	Fakaofo Conservation Area	Te Loto Fakahao	-9.44208	-171.20506	L	RES	TK		F				0		13	Pacific/Fakaofo	2010-12-04
+7606580	Fenua Loa Lagoon	Fenua Loa Lagoon		-9.44062	-171.20536	H	LGN	TK		F				0		10	Pacific/Fakaofo	2010-12-04
+7607419	Conservation Area North End	Conservation Area North End		-9.41333	-171.19768	L	RES	TK		F				0		13	Pacific/Fakaofo	2010-12-04
+7610317	Sea Turtle Nesting Area	Sea Turtle Nesting Area		-9.42358	-171.19343	L	RGN	TK		F				0		4	Pacific/Fakaofo	2010-12-04
+7615736	Protestant Cemetery	Protestant Cemetery		-9.39585	-171.23506	S	CMTY	TK		F				0		6	Pacific/Fakaofo	2010-12-04
+7616667	School Ferry Boat Jetty	School Ferry Boat Jetty		-9.3737	-171.26232	S	JTY	TK		F				0		-9999	Pacific/Fakaofo	2010-12-04
+7626193	Fataliga	Fataliga		-9.39656	-171.23581	T	ISL	TK		F				0		13	Pacific/Fakaofo	2010-12-04
+7626194	Hatea	Hatea		-9.4373	-171.20141	T	ISLET	TK		F				0		13	Pacific/Fakaofo	2011-02-24
+7626195	Hakea	Hakea		-9.4365	-171.20029	T	ISLET	TK		F				0		7	Pacific/Fakaofo	2011-02-24
+7626196	Makea	Makea		-9.43517	-171.19973	T	ISLET	TK		F				0		13	Pacific/Fakaofo	2011-02-24
+7626197	Metu	Metu		-9.42988	-171.19648	T	ISL	TK		F				0		14	Pacific/Fakaofo	2010-12-04
+7626198	Falefono	Falefono		-9.38606	-171.24777	S	CTRCM	TK		F				0		11	Pacific/Fakaofo	2010-12-04
+7626199	Church 1	Church 1		-9.38544	-171.24684	S	CH	TK		F				0		9	Pacific/Fakaofo	2010-12-04
+7626200	Hakava	Hakava		-9.38496	-171.24626	S	CTRCM	TK		F				0		7	Pacific/Fakaofo	2010-12-04
+7626201	Church 2	Church 2		-9.38592	-171.24751	S	CH	TK		F				0		11	Pacific/Fakaofo	2010-12-05
+7626203	New Hospital	New Hospital		-9.37458	-171.2626	S	HSP	TK		F				0		7	Pacific/Fakaofo	2010-12-04
+7626204	Teletok	Teletok		-9.37631	-171.26757	S	COMC	TK		F				0		16	Pacific/Fakaofo	2010-12-04

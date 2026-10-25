@@ -1,0 +1,59 @@
+{
+  "checked_at": "2026-10-25T17:54:58.056025+00:00",
+  "result": "pass",
+  "scope": "User-requested second local review of the final release; no live deployment or production writes.",
+  "fixed": [
+    {
+      "issue": "Startup renamed existing legacy editorial slugs",
+      "example": "existing_guide became existing-guide on restart",
+      "fix": "Removed obsolete automatic slug migration and its startup call; exact existing slugs are retained."
+    },
+    {
+      "issue": "Startup recreated missing/deleted source blog posts and case studies as published",
+      "fix": "Removed automatic content-seeding startup calls. Retained seed helpers are reserved for deliberate setup; existing Mongo content remains authoritative."
+    },
+    {
+      "issue": "Admin could not repair invalid provider/model configuration and could reset the valid other section",
+      "fix": "Unlocked diagnostics retain the actual revision and timestamp, allowing the exact UI-shaped save. Valid text/image sections retain their provider, model and saved-key status while only the invalid section receives corrective defaults. Locked vaults remain noneditable."
+    }
+  ],
+  "validation": {
+    "backend_tests_passed": 203,
+    "backend_tests_failed": 0,
+    "vault_tests_passed": 28,
+    "startup_tests_passed": 2,
+    "provider_runtime_tests_passed": 15,
+    "project_brief_assertions_passed": 62,
+    "static_pages_checked": 279,
+    "preserved_old_static_pages": 277,
+    "old_static_content_metadata_link_changes": 0,
+    "original_source_metadata_declarations_preserved": 18,
+    "live_metadata_snapshots_preserved": 21,
+    "base_service_location_routes_checked": 6594,
+    "observed_live_sitemap_paths_checked": 2095,
+    "compile": "pass",
+    "dependency_deprecation_warnings": 2,
+    "production_database_connections": 0,
+    "real_provider_requests": 0
+  },
+  "unchanged_prior_complete_checks": {
+    "new_expansion_http_paths": 36240,
+    "new_expansion_http_errors": 0,
+    "new_expansion_renderer_or_route_code_changed_in_this_recheck": false,
+    "all_candidate_urls_enumerated": 40008,
+    "ai_discovery_inventory_paths": 7124,
+    "ai_technical_error_pages": 0,
+    "scope": "Previously completed every-new-route and AI discovery runs remain included; this recheck changed startup and private Admin diagnostics only."
+  },
+  "live_prerequisites": [
+    "Deploy this updated ZIP while retaining the production environment, MongoDB and media.",
+    "Configure stable API key encryption and save a valid matching provider key; recorded upstream401 is not resolved by mocked tests.",
+    "Verify Bing XML ownership after deployment; current acceptance/indexing is unconfirmed.",
+    "Check public article, forms/mail and revised-bundle browser/mobile rendering on the live server.",
+    "Complete authenticated Google Business Profile review separately."
+  ],
+  "limitations": [
+    "Passing local tests does not guarantee error-free production operation, Google indexing, worldwide rankings or AI citations.",
+    "Startup retains existing administrator/index/scheduler/storage setup; new regressions isolate those services and assert no editorial document writes."
+  ]
+}

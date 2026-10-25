@@ -1,0 +1,216 @@
+{
+  "projects": [
+    {
+      "id": "stockroom-inventory",
+      "slug": "stockroom-inventory",
+      "title": "Stockroom Inventory Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "retail",
+        "name": "Retail"
+      },
+      "industry": {
+        "slug": "retail",
+        "name": "Retail"
+      },
+      "summary": "We built this inventory management demo to show product search, stock adjustments and low-stock monitoring in one clear dashboard.",
+      "website_url": "https://rajeevfreelancer.com/demos/stockroom-inventory.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "applications",
+          "name": "Applications"
+        },
+        {
+          "slug": "crm",
+          "name": "CRM"
+        }
+      ],
+      "featured": false,
+      "display_order": 210,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/stockroom-inventory.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Stockroom Inventory Demo \u2014 original interactive demo preview illustration, sample data"
+      },
+      "story": {
+        "overview": "We built this inventory management demo to show product search, stock adjustments and low-stock monitoring in one clear dashboard. This is our original demonstration using sample data, not a client result.",
+        "scope": [
+          "Product search and category details.",
+          "Add products and adjust quantities in a local workspace.",
+          "Low-stock filters and live inventory value calculations."
+        ],
+        "process": [
+          "We designed a responsive interface around the main user actions.",
+          "We implemented local sample-data interactions and tested the key flows."
+        ],
+        "delivery": [
+          "Self-contained browser demo without sign-in or external services.",
+          "Clear sample-data labels and no real payments or submissions."
+        ]
+      }
+    },
+    {
+      "id": "shopflow-checkout",
+      "slug": "shopflow-checkout",
+      "title": "Shopflow Checkout Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "ecommerce",
+        "name": "Ecommerce"
+      },
+      "industry": {
+        "slug": "ecommerce",
+        "name": "Ecommerce"
+      },
+      "summary": "We built this ecommerce cart and checkout demo with quantity controls, discount codes and an order summary that updates instantly.",
+      "website_url": "https://rajeevfreelancer.com/demos/shopflow-checkout.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 211,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/shopflow-checkout.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Shopflow Checkout Demo \u2014 original interactive demo preview illustration, sample data"
+      },
+      "story": {
+        "overview": "We built this ecommerce cart and checkout demo with quantity controls, discount codes and an order summary that updates instantly. This is our original demonstration using sample data, not a client result.",
+        "scope": [
+          "Interactive cart with quantity changes and item removal.",
+          "Discount validation, shipping rules and tax calculations.",
+          "Local checkout confirmation without payment or order submission."
+        ],
+        "process": [
+          "We designed a responsive interface around the main user actions.",
+          "We implemented local sample-data interactions and tested the key flows."
+        ],
+        "delivery": [
+          "Self-contained browser demo without sign-in or external services.",
+          "Clear sample-data labels and no real payments or submissions."
+        ]
+      }
+    },
+    {
+      "id": "homefinder-properties",
+      "slug": "homefinder-properties",
+      "title": "Homefinder Properties Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "real-estate",
+        "name": "Real Estate"
+      },
+      "industry": {
+        "slug": "real-estate",
+        "name": "Real Estate"
+      },
+      "summary": "We built this property discovery demo to help buyers compare homes, filter listings and save their favourites.",
+      "website_url": "https://rajeevfreelancer.com/demos/homefinder-properties.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 212,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/homefinder-properties.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Homefinder Properties Demo \u2014 original interactive demo preview illustration, sample data"
+      },
+      "story": {
+        "overview": "We built this property discovery demo to help buyers compare homes, filter listings and save their favourites. This is our original demonstration using sample data, not a client result.",
+        "scope": [
+          "Filter properties by location, type and budget.",
+          "Save favourites and review a property shortlist.",
+          "Explore a local enquiry confirmation."
+        ],
+        "process": [
+          "We designed a responsive interface around the main user actions.",
+          "We implemented local sample-data interactions and tested the key flows."
+        ],
+        "delivery": [
+          "Self-contained browser demo without sign-in or external services.",
+          "Clear sample-data labels and no real payments or submissions."
+        ]
+      }
+    },
+    {
+      "id": "fitplan-workouts",
+      "slug": "fitplan-workouts",
+      "title": "Fitplan Workout Planner Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "fitness",
+        "name": "Fitness"
+      },
+      "industry": {
+        "slug": "fitness",
+        "name": "Fitness"
+      },
+      "summary": "We built this workout planner demo with exercise plans, set tracking and a clear view of session progress.",
+      "website_url": "https://rajeevfreelancer.com/demos/fitplan-workouts.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "applications",
+          "name": "Applications"
+        },
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        }
+      ],
+      "featured": false,
+      "display_order": 213,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/fitplan-workouts.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Fitplan Workout Planner Demo \u2014 original interactive demo preview illustration, sample data"
+      },
+      "story": {
+        "overview": "We built this workout planner demo with exercise plans, set tracking and a clear view of session progress. This is our original demonstration using sample data, not a client result.",
+        "scope": [
+          "Manage a sample workout plan and add exercises.",
+          "Track completed sets and add sets during a session.",
+          "Switch training days and reset the workout."
+        ],
+        "process": [
+          "We designed a responsive interface around the main user actions.",
+          "We implemented local sample-data interactions and tested the key flows."
+        ],
+        "delivery": [
+          "Self-contained browser demo without sign-in or external services.",
+          "Clear sample-data labels and no real payments or submissions."
+        ]
+      }
+    }
+  ]
+}

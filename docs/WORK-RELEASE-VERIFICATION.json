@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-10-25T18:40:00.233492+00:00",
+  "result": "pass",
+  "scope": "Local tested source release; no production database or VPS changes.",
+  "features": {
+    "work_cms": true,
+    "industry_choices": 40,
+    "service_choices": 10,
+    "case_study_backend_editor": true,
+    "automatic_public_work_and_homepage": true,
+    "project_url_preservation": true,
+    "draft_and_archive_privacy": true,
+    "original_functional_demos": 13
+  },
+  "validation": {
+    "backend_tests_passed": 236,
+    "backend_tests_failed": 0,
+    "mounted_http_checks_passed": 32,
+    "project_brief_assertions_passed": 62,
+    "admin_and_public_dom_interactions": "pass",
+    "production_frontend_build": "pass",
+    "built_html_pages": 293,
+    "seo_static_errors": 0,
+    "original_static_pages_checked": 277,
+    "owner_authorized_homepage_body_changes": 1,
+    "unexpected_existing_page_changes": 0,
+    "original_source_seo_declarations_preserved": 18,
+    "live_metadata_snapshots_preserved": 21,
+    "original_demo_interactions": "pass:13functional demos, hotel/CRM/healthcare/salon/inventory/checkout/property/workout/dispatch/factory/estimate/helpdesk/voice",
+    "prerendered_site_routes": 280,
+    "original_demo_html_pages": 13,
+    "catalog_detail_preview_demo_http_checks": 85
+  },
+  "remaining": [
+    "VPS deployment using the release branch",
+    "Real production image storage/upload and forms/mail checks",
+    "Actual browser desktop/mobile visual verification; local Chromium unavailable",
+    "Valid provider key and real AI generation verification; prior key401 remains a configuration prerequisite"
+  ],
+  "github": {
+    "repository": "rajeevpytech/rajeev-website",
+    "branch": "work-cms-seo-release-20261026",
+    "main_modified": false,
+    "push_state": "Source preparation complete; branch receipt is supplied after publication."
+  },
+  "compatibility_fix": "Homepage live project refresh applies only to new explicitly marked templates; older unmarked homepage builds remain unchanged during staged deploy.",
+  "portfolio": {
+    "total_projects": 36,
+    "source_project_entries": 23,
+    "original_functional_demos": 13,
+    "actual_public_previews": 23,
+    "original_demo_svg_previews": 13,
+    "preview_frame": [
+      1440,
+      900
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+const fs=require('fs'),path=require('path'),{JSDOM}=require('jsdom');
+const html=fs.readFileSync(path.resolve(__dirname,'../public/demos/voiceflow-ivr.html'),'utf8');
+const dom=new JSDOM(html,{runScripts:'dangerously',url:'https://demo.example'}),d=dom.window.document;
+d.getElementById('voice').checked=false;
+d.getElementById('start').click();d.querySelector('[data-key="4"]').click();
+if(!d.querySelector('[data-route="4"]').classList.contains('active'))throw Error('Routing failed');
+d.getElementById('name').value='Sample user';d.getElementById('contact').value='Demo contact';d.getElementById('callback').dispatchEvent(new dom.window.Event('submit',{bubbles:true,cancelable:true}));
+if(!d.getElementById('result').textContent.includes('Demo callback queued'))throw Error('Callback failed');
+d.getElementById('end').click();if(!d.getElementById('call-status').textContent.includes('ended'))throw Error('End failed');
+dom.window.close();console.log('PASS VoiceFlow: start, route, callback and end; local demo only');

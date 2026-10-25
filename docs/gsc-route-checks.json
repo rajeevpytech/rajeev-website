@@ -1,0 +1,48 @@
+{
+  "result": "pass",
+  "counts": {
+    "activePaths": 1664,
+    "indexedExportExamples": 1000,
+    "historicalActivityOnlyPaths": 664,
+    "noindexReviewGates": 97,
+    "legacyLocalityRoutesRestored": 98,
+    "inMemoryEditorialFixtures": 8
+  },
+  "canonicalTargetsProbed": 1322,
+  "rootSitemapUrls": 2274,
+  "redirects": [
+    {
+      "path": "/freelance-services/freelance-seo-expert-in-hyderabad",
+      "target": "/freelancer-seo-expert/hyderabad-india",
+      "status": 301
+    },
+    {
+      "path": "/freelance-services/freelance-seo-expert-in-mumbai",
+      "target": "/freelancer-seo-expert/mumbai-india",
+      "status": 301
+    },
+    {
+      "path": "/freelance-services/freelance-web-designer-in-kolkata",
+      "target": "/freelancer-website-developer/kolkata-india",
+      "status": 301
+    },
+    {
+      "path": "/home",
+      "target": "/",
+      "status": 301
+    },
+    {
+      "path": "/index.php",
+      "target": "/",
+      "status": 301
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Indexed examples come from the capped 1,000-row GSC export; they do not enumerate all 2,333 reported indexed pages.",
+    "URL Inspection observations override older export/performance evidence for the specific inspected URL.",
+    "Historical Web/AI activity alone is not proof of current indexing and does not remove noindex review gates.",
+    "Editorial fixtures verify route delivery only; production titles, descriptions and body copy remain authoritative in the live Mongo database.",
+    "This check performs no production writes and does not guarantee indexing, rankings, AI citations or Business Profile verification."
+  ]
+}

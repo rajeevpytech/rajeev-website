@@ -1,0 +1,61 @@
+[
+  {
+    "id": "voiceflow-ivr-demo",
+    "slug": "voiceflow-ivr-demo",
+    "title": "VoiceFlow — Voice & IVR Demo",
+    "client_name": "Original Interactive Demo",
+    "project_type": "demo",
+    "industry": {
+      "slug": "poultry",
+      "name": "Poultry"
+    },
+    "category": {
+      "slug": "poultry",
+      "name": "Poultry"
+    },
+    "summary": "We built this interactive voice-routing demo with a browser-spoken welcome, keypad menu, team routing and a sample callback queue.",
+    "website_url": "https://rajeevfreelancer.com/demos/voiceflow-ivr.html",
+    "source_url": "https://rajeevfreelancer.com/work",
+    "source_note": "Original functional demo authored for this portfolio. Uses browser speech synthesis and local call-flow simulation.",
+    "services": [
+      {
+        "slug": "ai-automation",
+        "name": "AI Automation"
+      },
+      {
+        "slug": "applications",
+        "name": "Applications"
+      }
+    ],
+    "featured": false,
+    "display_order": 230,
+    "published": true,
+    "screenshot": {
+      "url": "/assets/work/voiceflow-ivr.svg",
+      "width": 1440,
+      "height": 900,
+      "alt": "VoiceFlow original interactive demo interface preview, sample data"
+    },
+    "image_url": "/assets/work/voiceflow-ivr.svg",
+    "image_alt": "VoiceFlow interactive demo interface preview",
+    "story": {
+      "overview": "We built a practical interactive voice and routing prototype for poultry enquiries. The demonstration makes the customer menu and team handoff visible before a telephony integration.",
+      "scope": [
+        "Browser speech synthesis welcome menu",
+        "Keypad navigation for products, support and direct team enquiries",
+        "Local callback queue and conversation log"
+      ],
+      "process": [
+        "Mapped the enquiry categories into a clear call routing flow",
+        "Implemented keyboard and button interactions with visible routing feedback",
+        "Checked the menu, callback validation and end-call behavior"
+      ],
+      "delivery": [
+        "A working browser simulation that opens from this portfolio",
+        "Original interface preview labelled as a demonstration",
+        "Sample session only; it places no real call or callback request."
+      ],
+      "handover": []
+    }
+  }
+]

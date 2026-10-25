@@ -1,0 +1,236 @@
+{
+  "projects": [
+    {
+      "id": "staydesk-hotel-booking",
+      "slug": "staydesk-hotel-booking",
+      "title": "StayDesk \u00b7 Hotel booking demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "hotels",
+        "name": "Hotels"
+      },
+      "industry": {
+        "slug": "hotels",
+        "name": "Hotels"
+      },
+      "summary": "We built this interactive hotel booking demo with room selection, date validation, live pricing and simulated confirmations.",
+      "website_url": "https://rajeevfreelancer.com/demos/staydesk-hotel-booking.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "source_note": "Original interactive demo built for this portfolio. All data is fictional; results are simulated locally.",
+      "attribution": "Original demo built by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 200,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/staydesk-hotel-booking.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Interactive demo: StayDesk \u00b7 Hotel booking demo; original code-based interface preview, sample data"
+      },
+      "story": {
+        "overview": "We built this interactive hotel booking demo with room selection, date validation, live pricing and simulated confirmations.",
+        "scope": [
+          "Room and guest selection",
+          "Date-based live totals",
+          "Demo confirmation and cancellation"
+        ],
+        "process": [
+          "We designed the interface and implemented interactive controls with browser-local state.",
+          "We tested the demo flows using fictional sample data."
+        ],
+        "delivery": [
+          "We delivered this working portfolio demo with responsive layouts and clear simulation labels.",
+          "No real booking, payment, medical record or enquiry transmission is performed."
+        ],
+        "handover": [
+          "The self-contained demo runs without an external service or API."
+        ]
+      }
+    },
+    {
+      "id": "caredesk-appointments",
+      "slug": "caredesk-appointments",
+      "title": "CareDesk \u00b7 Appointment scheduling demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "healthcare",
+        "name": "Healthcare"
+      },
+      "industry": {
+        "slug": "healthcare",
+        "name": "Healthcare"
+      },
+      "summary": "We built this interactive healthcare appointment demo with specialty, doctor and time-slot selection plus local booking and cancellation.",
+      "website_url": "https://rajeevfreelancer.com/demos/caredesk-appointments.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "source_note": "Original interactive demo built for this portfolio. All data is fictional; results are simulated locally.",
+      "attribution": "Original demo built by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "applications",
+          "name": "Applications"
+        },
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        }
+      ],
+      "featured": false,
+      "display_order": 201,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/caredesk-appointments.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Interactive demo: CareDesk \u00b7 Appointment scheduling demo; original code-based interface preview, sample data"
+      },
+      "story": {
+        "overview": "We built this interactive healthcare appointment demo with specialty, doctor and time-slot selection plus local booking and cancellation.",
+        "scope": [
+          "Doctor and specialty selection",
+          "Available sample appointment slots",
+          "Local appointment confirmation and cancellation"
+        ],
+        "process": [
+          "We designed the interface and implemented interactive controls with browser-local state.",
+          "We tested the demo flows using fictional sample data."
+        ],
+        "delivery": [
+          "We delivered this working portfolio demo with responsive layouts and clear simulation labels.",
+          "No real booking, payment, medical record or enquiry transmission is performed."
+        ],
+        "handover": [
+          "The self-contained demo runs without an external service or API."
+        ]
+      }
+    },
+    {
+      "id": "admissions-school-crm",
+      "slug": "admissions-school-crm",
+      "title": "Admissions \u00b7 School CRM demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "schools",
+        "name": "Schools"
+      },
+      "industry": {
+        "slug": "schools",
+        "name": "Schools"
+      },
+      "summary": "We built this interactive school admissions CRM demo with searchable sample enquiries, a status pipeline and enquiry capture.",
+      "website_url": "https://rajeevfreelancer.com/demos/admissions-school-crm.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "source_note": "Original interactive demo built for this portfolio. All data is fictional; results are simulated locally.",
+      "attribution": "Original demo built by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "crm",
+          "name": "CRM"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 202,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/admissions-school-crm.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Interactive demo: Admissions \u00b7 School CRM demo; original code-based interface preview, sample data"
+      },
+      "story": {
+        "overview": "We built this interactive school admissions CRM demo with searchable sample enquiries, a status pipeline and enquiry capture.",
+        "scope": [
+          "Search students, parents and grades",
+          "Move enquiries through pipeline stages",
+          "Add fictional admissions enquiries"
+        ],
+        "process": [
+          "We designed the interface and implemented interactive controls with browser-local state.",
+          "We tested the demo flows using fictional sample data."
+        ],
+        "delivery": [
+          "We delivered this working portfolio demo with responsive layouts and clear simulation labels.",
+          "No real booking, payment, medical record or enquiry transmission is performed."
+        ],
+        "handover": [
+          "The self-contained demo runs without an external service or API."
+        ]
+      }
+    },
+    {
+      "id": "salonstudio-booking",
+      "slug": "salonstudio-booking",
+      "title": "SalonStudio \u00b7 Beauty booking demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "beauty-wellness",
+        "name": "Beauty & Wellness"
+      },
+      "industry": {
+        "slug": "beauty-wellness",
+        "name": "Beauty & Wellness"
+      },
+      "summary": "We built this interactive salon booking demo with service packages, appointment times, live totals and simulated confirmations.",
+      "website_url": "https://rajeevfreelancer.com/demos/salonstudio-booking.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "source_note": "Original interactive demo built for this portfolio. All data is fictional; results are simulated locally.",
+      "attribution": "Original demo built by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 203,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/salonstudio-booking.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Interactive demo: SalonStudio \u00b7 Beauty booking demo; original code-based interface preview, sample data"
+      },
+      "story": {
+        "overview": "We built this interactive salon booking demo with service packages, appointment times, live totals and simulated confirmations.",
+        "scope": [
+          "Service and package selection",
+          "Appointment date and time selection",
+          "Live sample pricing and demo confirmation"
+        ],
+        "process": [
+          "We designed the interface and implemented interactive controls with browser-local state.",
+          "We tested the demo flows using fictional sample data."
+        ],
+        "delivery": [
+          "We delivered this working portfolio demo with responsive layouts and clear simulation labels.",
+          "No real booking, payment, medical record or enquiry transmission is performed."
+        ],
+        "handover": [
+          "The self-contained demo runs without an external service or API."
+        ]
+      }
+    }
+  ]
+}

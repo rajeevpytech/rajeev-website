@@ -1,0 +1,936 @@
+{
+  "items": [
+    {
+      "id": "intrinsic-america",
+      "slug": "intrinsic-america",
+      "title": "Intrinsic America",
+      "client_name": "Intrinsic America",
+      "category": {
+        "slug": "technology",
+        "name": "Technology"
+      },
+      "industry": {
+        "slug": "technology",
+        "name": "Technology"
+      },
+      "summary": "We redesigned Intrinsic America’s website, built its content management workflow and worked on technical SEO.",
+      "website_url": "https://intrinsicamerica.com/",
+      "source_url": "https://intrinsicamerica.com/",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-redesign",
+          "name": "Website Redesign"
+        },
+        {
+          "slug": "seo",
+          "name": "SEO"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "technology": [],
+      "featured": true,
+      "display_order": 0,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We redesigned Intrinsic America’s website, built its content management workflow and worked on technical SEO.",
+        "scope": [
+          "Website redesign for an American managed IT services business.",
+          "Admin live editor and blog publishing.",
+          "Enquiry journeys and technical SEO."
+        ],
+        "process": [
+          "We organised service content, rebuilt the public experience and connected content administration."
+        ],
+        "delivery": [
+          "We delivered the website and CMS, with public service pages and enquiry options."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/intrinsic-america.webp",
+        "alt": "Intrinsic America actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/intrinsic-america.webp",
+      "image_alt": "Intrinsic America actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "moonlight-neurocare",
+      "slug": "moonlight-neurocare",
+      "title": "Moonlight Neurocare",
+      "client_name": "Moonlight Neurocare",
+      "category": {
+        "slug": "healthcare",
+        "name": "Healthcare"
+      },
+      "industry": {
+        "slug": "healthcare",
+        "name": "Healthcare"
+      },
+      "summary": "We built Moonlight Neurocare’s website and connected family, teacher and admin experiences.",
+      "website_url": "https://moonlightneurocare.com/",
+      "source_url": "https://moonlightneurocare.com/",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-redesign",
+          "name": "Website Redesign"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "technology": [],
+      "featured": true,
+      "display_order": 1,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built Moonlight Neurocare’s website and connected family, teacher and admin experiences.",
+        "scope": [
+          "Therapy, sports, academy and contact pages.",
+          "Parent, teacher and admin portal workflows."
+        ],
+        "process": [
+          "We structured services around the needs of families and the centre’s team."
+        ],
+        "delivery": [
+          "We delivered a website with service navigation, enquiry actions and portal access."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/moonlight-neurocare.webp",
+        "alt": "Moonlight Neurocare actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/moonlight-neurocare.webp",
+      "image_alt": "Moonlight Neurocare actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "fnjee",
+      "slug": "fnjee",
+      "title": "FNJEE",
+      "client_name": "FNJEE",
+      "category": {
+        "slug": "education",
+        "name": "Education"
+      },
+      "industry": {
+        "slug": "education",
+        "name": "Education"
+      },
+      "summary": "We built FNJEE’s computer-based testing website and mobile application, including question imports and exam workflows.",
+      "website_url": "https://fnjee.com/",
+      "source_url": "https://fnjee.com/",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        },
+        {
+          "slug": "ai-automation",
+          "name": "AI Automation"
+        }
+      ],
+      "technology": [],
+      "featured": true,
+      "display_order": 2,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built FNJEE’s computer-based testing website and mobile application, including question imports and exam workflows.",
+        "scope": [
+          "CBT interface, question management and import workflows.",
+          "Mobile application development and release work.",
+          "AI-assisted answer generation integration."
+        ],
+        "process": [
+          "We developed question import and mapping tools, exam navigation and administration."
+        ],
+        "delivery": [
+          "We delivered the web platform and mobile application release work."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/fnjee.webp",
+        "alt": "FNJEE actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/fnjee.webp",
+      "image_alt": "FNJEE actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "gd-goenka-signature-school",
+      "slug": "gd-goenka-signature-school",
+      "title": "GD Goenka Signature School",
+      "client_name": "GD Goenka Signature School",
+      "category": {
+        "slug": "schools",
+        "name": "Schools"
+      },
+      "industry": {
+        "slug": "schools",
+        "name": "Schools"
+      },
+      "summary": "We built GD Goenka Signature School’s website. Premium CBSE day and boarding school website showcasing curriculum, campus, admissions and student life.",
+      "website_url": "https://goenkasig.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "seo",
+          "name": "SEO"
+        }
+      ],
+      "technology": [],
+      "featured": true,
+      "display_order": 3,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built GD Goenka Signature School’s website. Premium CBSE day and boarding school website showcasing curriculum, campus, admissions and student life.",
+        "scope": [
+          "Premium CBSE day and boarding school website showcasing curriculum, campus, admissions and student life."
+        ],
+        "process": [
+          "Structuring a content-rich school website with clear admissions journeys and large visual sections."
+        ],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/gd-goenka-signature-school.webp",
+        "alt": "GD Goenka Signature School actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/gd-goenka-signature-school.webp",
+      "image_alt": "GD Goenka Signature School actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "nine-furlongs",
+      "slug": "nine-furlongs",
+      "title": "Nine Furlongs",
+      "client_name": "Nine Furlongs",
+      "category": {
+        "slug": "hospitality",
+        "name": "Hospitality"
+      },
+      "industry": {
+        "slug": "hospitality",
+        "name": "Hospitality"
+      },
+      "summary": "We built a hospitality website presenting the Binsar forest estate, stays and guest experiences.",
+      "website_url": "https://ninefurlongs.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        }
+      ],
+      "technology": [],
+      "featured": true,
+      "display_order": 4,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built a hospitality website presenting the Binsar forest estate, stays and guest experiences.",
+        "scope": [],
+        "process": [],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/nine-furlongs.webp",
+        "alt": "Nine Furlongs actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/nine-furlongs.webp",
+      "image_alt": "Nine Furlongs actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "erfreelancers",
+      "slug": "erfreelancers",
+      "title": "ERFreelancers",
+      "client_name": "ERFreelancers",
+      "category": {
+        "slug": "professional-services",
+        "name": "Professional Services"
+      },
+      "industry": {
+        "slug": "professional-services",
+        "name": "Professional Services"
+      },
+      "summary": "We built ERFreelancers’ service marketplace and worked on its service, city and search architecture.",
+      "website_url": "https://erfreelancers.com/",
+      "source_url": "https://erfreelancers.com/",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        },
+        {
+          "slug": "seo",
+          "name": "SEO"
+        }
+      ],
+      "technology": [],
+      "featured": true,
+      "display_order": 5,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built ERFreelancers’ service marketplace and worked on its service, city and search architecture.",
+        "scope": [
+          "Freelancer service discovery and requirement posting.",
+          "Service and location route architecture."
+        ],
+        "process": [
+          "We connected service discovery, project enquiry and technical search foundations."
+        ],
+        "delivery": [
+          "We delivered the public marketplace website and its supporting pages."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/erfreelancers.webp",
+        "alt": "ERFreelancers actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/erfreelancers.webp",
+      "image_alt": "ERFreelancers actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "go-repair",
+      "slug": "go-repair",
+      "title": "GO Repair",
+      "client_name": "GO Repair",
+      "category": {
+        "slug": "home-services",
+        "name": "Home Services"
+      },
+      "industry": {
+        "slug": "home-services",
+        "name": "Home Services"
+      },
+      "summary": "We built GO Repair’s website. Appliance repair service platform for AC, washing machines, refrigerators, TVs and other home appliances across India.",
+      "website_url": "https://gorepair.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 11,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built GO Repair’s website. Appliance repair service platform for AC, washing machines, refrigerators, TVs and other home appliances across India.",
+        "scope": [
+          "Appliance repair service platform for AC, washing machines, refrigerators, TVs and other home appliances across India."
+        ],
+        "process": [
+          "Organizing multiple appliance service categories and conversion-focused booking information in a clear responsive interface."
+        ],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/go-repair.webp",
+        "alt": "GO Repair actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/go-repair.webp",
+      "image_alt": "GO Repair actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "goenka-signature-rebuild",
+      "slug": "goenka-signature-rebuild",
+      "title": "GD Goenka Signature School — New Website",
+      "client_name": "Goenka Sig New",
+      "category": {
+        "slug": "schools",
+        "name": "Schools"
+      },
+      "industry": {
+        "slug": "schools",
+        "name": "Schools"
+      },
+      "summary": "We built a renewed website experience for GD Goenka Signature School, presenting school life, boarding and admissions.",
+      "website_url": "https://goenkasig-new.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 13,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built a renewed website experience for GD Goenka Signature School, presenting school life, boarding and admissions.",
+        "scope": [
+          "Frontend web application project delivered by PyTech Digital."
+        ],
+        "process": [],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/goenka-signature-rebuild.webp",
+        "alt": "Goenka Sig New actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/goenka-signature-rebuild.webp",
+      "image_alt": "Goenka Sig New actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "guardian-360",
+      "slug": "guardian-360",
+      "title": "Guardian 360",
+      "client_name": "Guardian 360",
+      "category": {
+        "slug": "technology",
+        "name": "Technology"
+      },
+      "industry": {
+        "slug": "technology",
+        "name": "Technology"
+      },
+      "summary": "We built Guardian360’s public application experience for QR-based safety and connected protection workflows.",
+      "website_url": "https://guardian360.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 14,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built Guardian360’s public application experience for QR-based safety and connected protection workflows.",
+        "scope": [
+          "Frontend web application project delivered by PyTech Digital."
+        ],
+        "process": [],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/guardian-360.webp",
+        "alt": "Guardian 360 actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/guardian-360.webp",
+      "image_alt": "Guardian 360 actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "my-overall-beauty",
+      "slug": "my-overall-beauty",
+      "title": "My Overall Beauty",
+      "client_name": "My Overall Beauty",
+      "category": {
+        "slug": "beauty-wellness",
+        "name": "Beauty & Wellness"
+      },
+      "industry": {
+        "slug": "beauty-wellness",
+        "name": "Beauty & Wellness"
+      },
+      "summary": "We built a beauty and wellness website presenting treatments, the practice and consultation enquiries.",
+      "website_url": "https://myoverallbeauty.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 15,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built a beauty and wellness website presenting treatments, the practice and consultation enquiries.",
+        "scope": [
+          "Frontend web application project delivered by PyTech Digital."
+        ],
+        "process": [],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/my-overall-beauty.webp",
+        "alt": "My Overall Beauty actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/my-overall-beauty.webp",
+      "image_alt": "My Overall Beauty actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "kiki-control",
+      "slug": "kiki-control",
+      "title": "Kiki Centre for Technology",
+      "client_name": "Kiki Control",
+      "category": {
+        "slug": "training-coaching",
+        "name": "Training & Coaching"
+      },
+      "industry": {
+        "slug": "training-coaching",
+        "name": "Training & Coaching"
+      },
+      "summary": "We built Kiki Centre’s website, presenting technical training courses, admissions and student life.",
+      "website_url": "https://kiki-control.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 16,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built Kiki Centre’s website, presenting technical training courses, admissions and student life.",
+        "scope": [
+          "Frontend web application project delivered by PyTech Digital."
+        ],
+        "process": [],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/kiki-control.webp",
+        "alt": "Kiki Control actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/kiki-control.webp",
+      "image_alt": "Kiki Control actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "ecom-store",
+      "slug": "ecom-store",
+      "title": "Ecom Store",
+      "client_name": "  ",
+      "category": {
+        "slug": "ecommerce",
+        "name": "Ecommerce"
+      },
+      "industry": {
+        "slug": "ecommerce",
+        "name": "Ecommerce"
+      },
+      "summary": "We built Ecom Store’s website. E-commerce web application offering premium masalas, home decor, and jewelry with online ordering and payment processing.",
+      "website_url": "https://ecom-store-c9e7.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 17,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built Ecom Store’s website. E-commerce web application offering premium masalas, home decor, and jewelry with online ordering and payment processing.",
+        "scope": [
+          "E-commerce web application offering premium masalas, home decor, and jewelry with online ordering and payment processing."
+        ],
+        "process": [
+          "Implemented multi-currency pricing and integrated payment processing for both Indian and European markets."
+        ],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/ecom-store.webp",
+        "alt": "Ecom Store actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/ecom-store.webp",
+      "image_alt": "Ecom Store actual homepage preview",
+      "gallery": []
+    }
+  ],
+  "categories": [
+    {
+      "slug": "beauty-wellness",
+      "name": "Beauty & Wellness",
+      "count": 3
+    },
+    {
+      "slug": "construction",
+      "name": "Construction",
+      "count": 1
+    },
+    {
+      "slug": "ecommerce",
+      "name": "Ecommerce",
+      "count": 2
+    },
+    {
+      "slug": "education",
+      "name": "Education",
+      "count": 3
+    },
+    {
+      "slug": "events",
+      "name": "Events",
+      "count": 1
+    },
+    {
+      "slug": "fintech",
+      "name": "Fintech",
+      "count": 1
+    },
+    {
+      "slug": "fitness",
+      "name": "Fitness",
+      "count": 1
+    },
+    {
+      "slug": "healthcare",
+      "name": "Healthcare",
+      "count": 2
+    },
+    {
+      "slug": "home-services",
+      "name": "Home Services",
+      "count": 1
+    },
+    {
+      "slug": "hospitality",
+      "name": "Hospitality",
+      "count": 1
+    },
+    {
+      "slug": "hotels",
+      "name": "Hotels",
+      "count": 1
+    },
+    {
+      "slug": "logistics",
+      "name": "Logistics",
+      "count": 1
+    },
+    {
+      "slug": "manufacturing",
+      "name": "Manufacturing",
+      "count": 3
+    },
+    {
+      "slug": "nonprofit",
+      "name": "Nonprofit",
+      "count": 1
+    },
+    {
+      "slug": "poultry",
+      "name": "Poultry",
+      "count": 1
+    },
+    {
+      "slug": "professional-services",
+      "name": "Professional Services",
+      "count": 3
+    },
+    {
+      "slug": "real-estate",
+      "name": "Real Estate",
+      "count": 2
+    },
+    {
+      "slug": "retail",
+      "name": "Retail",
+      "count": 1
+    },
+    {
+      "slug": "schools",
+      "name": "Schools",
+      "count": 3
+    },
+    {
+      "slug": "technology",
+      "name": "Technology",
+      "count": 3
+    },
+    {
+      "slug": "training-coaching",
+      "name": "Training & Coaching",
+      "count": 1
+    }
+  ],
+  "industries": [
+    {
+      "slug": "beauty-wellness",
+      "name": "Beauty & Wellness",
+      "count": 3
+    },
+    {
+      "slug": "construction",
+      "name": "Construction",
+      "count": 1
+    },
+    {
+      "slug": "ecommerce",
+      "name": "Ecommerce",
+      "count": 2
+    },
+    {
+      "slug": "education",
+      "name": "Education",
+      "count": 3
+    },
+    {
+      "slug": "events",
+      "name": "Events",
+      "count": 1
+    },
+    {
+      "slug": "fintech",
+      "name": "Fintech",
+      "count": 1
+    },
+    {
+      "slug": "fitness",
+      "name": "Fitness",
+      "count": 1
+    },
+    {
+      "slug": "healthcare",
+      "name": "Healthcare",
+      "count": 2
+    },
+    {
+      "slug": "home-services",
+      "name": "Home Services",
+      "count": 1
+    },
+    {
+      "slug": "hospitality",
+      "name": "Hospitality",
+      "count": 1
+    },
+    {
+      "slug": "hotels",
+      "name": "Hotels",
+      "count": 1
+    },
+    {
+      "slug": "logistics",
+      "name": "Logistics",
+      "count": 1
+    },
+    {
+      "slug": "manufacturing",
+      "name": "Manufacturing",
+      "count": 3
+    },
+    {
+      "slug": "nonprofit",
+      "name": "Nonprofit",
+      "count": 1
+    },
+    {
+      "slug": "poultry",
+      "name": "Poultry",
+      "count": 1
+    },
+    {
+      "slug": "professional-services",
+      "name": "Professional Services",
+      "count": 3
+    },
+    {
+      "slug": "real-estate",
+      "name": "Real Estate",
+      "count": 2
+    },
+    {
+      "slug": "retail",
+      "name": "Retail",
+      "count": 1
+    },
+    {
+      "slug": "schools",
+      "name": "Schools",
+      "count": 3
+    },
+    {
+      "slug": "technology",
+      "name": "Technology",
+      "count": 3
+    },
+    {
+      "slug": "training-coaching",
+      "name": "Training & Coaching",
+      "count": 1
+    }
+  ],
+  "services": [
+    {
+      "slug": "ai-automation",
+      "name": "AI Automation",
+      "count": 3
+    },
+    {
+      "slug": "applications",
+      "name": "Applications",
+      "count": 26
+    },
+    {
+      "slug": "crm",
+      "name": "CRM",
+      "count": 3
+    },
+    {
+      "slug": "digital-marketing",
+      "name": "Digital Marketing",
+      "count": 1
+    },
+    {
+      "slug": "google-ads",
+      "name": "Google Ads",
+      "count": 1
+    },
+    {
+      "slug": "maintenance-support",
+      "name": "Maintenance & Support",
+      "count": 1
+    },
+    {
+      "slug": "seo",
+      "name": "SEO",
+      "count": 6
+    },
+    {
+      "slug": "website-design",
+      "name": "Website Design",
+      "count": 23
+    },
+    {
+      "slug": "website-redesign",
+      "name": "Website Redesign",
+      "count": 3
+    }
+  ],
+  "total_projects": 36,
+  "pagination": {
+    "page": 1,
+    "page_size": 12,
+    "total": 36,
+    "total_pages": 3
+  },
+  "filters": {
+    "category": "",
+    "industry": "",
+    "service": "",
+    "q": ""
+  }
+}

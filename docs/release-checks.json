@@ -1,0 +1,79 @@
+{
+  "checked_at": "2026-10-25T17:53:48.200722+00:00",
+  "mode": "static-and-in-memory-public-routes",
+  "result": "pass",
+  "build_generated_at": "2026-10-25T17:37:15.299Z",
+  "canonical_origin": "https://rajeevfreelancer.com",
+  "counts": {
+    "original_seo_declarations_checked": 18,
+    "original_service_copy_records_checked": 8,
+    "static_html_pages_checked": 279,
+    "captured_live_static_metadata_snapshots_checked": 19,
+    "internal_link_occurrences": 25908,
+    "preserved_locale_pages_checked": 4,
+    "unique_internal_link_targets": 5519,
+    "static_sitemap_urls_checked": 271,
+    "service_city_routes_checked": 6594,
+    "legacy_market_index_routes_checked": 3244,
+    "new_market_noindex_routes_checked": 3350,
+    "observed_live_urls_probed_locally": 2095,
+    "captured_live_route_metadata_snapshots_checked": 21,
+    "negative_route_checks": 3,
+    "head_routes_checked": 6,
+    "observed_live_urls_excluded_from_sitemap_by_noindex_policy": 186,
+    "observed_live_canonical_urls_checked_in_root_sitemap": 1909,
+    "local_root_sitemap_urls": 2275,
+    "new_document_review_transitions_checked": 1,
+    "service_catalog_routes": 14,
+    "city_catalog_markets": 471,
+    "synthetic_editorial_route_fixtures": 9
+  },
+  "html_languages": {
+    "en": 6867,
+    "hi": 1,
+    "ar": 1,
+    "es": 1,
+    "fr": 1,
+    "en-US": 1,
+    "en-GB": 1,
+    "de-DE": 1
+  },
+  "structured_data_types": {
+    "Organization": 6874,
+    "ContactPoint": 279,
+    "WebSite": 6874,
+    "Person": 6874,
+    "PostalAddress": 279,
+    "FAQPage": 6616,
+    "Question": 39661,
+    "Answer": 39661,
+    "Service": 6612,
+    "Place": 153,
+    "ServiceChannel": 2,
+    "BreadcrumbList": 6619,
+    "ListItem": 13252,
+    "CollectionPage": 1,
+    "ItemList": 1,
+    "WebPage": 6599,
+    "Offer": 6,
+    "City": 6454
+  },
+  "error_count": 0,
+  "warning_count": 2,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "editorial-route-fixtures",
+      "path": "",
+      "detail": "{'counts': {'blog': 9}, 'scope': 'Published records missing from source seeds are in-memory fixtures for route reachability only; actual live editorial copy requires the production database.'}"
+    },
+    {
+      "code": "verification-boundary",
+      "path": "",
+      "detail": "Dynamic route checks use actual rendering code with an in-memory published collection. They do not verify production Mongo content, public hosting behavior, Google Search Console indexing, Core Web Vitals or ranking changes."
+    }
+  ],
+  "limitations": [
+    "This report does not measure Google indexing, rankings, production database contents, real-user performance or public deployment behavior."
+  ]
+}

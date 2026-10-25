@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-10-25T17:54:58.056025+00:00",
+  "scope": "Local source integration and fake SDK/HTTP/storage tests only. No actual key was entered, exposed or tested; no production settings were changed.",
+  "result": "pass",
+  "integration": {
+    "authenticated_admin_config_router_registered": true,
+    "runtime_resolution": "Saved encrypted overrides are resolved per text/image generation call; no provider calls occur on startup or configuration reads.",
+    "text_call_sites": [
+      "server.generate_content",
+      "server.suggest_blog_topics",
+      "autopilot._llm_json"
+    ],
+    "image_call_sites": [
+      "autopilot.generate_cover"
+    ],
+    "original_emergent_text_model_preserved": "gemini-3-flash-preview",
+    "original_emergent_image_model_preserved": "gemini-3.1-flash-image-preview",
+    "direct_google_requires_explicit_provider_selection": true,
+    "google_key_transport": "x-goog-api-key header to fixed https://generativelanguage.googleapis.com host; no redirects or key query parameters",
+    "emergent_proxy_key_used_as_google_key": false,
+    "missing_google_image_key_falls_back_to_emergent": false,
+    "published_article_reads_require_generation_key": false,
+    "existing_cached_page_rewrite_guards_retained": true
+  },
+  "privacy_and_diagnostics": {
+    "public_settings_json_and_html_bootstrap_filtered": true,
+    "nested_credential_fields_filtered": true,
+    "runtime_credentials_serialized_or_logged": false,
+    "historical_error_fields_redacted_on_read_without_rewriting_records": true,
+    "new_provider_errors_use_fixed_friendly_messages": true,
+    "newer_failure_takes_priority_over_older_success": true,
+    "older_failure_not_claimed_current_when_success_is_newer": true,
+    "enabled_or_configured_status_claims_provider_health": false,
+    "diagnostic_provider_requests": 0
+  },
+  "validation": {
+    "combined_backend_tests_passed": 203,
+    "combined_backend_tests_failed": 0,
+    "credential_vault_tests_passed": 28,
+    "runtime_integration_tests_passed": 15,
+    "metadata_preservation": {
+      "result": "pass",
+      "original_source_declarations": 18,
+      "captured_live_snapshots": 21,
+      "built_html_heads_checked": 279
+    },
+    "syntax_compile": "pass",
+    "warnings": [
+      "Two installed Starlette dependency deprecation warnings."
+    ]
+  },
+  "deployment_actions": [
+    "Deploy the latest source/build while retaining the existing MongoDB and media configuration.",
+    "Provide a stable backend API_SETTINGS_ENCRYPTION_KEY, or the documented strong explicit JWT_SECRET compatibility fallback, before saving credentials in Admin.",
+    "In authenticated Admin → API Settings select each matching provider/model and save its key. A Google key alone does not change the default Emergent provider.",
+    "Use the explicit provider test controls. A Google model lookup or Emergent image readiness result is not proof of image generation, quota or scheduled publishing.",
+    "After configuration run one controlled new draft to verify text and cover generation. Existing published articles and indexed page bodies must remain unchanged."
+  ],
+  "unverified_live_state": {
+    "previously_observed_autopilot_blocker": "Upstream HTTP401 credential failure; no scheduled success was established by this local work.",
+    "new_remote_article_admin_publication": "Confirmed by main agent; public article body visibility remains unconfirmed pending deployment."
+  },
+  "references": [
+    "https://ai.google.dev/api/generate-content",
+    "https://ai.google.dev/gemini-api/docs/generate-content/image-generation"
+  ],
+  "configuration_recovery": {
+    "unlocked_actual_revision_retained": true,
+    "ui_shaped_get_put_get_runtime_regressions": 8,
+    "valid_other_provider_model_and_key_preserved": true,
+    "locked_vault_remains_noneditable": true
+  }
+}

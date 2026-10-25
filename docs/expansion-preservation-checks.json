@@ -1,0 +1,24 @@
+{
+  "result": "pass",
+  "existingStaticPagesChecked": 277,
+  "changedExistingPages": 1,
+  "approvedChangedExistingPages": 1,
+  "unexpectedChangedExistingPages": 0,
+  "approvedChanges": [
+    {
+      "path": "index.html",
+      "fields": [
+        "mainText",
+        "anchors"
+      ],
+      "allowed_fields": [
+        "mainText",
+        "anchors"
+      ],
+      "reason": "Clear Websites, Apps, AI Automation headline, real delivered project previews, services, process and contact journey.",
+      "authorization": "User requested full attractive homepage redesign and Work/live project/industry filters after approving preservation for existing indexed pages."
+    }
+  ],
+  "errors": [],
+  "scope": "Immutable pre-expansion snapshot; explicit owner-approved homepage redesign allows visible text and links only. Homepage search metadata and every other existing page remain protected; live database preservation is checked separately."
+}
