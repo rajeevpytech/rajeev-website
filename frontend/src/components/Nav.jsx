@@ -45,7 +45,7 @@ export default function Nav() {
         <div className="mx-auto max-w-[1400px] px-5 md:px-10 flex items-center justify-between">
           <Link to="/" data-testid="nav-logo" aria-label="Rajeev Freelancer — home" className="group flex items-center gap-2.5">
             <img
-              src="https://customer-assets-gfyr7b9c.emergentagent.net/job_rajeev-seo-hub/artifacts/whqtfhxo_image.png"
+              src="/assets/brand/rajeev-portrait.png"
               alt="Rajeev Freelancer"
               className="h-10 w-10 rounded-full object-cover border border-line group-hover:border-brand transition-colors duration-300"
             />
@@ -136,7 +136,7 @@ export default function Nav() {
             >
               <div className="flex items-center justify-between px-6 py-5 border-b border-line">
                 <span className="flex items-center gap-2.5">
-                  <img src="https://customer-assets-gfyr7b9c.emergentagent.net/job_rajeev-seo-hub/artifacts/whqtfhxo_image.png" alt="Rajeev Freelancer" className="h-9 w-9 rounded-full object-cover border border-line" />
+                  <img src="/assets/brand/rajeev-portrait.png" alt="Rajeev Freelancer" className="h-9 w-9 rounded-full object-cover border border-line" />
                   <span className="font-heading font-bold tracking-tight">Rajeev Freelancer</span>
                 </span>
                 <button onClick={() => setOpen(false)} data-testid="mobile-menu-close" aria-label="Close menu"
