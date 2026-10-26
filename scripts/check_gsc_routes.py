@@ -96,8 +96,18 @@ for row in active['routes']:
     expected = manifest['origin'] + aliases.canonical_service_path(path)
     if state.get('index_continuity') and expected not in sitemap:
         errors.append({'path': path, 'error': 'indexed-canonical-missing-from-sitemap', 'expected': expected})
+# The rebuilt Work CMS index is explicitly reviewed in public_seo.inventory;
+# the historical GSC snapshot still records its old noindex state. Verify the
+# replacement's delivered HTML before permitting that one sitemap exception.
+reviewed_replacements = {'/work'}
+for path in reviewed_replacements:
+    response = client.get(path, follow_redirects=False)
+    parsed = Page(response.text)
+    if response.status_code != 200 or any('noindex' in v for v in parsed.robots) or parsed.canonicals != [manifest['origin'] + path] or parsed.h1 != 1:
+        errors.append({'path': path, 'error': 'reviewed-replacement-invalid'})
+counts['reviewedReplacementIndexesChecked'] = len(reviewed_replacements)
 for path, state in policy.ROUTE_STATUS.items():
-    if state.get('noindex') and manifest['origin'] + path in sitemap:
+    if state.get('noindex') and path not in reviewed_replacements and manifest['origin'] + path in sitemap:
         errors.append({'path': path, 'error': 'known-noindex-in-sitemap'})
 
 report = {'result': 'pass' if not errors else 'fail', 'counts': counts, 'canonicalTargetsProbed': len(targets), 'rootSitemapUrls': len(sitemap), 'redirects': redirects, 'errors': errors, 'limitations': ['Indexed examples come from the capped 1,000-row GSC export; they do not enumerate all 2,333 reported indexed pages.', 'URL Inspection observations override older export/performance evidence for the specific inspected URL.', 'Historical Web/AI activity alone is not proof of current indexing and does not remove noindex review gates.', 'Editorial fixtures verify route delivery only; production titles, descriptions and body copy remain authoritative in the live Mongo database.', 'This check performs no production writes and does not guarantee indexing, rankings, AI citations or Business Profile verification.']}

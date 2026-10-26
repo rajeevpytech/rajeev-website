@@ -7,7 +7,7 @@ import Counter from "@/components/Counter";
 import { visibleStats, waLink } from "@/data/site";
 import { breadcrumbSchema, faqSchema } from "@/lib/siteConfig";
 
-const ABOUT_IMG = "https://customer-assets-gfyr7b9c.emergentagent.net/job_rajeev-seo-hub/artifacts/whqtfhxo_image.png";
+const ABOUT_IMG = "/assets/brand/rajeev-portrait.png";
 
 const EXPERTISE = [
   { icon: Briefcase, title: "12+ years, senior roles", text: "Production engineering and growth at IOG, Accenture and Google before going independent — applied directly to your project, not delegated to juniors." },

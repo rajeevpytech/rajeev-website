@@ -1,0 +1,231 @@
+{
+  "reviewDateIndia": "2026-10-26",
+  "scope": "Local production build and isolated public router. Not deployed.",
+  "release": {
+    "checked_at": "2026-10-26T08:54:17.215161+00:00",
+    "mode": "static-and-in-memory-public-routes",
+    "result": "pass",
+    "build_generated_at": "2026-10-26T08:53:41.340Z",
+    "canonical_origin": "https://rajeevfreelancer.com",
+    "counts": {
+      "original_seo_declarations_checked": 18,
+      "original_service_copy_records_checked": 8,
+      "portfolio_source_projects": 36,
+      "static_html_pages_checked": 280,
+      "captured_live_static_metadata_snapshots_checked": 19,
+      "internal_link_occurrences": 26556,
+      "preserved_locale_pages_checked": 4,
+      "unique_internal_link_targets": 5532,
+      "static_sitemap_urls_checked": 272,
+      "portfolio_api_pages_checked": 1,
+      "portfolio_html_routes_checked": 37,
+      "portfolio_head_routes_checked": 37,
+      "portfolio_detail_api_routes_checked": 36,
+      "portfolio_filter_variants_checked": 1,
+      "portfolio_negative_routes_checked": 2,
+      "legacy_case_records_preserved_during_work_checks": 6,
+      "service_city_routes_checked": 6594,
+      "legacy_market_index_routes_checked": 3244,
+      "new_market_noindex_routes_checked": 3350,
+      "observed_live_urls_probed_locally": 2095,
+      "captured_live_route_metadata_snapshots_checked": 21,
+      "negative_route_checks": 3,
+      "head_routes_checked": 6,
+      "portfolio_urls_checked_in_root_sitemap": 37,
+      "observed_live_urls_excluded_from_sitemap_by_noindex_policy": 186,
+      "observed_live_canonical_urls_checked_in_root_sitemap": 1909,
+      "local_root_sitemap_urls": 2312,
+      "new_document_review_transitions_checked": 1,
+      "service_catalog_routes": 14,
+      "city_catalog_markets": 471,
+      "synthetic_editorial_route_fixtures": 9
+    },
+    "html_languages": {
+      "en": 6906,
+      "hi": 1,
+      "ar": 1,
+      "es": 1,
+      "fr": 1,
+      "en-US": 1,
+      "en-GB": 1,
+      "de-DE": 1
+    },
+    "structured_data_types": {
+      "Organization": 6913,
+      "ContactPoint": 280,
+      "WebSite": 6913,
+      "Person": 6913,
+      "PostalAddress": 280,
+      "FAQPage": 6616,
+      "Question": 39659,
+      "Answer": 39659,
+      "Service": 6612,
+      "Place": 153,
+      "ServiceChannel": 2,
+      "BreadcrumbList": 6658,
+      "ListItem": 13354,
+      "CollectionPage": 2,
+      "ItemList": 4,
+      "WebPage": 6637,
+      "Offer": 6,
+      "CreativeWork": 36,
+      "City": 6454
+    },
+    "error_count": 0,
+    "warning_count": 2,
+    "errors": [],
+    "warnings": [
+      {
+        "code": "editorial-route-fixtures",
+        "path": "",
+        "detail": "{'counts': {'blog': 9}, 'scope': 'Published records missing from source seeds are in-memory fixtures for route reachability only; actual live editorial copy requires the production database.'}"
+      },
+      {
+        "code": "verification-boundary",
+        "path": "",
+        "detail": "Dynamic route checks use actual rendering code with an in-memory published collection. They do not verify production Mongo content, public hosting behavior, Google Search Console indexing, Core Web Vitals or ranking changes."
+      }
+    ],
+    "limitations": [
+      "This report does not measure Google indexing, rankings, production database contents, real-user performance or public deployment behavior."
+    ]
+  },
+  "browser": {
+    "pass": true,
+    "sizes": [
+      {
+        "width": 320,
+        "client": 320,
+        "scroll": 320
+      },
+      {
+        "width": 390,
+        "client": 390,
+        "scroll": 390
+      },
+      {
+        "width": 768,
+        "client": 768,
+        "scroll": 768
+      },
+      {
+        "width": 1440,
+        "client": 1440,
+        "scroll": 1440
+      },
+      {
+        "width": 1920,
+        "client": 1920,
+        "scroll": 1920
+      }
+    ],
+    "motionRuns": true,
+    "pauseWorks": true,
+    "reducedMotion": true,
+    "pageErrors": []
+  },
+  "gscRoutes": {
+    "result": "pass",
+    "counts": {
+      "activePaths": 1664,
+      "indexedExportExamples": 1000,
+      "historicalActivityOnlyPaths": 664,
+      "noindexReviewGates": 97,
+      "legacyLocalityRoutesRestored": 98,
+      "inMemoryEditorialFixtures": 8,
+      "reviewedReplacementIndexesChecked": 1
+    },
+    "canonicalTargetsProbed": 1322,
+    "rootSitemapUrls": 2311,
+    "redirects": [
+      {
+        "path": "/freelance-services/freelance-seo-expert-in-hyderabad",
+        "target": "/freelancer-seo-expert/hyderabad-india",
+        "status": 301
+      },
+      {
+        "path": "/freelance-services/freelance-seo-expert-in-mumbai",
+        "target": "/freelancer-seo-expert/mumbai-india",
+        "status": 301
+      },
+      {
+        "path": "/freelance-services/freelance-web-designer-in-kolkata",
+        "target": "/freelancer-website-developer/kolkata-india",
+        "status": 301
+      },
+      {
+        "path": "/home",
+        "target": "/",
+        "status": 301
+      },
+      {
+        "path": "/index.php",
+        "target": "/",
+        "status": 301
+      }
+    ],
+    "errors": [],
+    "limitations": [
+      "Indexed examples come from the capped 1,000-row GSC export; they do not enumerate all 2,333 reported indexed pages.",
+      "URL Inspection observations override older export/performance evidence for the specific inspected URL.",
+      "Historical Web/AI activity alone is not proof of current indexing and does not remove noindex review gates.",
+      "Editorial fixtures verify route delivery only; production titles, descriptions and body copy remain authoritative in the live Mongo database.",
+      "This check performs no production writes and does not guarantee indexing, rankings, AI citations or Business Profile verification."
+    ]
+  },
+  "expansion": {
+    "ok": true,
+    "completeNewHttpCoverage": true,
+    "scope": "Every NEW location \u00d7 8 preferred services through the actual local FastAPI router; original/base HTTP routes are checked separately by check_release.py. In-memory empty database; actual frontend build asset shell; no live publication or provider verification.",
+    "counts": {
+      "totalRealPlaces": 5001,
+      "baseLocationsUnchanged": 471,
+      "newRealPlaces": 4530,
+      "canonicalServices": 8,
+      "candidateUrlsEnumerated": 40008,
+      "newHttpPathsExpected": 36240,
+      "newHttpPathsTested": 36240,
+      "noindexResponses": 36240,
+      "countriesTested": 197,
+      "databaseWrites": 0,
+      "llmCalls": 0,
+      "productionDatabaseConnections": 0
+    },
+    "errorCount": 0,
+    "errors": [],
+    "seconds": 57.57
+  },
+  "backendTests": {
+    "passed": 242,
+    "scope": "Isolated data; mocked external providers"
+  },
+  "aiDiscovery": {
+    "generatedAt": "2026-10-26T08:28:42.507042+00:00",
+    "mode": "local-source-and-in-memory-public-router",
+    "coverage": {
+      "inventoryPaths": 7125,
+      "checkedPaths": 7125,
+      "completeForAvailableInventory": true,
+      "localEditorialFixtures": 11
+    },
+    "technicalResult": "pass",
+    "technicalErrorPages": 0,
+    "editorialEvidenceReviewPages": 3489,
+    "dispositions": {
+      "indexable-canonical": 2272,
+      "canonical-alias": 1286,
+      "intentional-noindex-or-review-gate": 3567
+    },
+    "robotsPolicyErrors": [],
+    "warnings": [
+      "Local editorial fixtures validate rendering only; production database text and approvals remain authoritative"
+    ],
+    "limitations": [
+      "This is an HTML/declaration audit, not proof of factual accuracy, provider ingestion, citations, recommendations or rankings.",
+      "Visible text means text present in HTML outside script/style/noscript; this audit does not measure computed browser visibility or Core Web Vitals.",
+      "Local source inventory cannot enumerate production-only Mongo documents; use --base-url after deployment to merge the live sitemap.",
+      "Indexed GSC examples are capped; historical impressions do not prove current indexing.",
+      "Named user-directed fetchers may not obey robots.txt; private data still requires authorization."
+    ]
+  }
+}

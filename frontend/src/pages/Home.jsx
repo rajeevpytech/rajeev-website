@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import { ArrowUpRight, ArrowRight, Bot, Check, Code2, ExternalLink, Layers3, MapPin, MessageCircle, Smartphone } from "lucide-react";
+import { ArrowUpRight, ArrowRight, Bot, Check, Code2, MapPin, MessageCircle, Smartphone } from "lucide-react";
 import Link from "@/components/CanonicalLink";
 import Seo from "@/components/Seo";
 import ContactForm from "@/components/ContactForm";
+import HeroMotion from "@/components/HeroMotion";
 import { WorkCard } from "@/components/WorkCard";
 import { api } from "@/lib/api";
 import { CONTACT, waLink } from "@/data/site";
@@ -10,7 +11,7 @@ import { faqSchema, localBusinessSchema } from "@/lib/siteConfig";
 import { bootstrapData } from "@/seo/bootstrap";
 import HOME_PORTFOLIO from "@/seo/home-portfolio.json";
 
-const PORTRAIT = "https://customer-assets-gfyr7b9c.emergentagent.net/job_rajeev-seo-hub/artifacts/whqtfhxo_image.png";
+const PORTRAIT = "/assets/brand/rajeev-portrait.png";
 const HOME_FAQS = [
   { q: "What can you help me build?", a: "Business websites, ecommerce experiences, mobile apps, custom software and AI workflow integrations. SEO, digital marketing and messaging services are also available. We can discuss a new project or a clearly scoped improvement to an existing system." },
   { q: "Can I see relevant examples before we start?", a: "Yes. Explore the work collection for project previews, live website links and the information available about each project. Tell me which type of business or application is closest to your brief so we can discuss the relevant scope." },
@@ -32,45 +33,6 @@ const PROCESS = [
   { number: "03", title: "Review the details", text: "We check the agreed journeys, content, forms and integrations, and work through feedback before the release.", deliverable: "Review & release checks" },
   { number: "04", title: "Hand over with clarity", text: "Access, documentation and any agreed support are part of the handover discussion, so ownership and next steps are clear.", deliverable: "Access & handover notes" },
 ];
-
-function safeWebsite(value) {
-  try { const u = new URL(value); return ["https:", "http:"].includes(u.protocol) ? u.href : null; } catch { return null; }
-}
-
-function HeroProject({ project }) {
-  if (!project) return (
-    <div className="rounded-[1.75rem] border border-ink/10 bg-white p-8 md:p-12">
-      <Layers3 className="h-10 w-10 text-brand" aria-hidden="true" />
-      <p className="mt-16 font-heading text-3xl font-bold tracking-tight">Good work starts with a clear brief.</p>
-      <p className="mt-4 leading-relaxed text-ink/60">Explore the work collection, then tell me what you want to build.</p>
-      <Link to="/work" className="mt-7 inline-flex items-center gap-2 font-semibold text-brand">Explore the work <ArrowUpRight className="h-4 w-4" aria-hidden="true" /></Link>
-    </div>
-  );
-  const screenshot = project.screenshot;
-  const website = safeWebsite(project.website_url);
-  let host = "Project preview";
-  if (website) host = new URL(website).hostname.replace(/^www\./, "");
-  return (
-    <div className="relative">
-      <div className="absolute -inset-5 -z-10 rounded-[3rem] bg-brand/[0.06] blur-2xl" aria-hidden="true" />
-      <div className="overflow-hidden rounded-[1.5rem] border border-ink/10 bg-white shadow-[0_24px_70px_-35px_rgba(15,30,55,0.35)]">
-        <div className="flex items-center gap-3 border-b border-ink/10 bg-[#f2f4f7] px-5 py-3.5">
-          <span className="flex gap-1.5" aria-hidden="true"><i className="h-2 w-2 rounded-full bg-ink/15" /><i className="h-2 w-2 rounded-full bg-ink/15" /><i className="h-2 w-2 rounded-full bg-ink/15" /></span>
-          <span className="min-w-0 flex-1 truncate text-center font-mono text-[10px] tracking-wide text-ink/50">{host}</span>
-          <ExternalLink className="h-3 w-3 text-ink/35" aria-hidden="true" />
-        </div>
-        <Link to={`/work/${project.slug}`} className="group block bg-[#edf1f6] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:outline-brand" aria-label={`View ${project.title} project`}>
-          {screenshot?.url ? <img src={screenshot.url} alt={screenshot.alt || `${project.title} website preview`} width={screenshot.width || 1440} height={screenshot.height || 1000} fetchPriority="high" decoding="async" className="aspect-[16/10] w-full object-cover object-top motion-safe:transition-transform motion-safe:duration-700 motion-safe:group-hover:scale-[1.02]" /> : <div className="flex aspect-[16/10] items-center justify-center p-10 text-center font-heading text-4xl font-bold text-ink/50">{project.title}</div>}
-        </Link>
-        <div className="flex flex-wrap items-center justify-between gap-4 p-5 md:p-6">
-          <div><p className="font-mono text-[10px] uppercase tracking-[0.18em] text-brand">Featured work · {project.category?.name || "Project"}</p><h2 className="mt-1.5 font-heading text-xl font-bold tracking-tight">{project.title}</h2></div>
-          <Link to={`/work/${project.slug}`} className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-ink/15 text-ink transition-colors hover:border-brand hover:bg-brand hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand" aria-label={`Read about ${project.title}`}><ArrowUpRight className="h-5 w-5" aria-hidden="true" /></Link>
-        </div>
-      </div>
-      {website && <a href={website} target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center gap-2 text-xs font-medium text-ink/60 underline-offset-4 hover:text-brand hover:underline">Explore the live website <ArrowUpRight className="h-3.5 w-3.5" aria-hidden="true" /></a>}
-    </div>
-  );
-}
 
 export default function Home() {
   const [portfolio, setPortfolio] = useState(() => bootstrapData("homePortfolio") || HOME_PORTFOLIO);
@@ -107,10 +69,11 @@ export default function Home() {
         <div className="pointer-events-none absolute inset-y-0 right-0 hidden w-[44%] bg-[#eef3fb] lg:block" aria-hidden="true" />
         <div className="relative mx-auto grid max-w-[1400px] items-center gap-14 px-5 md:px-10 lg:grid-cols-12 lg:gap-12">
           <div className="lg:col-span-6">
-            <p className="inline-flex items-center gap-2.5 font-mono text-[10px] uppercase tracking-[0.18em] text-ink/55 sm:text-xs"><span className="h-1.5 w-1.5 rounded-full bg-brand" aria-hidden="true" /> Independent developer · Gurgaon, India</p>
-            <h1 className="mt-7 font-heading text-[12vw] font-extrabold leading-[0.98] tracking-[-0.055em] sm:text-[4.5rem] lg:text-[clamp(3.5rem,5.1vw,5.1rem)]"><span className="block">Websites. Apps.</span><span className="block text-brand">AI Automation.</span></h1>
-            <p className="mt-7 max-w-lg text-base leading-relaxed text-ink/65 md:text-lg">I'm Rajeev. I build business websites, mobile apps and practical AI workflows, with a clear scope and direct communication from first conversation to handover.</p>
-            <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
+            <p className="inline-flex items-center gap-2.5 font-mono text-[10px] uppercase tracking-[0.18em] text-ink/55 sm:text-xs"><span className="h-1.5 w-1.5 rounded-full bg-brand" aria-hidden="true" /> Development & digital marketing · Gurgaon, India</p>
+            <h1 className="mt-7 font-heading text-[10vw] font-extrabold leading-[0.98] tracking-[-0.055em] sm:text-[4.5rem] lg:text-[clamp(3.5rem,5.1vw,5.1rem)]"><span className="block">Websites. Apps.</span><span className="block text-brand">AI Automation.</span><span className="mt-3 block text-[0.68em] leading-[1.12] tracking-[-0.04em]">Digital Marketing.</span></h1>
+            <p className="mt-7 max-w-lg text-base leading-relaxed text-ink/65 md:text-lg">I'm Rajeev. I build websites, apps and AI workflows, and help businesses reach their audience through digital marketing. Clear scope, direct communication and a considered handover.</p>
+            <p data-testid="hero-services-line" className="mt-5 max-w-xl text-xs leading-[1.9] text-ink/60 sm:text-[13px]">SEO · SMO · Social Media · Website Designing · Application Development · CRM Software</p>
+            <div className="mt-7 flex flex-wrap items-center gap-x-7 gap-y-4">
               <a href="#start-project" data-testid="hero-quote-btn" className="inline-flex items-center gap-3 rounded-full bg-brand px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand">Discuss your project <ArrowUpRight className="h-4 w-4" aria-hidden="true" /></a>
               <Link to="/work" data-testid="hero-work-btn" className="inline-flex items-center gap-2 border-b border-ink/30 py-2 text-sm font-semibold transition-colors hover:border-brand hover:text-brand">Explore the work <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
             </div>
@@ -119,7 +82,7 @@ export default function Home() {
               <div><p className="text-sm font-semibold">A person you can talk to.</p><a href={waLink()} target="_blank" rel="noopener noreferrer" data-testid="hero-whatsapp-btn" className="mt-0.5 inline-flex items-center gap-1.5 text-xs text-ink/55 hover:text-brand">Chat directly with Rajeev <ArrowUpRight className="h-3 w-3" aria-hidden="true" /></a></div>
             </div>
           </div>
-          <div data-rf-home-featured="true" className="lg:col-span-6 lg:pl-5"><HeroProject project={projects[0]} /></div>
+          <div data-rf-home-featured="true" className="lg:col-span-6 lg:pl-5"><HeroMotion project={projects[0]} /></div>
         </div>
       </section>
 

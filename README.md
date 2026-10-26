@@ -1,3 +1,5 @@
+Latest consolidated handover: [Final homepage and SEO/GEO review](docs/FINAL-HERO-SEO-REVIEW.md). Deploy the latest `seo-execution-foundation-20261026` branch once, then complete live acceptance.
+
 # Rajeev Freelancer — SEO, AEO and GEO release
 
 Prepared 25 October 2026 for **rajeevfreelancer.com**. ER Freelancer is excluded from this deliverable.

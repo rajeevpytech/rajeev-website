@@ -6,10 +6,11 @@
     "historicalActivityOnlyPaths": 664,
     "noindexReviewGates": 97,
     "legacyLocalityRoutesRestored": 98,
-    "inMemoryEditorialFixtures": 8
+    "inMemoryEditorialFixtures": 8,
+    "reviewedReplacementIndexesChecked": 1
   },
   "canonicalTargetsProbed": 1322,
-  "rootSitemapUrls": 2274,
+  "rootSitemapUrls": 2311,
   "redirects": [
     {
       "path": "/freelance-services/freelance-seo-expert-in-hyderabad",
