@@ -1,0 +1,306 @@
+{
+  "prepared_at": "2026-10-26T07:13:44.857195+00:00",
+  "base_commit": "4b900c833bf5c1b29a4475956adec6a9151d1735",
+  "backend_tests": {
+    "passed": 242,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 18,
+    "scope": "Isolated tests; retained GeoNames snapshot supplied; no production writes"
+  },
+  "frontend": {
+    "production_build": "pass",
+    "prerendered_pages": 280,
+    "seo_check": "pass",
+    "journey_tracking_check": "pass",
+    "contact_receipt_check": "pass",
+    "work_public_check": "pass",
+    "work_admin_check": "pass",
+    "project_brief_assertions": 62
+  },
+  "metadata_preservation": {
+    "result": "pass",
+    "original_seo_declarations": 18,
+    "captured_live_metadata_snapshots": 21,
+    "built_html_heads_checked": 293,
+    "existing_paths_and_body_templates": "preserved"
+  },
+  "full_local_release_check": {
+    "mode": "static-and-in-memory-public-routes",
+    "result": "pass",
+    "counts": {
+      "original_seo_declarations_checked": 18,
+      "original_service_copy_records_checked": 8,
+      "portfolio_source_projects": 36,
+      "static_html_pages_checked": 280,
+      "captured_live_static_metadata_snapshots_checked": 19,
+      "internal_link_occurrences": 26556,
+      "preserved_locale_pages_checked": 4,
+      "unique_internal_link_targets": 5532,
+      "static_sitemap_urls_checked": 272,
+      "portfolio_api_pages_checked": 1,
+      "portfolio_html_routes_checked": 37,
+      "portfolio_head_routes_checked": 37,
+      "portfolio_detail_api_routes_checked": 36,
+      "portfolio_filter_variants_checked": 1,
+      "portfolio_negative_routes_checked": 2,
+      "legacy_case_records_preserved_during_work_checks": 6,
+      "service_city_routes_checked": 6594,
+      "legacy_market_index_routes_checked": 3244,
+      "new_market_noindex_routes_checked": 3350,
+      "observed_live_urls_probed_locally": 2095,
+      "captured_live_route_metadata_snapshots_checked": 21,
+      "negative_route_checks": 3,
+      "head_routes_checked": 6,
+      "portfolio_urls_checked_in_root_sitemap": 37,
+      "observed_live_urls_excluded_from_sitemap_by_noindex_policy": 186,
+      "observed_live_canonical_urls_checked_in_root_sitemap": 1909,
+      "local_root_sitemap_urls": 2312,
+      "new_document_review_transitions_checked": 1,
+      "service_catalog_routes": 14,
+      "city_catalog_markets": 471,
+      "synthetic_editorial_route_fixtures": 9
+    },
+    "error_count": 0,
+    "warning_count": 2,
+    "warnings": [
+      {
+        "code": "editorial-route-fixtures",
+        "path": "",
+        "detail": "{'counts': {'blog': 9}, 'scope': 'Published records missing from source seeds are in-memory fixtures for route reachability only; actual live editorial copy requires the production database.'}"
+      },
+      {
+        "code": "verification-boundary",
+        "path": "",
+        "detail": "Dynamic route checks use actual rendering code with an in-memory published collection. They do not verify production Mongo content, public hosting behavior, Google Search Console indexing, Core Web Vitals or ranking changes."
+      }
+    ],
+    "limitations": [
+      "This report does not measure Google indexing, rankings, production database contents, real-user performance or public deployment behavior."
+    ]
+  },
+  "current_public_acceptance": {
+    "checked_at": "2026-10-26T07:08:51.737376+00:00",
+    "base_url": "https://rajeevfreelancer.com",
+    "checks": 28,
+    "failed": 25,
+    "pass": false,
+    "read_only": true,
+    "failed_checks": [
+      {
+        "path": "/",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/about",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/services",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/pricing",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/contact",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/work",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/case-studies",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/blog",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/locations",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/service-areas",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/project-brief",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/delhi-ncr",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/us",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/uk",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/de",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/freelancer-website-developer",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/freelancer-website-developer/gurgaon-india",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_canonical_mismatch",
+          "expected_page_heading_missing"
+        ]
+      },
+      {
+        "path": "/freelancer-website-developer/delhi-india",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_canonical_mismatch",
+          "expected_page_heading_missing"
+        ]
+      },
+      {
+        "path": "/freelancer-software-developer",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/freelancer-app-developer",
+        "errors": [
+          "rendered_h1_missing_or_multiple",
+          "release_title_mismatch",
+          "release_description_mismatch",
+          "release_canonical_mismatch"
+        ]
+      },
+      {
+        "path": "/admin",
+        "errors": [
+          "unexpected_indexability"
+        ]
+      },
+      {
+        "path": "/rf-release-check-nonexistent-7e830d",
+        "errors": [
+          "http_200_expected_404",
+          "unexpected_indexability"
+        ]
+      },
+      {
+        "path": "/robots.txt",
+        "errors": [
+          "robots_type_or_sitemap_invalid"
+        ]
+      },
+      {
+        "path": "/sitemap.xml",
+        "errors": [
+          "sitemap_host_or_locations_invalid"
+        ]
+      },
+      {
+        "path": "/feed.xml",
+        "errors": [
+          "xml_content_type_missing",
+          "invalid_xml"
+        ]
+      }
+    ]
+  },
+  "deployed_to_vps": false,
+  "analytics_account_verified": false,
+  "live_form_or_notifications_tested": false,
+  "limits": [
+    "The current public acceptance report compares the live server with this built release. It is not evidence of a new production regression.",
+    "No Google/Bing setting, client content, existing metadata, API secret or publication state was changed.",
+    "The 90 day programme, case study evidence, outreach and ranking observation remain outstanding."
+  ]
+}

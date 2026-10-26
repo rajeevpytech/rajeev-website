@@ -27,9 +27,10 @@ export default function ContactForm({ defaultService = "", location = "", countr
     }
     setLoading(true);
     try {
-      await api.post("/leads", { ...form, source_path: routeLoc.pathname, location, budget });
+      const { data } = await api.post("/leads", { ...form, source_path: routeLoc.pathname, location, budget });
+      if (data?.ok !== true || !data.id) throw new Error("Lead receipt not confirmed");
       setDone(true);
-      trackConversion({ service: form.service || "unspecified" });
+      trackConversion({ service: SERVICES.find(item => item.name === form.service)?.slug || (form.service === "AI Automation" ? "ai-automation" : "other") });
       toast.success("Thanks! Rajeev usually replies within the hour.");
     } catch (err) {
       toast.error(formatApiErrorDetail(err.response?.data?.detail) || "Could not send. Try WhatsApp instead.");

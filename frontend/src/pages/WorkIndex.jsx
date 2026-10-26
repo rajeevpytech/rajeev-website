@@ -8,6 +8,8 @@ import { api } from "@/lib/api";
 import { bootstrapData } from "@/seo/bootstrap";
 import { breadcrumbSchema, canonicalBase } from "@/lib/siteConfig";
 import { WORK_DESCRIPTION, WORK_TITLE, portfolioProject, workPagination } from "@/lib/portfolio";
+import { getSiteConfig } from "@/lib/siteConfig";
+import { emitJourneyEvent } from "@/lib/journeyTracking";
 
 export default function WorkIndex() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -48,6 +50,13 @@ export default function WorkIndex() {
   const pagination = workPagination(payload?.pagination, projects.length);
   const totalProjects = Number(payload?.total_projects ?? view.payload?.total_projects);
   const updateFilters = ({ nextCategory = category, nextService = service, nextQuery = query, nextPage = 1 } = {}) => {
+    if (nextCategory !== category || nextService !== service || nextQuery !== query) {
+      emitJourneyEvent(getSiteConfig(), "portfolio_filter", {
+        industry: industryOptions.some(item => item.slug === nextCategory) ? nextCategory : "",
+        service: serviceOptions.some(item => item.slug === nextService) ? nextService : "",
+        has_search: Boolean(nextQuery.trim()),
+      });
+    }
     const params = new URLSearchParams();
     if (nextCategory) params.set("industry", nextCategory);
     if (nextService) params.set("service", nextService);

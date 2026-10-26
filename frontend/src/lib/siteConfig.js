@@ -1,4 +1,5 @@
 import { canonicalServicePath } from "@/seo/canonicalPath";
+import { analyticsId, cleanEventMeta, emitJourneyEvent, publicPageMeta, publicPath } from "@/lib/journeyTracking";
 // Build-time SEO/site defaults (kept in sync with backend DEFAULT_SITE). These make the
 // first render correct even before the live /api/settings fetch resolves. Admin edits persist
 // server-side and hydrate the app at runtime via SettingsContext -> setSiteConfig().
@@ -80,7 +81,7 @@ export function setSiteConfig(next) {
 // Inject Google Analytics 4 / Google Ads gtag.js once, if IDs are configured.
 export function initTracking() {
   const t = getSiteConfig().tracking || {};
-  const ids = [t.ga4_id, t.ads_id].filter(Boolean);
+  const ids = [analyticsId(getSiteConfig()), /^AW-\d{4,16}$/.test(t.ads_id || "") ? t.ads_id : ""].filter(Boolean);
   if (!ids.length || typeof window === "undefined" || window.__gtagLoaded) return;
   window.__gtagLoaded = true;
   window.dataLayer = window.dataLayer || [];
@@ -90,15 +91,17 @@ export function initTracking() {
   s.src = `https://www.googletagmanager.com/gtag/js?id=${ids[0]}`;
   document.head.appendChild(s);
   window.gtag("js", new Date());
-  ids.forEach((id) => window.gtag("config", id));
+  ids.forEach((id) => window.gtag("config", id, { send_page_view: false }));
 }
 
 // Fire a lead conversion (GA4 generate_lead + Google Ads conversion) on form success.
 export function trackConversion(meta = {}) {
   const t = getSiteConfig().tracking || {};
-  if (typeof window === "undefined" || !window.gtag) return;
-  if (t.ga4_id) window.gtag("event", "generate_lead", meta);
-  if (t.ads_id && t.ads_conversion_label) window.gtag("event", "conversion", { send_to: `${t.ads_id}/${t.ads_conversion_label}` });
+  if (typeof window === "undefined" || typeof window.gtag !== "function" || !publicPath(window.location.pathname)) return;
+  emitJourneyEvent(getSiteConfig(), "generate_lead", cleanEventMeta(meta));
+  if (/^AW-\d{4,16}$/.test(t.ads_id || "") && /^[A-Za-z0-9_-]{1,100}$/.test(t.ads_conversion_label || "")) {
+    try { window.gtag("event", "conversion", { ...publicPageMeta(window.location.pathname), send_to: `${t.ads_id}/${t.ads_conversion_label}` }); } catch { /* Contact success is independent of analytics. */ }
+  }
 }
 
 export const canonicalBase = () => (getSiteConfig().seo.canonical_domain || "https://rajeevfreelancer.com").replace(/^https:\/\/www\.rajeevfreelancer\.com/, "https://rajeevfreelancer.com").replace(/\/$/, "");

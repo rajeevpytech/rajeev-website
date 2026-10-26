@@ -6,6 +6,9 @@ This update preserves existing URL paths and metadata, supports the newer live s
 
 Start with:
 
+- `docs/SEO-EXECUTION-FOUNDATION.md` — 26 October implementation, 20-URL live acceptance command, confirmed-receipt conversion events and remaining production dependencies.
+- `docs/CTR-REVIEW-QUEUE-20261026.md` — first query/page reviews using the dated GSC export; no existing metadata edits applied.
+
 - `docs/RECHECK-FIXES.md` — second-review fixes for exact editorial URLs, deleted content and Admin configuration recovery; 203 backend tests pass.
 
 - `docs/EXECUTION-STATUS.md` — exact CMS/publication, deployment, Bing/Brave and scheduler states.
@@ -35,7 +38,7 @@ npm run build
 npm run check:seo
 ```
 
-The build exports catalog data from `backend/data.py`, compiles the browser app, then prerenders the static routes. `frontend/build` is included from the verified release. Live database content is rendered by FastAPI. Keep existing `.env`, database, uploads/media and credentials when updating production.
+The build exports catalog data from `backend/data.py`, compiles the browser app, then prerenders the static routes. The GitHub branch contains source; generate `frontend/build` before deployment. Live database content is rendered by FastAPI. Keep existing `.env`, database, uploads/media and credentials when updating production.
 
 For full local isolated checks, use the backend environment:
 

@@ -1,0 +1,73 @@
+const assert = require('node:assert/strict');
+const path = require('node:path');
+const fs = require('node:fs');
+const root = path.resolve(__dirname, '..');
+const esbuild = require(path.join(root, 'node_modules/esbuild'));
+const { JSDOM } = require(path.join(root, 'node_modules/jsdom'));
+const dom = new JSDOM('<!doctype html><head></head><body></body>', { url: 'https://rajeevfreelancer.com/contact?email=private%40example.test', referrer: 'https://search.example.test/path?private=value' });
+global.window = dom.window; global.document = dom.window.document;
+
+(async () => {
+  const target = path.join(root, '.qa/journey.cjs');
+  fs.mkdirSync(path.dirname(target), { recursive: true });
+  await esbuild.build({ stdin: { contents: 'export * from "./src/lib/journeyTracking"; export * from "./src/lib/siteConfig";', resolveDir: root }, outfile: target, bundle: true, platform: 'node', format: 'cjs', alias: { '@': path.join(root, 'src') } });
+  const m = require(target);
+  const config = { tracking: { ga4_id: 'G-TEST01', ads_id: 'AW-123456', ads_conversion_label: 'test-label' }, contact: { phone: '+919711623561', whatsapp: '919711623561', email: 'hello@example.test' } };
+  m.setSiteConfig(config); m.initTracking();
+  assert.equal(document.querySelectorAll('script[src*="googletagmanager"]').length, 1);
+  const setup = window.dataLayer.map(args => [...args]);
+  assert.ok(setup.filter(row => row[0] === 'config').every(row => row[2].send_page_view === false));
+  m.initTracking(); assert.equal(document.querySelectorAll('script[src*="googletagmanager"]').length, 1);
+  const calls = []; window.gtag = (...args) => calls.push(args);
+  assert.equal(m.emitPageView(config, '/contact?email=private@example.test#details'), true);
+  assert.equal(m.emitPageView(config, '/contact'), false);
+  assert.equal(m.emitPageView(config, '/work'), true);
+  assert.equal(m.emitPageView(config, '/contact'), true);
+  assert.equal(m.emitPageView(config, '/admin'), false);
+  assert.equal(m.emitPageView(config, '/api/settings'), false);
+  assert.equal(m.publicPath('/work/%40private'), '');
+  assert.equal(m.publicPath('/work/%3Fprivate'), '');
+  assert.equal(m.publicPath('/work/919711623561'), '');
+  assert.equal(m.publicPath('//evil.test/'), '');
+  assert.equal(m.emitJourneyEvent({ tracking: {} }, 'work_open'), false);
+  assert.equal(m.emitJourneyEvent(config, 'arbitrary_event', { email: 'private@example.test' }), false);
+  assert.deepEqual(m.cleanEventMeta({ email: 'private@example.test', name: 'Private', message: 'confidential', service: 'seo', industry: 'hospitality', project: 'example-hotel', link_kind: 'live', has_search: true }), { service: 'seo', industry: 'hospitality', project: 'example-hotel', link_kind: 'live', has_search: true });
+  calls.length = 0;
+  m.trackConversion({ service: 'seo', email: 'private@example.test', budget: '5000', message: 'private' });
+  assert.deepEqual(calls.map(row => row[1]), ['generate_lead', 'conversion']);
+  assert.equal(calls[0][2].send_to, 'G-TEST01');
+  assert.equal(calls[1][2].send_to, 'AW-123456/test-label');
+  assert.equal(calls[0][2].page_referrer, 'https://search.example.test');
+  assert.ok(calls.every(row => row[2].page_location === 'https://rajeevfreelancer.com/contact'));
+  assert.doesNotMatch(JSON.stringify(calls), /private|confidential|5000/);
+
+  calls.length = 0;
+  const cleanup = m.installJourneyClicks(() => m.getSiteConfig());
+  const click = (href, data = '') => {
+    document.body.innerHTML = `<a href="${href}" ${data}><span>Open</span></a>`;
+    const anchor = document.querySelector('a');
+    // React Router cancels its native link during bubbling. Capture still records the click.
+    anchor.addEventListener('click', event => event.preventDefault());
+    document.querySelector('span').dispatchEvent(new dom.window.MouseEvent('click', { bubbles: true, cancelable: true, button: 0 }));
+  };
+  click('https://wa.me/919711623561?text=confidential');
+  click('https://wa.me/?text=confidential'); // A share action is not a contact action.
+  click('https://wa.me/123456789');
+  click('https://api.whatsapp.com/send?phone=919711623561&text=confidential');
+  click('tel:+919711623561');
+  click('mailto:hello@example.test?body=confidential');
+  click('/work/example-hotel', 'data-rf-project="example-hotel" data-rf-link-kind="details"');
+  click('https://client.example.test/?private=value', 'data-rf-project="example-hotel" data-rf-link-kind="live"');
+  click('/case-studies/hotel-case');
+  assert.deepEqual(calls.map(row => row[1]), ['whatsapp_click', 'whatsapp_click', 'phone_click', 'email_click', 'work_open', 'work_open', 'case_study_open']);
+  assert.doesNotMatch(JSON.stringify(calls), /confidential|private|client\.example|hello@example/);
+  cleanup(); calls.length = 0;
+  click('https://wa.me/919711623561'); assert.equal(calls.length, 0);
+  window.history.replaceState({}, '', '/admin');
+  m.trackConversion({ service: 'seo' }); assert.equal(calls.length, 0);
+  window.history.replaceState({}, '', '/contact');
+  window.gtag = () => { throw new Error('Analytics unavailable'); };
+  assert.doesNotThrow(() => m.trackConversion({ service: 'seo' }));
+  assert.equal(m.emitPageView(config, '/work'), false);
+  console.log('PASS: route views, destination isolation, no query/form data in custom payloads, real contact vs share actions, Router links, cleanup, admin exclusion and analytics-failure isolation.');
+})().catch(error => { console.error(error); process.exitCode = 1; });

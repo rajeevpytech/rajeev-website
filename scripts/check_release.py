@@ -335,7 +335,7 @@ def portfolio_route_checks(checks, client, origin, projects, db):
     listed = set()
     page_number = 1
     while page_number <= 1000:
-        response = client.get(f"/api/portfolio?page={page_number}&page_size=100")
+        response = client.get(f"/api/portfolio?page={page_number}&page_size=60")
         if response.status_code != 200:
             checks.error("portfolio-api-status", "/api/portfolio", response.status_code)
             break

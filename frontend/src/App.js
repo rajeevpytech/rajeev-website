@@ -8,6 +8,7 @@ import { organizationSchema, websiteSchema, personSchema } from "@/lib/siteConfi
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import FloatingActions from "@/components/FloatingActions";
+import JourneyTracking from "@/components/JourneyTracking";
 import ScrollProgress from "@/components/ScrollProgress";
 import ExitIntentOffer from "@/components/ExitIntentOffer";
 import Home from "@/pages/Home";
@@ -127,6 +128,7 @@ export default function App({ ssrPath } = {}) {
         <script type="application/ld+json">{JSON.stringify(personSchema()).replace(/</g, "\\u003c")}</script>
       </Helmet>
       <ScrollTop />
+      <JourneyTracking />
       <Routes>
         <Route path="/admin" element={<Admin />} />
         <Route path="/free-quote" element={<Landing />} />
