@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "completeNewHttpCoverage": true,
+  "scope": "Every NEW location \u00d7 8 preferred services through the actual local FastAPI router; original/base HTTP routes are checked separately by check_release.py. In-memory empty database; actual frontend build asset shell; no live publication or provider verification.",
+  "counts": {
+    "totalRealPlaces": 5001,
+    "baseLocationsUnchanged": 471,
+    "newRealPlaces": 4530,
+    "canonicalServices": 8,
+    "candidateUrlsEnumerated": 40008,
+    "newHttpPathsExpected": 36240,
+    "newHttpPathsTested": 36240,
+    "noindexResponses": 36240,
+    "countriesTested": 197,
+    "databaseWrites": 0,
+    "llmCalls": 0,
+    "productionDatabaseConnections": 0
+  },
+  "errorCount": 0,
+  "errors": [],
+  "seconds": 55.43
+}

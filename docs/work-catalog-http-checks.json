@@ -1,0 +1,12 @@
+{
+  "result": "pass",
+  "projects": 36,
+  "original_demos": 13,
+  "actual_preview_and_detail_http_checks": 85,
+  "preview_frame": [
+    1440,
+    900
+  ],
+  "errors": [],
+  "scope": "Mounted real FastAPI/public asset routes against isolated in-memory QA storage. No production changes."
+}

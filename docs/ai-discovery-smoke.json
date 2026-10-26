@@ -1,0 +1,434 @@
+{
+  "generatedAt": "2026-10-25T16:10:34.312065+00:00",
+  "mode": "local-source-and-in-memory-public-router",
+  "coverage": {
+    "inventoryPaths": 7122,
+    "checkedPaths": 12,
+    "completeForAvailableInventory": false,
+    "localEditorialFixtures": 11
+  },
+  "technicalResult": "pass",
+  "technicalErrorPages": 0,
+  "editorialEvidenceReviewPages": 1,
+  "dispositions": {
+    "indexable-canonical": 12
+  },
+  "robotsPolicyErrors": [],
+  "warnings": [
+    "Local editorial fixtures validate rendering only; production database text and approvals remain authoritative",
+    "Coverage was explicitly bounded with --max-pages; this is not an every-page result"
+  ],
+  "limitations": [
+    "This is an HTML/declaration audit, not proof of factual accuracy, provider ingestion, citations, recommendations or rankings.",
+    "Visible text means text present in HTML outside script/style/noscript; this audit does not measure computed browser visibility or Core Web Vitals.",
+    "Local source inventory cannot enumerate production-only Mongo documents; use --base-url after deployment to merge the live sitemap.",
+    "Indexed GSC examples are capped; historical impressions do not prove current indexing.",
+    "Named user-directed fetchers may not obey robots.txt; private data still requires authorization."
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "httpStatus": 200,
+      "disposition": "indexable-canonical",
+      "title": "Rajeev Freelancer — Freelancer for Web, App, SEO & AI Marketing | Delhi NCR & Worldwide",
+      "canonical": "https://rajeevfreelancer.com/",
+      "h1Count": 1,
+      "serverTextWords": 1260,
+      "declaredSearchCrawlerAccess": {
+        "OAI-SearchBot": true,
+        "Claude-SearchBot": true,
+        "PerplexityBot": true
+      },
+      "entityVisible": true,
+      "phoneVisible": true,
+      "emailVisible": true,
+      "serviceAndMarketVisible": true,
+      "remoteDeliveryExplained": true,
+      "faqQuestionsInSchema": 8,
+      "faqQuestionsWithAnswerInHtml": 8,
+      "structuredDataTypes": [
+        "Answer",
+        "ContactPoint",
+        "FAQPage",
+        "Organization",
+        "Person",
+        "Place",
+        "PostalAddress",
+        "Question",
+        "Service",
+        "ServiceChannel",
+        "WebSite"
+      ],
+      "technicalErrors": [],
+      "editorialEvidenceReview": [
+        "Employer/experience claims need retained evidence",
+        "Quantified outcomes need client permission and retained evidence"
+      ],
+      "contentScope": "actual-static-html-or-source-public-renderer"
+    },
+    {
+      "path": "/about",
+      "httpStatus": 200,
+      "disposition": "indexable-canonical",
+      "title": "About Rajeev — Senior Freelancer Engineer & Consultant | Rajeev Freelancer",
+      "canonical": "https://rajeevfreelancer.com/about",
+      "h1Count": 1,
+      "serverTextWords": 689,
+      "declaredSearchCrawlerAccess": {
+        "OAI-SearchBot": true,
+        "Claude-SearchBot": true,
+        "PerplexityBot": true
+      },
+      "entityVisible": true,
+      "phoneVisible": true,
+      "emailVisible": true,
+      "serviceAndMarketVisible": true,
+      "remoteDeliveryExplained": true,
+      "faqQuestionsInSchema": 3,
+      "faqQuestionsWithAnswerInHtml": 3,
+      "structuredDataTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ListItem",
+        "Organization",
+        "Person",
+        "PostalAddress",
+        "Question",
+        "WebSite"
+      ],
+      "technicalErrors": [],
+      "editorialEvidenceReview": [],
+      "contentScope": "actual-static-html-or-source-public-renderer"
+    },
+    {
+      "path": "/ar",
+      "httpStatus": 200,
+      "disposition": "indexable-canonical",
+      "title": "راجيف فريلانسر — مهندس مستقل وخبير التسويق الرقمي والذكاء الاصطناعي",
+      "canonical": "https://rajeevfreelancer.com/ar",
+      "h1Count": 1,
+      "serverTextWords": 161,
+      "declaredSearchCrawlerAccess": {
+        "OAI-SearchBot": true,
+        "Claude-SearchBot": true,
+        "PerplexityBot": true
+      },
+      "entityVisible": true,
+      "phoneVisible": true,
+      "emailVisible": true,
+      "serviceAndMarketVisible": true,
+      "remoteDeliveryExplained": true,
+      "faqQuestionsInSchema": 0,
+      "faqQuestionsWithAnswerInHtml": 0,
+      "structuredDataTypes": [
+        "ContactPoint",
+        "Organization",
+        "Person",
+        "PostalAddress",
+        "WebSite"
+      ],
+      "technicalErrors": [],
+      "editorialEvidenceReview": [],
+      "contentScope": "actual-static-html-or-source-public-renderer"
+    },
+    {
+      "path": "/blog/3x-organic-traffic-case-study",
+      "httpStatus": 200,
+      "disposition": "indexable-canonical",
+      "title": "Case Study: 3x Organic Traffic in Five Months | Rajeev Freelancer",
+      "canonical": "https://rajeevfreelancer.com/blog/3x-organic-traffic-case-study",
+      "h1Count": 1,
+      "serverTextWords": 221,
+      "declaredSearchCrawlerAccess": {
+        "OAI-SearchBot": true,
+        "Claude-SearchBot": true,
+        "PerplexityBot": true
+      },
+      "entityVisible": true,
+      "phoneVisible": true,
+      "emailVisible": true,
+      "serviceAndMarketVisible": true,
+      "remoteDeliveryExplained": true,
+      "faqQuestionsInSchema": 0,
+      "faqQuestionsWithAnswerInHtml": 0,
+      "structuredDataTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "ListItem",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "technicalErrors": [],
+      "editorialEvidenceReview": [],
+      "contentScope": "actual-static-html-or-source-public-renderer"
+    },
+    {
+      "path": "/blog/ada-compliance-ecommerce-guide-us",
+      "httpStatus": 200,
+      "disposition": "indexable-canonical",
+      "title": "Local reachability fixture: ada-compliance-ecommerce-guide-us | Rajeev Freelancer",
+      "canonical": "https://rajeevfreelancer.com/blog/ada-compliance-ecommerce-guide-us",
+      "h1Count": 1,
+      "serverTextWords": 59,
+      "declaredSearchCrawlerAccess": {
+        "OAI-SearchBot": true,
+        "Claude-SearchBot": true,
+        "PerplexityBot": true
+      },
+      "entityVisible": true,
+      "phoneVisible": true,
+      "emailVisible": true,
+      "serviceAndMarketVisible": true,
+      "remoteDeliveryExplained": true,
+      "faqQuestionsInSchema": 0,
+      "faqQuestionsWithAnswerInHtml": 0,
+      "structuredDataTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "ListItem",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "technicalErrors": [],
+      "editorialEvidenceReview": [],
+      "contentScope": "reachability-fixture-only"
+    },
+    {
+      "path": "/blog/case-study-local-service-leads",
+      "httpStatus": 200,
+      "disposition": "indexable-canonical",
+      "title": "Case Study: 5x Qualified Leads for a Local Service Business | Rajeev Freelancer",
+      "canonical": "https://rajeevfreelancer.com/blog/case-study-local-service-leads",
+      "h1Count": 1,
+      "serverTextWords": 200,
+      "declaredSearchCrawlerAccess": {
+        "OAI-SearchBot": true,
+        "Claude-SearchBot": true,
+        "PerplexityBot": true
+      },
+      "entityVisible": true,
+      "phoneVisible": true,
+      "emailVisible": true,
+      "serviceAndMarketVisible": true,
+      "remoteDeliveryExplained": true,
+      "faqQuestionsInSchema": 0,
+      "faqQuestionsWithAnswerInHtml": 0,
+      "structuredDataTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "ListItem",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "technicalErrors": [],
+      "editorialEvidenceReview": [],
+      "contentScope": "actual-static-html-or-source-public-renderer"
+    },
+    {
+      "path": "/blog/conversion-first-web-design",
+      "httpStatus": 200,
+      "disposition": "indexable-canonical",
+      "title": "Conversion-First Web Design: Beauty That Sells | Rajeev Freelancer",
+      "canonical": "https://rajeevfreelancer.com/blog/conversion-first-web-design",
+      "h1Count": 1,
+      "serverTextWords": 189,
+      "declaredSearchCrawlerAccess": {
+        "OAI-SearchBot": true,
+        "Claude-SearchBot": true,
+        "PerplexityBot": true
+      },
+      "entityVisible": true,
+      "phoneVisible": true,
+      "emailVisible": true,
+      "serviceAndMarketVisible": true,
+      "remoteDeliveryExplained": true,
+      "faqQuestionsInSchema": 0,
+      "faqQuestionsWithAnswerInHtml": 0,
+      "structuredDataTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "ListItem",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "technicalErrors": [],
+      "editorialEvidenceReview": [],
+      "contentScope": "actual-static-html-or-source-public-renderer"
+    },
+    {
+      "path": "/blog/core-web-vitals-checklist",
+      "httpStatus": 200,
+      "disposition": "indexable-canonical",
+      "title": "The Core Web Vitals Checklist I Use on Every Build | Rajeev Freelancer",
+      "canonical": "https://rajeevfreelancer.com/blog/core-web-vitals-checklist",
+      "h1Count": 1,
+      "serverTextWords": 200,
+      "declaredSearchCrawlerAccess": {
+        "OAI-SearchBot": true,
+        "Claude-SearchBot": true,
+        "PerplexityBot": true
+      },
+      "entityVisible": true,
+      "phoneVisible": true,
+      "emailVisible": true,
+      "serviceAndMarketVisible": true,
+      "remoteDeliveryExplained": true,
+      "faqQuestionsInSchema": 0,
+      "faqQuestionsWithAnswerInHtml": 0,
+      "structuredDataTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "ListItem",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "technicalErrors": [],
+      "editorialEvidenceReview": [],
+      "contentScope": "actual-static-html-or-source-public-renderer"
+    },
+    {
+      "path": "/blog/core-web-vitals-praxis-guide-deutsch",
+      "httpStatus": 200,
+      "disposition": "indexable-canonical",
+      "title": "Local reachability fixture: core-web-vitals-praxis-guide-deutsch | Rajeev Freelancer",
+      "canonical": "https://rajeevfreelancer.com/blog/core-web-vitals-praxis-guide-deutsch",
+      "h1Count": 1,
+      "serverTextWords": 59,
+      "declaredSearchCrawlerAccess": {
+        "OAI-SearchBot": true,
+        "Claude-SearchBot": true,
+        "PerplexityBot": true
+      },
+      "entityVisible": true,
+      "phoneVisible": true,
+      "emailVisible": true,
+      "serviceAndMarketVisible": true,
+      "remoteDeliveryExplained": true,
+      "faqQuestionsInSchema": 0,
+      "faqQuestionsWithAnswerInHtml": 0,
+      "structuredDataTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "ListItem",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "technicalErrors": [],
+      "editorialEvidenceReview": [],
+      "contentScope": "reachability-fixture-only"
+    },
+    {
+      "path": "/blog/digital-marketing-for-clinics",
+      "httpStatus": 200,
+      "disposition": "indexable-canonical",
+      "title": "Digital Marketing for Clinics & Healthcare Practices | Rajeev Freelancer",
+      "canonical": "https://rajeevfreelancer.com/blog/digital-marketing-for-clinics",
+      "h1Count": 1,
+      "serverTextWords": 201,
+      "declaredSearchCrawlerAccess": {
+        "OAI-SearchBot": true,
+        "Claude-SearchBot": true,
+        "PerplexityBot": true
+      },
+      "entityVisible": true,
+      "phoneVisible": true,
+      "emailVisible": true,
+      "serviceAndMarketVisible": true,
+      "remoteDeliveryExplained": true,
+      "faqQuestionsInSchema": 0,
+      "faqQuestionsWithAnswerInHtml": 0,
+      "structuredDataTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "ListItem",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "technicalErrors": [],
+      "editorialEvidenceReview": [],
+      "contentScope": "actual-static-html-or-source-public-renderer"
+    },
+    {
+      "path": "/blog/freelance-website-developer-gurgaon",
+      "httpStatus": 200,
+      "disposition": "indexable-canonical",
+      "title": "Local reachability fixture: freelance-website-developer-gurgaon | Rajeev Freelancer",
+      "canonical": "https://rajeevfreelancer.com/blog/freelance-website-developer-gurgaon",
+      "h1Count": 1,
+      "serverTextWords": 59,
+      "declaredSearchCrawlerAccess": {
+        "OAI-SearchBot": true,
+        "Claude-SearchBot": true,
+        "PerplexityBot": true
+      },
+      "entityVisible": true,
+      "phoneVisible": true,
+      "emailVisible": true,
+      "serviceAndMarketVisible": true,
+      "remoteDeliveryExplained": true,
+      "faqQuestionsInSchema": 0,
+      "faqQuestionsWithAnswerInHtml": 0,
+      "structuredDataTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "ListItem",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "technicalErrors": [],
+      "editorialEvidenceReview": [],
+      "contentScope": "reachability-fixture-only"
+    },
+    {
+      "path": "/blog/freelancer-app-developer-in-gurgaon",
+      "httpStatus": 200,
+      "disposition": "indexable-canonical",
+      "title": "Local reachability fixture: freelancer-app-developer-in-gurgaon | Rajeev Freelancer",
+      "canonical": "https://rajeevfreelancer.com/blog/freelancer-app-developer-in-gurgaon",
+      "h1Count": 1,
+      "serverTextWords": 59,
+      "declaredSearchCrawlerAccess": {
+        "OAI-SearchBot": true,
+        "Claude-SearchBot": true,
+        "PerplexityBot": true
+      },
+      "entityVisible": true,
+      "phoneVisible": true,
+      "emailVisible": true,
+      "serviceAndMarketVisible": true,
+      "remoteDeliveryExplained": true,
+      "faqQuestionsInSchema": 0,
+      "faqQuestionsWithAnswerInHtml": 0,
+      "structuredDataTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "ListItem",
+        "Organization",
+        "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "technicalErrors": [],
+      "editorialEvidenceReview": [],
+      "contentScope": "reachability-fixture-only"
+    }
+  ]
+}

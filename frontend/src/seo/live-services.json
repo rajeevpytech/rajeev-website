@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "freelancer-ai-consultant",
+    "name": "AI Freelancer",
+    "short": "AI Consulting",
+    "tagline": "AI automation, bots, agents & workflow integrations",
+    "keyword": "AI freelancer",
+    "icon": "Bot",
+    "primarySlug": "freelance-ai-consultant"
+  },
+  {
+    "slug": "freelancer-digital-marketing-consultant",
+    "name": "Digital Marketing Freelancer",
+    "short": "Digital Marketing",
+    "tagline": "Paid, organic & lifecycle growth engineered around revenue",
+    "keyword": "digital marketing freelancer",
+    "icon": "TrendingUp",
+    "primarySlug": "freelance-digital-marketing-consultant"
+  },
+  {
+    "slug": "freelancer-seo-expert",
+    "name": "SEO Freelancer",
+    "short": "SEO Consulting",
+    "tagline": "Technical + content SEO that compounds into rankings",
+    "keyword": "SEO freelancer",
+    "icon": "Search",
+    "primarySlug": "freelance-seo-expert"
+  },
+  {
+    "slug": "freelancer-website-developer",
+    "name": "Website Development Freelancer",
+    "short": "Website Development",
+    "tagline": "WordPress & custom web apps built for speed and conversion",
+    "keyword": "website development freelancer",
+    "icon": "Code",
+    "primarySlug": "freelance-website-developer"
+  },
+  {
+    "slug": "freelancer-app-developer",
+    "name": "App Development Freelancer",
+    "short": "App Development",
+    "tagline": "iOS, Android & cross-platform mobile apps built to scale",
+    "keyword": "app development freelancer",
+    "icon": "Smartphone",
+    "primarySlug": "freelance-app-developer"
+  },
+  {
+    "slug": "freelancer-software-developer",
+    "name": "Software Development Freelancer",
+    "short": "Software Development",
+    "tagline": "Custom applications & production-grade software engineering",
+    "keyword": "software development freelancer",
+    "icon": "Terminal",
+    "primarySlug": "freelance-software-developer"
+  }
+]

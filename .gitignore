@@ -18,6 +18,7 @@ node_modules/
 
 # Testing
 /coverage
+frontend/.qa/
 
 # Next.js
 /.next/
@@ -86,3 +87,4 @@ android-sdk/
 credentials.json
 *.key
 .credentials
+frontend/node_modules/.cache/default-development/2.pack

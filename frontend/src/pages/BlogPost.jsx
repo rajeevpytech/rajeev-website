@@ -1,103 +1,139 @@
-import React from "react";
-import { useParams, Navigate } from "react-router-dom";
-import { Clock, MessageCircle, ArrowUpRight } from "lucide-react";
-import { PageHeader, CTAStrip } from "@/components/site/PageHeader";
-import { RevealUp } from "@/components/motion/Reveal";
-import { posts } from "@/components/site/Blog";
-import useSEO, { articleSchema, breadcrumbSchema } from "@/hooks/useSEO";
-import { waUrl, WA_MESSAGES } from "@/lib/whatsapp";
+import Link from "@/components/CanonicalLink";
+import { bootstrapData } from "@/seo/bootstrap";
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { ArrowUpRight, ArrowLeft, Loader2, CalendarDays, RefreshCw } from "lucide-react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import Seo from "@/components/Seo";
+import { Reveal } from "@/components/Reveal";
+import NotFound from "@/pages/NotFound";
+import { api } from "@/lib/api";
+import { canonicalBase, getSiteConfig, breadcrumbSchema, faqSchema } from "@/lib/siteConfig";
 
-// Longer body content for each post
-const BODIES = {
-    "senior-freelance-playbook": [
-        "The single biggest mistake most freelancers make is trying to be a smaller version of an agency. You'll never win on price, you'll never win on volume, and — worst of all — you'll trade the one thing you actually have: judgement.",
-        "This is my rough playbook: pick one buyer, one problem, and one price band. Own the outcome, and be visible enough that the right people find you at the right time. That's the whole game.",
-        "I turn down more work than I take. That's not a flex — it's the operating principle. When you can afford to say no, the yes gets much better.",
-    ],
-    "rag-for-real": [
-        "Every RAG demo looks impressive. Every RAG production system looks boring. That gap is where the real engineering lives — evaluation harnesses, guardrails, and enough plumbing to make the answers reliable at 3 AM.",
-        "I've deployed four RAG systems into enterprise environments. Here's what actually mattered: source-of-truth curation, aggressive chunking discipline, and a hard cap on model creativity.",
-        "The models keep getting better. The plumbing does not get any easier.",
-    ],
-    "seo-in-the-llm-era": [
-        "The obituary was premature. SEO is not dead — it's just being written in a different language. That language is entities, topical depth, and being the source LLMs cite.",
-        "The tactics have changed. Keyword stuffing was always crude, but now it's actively counterproductive: LLMs synthesise across entities, so being genuinely knowledgeable about a topic is worth more than being narrowly optimised for a query.",
-        "What still works: structural clarity, canonical schema, and content that answers the actual question. Everything else is theatre.",
-    ],
+const MD = {
+  h2: (p) => <h2 className="mt-12 font-heading text-2xl md:text-3xl font-bold tracking-tight text-ink" {...p} />,
+  h3: (p) => <h3 className="mt-8 font-heading text-xl font-bold tracking-tight text-ink" {...p} />,
+  h4: (p) => <h4 className="mt-6 font-heading text-lg font-bold text-ink" {...p} />,
+  p: (p) => <p className="leading-relaxed" {...p} />,
+  ul: (p) => <ul className="list-disc pl-6 space-y-2" {...p} />,
+  ol: (p) => <ol className="list-decimal pl-6 space-y-2" {...p} />,
+  a: ({ href = "", ...rest }) => href.startsWith("/") ? <Link to={href} className="text-brand underline underline-offset-4 hover:text-ink" {...rest} /> : <a href={href} rel="noopener noreferrer" className="text-brand underline underline-offset-4 hover:text-ink" {...rest} />,
+  strong: (p) => <strong className="font-semibold text-ink" {...p} />,
+  blockquote: (p) => <blockquote className="border-l-4 border-brand/40 pl-5 italic text-ink/70" {...p} />,
+  img: () => null,
 };
 
 export default function BlogPost() {
-    const { slug } = useParams();
-    const post = posts.find((p) => p.slug === slug);
-    useSEO({
-        title: post ? post.title : "Journal Post",
-        description: post?.excerpt || "",
-        path: `/blog/${slug}`,
-        type: "article",
-        ogImage: post?.image,
-        keywords: post ? [post.tag.toLowerCase(), "freelance blog", "rajeev journal"] : [],
-        structuredData: post ? [
-            articleSchema({ title: post.title, description: post.excerpt, slug, image: post.image }),
-            breadcrumbSchema([
-                { name: "Home", path: "/" },
-                { name: "Journal", path: "/blog" },
-                { name: post.title, path: `/blog/${slug}` },
-            ]),
-        ] : [],
-    });
+  const { slug } = useParams();
+  const [data, setData] = useState(() => bootstrapData("blogPost") || null);
+  const [error, setError] = useState(false);
 
-    if (!post) return <Navigate to="/blog" replace />;
-    const body = BODIES[slug] || [post.excerpt];
+  useEffect(() => {
+    if (!bootstrapData("blogPost")) setData(null); setError(false); window.scrollTo(0, 0);
+    api.get(`/blog/${slug}`).then(({ data }) => setData(data)).catch(() => setError(true));
+  }, [slug]);
 
-    return (
-        <>
-            <PageHeader
-                back={{ to: "/blog", label: "Back to Journal" }}
-                eyebrow={`/ Journal — ${post.tag}`}
-                title={post.title}
-            />
+  if (error) return <NotFound />;
+  if (!data) return <div className="pt-40 pb-32 flex justify-center"><Loader2 className="h-6 w-6 animate-spin text-brand" /></div>;
 
-            <section className="pb-20">
-                <div className="max-w-[1040px] mx-auto px-6 md:px-10">
-                    <RevealUp>
-                        <div className="flex items-center gap-4 font-mono text-[11px] tracking-[0.22em] uppercase text-ash mb-10">
-                            <span className="inline-flex items-center gap-2"><Clock size={12} /> {post.read}</span>
-                            <span>By Rajeev</span>
-                        </div>
-                    </RevealUp>
+  const { post, related } = data;
+  const cfg = getSiteConfig();
+  const base = canonicalBase();
+  const bodyMd = post.body_md || "";
+  const wordCount = (bodyMd || (post.body || []).join(" ")).split(/\s+/).filter(Boolean).length;
+  const seo = post.seo || {};
+  const coverUrl = post.cover_image && post.cover_image.startsWith("/") ? `${process.env.REACT_APP_BACKEND_URL}${post.cover_image}` : post.cover_image;
+  const ogImage = seo.og_image || coverUrl;
+  const faqs = post.faqs || [];
+  const fmtDate = (d) => {
+    try { return new Date(d).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }); }
+    catch { return ""; }
+  };
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: post.title,
+      description: seo.description || post.excerpt,
+      image: ogImage,
+      articleSection: post.category,
+      keywords: (post.tags || []).join(", "),
+      wordCount,
+      inLanguage: cfg.seo.default_locale || "en",
+      datePublished: post.published_at || post.created_at,
+      dateModified: post.updated_at,
+      mainEntityOfPage: { "@type": "WebPage", "@id": `${base}/blog/${post.slug}` },
+      url: `${base}/blog/${post.slug}`,
+      author: { "@type": "Person", "@id": `${base}/#rajeev`, name: cfg.business.founder_name, url: base },
+      publisher: { "@type": "Organization", "@id": `${base}/#organization`, name: cfg.seo.site_name, logo: { "@type": "ImageObject", url: cfg.seo.og_image } },
+    },
+    ...(faqs.length ? [faqSchema(faqs)] : []),
+    breadcrumbSchema([
+      { name: "Home", path: "" },
+      { name: "Blog", path: "/blog" },
+      { name: post.title, path: `/blog/${post.slug}` },
+    ]),
+  ];
 
-                    <RevealUp delay={0.05}>
-                        <div className="relative aspect-[16/9] rounded-2xl overflow-hidden frame">
-                            <img src={post.image} alt={post.title} className="w-full h-full object-cover" style={{ filter: "brightness(0.9)" }} />
-                        </div>
-                    </RevealUp>
+  return (
+    <div>
+      <Seo title={`${seo.title || post.title} | ${cfg.seo.site_name}`} description={seo.description || post.excerpt} path={`/blog/${post.slug}`} image={ogImage} type="article" jsonLd={jsonLd} noindex={seo.robots ? seo.robots.includes("noindex") : false} />
 
-                    <article className="mt-14 space-y-8 text-ash text-lg leading-relaxed">
-                        {body.map((p, i) => (
-                            <RevealUp key={i} delay={0.05 + i * 0.05}>
-                                <p>{p}</p>
-                            </RevealUp>
-                        ))}
-                    </article>
+      <article className="mx-auto max-w-3xl px-5 md:px-10 pt-32 md:pt-40 pb-20">
+        <Link to="/blog" className="inline-flex items-center gap-1.5 text-sm font-medium link-underline"><ArrowLeft className="h-4 w-4" /> All insights</Link>
+        <span className="mt-8 block font-mono text-xs uppercase tracking-wide text-brand">{post.category}</span>
+        <h1 className="mt-3 font-heading font-extrabold tracking-tighter text-4xl sm:text-5xl leading-[0.95]">{post.title}</h1>
+        <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-ink/60" data-testid="blog-byline">
+          <span className="flex items-center gap-2">
+            <img src={cfg.business.logo} alt={cfg.business.founder_name} className="h-8 w-8 rounded-full object-cover border border-line" />
+            <span>By <strong className="text-ink font-semibold">{cfg.business.founder_name}</strong></span>
+          </span>
+          <span className="flex items-center gap-1.5"><CalendarDays className="h-4 w-4" /> <time dateTime={post.published_at || post.created_at}>{fmtDate(post.published_at || post.created_at)}</time></span>
+          {post.updated_at && post.updated_at.slice(0, 10) !== (post.published_at || post.created_at || "").slice(0, 10) && <span className="flex items-center gap-1.5 text-xs" data-testid="blog-updated"><RefreshCw className="h-3.5 w-3.5" /> Updated <time dateTime={post.updated_at}>{fmtDate(post.updated_at)}</time></span>}
+          {wordCount > 0 && <span className="font-mono text-xs">· {Math.max(1, Math.round(wordCount / 200))} min read</span>}
+        </div>
+        <p className="mt-5 text-lg text-ink/70 leading-relaxed">{post.excerpt}</p>
+        {coverUrl && <img src={coverUrl} srcSet={post.cover_srcset ? post.cover_srcset.split(", ").map((s) => `${process.env.REACT_APP_BACKEND_URL}${s}`).join(", ") : undefined} sizes="(max-width: 768px) 100vw, 768px" alt={seo.image_alt || post.cover_alt || post.title} width="1200" height="675" decoding="async" fetchPriority="high" className="mt-8 w-full rounded-2xl border border-line object-cover aspect-[16/9]" />}
+        <div className="mt-10 space-y-5 text-lg text-ink/80 leading-relaxed" data-testid="blog-body">
+          {bodyMd ? <ReactMarkdown remarkPlugins={[remarkGfm]} components={MD} skipHtml>{bodyMd}</ReactMarkdown> : (post.body || []).map((p, i) => <p key={i}>{p}</p>)}
+        </div>
+        {faqs.length > 0 && (
+          <section className="mt-12" data-testid="blog-faqs">
+            <h2 className="font-heading text-2xl md:text-3xl font-bold tracking-tight">Frequently asked questions</h2>
+            <div className="mt-5 divide-y divide-line rounded-2xl border border-line bg-white">
+              {faqs.map((f) => <div key={f.q} className="px-6 py-5"><h3 className="font-semibold">{f.q}</h3><p className="mt-2 text-ink/70 leading-relaxed">{f.a}</p></div>)}
+            </div>
+          </section>
+        )}
+        {(post.tags || []).length > 0 && (
+          <div className="mt-10 flex flex-wrap gap-2">
+            {post.tags.map((t) => <span key={t} className="rounded-full border border-line px-3 py-1 text-xs font-mono text-muted-foreground">#{t}</span>)}
+          </div>
+        )}
+        <div className="mt-12 rounded-2xl border border-line bg-paper p-8 text-center">
+          <p className="font-heading text-2xl font-bold tracking-tight">Have a project like this?</p>
+          <Link to="/contact" className="mt-5 inline-flex items-center gap-2 rounded-full bg-brand px-7 py-3.5 font-medium text-white hover:bg-ink transition-colors">Get a free quote <ArrowUpRight className="h-4 w-4" /></Link>
+        </div>
+      </article>
 
-                    <RevealUp delay={0.3}>
-                        <div className="mt-16 pt-10 border-t border-white/10 flex flex-wrap items-center justify-between gap-4">
-                            <p className="font-serif italic text-bone text-2xl">Enjoyed this? Working on something similar?</p>
-                            <a
-                                href={waUrl(WA_MESSAGES.blog(post.title))}
-                                target="_blank"
-                                rel="noreferrer"
-                                className="btn-acid"
-                                data-testid="blog-post-wa"
-                            >
-                                <MessageCircle size={14} strokeWidth={2.2} /> Say hello on WhatsApp <ArrowUpRight size={14} strokeWidth={2.4} />
-                            </a>
-                        </div>
-                    </RevealUp>
-                </div>
-            </section>
-
-            <CTAStrip title="Reading is nice. Shipping is better." waMessage={WA_MESSAGES.blog(post.title)} />
-        </>
-    );
+      {related?.length > 0 && (
+        <section className="bg-white border-t border-line">
+          <div className="mx-auto max-w-[1400px] px-5 md:px-10 py-16">
+            <p className="overline">/ Keep reading</p>
+            <div className="mt-8 grid sm:grid-cols-3 gap-5">
+              {related.map((p, i) => (
+                <Reveal key={p.slug} delay={i * 0.06}>
+                  <Link to={`/blog/${p.slug}`} className="group flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-paper hover:border-ink transition-colors">
+                    <div className="aspect-[16/10] overflow-hidden"><img src={p.cover_image && p.cover_image.startsWith("/") ? `${process.env.REACT_APP_BACKEND_URL}${p.cover_image}` : p.cover_image} alt={p.title} loading="lazy" decoding="async" className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500" /></div>
+                    <div className="p-5"><span className="font-mono text-[11px] uppercase text-brand">{p.category}</span><h3 className="mt-2 font-heading text-lg font-bold leading-snug">{p.title}</h3></div>
+                  </Link>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+    </div>
+  );
 }

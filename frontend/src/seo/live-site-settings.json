@@ -1,0 +1,61 @@
+{
+  "seo": {
+    "site_name": "Rajeev Freelancer",
+    "default_title": "App Developer, Website Development & SEO Marketing Consultant | Rajeev",
+    "default_description": "Hire Rajeev — app developer, website development & SEO marketing consultant in Delhi NCR. 12+ years turning apps, SEO & AI automation into revenue. Free quote.",
+    "og_image": "https://customer-assets-gfyr7b9c.emergentagent.net/job_rajeev-app/artifacts/0zkv66rh_image.png",
+    "canonical_domain": "https://rajeevfreelancer.com",
+    "twitter_handle": "@rajeevfreelancer",
+    "robots_index": true,
+    "google_verification": "",
+    "default_locale": "en",
+    "locales": [
+      "en",
+      "hi",
+      "ar"
+    ]
+  },
+  "contact": {
+    "name": "Rajeev Freelancer",
+    "email": "hello@rajeevfreelancer.com",
+    "phone": "+919711623561",
+    "whatsapp": "919711623561",
+    "whatsapp_display": "+91 97116 23561"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/rajeev90/",
+    "twitter": "",
+    "github": "",
+    "instagram": "",
+    "youtube": "",
+    "facebook": ""
+  },
+  "business": {
+    "logo": "https://customer-assets-gfyr7b9c.emergentagent.net/job_rajeev-app/artifacts/0zkv66rh_image.png",
+    "rating": "4.9",
+    "reviews_count": "96",
+    "founding_year": "2013",
+    "founder_name": "Rajeev ",
+    "address": "Gurgaon, Haryana, India",
+    "google_maps_url": "https://www.google.com/maps/place/Gurgaon,+Haryana",
+    "map_embed_url": "https://www.google.com/maps?q=Gurgaon,Haryana,India&output=embed",
+    "reviews_verified": false,
+    "testimonials_verified": false,
+    "customer_facing_office_verified": false
+  },
+  "tracking": {
+    "ga4_id": "G-H22CVV0R10",
+    "ads_id": "AW-18399801232",
+    "ads_conversion_label": "g7BqCO-b3ZcdEJDf2sVE",
+    "gtm_id": "",
+    "meta_pixel_id": "",
+    "head_code": "",
+    "body_code": "",
+    "thankyou_code": ""
+  },
+  "marketing": {
+    "offers_enabled": true,
+    "popup_enabled": true,
+    "offers_end_date": "2026-09-07"
+  }
+}

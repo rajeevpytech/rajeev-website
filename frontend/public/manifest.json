@@ -1,0 +1,19 @@
+{
+  "short_name": "Rajeev Freelancer",
+  "name": "Rajeev Freelancer — Senior Engineer & AI/Digital Marketing Consultant",
+  "description": "Hire Rajeev — a senior freelance engineer & AI/digital marketing consultant with 12+ years' experience.",
+  "icons": [
+    {
+      "src": "https://customer-assets-gfyr7b9c.emergentagent.net/job_rajeev-seo-hub/artifacts/whqtfhxo_image.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0055FF",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "reviewedOn": "2026-10-25",
+  "searchAgents": [
+    "OAI-SearchBot",
+    "Claude-SearchBot",
+    "PerplexityBot"
+  ],
+  "userDirectedAgents": [
+    "ChatGPT-User",
+    "Claude-User",
+    "Perplexity-User"
+  ],
+  "trainingAgentsBlocked": [
+    "GPTBot",
+    "ClaudeBot"
+  ],
+  "privateDisallow": [
+    "/admin",
+    "/api/admin",
+    "/api/auth",
+    "/api/leads",
+    "/private/",
+    "/internal/"
+  ],
+  "publicApiAllow": [
+    "/api/settings$",
+    "/api/settings?",
+    "/api/services$",
+    "/api/services?",
+    "/api/service/",
+    "/api/locations$",
+    "/api/locations?",
+    "/api/page/",
+    "/api/blog$",
+    "/api/blog?",
+    "/api/blog/",
+    "/api/case-studies$",
+    "/api/case-studies?",
+    "/api/case-studies/",
+    "/api/sitemaps/",
+    "/api/indexnow-key$",
+    "/api/media/",
+    "/api/service-areas$",
+    "/api/service-areas?"
+  ],
+  "defaultApiDisallow": "/api/",
+  "sources": [
+    "https://developers.openai.com/api/docs/bots",
+    "https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler",
+    "https://docs.perplexity.ai/docs/resources/perplexity-crawlers"
+  ],
+  "notes": [
+    "Search crawling is independent from model-training crawling for the named provider agents.",
+    "User-directed fetchers are distinct from search crawlers and may not obey robots.txt; authentication protects private resources.",
+    "Public pages remain crawlable when global indexing is disabled so crawlers can observe noindex. Discovery files omit page entries in that state.",
+    "Crawler access supports discovery but does not guarantee crawling, indexing, citations, recommendations or rankings."
+  ]
+}

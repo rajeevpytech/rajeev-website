@@ -1,0 +1,13 @@
+{
+  "scope": "Owner explicitly authorized a complete homepage and Work redesign on 25 October2026. Homepage URL, SEO title, description, canonical and robots remain protected. Existing service/location pages and CMS URLs remain protected.",
+  "changes": {
+    "index.html": {
+      "allowed_fields": [
+        "mainText",
+        "anchors"
+      ],
+      "reason": "Clear Websites, Apps, AI Automation headline, real delivered project previews, services, process and contact journey.",
+      "authorization": "User requested full attractive homepage redesign and Work/live project/industry filters after approving preservation for existing indexed pages."
+    }
+  }
+}

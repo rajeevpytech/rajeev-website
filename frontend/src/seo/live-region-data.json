@@ -1,0 +1,26 @@
+{
+  "us": {
+    "language": "en-US",
+    "h1": "Results, not decks. Shipped by a senior freelancer.",
+    "intro": [
+      "I'm Rajeev — a senior freelancer with 12+ years across Google, Accenture and IOG. US founders and marketing leads hire me to build fast websites, rank them on Google, and automate the busywork with AI. You work with me directly, and every deliverable is tied to a number that matters.",
+      "Clear USD pricing, fixed quotes, no hourly billing surprises."
+    ]
+  },
+  "uk": {
+    "language": "en-GB",
+    "h1": "A senior freelancer who treats your business like his own.",
+    "intro": [
+      "I'm Rajeev — a senior freelancer with 12+ years across Google, Accenture and IOG. UK clients value a proper working relationship: clear briefs, honest advice, and delivery you can plan around. That's exactly how I work — bespoke websites, SEO that compounds, and AI automation that quietly saves hours.",
+      "Straightforward GBP pricing with milestone-based invoices."
+    ]
+  },
+  "de": {
+    "language": "de-DE",
+    "h1": "Senior Freelancer. Messbare Ergebnisse. Verlässliche Zusammenarbeit.",
+    "intro": [
+      "Ich bin Rajeev — Senior Freelancer mit über 12 Jahren Erfahrung bei Google, Accenture und IOG. Deutsche Unternehmen schätzen meine strukturierte Arbeitsweise: präzise Angebote, dokumentierte Prozesse, DSGVO-bewusste Umsetzung und Ergebnisse, die sich in Zahlen messen lassen.",
+      "Feste EUR-Preise, ordentliche Rechnungen, keine versteckten Kosten."
+    ]
+  }
+}

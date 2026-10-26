@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-10-25",
+  "projects": 23,
+  "actual_public_previews": 23,
+  "preview_dimensions": [
+    1440,
+    900
+  ],
+  "source_catalog": "https://pytechdigital.com/api/projects",
+  "source_work_page": "https://pytechdigital.com/work",
+  "source_rows": 14,
+  "source_builds_included": 10,
+  "additional_owner_confirmed_projects": 13,
+  "excluded": [
+    {
+      "name": "JETi Consulting",
+      "reason": "Public page text was available, but repeated homepage captures remained visually blank."
+    },
+    {
+      "name": "Kiki LMS",
+      "reason": "Login screen only; no private or login preview included."
+    },
+    {
+      "name": "Kiki Admin Portal",
+      "reason": "Admin portal omitted from public screenshot set."
+    },
+    {
+      "name": "NSTU Officer",
+      "reason": "Role login and demo credentials omitted from public screenshot set."
+    },
+    {
+      "name": "uspindia.org",
+      "reason": "Main domain currently displays a launching-soon page; portfolio links to the delivered public demo instead."
+    },
+    {
+      "name": "Redco Travel / Process Keeper",
+      "reason": "Client identity or URL could not be resolved confidently from public search; no speculative link added."
+    }
+  ],
+  "ranking_proofs_added": 0,
+  "generated_result_screenshots": 0,
+  "files": [
+    "frontend/public/assets/work/intrinsic-america.webp",
+    "frontend/public/assets/work/moonlight-neurocare.webp",
+    "frontend/public/assets/work/fnjee.webp",
+    "frontend/public/assets/work/gd-goenka-signature-school.webp",
+    "frontend/public/assets/work/nine-furlongs.webp",
+    "frontend/public/assets/work/erfreelancers.webp",
+    "frontend/public/assets/work/go-repair.webp",
+    "frontend/public/assets/work/goenka-signature-rebuild.webp",
+    "frontend/public/assets/work/guardian-360.webp",
+    "frontend/public/assets/work/my-overall-beauty.webp",
+    "frontend/public/assets/work/kiki-control.webp",
+    "frontend/public/assets/work/ecom-store.webp",
+    "frontend/public/assets/work/mr-coconetto.webp",
+    "frontend/public/assets/work/mock-test-club.webp",
+    "frontend/public/assets/work/skillplus-tutors.webp",
+    "frontend/public/assets/work/cla-aesthetics-wellness.webp",
+    "frontend/public/assets/work/neksathi.webp",
+    "frontend/public/assets/work/aihp.webp",
+    "frontend/public/assets/work/dehn-india.webp",
+    "frontend/public/assets/work/speedcrafts.webp",
+    "frontend/public/assets/work/usp-india-demo.webp",
+    "frontend/public/assets/work/bill4pe.webp",
+    "frontend/public/assets/work/pytech-digital.webp"
+  ]
+}

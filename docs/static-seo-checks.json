@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-10-25T18:51:01.592062+00:00",
+  "mode": "static-only",
+  "result": "pass",
+  "build_generated_at": "2026-10-25T18:49:29.977Z",
+  "canonical_origin": "https://rajeevfreelancer.com",
+  "counts": {
+    "original_seo_declarations_checked": 18,
+    "original_service_copy_records_checked": 8,
+    "portfolio_source_projects": 36,
+    "static_html_pages_checked": 280,
+    "captured_live_static_metadata_snapshots_checked": 19,
+    "internal_link_occurrences": 26556,
+    "preserved_locale_pages_checked": 4,
+    "unique_internal_link_targets": 5532,
+    "static_sitemap_urls_checked": 272
+  },
+  "html_languages": {
+    "en": 273,
+    "hi": 1,
+    "ar": 1,
+    "es": 1,
+    "fr": 1,
+    "en-US": 1,
+    "en-GB": 1,
+    "de-DE": 1
+  },
+  "structured_data_types": {
+    "Organization": 280,
+    "ContactPoint": 280,
+    "WebSite": 280,
+    "Person": 280,
+    "PostalAddress": 280,
+    "FAQPage": 21,
+    "Question": 89,
+    "Answer": 89,
+    "Service": 17,
+    "Place": 12,
+    "ServiceChannel": 2,
+    "BreadcrumbList": 25,
+    "ListItem": 76,
+    "CollectionPage": 2,
+    "ItemList": 2,
+    "WebPage": 4,
+    "Offer": 6
+  },
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": [],
+  "limitations": [
+    "This report does not measure Google indexing, rankings, production database contents, real-user performance or public deployment behavior."
+  ]
+}

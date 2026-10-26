@@ -1,0 +1,17 @@
+{
+  "paths": [
+    "/", "/about", "/services", "/pricing", "/contact", "/work",
+    "/case-studies", "/blog", "/locations", "/service-areas", "/project-brief",
+    "/delhi-ncr", "/us", "/uk", "/de",
+    "/freelancer-website-developer",
+    "/freelancer-website-developer/gurgaon-india",
+    "/freelancer-website-developer/delhi-india",
+    "/freelancer-software-developer", "/freelancer-app-developer"
+  ],
+  "dynamic": {
+    "/blog": {"canonical_path": "/blog", "index": true},
+    "/case-studies": {"canonical_path": "/case-studies", "index": true},
+    "/freelancer-website-developer/gurgaon-india": {"canonical_path": "/freelancer-website-developer/gurgaon-india", "index": true, "h1_contains": "Gurgaon"},
+    "/freelancer-website-developer/delhi-india": {"canonical_path": "/freelancer-website-developer/delhi-india", "index": true, "h1_contains": "Delhi"}
+  }
+}

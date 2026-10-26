@@ -1,0 +1,2049 @@
+{
+  "updated_at": "2026-10-25",
+  "projects": [
+    {
+      "id": "intrinsic-america",
+      "slug": "intrinsic-america",
+      "title": "Intrinsic America",
+      "client_name": "Intrinsic America",
+      "category": {
+        "slug": "technology",
+        "name": "Technology"
+      },
+      "industry": {
+        "slug": "technology",
+        "name": "Technology"
+      },
+      "summary": "We redesigned Intrinsic America’s website, built its content management workflow and worked on technical SEO.",
+      "website_url": "https://intrinsicamerica.com/",
+      "source_url": "https://intrinsicamerica.com/",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-redesign",
+          "name": "Website Redesign"
+        },
+        {
+          "slug": "seo",
+          "name": "SEO"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "technology": [],
+      "featured": true,
+      "display_order": 0,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We redesigned Intrinsic America’s website, built its content management workflow and worked on technical SEO.",
+        "scope": [
+          "Website redesign for an American managed IT services business.",
+          "Admin live editor and blog publishing.",
+          "Enquiry journeys and technical SEO."
+        ],
+        "process": [
+          "We organised service content, rebuilt the public experience and connected content administration."
+        ],
+        "delivery": [
+          "We delivered the website and CMS, with public service pages and enquiry options."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/intrinsic-america.webp",
+        "alt": "Intrinsic America actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/intrinsic-america.webp",
+      "image_alt": "Intrinsic America actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "moonlight-neurocare",
+      "slug": "moonlight-neurocare",
+      "title": "Moonlight Neurocare",
+      "client_name": "Moonlight Neurocare",
+      "category": {
+        "slug": "healthcare",
+        "name": "Healthcare"
+      },
+      "industry": {
+        "slug": "healthcare",
+        "name": "Healthcare"
+      },
+      "summary": "We built Moonlight Neurocare’s website and connected family, teacher and admin experiences.",
+      "website_url": "https://moonlightneurocare.com/",
+      "source_url": "https://moonlightneurocare.com/",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-redesign",
+          "name": "Website Redesign"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "technology": [],
+      "featured": true,
+      "display_order": 1,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built Moonlight Neurocare’s website and connected family, teacher and admin experiences.",
+        "scope": [
+          "Therapy, sports, academy and contact pages.",
+          "Parent, teacher and admin portal workflows."
+        ],
+        "process": [
+          "We structured services around the needs of families and the centre’s team."
+        ],
+        "delivery": [
+          "We delivered a website with service navigation, enquiry actions and portal access."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/moonlight-neurocare.webp",
+        "alt": "Moonlight Neurocare actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/moonlight-neurocare.webp",
+      "image_alt": "Moonlight Neurocare actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "fnjee",
+      "slug": "fnjee",
+      "title": "FNJEE",
+      "client_name": "FNJEE",
+      "category": {
+        "slug": "education",
+        "name": "Education"
+      },
+      "industry": {
+        "slug": "education",
+        "name": "Education"
+      },
+      "summary": "We built FNJEE’s computer-based testing website and mobile application, including question imports and exam workflows.",
+      "website_url": "https://fnjee.com/",
+      "source_url": "https://fnjee.com/",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        },
+        {
+          "slug": "ai-automation",
+          "name": "AI Automation"
+        }
+      ],
+      "technology": [],
+      "featured": true,
+      "display_order": 2,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built FNJEE’s computer-based testing website and mobile application, including question imports and exam workflows.",
+        "scope": [
+          "CBT interface, question management and import workflows.",
+          "Mobile application development and release work.",
+          "AI-assisted answer generation integration."
+        ],
+        "process": [
+          "We developed question import and mapping tools, exam navigation and administration."
+        ],
+        "delivery": [
+          "We delivered the web platform and mobile application release work."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/fnjee.webp",
+        "alt": "FNJEE actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/fnjee.webp",
+      "image_alt": "FNJEE actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "gd-goenka-signature-school",
+      "slug": "gd-goenka-signature-school",
+      "title": "GD Goenka Signature School",
+      "client_name": "GD Goenka Signature School",
+      "category": {
+        "slug": "schools",
+        "name": "Schools"
+      },
+      "industry": {
+        "slug": "schools",
+        "name": "Schools"
+      },
+      "summary": "We built GD Goenka Signature School’s website. Premium CBSE day and boarding school website showcasing curriculum, campus, admissions and student life.",
+      "website_url": "https://goenkasig.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "seo",
+          "name": "SEO"
+        }
+      ],
+      "technology": [],
+      "featured": true,
+      "display_order": 3,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built GD Goenka Signature School’s website. Premium CBSE day and boarding school website showcasing curriculum, campus, admissions and student life.",
+        "scope": [
+          "Premium CBSE day and boarding school website showcasing curriculum, campus, admissions and student life."
+        ],
+        "process": [
+          "Structuring a content-rich school website with clear admissions journeys and large visual sections."
+        ],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/gd-goenka-signature-school.webp",
+        "alt": "GD Goenka Signature School actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/gd-goenka-signature-school.webp",
+      "image_alt": "GD Goenka Signature School actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "nine-furlongs",
+      "slug": "nine-furlongs",
+      "title": "Nine Furlongs",
+      "client_name": "Nine Furlongs",
+      "category": {
+        "slug": "hospitality",
+        "name": "Hospitality"
+      },
+      "industry": {
+        "slug": "hospitality",
+        "name": "Hospitality"
+      },
+      "summary": "We built a hospitality website presenting the Binsar forest estate, stays and guest experiences.",
+      "website_url": "https://ninefurlongs.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        }
+      ],
+      "technology": [],
+      "featured": true,
+      "display_order": 4,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built a hospitality website presenting the Binsar forest estate, stays and guest experiences.",
+        "scope": [],
+        "process": [],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/nine-furlongs.webp",
+        "alt": "Nine Furlongs actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/nine-furlongs.webp",
+      "image_alt": "Nine Furlongs actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "erfreelancers",
+      "slug": "erfreelancers",
+      "title": "ERFreelancers",
+      "client_name": "ERFreelancers",
+      "category": {
+        "slug": "professional-services",
+        "name": "Professional Services"
+      },
+      "industry": {
+        "slug": "professional-services",
+        "name": "Professional Services"
+      },
+      "summary": "We built ERFreelancers’ service marketplace and worked on its service, city and search architecture.",
+      "website_url": "https://erfreelancers.com/",
+      "source_url": "https://erfreelancers.com/",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        },
+        {
+          "slug": "seo",
+          "name": "SEO"
+        }
+      ],
+      "technology": [],
+      "featured": true,
+      "display_order": 5,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built ERFreelancers’ service marketplace and worked on its service, city and search architecture.",
+        "scope": [
+          "Freelancer service discovery and requirement posting.",
+          "Service and location route architecture."
+        ],
+        "process": [
+          "We connected service discovery, project enquiry and technical search foundations."
+        ],
+        "delivery": [
+          "We delivered the public marketplace website and its supporting pages."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/erfreelancers.webp",
+        "alt": "ERFreelancers actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/erfreelancers.webp",
+      "image_alt": "ERFreelancers actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "go-repair",
+      "slug": "go-repair",
+      "title": "GO Repair",
+      "client_name": "GO Repair",
+      "category": {
+        "slug": "home-services",
+        "name": "Home Services"
+      },
+      "industry": {
+        "slug": "home-services",
+        "name": "Home Services"
+      },
+      "summary": "We built GO Repair’s website. Appliance repair service platform for AC, washing machines, refrigerators, TVs and other home appliances across India.",
+      "website_url": "https://gorepair.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 11,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built GO Repair’s website. Appliance repair service platform for AC, washing machines, refrigerators, TVs and other home appliances across India.",
+        "scope": [
+          "Appliance repair service platform for AC, washing machines, refrigerators, TVs and other home appliances across India."
+        ],
+        "process": [
+          "Organizing multiple appliance service categories and conversion-focused booking information in a clear responsive interface."
+        ],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/go-repair.webp",
+        "alt": "GO Repair actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/go-repair.webp",
+      "image_alt": "GO Repair actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "goenka-signature-rebuild",
+      "slug": "goenka-signature-rebuild",
+      "title": "GD Goenka Signature School — New Website",
+      "client_name": "Goenka Sig New",
+      "category": {
+        "slug": "schools",
+        "name": "Schools"
+      },
+      "industry": {
+        "slug": "schools",
+        "name": "Schools"
+      },
+      "summary": "We built a renewed website experience for GD Goenka Signature School, presenting school life, boarding and admissions.",
+      "website_url": "https://goenkasig-new.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 13,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built a renewed website experience for GD Goenka Signature School, presenting school life, boarding and admissions.",
+        "scope": [
+          "Frontend web application project delivered by PyTech Digital."
+        ],
+        "process": [],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/goenka-signature-rebuild.webp",
+        "alt": "Goenka Sig New actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/goenka-signature-rebuild.webp",
+      "image_alt": "Goenka Sig New actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "guardian-360",
+      "slug": "guardian-360",
+      "title": "Guardian 360",
+      "client_name": "Guardian 360",
+      "category": {
+        "slug": "technology",
+        "name": "Technology"
+      },
+      "industry": {
+        "slug": "technology",
+        "name": "Technology"
+      },
+      "summary": "We built Guardian360’s public application experience for QR-based safety and connected protection workflows.",
+      "website_url": "https://guardian360.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 14,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built Guardian360’s public application experience for QR-based safety and connected protection workflows.",
+        "scope": [
+          "Frontend web application project delivered by PyTech Digital."
+        ],
+        "process": [],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/guardian-360.webp",
+        "alt": "Guardian 360 actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/guardian-360.webp",
+      "image_alt": "Guardian 360 actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "my-overall-beauty",
+      "slug": "my-overall-beauty",
+      "title": "My Overall Beauty",
+      "client_name": "My Overall Beauty",
+      "category": {
+        "slug": "beauty-wellness",
+        "name": "Beauty & Wellness"
+      },
+      "industry": {
+        "slug": "beauty-wellness",
+        "name": "Beauty & Wellness"
+      },
+      "summary": "We built a beauty and wellness website presenting treatments, the practice and consultation enquiries.",
+      "website_url": "https://myoverallbeauty.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 15,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built a beauty and wellness website presenting treatments, the practice and consultation enquiries.",
+        "scope": [
+          "Frontend web application project delivered by PyTech Digital."
+        ],
+        "process": [],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/my-overall-beauty.webp",
+        "alt": "My Overall Beauty actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/my-overall-beauty.webp",
+      "image_alt": "My Overall Beauty actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "kiki-control",
+      "slug": "kiki-control",
+      "title": "Kiki Centre for Technology",
+      "client_name": "Kiki Control",
+      "category": {
+        "slug": "training-coaching",
+        "name": "Training & Coaching"
+      },
+      "industry": {
+        "slug": "training-coaching",
+        "name": "Training & Coaching"
+      },
+      "summary": "We built Kiki Centre’s website, presenting technical training courses, admissions and student life.",
+      "website_url": "https://kiki-control.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 16,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built Kiki Centre’s website, presenting technical training courses, admissions and student life.",
+        "scope": [
+          "Frontend web application project delivered by PyTech Digital."
+        ],
+        "process": [],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/kiki-control.webp",
+        "alt": "Kiki Control actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/kiki-control.webp",
+      "image_alt": "Kiki Control actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "ecom-store",
+      "slug": "ecom-store",
+      "title": "Ecom Store",
+      "client_name": "  ",
+      "category": {
+        "slug": "ecommerce",
+        "name": "Ecommerce"
+      },
+      "industry": {
+        "slug": "ecommerce",
+        "name": "Ecommerce"
+      },
+      "summary": "We built Ecom Store’s website. E-commerce web application offering premium masalas, home decor, and jewelry with online ordering and payment processing.",
+      "website_url": "https://ecom-store-c9e7.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 17,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built Ecom Store’s website. E-commerce web application offering premium masalas, home decor, and jewelry with online ordering and payment processing.",
+        "scope": [
+          "E-commerce web application offering premium masalas, home decor, and jewelry with online ordering and payment processing."
+        ],
+        "process": [
+          "Implemented multi-currency pricing and integrated payment processing for both Indian and European markets."
+        ],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/ecom-store.webp",
+        "alt": "Ecom Store actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/ecom-store.webp",
+      "image_alt": "Ecom Store actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "mr-coconetto",
+      "slug": "mr-coconetto",
+      "title": "Mr. Coconetto",
+      "client_name": "Mr. Coconetto",
+      "category": {
+        "slug": "events",
+        "name": "Events"
+      },
+      "industry": {
+        "slug": "events",
+        "name": "Events"
+      },
+      "summary": "We built Mr. Coconetto’s website. Premium AI-engraved custom coconut brand for weddings, corporate events, and celebrations. Features a product showcase, customizer tool, and tiered service plans.",
+      "website_url": "https://coconuts-stage.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 18,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built Mr. Coconetto’s website. Premium AI-engraved custom coconut brand for weddings, corporate events, and celebrations. Features a product showcase, customizer tool, and tiered service plans.",
+        "scope": [
+          "Premium AI-engraved custom coconut brand for weddings, corporate events, and celebrations. Features a product showcase, customizer tool, and tiered service plans."
+        ],
+        "process": [
+          "Integrating an interactive customizer tool that lets users preview personalized engravings on coconuts in real time."
+        ],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/mr-coconetto.webp",
+        "alt": "Mr. Coconetto actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/mr-coconetto.webp",
+      "image_alt": "Mr. Coconetto actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "mock-test-club",
+      "slug": "mock-test-club",
+      "title": "Mock Test Club",
+      "client_name": "Mock Test Club",
+      "category": {
+        "slug": "education",
+        "name": "Education"
+      },
+      "industry": {
+        "slug": "education",
+        "name": "Education"
+      },
+      "summary": "We built Mock Test Club’s website. AI-powered CBT mock test platform for JEE, NEET & competitive exams. Features real NTA-style exam interface, 5 lakh+ NCERT-tagged questions, and AI-driven analytics for weak-topic drills.",
+      "website_url": "https://exam-builder-hub.onrender.com",
+      "source_url": "https://pytechdigital.com/work",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "source_note": "Project listed in the PyTech Digital public portfolio.",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 19,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built Mock Test Club’s website. AI-powered CBT mock test platform for JEE, NEET & competitive exams. Features real NTA-style exam interface, 5 lakh+ NCERT-tagged questions, and AI-driven analytics for weak-topic drills.",
+        "scope": [
+          "AI-powered CBT mock test platform for JEE, NEET & competitive exams. Features real NTA-style exam interface, 5 lakh+ NCERT-tagged questions, and AI-driven analytics for weak-topic drills."
+        ],
+        "process": [
+          "Recreating a realistic NTA-style Computer Based Test interface with timer, answer palette, and section navigation in a responsive web application."
+        ],
+        "delivery": [
+          "We delivered the website linked here. Explore the live experience to see the interface and content."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/mock-test-club.webp",
+        "alt": "Mock Test Club actual homepage preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/mock-test-club.webp",
+      "image_alt": "Mock Test Club actual homepage preview",
+      "gallery": []
+    },
+    {
+      "id": "skillplus-tutors",
+      "slug": "skillplus-tutors",
+      "title": "SkillPlus Tutors",
+      "client_name": "SkillPlus Tutors",
+      "category": {
+        "slug": "education",
+        "name": "Education"
+      },
+      "industry": {
+        "slug": "education",
+        "name": "Education"
+      },
+      "summary": "We rebuilt SkillPlus Tutors’ website and worked on local service pages and technical SEO for tutoring enquiries.",
+      "website_url": "https://skillplustutors.com/",
+      "source_url": "https://skillplustutors.com/",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-redesign",
+          "name": "Website Redesign"
+        },
+        {
+          "slug": "seo",
+          "name": "SEO"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 23,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We rebuilt SkillPlus Tutors’ website and worked on local service pages and technical SEO for tutoring enquiries.",
+        "scope": [
+          "Tutoring website and enquiry journeys.",
+          "Service and location pages for the Pune market."
+        ],
+        "process": [
+          "We organised tutoring content and implemented the website’s route and search foundations."
+        ],
+        "delivery": [
+          "We delivered the website and local service page work."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/skillplus-tutors.webp",
+        "alt": "SkillPlus Tutors actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/skillplus-tutors.webp",
+      "image_alt": "SkillPlus Tutors actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "cla-aesthetics-wellness",
+      "slug": "cla-aesthetics-wellness",
+      "title": "CLA Aesthetics & Wellness",
+      "client_name": "CLA Aesthetics & Wellness",
+      "category": {
+        "slug": "beauty-wellness",
+        "name": "Beauty & Wellness"
+      },
+      "industry": {
+        "slug": "beauty-wellness",
+        "name": "Beauty & Wellness"
+      },
+      "summary": "We built and maintained CLA Aesthetics & Wellness’s website, including content administration and enquiry forms.",
+      "website_url": "https://www.cla-wellness.com/",
+      "source_url": "https://www.cla-wellness.com/",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        },
+        {
+          "slug": "maintenance-support",
+          "name": "Maintenance & Support"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 24,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built and maintained CLA Aesthetics & Wellness’s website, including content administration and enquiry forms.",
+        "scope": [
+          "Medical aesthetics and wellness website.",
+          "Backend, media and enquiry form maintenance."
+        ],
+        "process": [
+          "We implemented site updates and form consent content with the client’s business details."
+        ],
+        "delivery": [
+          "We delivered the website and ongoing requested updates."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/cla-aesthetics-wellness.webp",
+        "alt": "CLA Aesthetics & Wellness actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/cla-aesthetics-wellness.webp",
+      "image_alt": "CLA Aesthetics & Wellness actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "neksathi",
+      "slug": "neksathi",
+      "title": "NekSathi",
+      "client_name": "NekSathi",
+      "category": {
+        "slug": "technology",
+        "name": "Technology"
+      },
+      "industry": {
+        "slug": "technology",
+        "name": "Technology"
+      },
+      "summary": "We built NekSathi’s safety website and mobile application, with account access and family safety workflows.",
+      "website_url": "https://neksathi.in/",
+      "source_url": "https://neksathi.in/",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 26,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built NekSathi’s safety website and mobile application, with account access and family safety workflows.",
+        "scope": [
+          "Safety website and mobile app development.",
+          "Login, SOS and family safety workflows."
+        ],
+        "process": [
+          "We worked on app release and safety interaction flows."
+        ],
+        "delivery": [
+          "We delivered the website and mobile application development work."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/neksathi.webp",
+        "alt": "NekSathi actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/neksathi.webp",
+      "image_alt": "NekSathi actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "aihp",
+      "slug": "aihp",
+      "title": "AIHP",
+      "client_name": "AIHP",
+      "category": {
+        "slug": "real-estate",
+        "name": "Real Estate"
+      },
+      "industry": {
+        "slug": "real-estate",
+        "name": "Real Estate"
+      },
+      "summary": "We delivered SEO work for AIHP, supporting its managed office and commercial workspace presence in Gurgaon.",
+      "website_url": "https://aihp.in/",
+      "source_url": "https://aihp.in/",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "seo",
+          "name": "SEO"
+        },
+        {
+          "slug": "digital-marketing",
+          "name": "Digital Marketing"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 27,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We delivered SEO work for AIHP, supporting its managed office and commercial workspace presence in Gurgaon.",
+        "scope": [
+          "SEO work for managed office and commercial workspace services."
+        ],
+        "process": [
+          "We worked on search visibility for relevant workspace services."
+        ],
+        "delivery": [
+          "We delivered SEO services. The live website shows the business and services we supported."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/aihp.webp",
+        "alt": "AIHP actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/aihp.webp",
+      "image_alt": "AIHP actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "dehn-india",
+      "slug": "dehn-india",
+      "title": "DEHN India",
+      "client_name": "DEHN India",
+      "category": {
+        "slug": "manufacturing",
+        "name": "Manufacturing"
+      },
+      "industry": {
+        "slug": "manufacturing",
+        "name": "Manufacturing"
+      },
+      "summary": "We worked with DEHN India on digital project work for its industrial business.",
+      "website_url": "https://www.dehn.in/en-in",
+      "source_url": "https://www.dehn.in/en-in",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [],
+      "technology": [],
+      "featured": false,
+      "display_order": 28,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We worked with DEHN India on digital project work for its industrial business.",
+        "scope": [
+          "Digital client work for DEHN India."
+        ],
+        "process": [],
+        "delivery": [
+          "We delivered client work for DEHN India. This reference links to the company’s public website."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/dehn-india.webp",
+        "alt": "DEHN India actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/dehn-india.webp",
+      "image_alt": "DEHN India actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "speedcrafts",
+      "slug": "speedcrafts",
+      "title": "Speedcrafts",
+      "client_name": "Speedcrafts",
+      "category": {
+        "slug": "manufacturing",
+        "name": "Manufacturing"
+      },
+      "industry": {
+        "slug": "manufacturing",
+        "name": "Manufacturing"
+      },
+      "summary": "We delivered website and digital marketing work for Speedcrafts, a construction machinery manufacturer.",
+      "website_url": "https://speedcrafts.com/",
+      "source_url": "https://speedcrafts.com/",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "seo",
+          "name": "SEO"
+        },
+        {
+          "slug": "google-ads",
+          "name": "Google Ads"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 29,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We delivered website and digital marketing work for Speedcrafts, a construction machinery manufacturer.",
+        "scope": [
+          "Website work for an industrial machinery business.",
+          "SEO and Google Ads services."
+        ],
+        "process": [
+          "We worked across the website and digital marketing requirements described by the client."
+        ],
+        "delivery": [
+          "We delivered website and marketing services for Speedcrafts."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/speedcrafts.webp",
+        "alt": "Speedcrafts actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/speedcrafts.webp",
+      "image_alt": "Speedcrafts actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "usp-india-demo",
+      "slug": "usp-india-demo",
+      "title": "USP India",
+      "client_name": "USP India",
+      "category": {
+        "slug": "nonprofit",
+        "name": "Nonprofit"
+      },
+      "industry": {
+        "slug": "nonprofit",
+        "name": "Nonprofit"
+      },
+      "summary": "We built USP India’s website to present its field work, cultural programmes and stories.",
+      "website_url": "https://demo-pytech.online/",
+      "source_url": "https://demo-pytech.online/",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 30,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built USP India’s website to present its field work, cultural programmes and stories.",
+        "scope": [
+          "Home, About, Our Work, Field Notes and Connect sections.",
+          "Media and content administration."
+        ],
+        "process": [
+          "We organised cultural and community work into a visual editorial structure."
+        ],
+        "delivery": [
+          "We delivered the website demo linked here."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/usp-india-demo.webp",
+        "alt": "USP India actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/usp-india-demo.webp",
+      "image_alt": "USP India actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "bill4pe",
+      "slug": "bill4pe",
+      "title": "Bill4Pe",
+      "client_name": "Bill4Pe",
+      "category": {
+        "slug": "fintech",
+        "name": "Fintech"
+      },
+      "industry": {
+        "slug": "fintech",
+        "name": "Fintech"
+      },
+      "summary": "We developed and released Bill4Pe’s mobile billing application, with invoices, business records and payment workflows.",
+      "website_url": "https://play.google.com/store/apps/details?id=com.pytech.bill4pe&pli=1",
+      "source_url": "https://play.google.com/store/apps/details?id=com.pytech.bill4pe",
+      "source_note": "Project scope confirmed by Rajeev in the project conversation.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "applications",
+          "name": "Applications"
+        },
+        {
+          "slug": "ai-automation",
+          "name": "AI Automation"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 31,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We developed and released Bill4Pe’s mobile billing application, with invoices, business records and payment workflows.",
+        "scope": [
+          "Mobile billing, invoices and business dashboard.",
+          "Voice and camera-assisted billing workflows.",
+          "Wallet and payment history."
+        ],
+        "process": [
+          "We worked on application release and billing workflows."
+        ],
+        "delivery": [
+          "We delivered the mobile application available through its published Google Play listing."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/bill4pe.webp",
+        "alt": "Bill4Pe actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/bill4pe.webp",
+      "image_alt": "Bill4Pe actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "pytech-digital",
+      "slug": "pytech-digital",
+      "title": "PyTech Digital",
+      "client_name": "PyTech Digital — Our Own Platform",
+      "category": {
+        "slug": "professional-services",
+        "name": "Professional Services"
+      },
+      "industry": {
+        "slug": "professional-services",
+        "name": "Professional Services"
+      },
+      "summary": "We built our company platform to bring websites, apps, marketing and automation services into one public experience.",
+      "website_url": "https://pytechdigital.com/",
+      "source_url": "https://pytechdigital.com/",
+      "source_note": "Owned company platform; this entry is identified as our own company website.",
+      "attribution": "Delivered by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "technology": [],
+      "featured": false,
+      "display_order": 32,
+      "published": true,
+      "updated_at": "2026-10-25",
+      "story": {
+        "overview": "We built our company platform to bring websites, apps, marketing and automation services into one public experience.",
+        "scope": [
+          "Company website, service catalogue and project portfolio."
+        ],
+        "process": [
+          "We structured service navigation and project browsing for prospective clients."
+        ],
+        "delivery": [
+          "We delivered and manage the public PyTech Digital platform."
+        ],
+        "handover": []
+      },
+      "screenshot": {
+        "url": "/assets/work/pytech-digital.webp",
+        "alt": "PyTech Digital actual public website preview",
+        "width": 1440,
+        "height": 900
+      },
+      "image_url": "/assets/work/pytech-digital.webp",
+      "image_alt": "PyTech Digital actual public website preview",
+      "gallery": []
+    },
+    {
+      "id": "staydesk-hotel-booking",
+      "slug": "staydesk-hotel-booking",
+      "title": "StayDesk · Hotel booking demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "hotels",
+        "name": "Hotels"
+      },
+      "industry": {
+        "slug": "hotels",
+        "name": "Hotels"
+      },
+      "summary": "We built this interactive hotel booking demo with room selection, date validation, live pricing and simulated confirmations.",
+      "website_url": "https://rajeevfreelancer.com/demos/staydesk-hotel-booking.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "source_note": "Original interactive demo built for this portfolio. All data is fictional; results are simulated locally.",
+      "attribution": "Original demo built by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 200,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/staydesk-hotel-booking.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Interactive demo: StayDesk · Hotel booking demo; original code-based interface preview, sample data"
+      },
+      "story": {
+        "overview": "We built this interactive hotel booking demo with room selection, date validation, live pricing and simulated confirmations.",
+        "scope": [
+          "Room and guest selection",
+          "Date-based live totals",
+          "Demo confirmation and cancellation"
+        ],
+        "process": [
+          "We designed the interface and implemented interactive controls with browser-local state.",
+          "We tested the demo flows using fictional sample data."
+        ],
+        "delivery": [
+          "We delivered this working portfolio demo with responsive layouts and clear simulation labels.",
+          "No real booking, payment, medical record or enquiry transmission is performed."
+        ],
+        "handover": [
+          "The self-contained demo runs without an external service or API."
+        ]
+      },
+      "image_url": "/assets/work/staydesk-hotel-booking.svg",
+      "image_alt": "Interactive demo: StayDesk · Hotel booking demo; original code-based interface preview, sample data",
+      "gallery": [],
+      "updated_at": "2026-10-26"
+    },
+    {
+      "id": "caredesk-appointments",
+      "slug": "caredesk-appointments",
+      "title": "CareDesk · Appointment scheduling demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "healthcare",
+        "name": "Healthcare"
+      },
+      "industry": {
+        "slug": "healthcare",
+        "name": "Healthcare"
+      },
+      "summary": "We built this interactive healthcare appointment demo with specialty, doctor and time-slot selection plus local booking and cancellation.",
+      "website_url": "https://rajeevfreelancer.com/demos/caredesk-appointments.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "source_note": "Original interactive demo built for this portfolio. All data is fictional; results are simulated locally.",
+      "attribution": "Original demo built by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "applications",
+          "name": "Applications"
+        },
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        }
+      ],
+      "featured": false,
+      "display_order": 201,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/caredesk-appointments.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Interactive demo: CareDesk · Appointment scheduling demo; original code-based interface preview, sample data"
+      },
+      "story": {
+        "overview": "We built this interactive healthcare appointment demo with specialty, doctor and time-slot selection plus local booking and cancellation.",
+        "scope": [
+          "Doctor and specialty selection",
+          "Available sample appointment slots",
+          "Local appointment confirmation and cancellation"
+        ],
+        "process": [
+          "We designed the interface and implemented interactive controls with browser-local state.",
+          "We tested the demo flows using fictional sample data."
+        ],
+        "delivery": [
+          "We delivered this working portfolio demo with responsive layouts and clear simulation labels.",
+          "No real booking, payment, medical record or enquiry transmission is performed."
+        ],
+        "handover": [
+          "The self-contained demo runs without an external service or API."
+        ]
+      },
+      "image_url": "/assets/work/caredesk-appointments.svg",
+      "image_alt": "Interactive demo: CareDesk · Appointment scheduling demo; original code-based interface preview, sample data",
+      "gallery": [],
+      "updated_at": "2026-10-26"
+    },
+    {
+      "id": "admissions-school-crm",
+      "slug": "admissions-school-crm",
+      "title": "Admissions · School CRM demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "schools",
+        "name": "Schools"
+      },
+      "industry": {
+        "slug": "schools",
+        "name": "Schools"
+      },
+      "summary": "We built this interactive school admissions CRM demo with searchable sample enquiries, a status pipeline and enquiry capture.",
+      "website_url": "https://rajeevfreelancer.com/demos/admissions-school-crm.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "source_note": "Original interactive demo built for this portfolio. All data is fictional; results are simulated locally.",
+      "attribution": "Original demo built by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "crm",
+          "name": "CRM"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 202,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/admissions-school-crm.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Interactive demo: Admissions · School CRM demo; original code-based interface preview, sample data"
+      },
+      "story": {
+        "overview": "We built this interactive school admissions CRM demo with searchable sample enquiries, a status pipeline and enquiry capture.",
+        "scope": [
+          "Search students, parents and grades",
+          "Move enquiries through pipeline stages",
+          "Add fictional admissions enquiries"
+        ],
+        "process": [
+          "We designed the interface and implemented interactive controls with browser-local state.",
+          "We tested the demo flows using fictional sample data."
+        ],
+        "delivery": [
+          "We delivered this working portfolio demo with responsive layouts and clear simulation labels.",
+          "No real booking, payment, medical record or enquiry transmission is performed."
+        ],
+        "handover": [
+          "The self-contained demo runs without an external service or API."
+        ]
+      },
+      "image_url": "/assets/work/admissions-school-crm.svg",
+      "image_alt": "Interactive demo: Admissions · School CRM demo; original code-based interface preview, sample data",
+      "gallery": [],
+      "updated_at": "2026-10-26"
+    },
+    {
+      "id": "salonstudio-booking",
+      "slug": "salonstudio-booking",
+      "title": "SalonStudio · Beauty booking demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "beauty-wellness",
+        "name": "Beauty & Wellness"
+      },
+      "industry": {
+        "slug": "beauty-wellness",
+        "name": "Beauty & Wellness"
+      },
+      "summary": "We built this interactive salon booking demo with service packages, appointment times, live totals and simulated confirmations.",
+      "website_url": "https://rajeevfreelancer.com/demos/salonstudio-booking.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "source_note": "Original interactive demo built for this portfolio. All data is fictional; results are simulated locally.",
+      "attribution": "Original demo built by Rajeev and PyTech Digital",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 203,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/salonstudio-booking.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Interactive demo: SalonStudio · Beauty booking demo; original code-based interface preview, sample data"
+      },
+      "story": {
+        "overview": "We built this interactive salon booking demo with service packages, appointment times, live totals and simulated confirmations.",
+        "scope": [
+          "Service and package selection",
+          "Appointment date and time selection",
+          "Live sample pricing and demo confirmation"
+        ],
+        "process": [
+          "We designed the interface and implemented interactive controls with browser-local state.",
+          "We tested the demo flows using fictional sample data."
+        ],
+        "delivery": [
+          "We delivered this working portfolio demo with responsive layouts and clear simulation labels.",
+          "No real booking, payment, medical record or enquiry transmission is performed."
+        ],
+        "handover": [
+          "The self-contained demo runs without an external service or API."
+        ]
+      },
+      "image_url": "/assets/work/salonstudio-booking.svg",
+      "image_alt": "Interactive demo: SalonStudio · Beauty booking demo; original code-based interface preview, sample data",
+      "gallery": [],
+      "updated_at": "2026-10-26"
+    },
+    {
+      "id": "dispatch-logistics",
+      "slug": "dispatch-logistics",
+      "title": "Dispatch dashboard · Interactive Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "logistics",
+        "name": "Logistics"
+      },
+      "industry": {
+        "slug": "logistics",
+        "name": "Logistics"
+      },
+      "summary": "We built this logistics dispatch demo to show shipment creation, driver assignment and delivery status tracking.",
+      "website_url": "https://rajeevfreelancer.com/demos/dispatch-logistics.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 220,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/dispatch-logistics.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Dispatch dashboard original interactive demo with sample data"
+      },
+      "story": {
+        "overview": "We built this logistics dispatch demo to show shipment creation, driver assignment and delivery status tracking.",
+        "scope": [
+          "Shipment board and search",
+          "Driver assignment and delivery stages",
+          "Create and reset local shipments"
+        ],
+        "process": [
+          "We mapped the core user journey.",
+          "We designed and built the responsive interface.",
+          "We tested the local controls and calculations."
+        ],
+        "delivery": [
+          "Interactive browser demo with local sample data.",
+          "Code-native preview of the original interface.",
+          "No live customer systems, external requests or production results."
+        ]
+      },
+      "image_url": "/assets/work/dispatch-logistics.svg",
+      "image_alt": "Dispatch dashboard original interactive demo with sample data",
+      "gallery": [],
+      "updated_at": "2026-10-26"
+    },
+    {
+      "id": "factory-work-orders",
+      "slug": "factory-work-orders",
+      "title": "Production control · Interactive Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "manufacturing",
+        "name": "Manufacturing"
+      },
+      "industry": {
+        "slug": "manufacturing",
+        "name": "Manufacturing"
+      },
+      "summary": "We built this manufacturing demo to show production work orders, progress stages and material stock adjustments.",
+      "website_url": "https://rajeevfreelancer.com/demos/factory-work-orders.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 221,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/factory-work-orders.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Production control original interactive demo with sample data"
+      },
+      "story": {
+        "overview": "We built this manufacturing demo to show production work orders, progress stages and material stock adjustments.",
+        "scope": [
+          "Production work order creation",
+          "Progress and quality-check stages",
+          "Material stock adjustment and low-stock alerts"
+        ],
+        "process": [
+          "We mapped the core user journey.",
+          "We designed and built the responsive interface.",
+          "We tested the local controls and calculations."
+        ],
+        "delivery": [
+          "Interactive browser demo with local sample data.",
+          "Code-native preview of the original interface.",
+          "No live customer systems, external requests or production results."
+        ]
+      },
+      "image_url": "/assets/work/factory-work-orders.svg",
+      "image_alt": "Production control original interactive demo with sample data",
+      "gallery": [],
+      "updated_at": "2026-10-26"
+    },
+    {
+      "id": "buildcost-estimator",
+      "slug": "buildcost-estimator",
+      "title": "Estimate with confidence · Interactive Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "construction",
+        "name": "Construction"
+      },
+      "industry": {
+        "slug": "construction",
+        "name": "Construction"
+      },
+      "summary": "We built this construction estimate demo to show editable line items, automatic tax calculations and a downloadable quote.",
+      "website_url": "https://rajeevfreelancer.com/demos/buildcost-estimator.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 222,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/buildcost-estimator.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Estimate with confidence original interactive demo with sample data"
+      },
+      "story": {
+        "overview": "We built this construction estimate demo to show editable line items, automatic tax calculations and a downloadable quote.",
+        "scope": [
+          "Editable quantities and rates",
+          "Tax calculation and total summary",
+          "Local text quote export"
+        ],
+        "process": [
+          "We mapped the core user journey.",
+          "We designed and built the responsive interface.",
+          "We tested the local controls and calculations."
+        ],
+        "delivery": [
+          "Interactive browser demo with local sample data.",
+          "Code-native preview of the original interface.",
+          "No live customer systems, external requests or production results."
+        ]
+      },
+      "image_url": "/assets/work/buildcost-estimator.svg",
+      "image_alt": "Estimate with confidence original interactive demo with sample data",
+      "gallery": [],
+      "updated_at": "2026-10-26"
+    },
+    {
+      "id": "supportdesk-helpdesk",
+      "slug": "supportdesk-helpdesk",
+      "title": "Good support starts here · Interactive Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "professional-services",
+        "name": "Professional Services"
+      },
+      "industry": {
+        "slug": "professional-services",
+        "name": "Professional Services"
+      },
+      "summary": "We built this helpdesk demo to show searchable support tickets, priority management and local conversation replies.",
+      "website_url": "https://rajeevfreelancer.com/demos/supportdesk-helpdesk.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "applications",
+          "name": "Applications"
+        },
+        {
+          "slug": "crm",
+          "name": "CRM"
+        }
+      ],
+      "featured": false,
+      "display_order": 223,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/supportdesk-helpdesk.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Good support starts here original interactive demo with sample data"
+      },
+      "story": {
+        "overview": "We built this helpdesk demo to show searchable support tickets, priority management and local conversation replies.",
+        "scope": [
+          "Search and filter ticket queue",
+          "Priority and status updates",
+          "Threaded local replies and new tickets"
+        ],
+        "process": [
+          "We mapped the core user journey.",
+          "We designed and built the responsive interface.",
+          "We tested the local controls and calculations."
+        ],
+        "delivery": [
+          "Interactive browser demo with local sample data.",
+          "Code-native preview of the original interface.",
+          "No live customer systems, external requests or production results."
+        ]
+      },
+      "image_url": "/assets/work/supportdesk-helpdesk.svg",
+      "image_alt": "Good support starts here original interactive demo with sample data",
+      "gallery": [],
+      "updated_at": "2026-10-26"
+    },
+    {
+      "id": "stockroom-inventory",
+      "slug": "stockroom-inventory",
+      "title": "Stockroom Inventory Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "retail",
+        "name": "Retail"
+      },
+      "industry": {
+        "slug": "retail",
+        "name": "Retail"
+      },
+      "summary": "We built this inventory management demo to show product search, stock adjustments and low-stock monitoring in one clear dashboard.",
+      "website_url": "https://rajeevfreelancer.com/demos/stockroom-inventory.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "applications",
+          "name": "Applications"
+        },
+        {
+          "slug": "crm",
+          "name": "CRM"
+        }
+      ],
+      "featured": false,
+      "display_order": 210,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/stockroom-inventory.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Stockroom Inventory Demo — original interactive demo preview illustration, sample data"
+      },
+      "story": {
+        "overview": "We built this inventory management demo to show product search, stock adjustments and low-stock monitoring in one clear dashboard. This is our original demonstration using sample data, not a client result.",
+        "scope": [
+          "Product search and category details.",
+          "Add products and adjust quantities in a local workspace.",
+          "Low-stock filters and live inventory value calculations."
+        ],
+        "process": [
+          "We designed a responsive interface around the main user actions.",
+          "We implemented local sample-data interactions and tested the key flows."
+        ],
+        "delivery": [
+          "Self-contained browser demo without sign-in or external services.",
+          "Clear sample-data labels and no real payments or submissions."
+        ]
+      },
+      "image_url": "/assets/work/stockroom-inventory.svg",
+      "image_alt": "Stockroom Inventory Demo — original interactive demo preview illustration, sample data",
+      "gallery": [],
+      "updated_at": "2026-10-26"
+    },
+    {
+      "id": "shopflow-checkout",
+      "slug": "shopflow-checkout",
+      "title": "Shopflow Checkout Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "ecommerce",
+        "name": "Ecommerce"
+      },
+      "industry": {
+        "slug": "ecommerce",
+        "name": "Ecommerce"
+      },
+      "summary": "We built this ecommerce cart and checkout demo with quantity controls, discount codes and an order summary that updates instantly.",
+      "website_url": "https://rajeevfreelancer.com/demos/shopflow-checkout.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 211,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/shopflow-checkout.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Shopflow Checkout Demo — original interactive demo preview illustration, sample data"
+      },
+      "story": {
+        "overview": "We built this ecommerce cart and checkout demo with quantity controls, discount codes and an order summary that updates instantly. This is our original demonstration using sample data, not a client result.",
+        "scope": [
+          "Interactive cart with quantity changes and item removal.",
+          "Discount validation, shipping rules and tax calculations.",
+          "Local checkout confirmation without payment or order submission."
+        ],
+        "process": [
+          "We designed a responsive interface around the main user actions.",
+          "We implemented local sample-data interactions and tested the key flows."
+        ],
+        "delivery": [
+          "Self-contained browser demo without sign-in or external services.",
+          "Clear sample-data labels and no real payments or submissions."
+        ]
+      },
+      "image_url": "/assets/work/shopflow-checkout.svg",
+      "image_alt": "Shopflow Checkout Demo — original interactive demo preview illustration, sample data",
+      "gallery": [],
+      "updated_at": "2026-10-26"
+    },
+    {
+      "id": "homefinder-properties",
+      "slug": "homefinder-properties",
+      "title": "Homefinder Properties Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "real-estate",
+        "name": "Real Estate"
+      },
+      "industry": {
+        "slug": "real-estate",
+        "name": "Real Estate"
+      },
+      "summary": "We built this property discovery demo to help buyers compare homes, filter listings and save their favourites.",
+      "website_url": "https://rajeevfreelancer.com/demos/homefinder-properties.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 212,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/homefinder-properties.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Homefinder Properties Demo — original interactive demo preview illustration, sample data"
+      },
+      "story": {
+        "overview": "We built this property discovery demo to help buyers compare homes, filter listings and save their favourites. This is our original demonstration using sample data, not a client result.",
+        "scope": [
+          "Filter properties by location, type and budget.",
+          "Save favourites and review a property shortlist.",
+          "Explore a local enquiry confirmation."
+        ],
+        "process": [
+          "We designed a responsive interface around the main user actions.",
+          "We implemented local sample-data interactions and tested the key flows."
+        ],
+        "delivery": [
+          "Self-contained browser demo without sign-in or external services.",
+          "Clear sample-data labels and no real payments or submissions."
+        ]
+      },
+      "image_url": "/assets/work/homefinder-properties.svg",
+      "image_alt": "Homefinder Properties Demo — original interactive demo preview illustration, sample data",
+      "gallery": [],
+      "updated_at": "2026-10-26"
+    },
+    {
+      "id": "fitplan-workouts",
+      "slug": "fitplan-workouts",
+      "title": "Fitplan Workout Planner Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "fitness",
+        "name": "Fitness"
+      },
+      "industry": {
+        "slug": "fitness",
+        "name": "Fitness"
+      },
+      "summary": "We built this workout planner demo with exercise plans, set tracking and a clear view of session progress.",
+      "website_url": "https://rajeevfreelancer.com/demos/fitplan-workouts.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "applications",
+          "name": "Applications"
+        },
+        {
+          "slug": "website-design",
+          "name": "Website Design"
+        }
+      ],
+      "featured": false,
+      "display_order": 213,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/fitplan-workouts.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Fitplan Workout Planner Demo — original interactive demo preview illustration, sample data"
+      },
+      "story": {
+        "overview": "We built this workout planner demo with exercise plans, set tracking and a clear view of session progress. This is our original demonstration using sample data, not a client result.",
+        "scope": [
+          "Manage a sample workout plan and add exercises.",
+          "Track completed sets and add sets during a session.",
+          "Switch training days and reset the workout."
+        ],
+        "process": [
+          "We designed a responsive interface around the main user actions.",
+          "We implemented local sample-data interactions and tested the key flows."
+        ],
+        "delivery": [
+          "Self-contained browser demo without sign-in or external services.",
+          "Clear sample-data labels and no real payments or submissions."
+        ]
+      },
+      "image_url": "/assets/work/fitplan-workouts.svg",
+      "image_alt": "Fitplan Workout Planner Demo — original interactive demo preview illustration, sample data",
+      "gallery": [],
+      "updated_at": "2026-10-26"
+    },
+    {
+      "id": "voiceflow-ivr-demo",
+      "slug": "voiceflow-ivr-demo",
+      "title": "VoiceFlow — Voice & IVR Demo",
+      "client_name": "Original Interactive Demo",
+      "project_type": "demo",
+      "industry": {
+        "slug": "poultry",
+        "name": "Poultry"
+      },
+      "category": {
+        "slug": "poultry",
+        "name": "Poultry"
+      },
+      "summary": "We built this interactive voice-routing demo with a browser-spoken welcome, keypad menu, team routing and a sample callback queue.",
+      "website_url": "https://rajeevfreelancer.com/demos/voiceflow-ivr.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "source_note": "Original functional demo authored for this portfolio. Uses browser speech synthesis and local call-flow simulation.",
+      "services": [
+        {
+          "slug": "ai-automation",
+          "name": "AI Automation"
+        },
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 230,
+      "published": true,
+      "screenshot": {
+        "url": "/assets/work/voiceflow-ivr.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "VoiceFlow original interactive demo interface preview, sample data"
+      },
+      "image_url": "/assets/work/voiceflow-ivr.svg",
+      "image_alt": "VoiceFlow interactive demo interface preview",
+      "story": {
+        "overview": "We built a practical interactive voice and routing prototype for poultry enquiries. The demonstration makes the customer menu and team handoff visible before a telephony integration.",
+        "scope": [
+          "Browser speech synthesis welcome menu",
+          "Keypad navigation for products, support and direct team enquiries",
+          "Local callback queue and conversation log"
+        ],
+        "process": [
+          "Mapped the enquiry categories into a clear call routing flow",
+          "Implemented keyboard and button interactions with visible routing feedback",
+          "Checked the menu, callback validation and end-call behavior"
+        ],
+        "delivery": [
+          "A working browser simulation that opens from this portfolio",
+          "Original interface preview labelled as a demonstration",
+          "Sample session only; it places no real call or callback request."
+        ],
+        "handover": []
+      },
+      "gallery": [],
+      "updated_at": "2026-10-26"
+    }
+  ],
+  "coverage": {
+    "source_project_entries": 23,
+    "original_interactive_demos": 13,
+    "total": 36
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "projects": [
+    {
+      "id": "dispatch-logistics",
+      "slug": "dispatch-logistics",
+      "title": "Dispatch dashboard · Interactive Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "logistics",
+        "name": "Logistics"
+      },
+      "industry": {
+        "slug": "logistics",
+        "name": "Logistics"
+      },
+      "summary": "We built this logistics dispatch demo to show shipment creation, driver assignment and delivery status tracking.",
+      "website_url": "https://rajeevfreelancer.com/demos/dispatch-logistics.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 220,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/dispatch-logistics.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Dispatch dashboard original interactive demo with sample data"
+      },
+      "story": {
+        "overview": "We built this logistics dispatch demo to show shipment creation, driver assignment and delivery status tracking.",
+        "scope": [
+          "Shipment board and search",
+          "Driver assignment and delivery stages",
+          "Create and reset local shipments"
+        ],
+        "process": [
+          "We mapped the core user journey.",
+          "We designed and built the responsive interface.",
+          "We tested the local controls and calculations."
+        ],
+        "delivery": [
+          "Interactive browser demo with local sample data.",
+          "Code-native preview of the original interface.",
+          "No live customer systems, external requests or production results."
+        ]
+      }
+    },
+    {
+      "id": "factory-work-orders",
+      "slug": "factory-work-orders",
+      "title": "Production control · Interactive Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "manufacturing",
+        "name": "Manufacturing"
+      },
+      "industry": {
+        "slug": "manufacturing",
+        "name": "Manufacturing"
+      },
+      "summary": "We built this manufacturing demo to show production work orders, progress stages and material stock adjustments.",
+      "website_url": "https://rajeevfreelancer.com/demos/factory-work-orders.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 221,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/factory-work-orders.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Production control original interactive demo with sample data"
+      },
+      "story": {
+        "overview": "We built this manufacturing demo to show production work orders, progress stages and material stock adjustments.",
+        "scope": [
+          "Production work order creation",
+          "Progress and quality-check stages",
+          "Material stock adjustment and low-stock alerts"
+        ],
+        "process": [
+          "We mapped the core user journey.",
+          "We designed and built the responsive interface.",
+          "We tested the local controls and calculations."
+        ],
+        "delivery": [
+          "Interactive browser demo with local sample data.",
+          "Code-native preview of the original interface.",
+          "No live customer systems, external requests or production results."
+        ]
+      }
+    },
+    {
+      "id": "buildcost-estimator",
+      "slug": "buildcost-estimator",
+      "title": "Estimate with confidence · Interactive Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "construction",
+        "name": "Construction"
+      },
+      "industry": {
+        "slug": "construction",
+        "name": "Construction"
+      },
+      "summary": "We built this construction estimate demo to show editable line items, automatic tax calculations and a downloadable quote.",
+      "website_url": "https://rajeevfreelancer.com/demos/buildcost-estimator.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "applications",
+          "name": "Applications"
+        }
+      ],
+      "featured": false,
+      "display_order": 222,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/buildcost-estimator.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Estimate with confidence original interactive demo with sample data"
+      },
+      "story": {
+        "overview": "We built this construction estimate demo to show editable line items, automatic tax calculations and a downloadable quote.",
+        "scope": [
+          "Editable quantities and rates",
+          "Tax calculation and total summary",
+          "Local text quote export"
+        ],
+        "process": [
+          "We mapped the core user journey.",
+          "We designed and built the responsive interface.",
+          "We tested the local controls and calculations."
+        ],
+        "delivery": [
+          "Interactive browser demo with local sample data.",
+          "Code-native preview of the original interface.",
+          "No live customer systems, external requests or production results."
+        ]
+      }
+    },
+    {
+      "id": "supportdesk-helpdesk",
+      "slug": "supportdesk-helpdesk",
+      "title": "Good support starts here · Interactive Demo",
+      "client_name": "Original Demo",
+      "category": {
+        "slug": "professional-services",
+        "name": "Professional Services"
+      },
+      "industry": {
+        "slug": "professional-services",
+        "name": "Professional Services"
+      },
+      "summary": "We built this helpdesk demo to show searchable support tickets, priority management and local conversation replies.",
+      "website_url": "https://rajeevfreelancer.com/demos/supportdesk-helpdesk.html",
+      "source_url": "https://rajeevfreelancer.com/work",
+      "services": [
+        {
+          "slug": "applications",
+          "name": "Applications"
+        },
+        {
+          "slug": "crm",
+          "name": "CRM"
+        }
+      ],
+      "featured": false,
+      "display_order": 223,
+      "published": true,
+      "project_type": "demo",
+      "screenshot": {
+        "url": "/assets/work/supportdesk-helpdesk.svg",
+        "width": 1440,
+        "height": 900,
+        "alt": "Good support starts here original interactive demo with sample data"
+      },
+      "story": {
+        "overview": "We built this helpdesk demo to show searchable support tickets, priority management and local conversation replies.",
+        "scope": [
+          "Search and filter ticket queue",
+          "Priority and status updates",
+          "Threaded local replies and new tickets"
+        ],
+        "process": [
+          "We mapped the core user journey.",
+          "We designed and built the responsive interface.",
+          "We tested the local controls and calculations."
+        ],
+        "delivery": [
+          "Interactive browser demo with local sample data.",
+          "Code-native preview of the original interface.",
+          "No live customer systems, external requests or production results."
+        ]
+      }
+    }
+  ]
+}

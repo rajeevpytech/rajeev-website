@@ -1,0 +1,85 @@
+{
+  "checked_at": "2026-10-25T17:54:58.056025+00:00",
+  "result": "pass",
+  "scope": "Final local source/build, isolated in-memory HTTP/SDK tests and recorded authenticated external observations; application not deployed.",
+  "build": {
+    "result": "pass",
+    "application_compile_warnings": 0,
+    "main_js": "main.d432a382.js",
+    "static_html_pages": 279,
+    "indexable_static_routes": 277,
+    "canonical_static_sitemap_urls": 271
+  },
+  "backend": {
+    "passed": 203,
+    "failed": 0,
+    "dependency_deprecation_warnings": 2,
+    "real_provider_requests": 0,
+    "production_database_connections": 0
+  },
+  "project_brief": {
+    "assertions_passed": 62,
+    "failed": 0,
+    "network_calls": 0,
+    "storage_writes": 0,
+    "scope": "Pure helper, SSR and actual React DOM form/copy/download/reset tests; clipboard/download browser APIs mocked."
+  },
+  "preservation": {
+    "result": "pass",
+    "existingStaticPagesChecked": 277,
+    "changedExistingPages": 0,
+    "errors": [],
+    "scope": "Pre-expansion local release content; live database preservation is checked separately."
+  },
+  "metadata": {
+    "original_source_declarations_preserved": 18,
+    "captured_live_snapshots_preserved": 21,
+    "built_heads_checked": 279
+  },
+  "routes": {
+    "base_service_location_variants_checked": 6594,
+    "gsc_observed_paths_checked": 1664,
+    "capped_indexed_examples_preserved": 1000,
+    "observed_old_sitemap_paths_checked": 2095,
+    "new_expansion_http_paths_checked": 36240,
+    "new_expansion_http_errors": 0,
+    "root_sitemap_urls_in_isolated_fixture": 2275
+  },
+  "ai_discovery": {
+    "checked_available_inventory_paths": 7124,
+    "technical_error_pages": 0,
+    "editorial_evidence_review_pages": 3490,
+    "new_expansion_paths_checked_separately": 36240
+  },
+  "capacity": {
+    "total_real_places": 5001,
+    "base_places_preserved": 471,
+    "new_source_backed_places": 4530,
+    "countries_and_territories": 246,
+    "primary_services": 8,
+    "candidate_service_location_urls": 40008,
+    "new_candidates_review_gated": true,
+    "all_world_places_covered": false
+  },
+  "external_status": {
+    "bing": "Single exact site manually added; ownership verification failed because the live root XML is not yet deployed. No confirmed sitemap submission.",
+    "brave": "Homepage submission accepted; indexing not confirmed.",
+    "cms": "One new post created and admin-marked Published,31→32; public body visibility unconfirmed pending deployment.",
+    "weekly_review": "13 Monday reviews scheduled; recommendations/drafts, not automatic publication.",
+    "business_profile": "Authenticated ownership/categories/address/services checks remain unverified.",
+    "provider": "Previously observed live upstream401 remains unresolved until a valid matching key is saved and the relevant operation succeeds."
+  },
+  "limitations": [
+    "Final revised bundle was not browser-visually retested; earlier desktop browser QA is kept separate. New controls received React DOM/SSR tests.",
+    "Live forms/mail, actual provider generation, firewall/crawler access and post-deployment public behavior need server acceptance checks.",
+    "Local fixtures do not establish production Mongo contents, Google indexing, Core Web Vitals, ranking or AI citations.",
+    "Full release check records two verification-boundary warnings about editorial fixtures and local-only scope; no functional errors."
+  ],
+  "second_review": {
+    "result": "pass",
+    "fixed_issue_count": 3,
+    "vault_tests_passed": 28,
+    "startup_tests_passed": 2,
+    "details": "recheck-verification.json"
+  }
+}
