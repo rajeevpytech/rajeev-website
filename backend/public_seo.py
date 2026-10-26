@@ -438,6 +438,19 @@ def location_html(doc: dict, settings: dict, *, build_dir: Path = BUILD_DIR) -> 
     faqs = [f for f in content.get("faqs", []) if isinstance(f, dict) and f.get("q") and f.get("a")]
     if faqs:
         nodes.append({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": f["a"]}} for f in faqs]})
+    # The initial server HTML must offer the same useful onward journeys as
+    # the interactive city page. Keep saved editorial copy and URLs intact;
+    # link only to established hubs, never to an unapproved sibling city.
+    service_slug = path.strip("/").split("/", 1)[0]
+    links = []
+    if SLUG.fullmatch(service_slug):
+        service_path = canonical_service_path("/" + service_slug)
+        links.append((service_path, str(service.get("name") or "Service") + " overview"))
+    country_slug = location.get("country_slug")
+    if isinstance(country_slug, str) and SLUG.fullmatch(country_slug):
+        links.append(("/locations/" + country_slug, str(location.get("country") or "Country") + " service areas"))
+    links.extend([("/work", "Project examples"), ("/contact", "Discuss your project")])
+    body += '<section aria-label="Continue planning your project"><h2>Explore this service</h2><nav aria-label="Service and project links">' + ''.join('<a href="' + esc(href) + '">' + esc(label) + '</a>' for href, label in links) + '</nav></section>'
     return html_document(settings=settings, path=path, title=content.get("title") or service["name"], heading=content.get("h1") or service["name"], description=str(content.get("meta_description") or ""), body=body, data={"locationPage": doc}, schema=nodes, index=not doc.get("seo_noindex") and (not doc.get("is_new_location") or doc.get("seo_reviewed") is True), build_dir=build_dir)
 
 
