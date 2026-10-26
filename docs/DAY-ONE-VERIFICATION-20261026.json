@@ -334,5 +334,21 @@
     "pauseWorks": true,
     "reducedMotion": true,
     "pageErrors": []
+  },
+  "bingFollowUp": {
+    "status": "Success",
+    "canonicalSitemap": "https://rajeevfreelancer.com/sitemap.xml",
+    "submittedDate": "2026-10-26",
+    "lastCrawlDate": "2026-10-26",
+    "urlsDiscoveredDisplay": "2.4K",
+    "sitemapErrors": 0,
+    "sitemapWarnings": 0,
+    "note": "The dashboard total of 4.5K includes historical sitemaps and is not a unique-page total."
+  },
+  "linkedinProfileCheck": {
+    "url": "https://www.linkedin.com/in/rajeev90/",
+    "status": "sign-in-required",
+    "websiteLinksInspected": false,
+    "changesMade": false
   }
 }

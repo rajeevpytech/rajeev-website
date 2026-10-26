@@ -187,3 +187,7 @@ These are capacity targets, not promised backlinks. Record each destination, tar
 - GitHub profile README: https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme
 
 Dribbble remains an optional researched destination; its current free publishing limits were not established. No paid upgrade, new account agreement, profile publication, client outreach or external correction was performed by preparing this pack.
+
+### Account-access follow-up
+
+The attempted check of the existing LinkedIn profile stopped at a sign-in wall. No website links or Services Page settings were inspected or saved. Reconnect the existing account securely before proceeding; do not create a duplicate profile.

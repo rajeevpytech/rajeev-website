@@ -65,3 +65,9 @@ GA4 and Ads IDs are configured, and the stored-receipt custom event is covered b
 Google sitemap submission succeeded earlier today, Bing ownership was verified and its canonical sitemap submitted, IndexNow accepted 2,407 current sitemap URLs and Brave accepted the homepage re-fetch request. Google's manual Request indexing action returned an error; it is not claimed accepted. Google's historical `/work` noindex report differs from the current indexable live test and requires recrawl observation.
 
 Search crawling, third-party profile activation, client responses, approved editorial placements and ranking changes cannot be completed or certified in a single day. No new recurring task or automatic publishing schedule was created by this work.
+
+## Final account follow-up
+
+After completing the source work, Bing was refreshed: the canonical HTTPS sitemap now shows **Success**, submitted and crawled on 26 October, about **2.4K URLs discovered**, zero errors and zero warnings. The 4.5K dashboard aggregate includes historical sitemap records and is not a unique-page count.
+
+The existing LinkedIn profile check reached a sign-in wall. Its saved session appears expired; no Contact info fields were inspected or changed. A fresh secure sign-in is required before checking or adding the website link. The prepared profile copy remains unpublished.
