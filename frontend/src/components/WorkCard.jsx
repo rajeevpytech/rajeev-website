@@ -17,7 +17,7 @@ export function WorkCard({ project, priority = false }) {
   const item = portfolioProject(project);
   const detail = `/work/${encodeURIComponent(item.slug)}`;
   return <article className="group flex h-full flex-col overflow-hidden rounded-[22px] border border-[#172b4d]/10 bg-white shadow-[0_8px_40px_-28px_rgba(15,35,65,.24)] transition-[border-color,box-shadow] duration-300 hover:border-brand/40 hover:shadow-[0_20px_50px_-30px_rgba(15,35,65,.28)]" data-testid={`work-card-${item.slug}`}>
-    <Link to={detail} data-rf-project={item.slug} data-rf-link-kind="details" aria-label={`Explore ${item.title}`} className="block border-b border-[#172b4d]/10 bg-[#e9eef5] p-3 sm:p-4">
+    <Link to={detail} data-rf-project={item.slug} data-rf-link-kind="details" className="block border-b border-[#172b4d]/10 bg-[#e9eef5] p-3 sm:p-4">
       <div aria-hidden="true" className="flex h-7 items-center gap-1.5 rounded-t-lg border border-b-0 border-[#172b4d]/10 bg-white px-3"><span className="h-1.5 w-1.5 rounded-full bg-[#c8d0dc]" /><span className="h-1.5 w-1.5 rounded-full bg-[#c8d0dc]" /><span className="h-1.5 w-1.5 rounded-full bg-[#c8d0dc]" /><span className="ml-3 truncate font-mono text-[9px] text-[#61718b]">{readableHost(item.live_url)}</span></div>
       <ProjectPreview project={project} priority={priority} className="aspect-[16/10] rounded-b-lg border border-[#172b4d]/10" />
     </Link>

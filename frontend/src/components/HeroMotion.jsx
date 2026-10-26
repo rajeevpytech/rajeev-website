@@ -19,7 +19,7 @@ export default function HeroMotion({ project }) {
 
   return <div ref={stage} className="rf-hero-motion" data-testid="hero-motion" data-paused={paused || !visible}>
     <div className="rf-studio-heading"><span className="rf-studio-dot" /> Ideas, connected.</div>
-    <button type="button" className="rf-motion-toggle" onClick={() => setPaused(value => !value)} aria-label={paused ? "Play hero animation" : "Pause hero animation"} aria-pressed={paused}>
+    <button type="button" className="rf-motion-toggle" onClick={() => setPaused(value => !value)} aria-label={paused ? "Play motion — hero animation" : "Pause motion — hero animation"} aria-pressed={paused}>
       {paused ? <Play size={12} aria-hidden="true" /> : <Pause size={12} aria-hidden="true" />}<span>{paused ? "Play motion" : "Pause motion"}</span>
     </button>
     <div className="rf-studio-art" aria-label="Websites, apps, AI workflows and digital marketing connected in one visual">

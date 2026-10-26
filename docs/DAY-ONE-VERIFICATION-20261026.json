@@ -1,0 +1,354 @@
+{
+  "dateIndia": "2026-10-26",
+  "deployment": "Source patch prepared; not deployed by the assistant.",
+  "initialJavaScriptBefore": {
+    "file": "static/js/main.852689e9.js",
+    "bytes": 1916135,
+    "gzipBytes": 513132
+  },
+  "initialJavaScriptAfter": {
+    "file": "static/js/main.abc1200a.js",
+    "bytes": 1340939,
+    "gzipBytes": 346343
+  },
+  "initialJavaScriptGzipReductionPercent": 32.5,
+  "controlledLabBefore": {
+    "scope": "Controlled local production-build run; not a live website or field Core Web Vitals score.",
+    "version": "13.5.0",
+    "scores": {
+      "performance": 0.97,
+      "accessibility": 0.91,
+      "seo": 1
+    },
+    "metrics": {
+      "first-contentful-paint": 1686.304,
+      "largest-contentful-paint": 2346.304,
+      "total-blocking-time": 71.5,
+      "cumulative-layout-shift": 0
+    },
+    "warnings": []
+  },
+  "controlledLabAfter": {
+    "file": "home-controlled-after-3.json",
+    "scope": "Controlled local production build, not the live website or field Core Web Vitals.",
+    "version": "13.5.0",
+    "scores": {
+      "performance": 0.97,
+      "accessibility": 1,
+      "seo": 1
+    },
+    "metrics": {
+      "first-contentful-paint": 1683.374,
+      "largest-contentful-paint": 2343.374,
+      "total-blocking-time": 54.5,
+      "cumulative-layout-shift": 0
+    },
+    "warnings": []
+  },
+  "liveLabLimitations": [
+    "The local test browser received ERR_EMPTY_RESPONSE from the public origin.",
+    "Public PageSpeed API returned HTTP 429; no live score was certified."
+  ],
+  "deferredFeatures": {
+    "pass": true,
+    "homepageDoesNotLoadAdminOrPdf": true,
+    "adminLoginLoads": true,
+    "adminNoindex": true,
+    "pdfLoadsOnClick": true,
+    "generatedPdfVerified": true,
+    "exportFailureRecoverable": true,
+    "pageErrors": [],
+    "fixtureScope": "Synthetic local case study only; no production content or writes."
+  },
+  "releaseChecks": {
+    "checked_at": "2026-10-26T10:35:30.481501+00:00",
+    "mode": "static-and-in-memory-public-routes",
+    "result": "pass",
+    "build_generated_at": "2026-10-26T10:33:44.527Z",
+    "canonical_origin": "https://rajeevfreelancer.com",
+    "counts": {
+      "original_seo_declarations_checked": 18,
+      "original_service_copy_records_checked": 8,
+      "portfolio_source_projects": 36,
+      "static_html_pages_checked": 280,
+      "captured_live_static_metadata_snapshots_checked": 19,
+      "internal_link_occurrences": 26556,
+      "preserved_locale_pages_checked": 4,
+      "unique_internal_link_targets": 5532,
+      "static_sitemap_urls_checked": 272,
+      "portfolio_api_pages_checked": 1,
+      "portfolio_html_routes_checked": 37,
+      "portfolio_head_routes_checked": 37,
+      "portfolio_detail_api_routes_checked": 36,
+      "portfolio_filter_variants_checked": 1,
+      "portfolio_negative_routes_checked": 2,
+      "legacy_case_records_preserved_during_work_checks": 6,
+      "service_city_routes_checked": 6594,
+      "legacy_market_index_routes_checked": 3244,
+      "new_market_noindex_routes_checked": 3350,
+      "observed_live_urls_probed_locally": 2095,
+      "captured_live_route_metadata_snapshots_checked": 21,
+      "negative_route_checks": 3,
+      "head_routes_checked": 6,
+      "portfolio_urls_checked_in_root_sitemap": 37,
+      "observed_live_urls_excluded_from_sitemap_by_noindex_policy": 186,
+      "observed_live_canonical_urls_checked_in_root_sitemap": 1909,
+      "local_root_sitemap_urls": 2312,
+      "new_document_review_transitions_checked": 1,
+      "service_catalog_routes": 14,
+      "city_catalog_markets": 471,
+      "synthetic_editorial_route_fixtures": 9
+    },
+    "html_languages": {
+      "en": 6906,
+      "hi": 1,
+      "ar": 1,
+      "es": 1,
+      "fr": 1,
+      "en-US": 1,
+      "en-GB": 1,
+      "de-DE": 1
+    },
+    "structured_data_types": {
+      "Organization": 6913,
+      "ContactPoint": 280,
+      "WebSite": 6913,
+      "Person": 6913,
+      "PostalAddress": 280,
+      "FAQPage": 6616,
+      "Question": 39659,
+      "Answer": 39659,
+      "Service": 6612,
+      "Place": 153,
+      "ServiceChannel": 2,
+      "BreadcrumbList": 6658,
+      "ListItem": 13354,
+      "CollectionPage": 2,
+      "ItemList": 4,
+      "WebPage": 6637,
+      "Offer": 6,
+      "CreativeWork": 36,
+      "City": 6454
+    },
+    "error_count": 0,
+    "warning_count": 2,
+    "errors": [],
+    "warnings": [
+      {
+        "code": "editorial-route-fixtures",
+        "path": "",
+        "detail": "{'counts': {'blog': 9}, 'scope': 'Published records missing from source seeds are in-memory fixtures for route reachability only; actual live editorial copy requires the production database.'}"
+      },
+      {
+        "code": "verification-boundary",
+        "path": "",
+        "detail": "Dynamic route checks use actual rendering code with an in-memory published collection. They do not verify production Mongo content, public hosting behavior, Google Search Console indexing, Core Web Vitals or ranking changes."
+      }
+    ],
+    "limitations": [
+      "This report does not measure Google indexing, rankings, production database contents, real-user performance or public deployment behavior."
+    ]
+  },
+  "liveEnquiry": {
+    "reference": "RF-SEO-ACCEPTANCE-20261026",
+    "submittedOnce": true,
+    "submittedAtIndia": "2026-10-26 15:46",
+    "frontendSuccess": true,
+    "adminRecordConfirmed": true,
+    "ownerEmailStatus": "sent and matching message received in Gmail INBOX",
+    "whatsappStatus": "failed: HTTP 401 code 190 Authentication Error",
+    "testLeadRetained": true,
+    "excludeFromQualifiedLeadReporting": true
+  },
+  "cms": {
+    "postsBefore": 32,
+    "newDraftsCreated": 2,
+    "totalAfter": 34,
+    "publishedPostsAfter": 32,
+    "draftSlugs": [
+      "website-redesign-url-continuity",
+      "website-enquiry-form-acceptance"
+    ],
+    "draftPublicStatuses": [
+      404,
+      404
+    ],
+    "draftsExcludedFromSitemap": true,
+    "existingScopeArticlePublicBodyConfirmed": true,
+    "existingPostsEdited": 0
+  },
+  "offPage": {
+    "profileCopyPrepared": true,
+    "portfolioStoriesPrepared": 3,
+    "outreachDrafts": 5,
+    "correctionDrafts": 2,
+    "externalMessagesSent": 0,
+    "newProfilesPublished": 0,
+    "newBacklinksClaimed": 0
+  },
+  "providerGeneration": "Autopilot still reports provider HTTP 401 / invalid API key, zero successful generated posts; no generation triggered.",
+  "controlledLabBeforeRuns": [
+    {
+      "file": "home-controlled-before.json",
+      "scope": "Controlled local production build, not the live website or field Core Web Vitals.",
+      "version": "13.5.0",
+      "scores": {
+        "performance": 0.97,
+        "accessibility": 0.91,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 1686.304,
+        "largest-contentful-paint": 2346.304,
+        "total-blocking-time": 71.5,
+        "cumulative-layout-shift": 0
+      },
+      "warnings": []
+    },
+    {
+      "file": "home-controlled-before-2.json",
+      "scope": "Controlled local production build, not the live website or field Core Web Vitals.",
+      "version": "13.5.0",
+      "scores": {
+        "performance": 0.97,
+        "accessibility": 0.91,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 1686.483,
+        "largest-contentful-paint": 2346.483,
+        "total-blocking-time": 64.5,
+        "cumulative-layout-shift": 0
+      },
+      "warnings": []
+    },
+    {
+      "file": "home-controlled-before-3.json",
+      "scope": "Controlled local production build, not the live website or field Core Web Vitals.",
+      "version": "13.5.0",
+      "scores": {
+        "performance": 0.97,
+        "accessibility": 0.91,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 1685.877,
+        "largest-contentful-paint": 2345.877,
+        "total-blocking-time": 64.5,
+        "cumulative-layout-shift": 0
+      },
+      "warnings": []
+    }
+  ],
+  "controlledLabAfterRuns": [
+    {
+      "file": "home-controlled-final.json",
+      "scope": "Controlled local production build, not the live website or field Core Web Vitals.",
+      "version": "13.5.0",
+      "scores": {
+        "performance": 0.82,
+        "accessibility": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 1685.632,
+        "largest-contentful-paint": 4772.632,
+        "total-blocking-time": 76,
+        "cumulative-layout-shift": 0
+      },
+      "warnings": []
+    },
+    {
+      "file": "home-controlled-after-2.json",
+      "scope": "Controlled local production build, not the live website or field Core Web Vitals.",
+      "version": "13.5.0",
+      "scores": {
+        "performance": 0.97,
+        "accessibility": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 1683.31,
+        "largest-contentful-paint": 2343.31,
+        "total-blocking-time": 71.5,
+        "cumulative-layout-shift": 0
+      },
+      "warnings": []
+    },
+    {
+      "file": "home-controlled-after-3.json",
+      "scope": "Controlled local production build, not the live website or field Core Web Vitals.",
+      "version": "13.5.0",
+      "scores": {
+        "performance": 0.97,
+        "accessibility": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 1683.374,
+        "largest-contentful-paint": 2343.374,
+        "total-blocking-time": 54.5,
+        "cumulative-layout-shift": 0
+      },
+      "warnings": []
+    }
+  ],
+  "controlledLabSummary": {
+    "beforeMedianPerformance": 0.97,
+    "afterMedianPerformance": 0.97,
+    "beforeAccessibility": 0.91,
+    "afterAccessibility": 1,
+    "seoAudit": 1,
+    "note": "Performance scores before [97,97,97], after [82,97,97]. No score uplift is claimed; one final run had slower LCP. Initial bundle reduction is measured directly. Local lab runs do not certify live performance or full accessibility compliance."
+  },
+  "browser": {
+    "pass": true,
+    "sizes": [
+      {
+        "width": 320,
+        "client": 320,
+        "scroll": 320
+      },
+      {
+        "width": 390,
+        "client": 390,
+        "scroll": 390
+      },
+      {
+        "width": 768,
+        "client": 768,
+        "scroll": 768
+      },
+      {
+        "width": 1440,
+        "client": 1440,
+        "scroll": 1440
+      },
+      {
+        "width": 1920,
+        "client": 1920,
+        "scroll": 1920
+      }
+    ],
+    "motionRuns": true,
+    "pauseWorks": true,
+    "reducedMotion": true,
+    "pageErrors": []
+  },
+  "bingFollowUp": {
+    "status": "Success",
+    "canonicalSitemap": "https://rajeevfreelancer.com/sitemap.xml",
+    "submittedDate": "2026-10-26",
+    "lastCrawlDate": "2026-10-26",
+    "urlsDiscoveredDisplay": "2.4K",
+    "sitemapErrors": 0,
+    "sitemapWarnings": 0,
+    "note": "The dashboard total of 4.5K includes historical sitemaps and is not a unique-page total."
+  },
+  "linkedinProfileCheck": {
+    "url": "https://www.linkedin.com/in/rajeev90/",
+    "status": "sign-in-required",
+    "websiteLinksInspected": false,
+    "changesMade": false
+  }
+}
