@@ -1,5 +1,7 @@
 # Releasing the 40,008-route catalog
 
+**Later owner instruction, 26 October:** the owner requested publication of all catalog pages. The optional, explicit server command in [BULK-PUBLICATION-20261026.md](BULK-PUBLICATION-20261026.md) implements that separate bulk-authorised workflow, preserving existing content and distinguishing publication from individual editorial review. The original individual-review/import workflow below remains available.
+
 Prepared 26 October 2026. This phase adds an offline inventory/draft preparation command and an Admin draft importer. Existing pages, slugs and SEO metadata remain unchanged. There is no database migration, startup seeding or blanket publication.
 
 ## Counts with different meanings
@@ -78,6 +80,6 @@ An indexed-page total, live deployment, field performance, rank improvement or A
 - All **36,240 additional service/location HTTP routes** passed through the local FastAPI public router: full HTML, headings, remote-delivery statement, geographic source and noindex review policy; zero errors, zero database writes. This checks previews, not live publication.
 - The full release checker passed with zero errors and two existing fixture/live-verification warnings.
 - Metadata preservation passed: 18 original declarations/templates, 21 captured snapshots and 293 built heads.
-- The focused backend tests cover the offline inventory and 24 saved synthetic drafts, one explicit synthetic approval and sitemap inclusion; all data is in memory. An isolated `pymongo.errors` exception stub was used for the portfolio import; these checks are not a real MongoDB integration test.
+- The focused backend tests cover the offline inventory and 24 saved synthetic drafts, one explicit synthetic approval and sitemap inclusion; all data is in memory. The isolated PyMongo dependency supports the portfolio import; these checks are not a real MongoDB integration test.
 - The Admin UI test verifies 24 imported drafts, invalid/duplicate/foreign paths, stripping of forged approval flags, no automatic save, unchecked review fields, explicit draft saving and refusal to replace saved content.
 - Production frontend build succeeds. Draft import lives in the deferred Admin chunk; no full geographic inventory or content pack is imported into the public entry bundle.
