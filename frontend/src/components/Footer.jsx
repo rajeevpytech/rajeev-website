@@ -17,7 +17,7 @@ export default function Footer() {
       <div className="mx-auto max-w-[1400px] px-5 md:px-10 pt-20 md:pt-28 pb-10">
         <div className="grid lg:grid-cols-2 gap-12 pb-16 border-b border-white/10">
           <div>
-            <p className="overline text-white/50">/ Ready when you are</p>
+            <p className="font-mono text-xs uppercase tracking-[0.22em] text-white/65">/ Ready when you are</p>
             <h2 className="mt-5 font-heading font-extrabold tracking-tighter text-4xl sm:text-5xl lg:text-6xl leading-[0.95]">
               Let's build<br />something that<br /><span className="text-brand">actually ranks.</span>
             </h2>
@@ -46,7 +46,7 @@ export default function Footer() {
 
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 text-sm">
             <div>
-              <p className="overline text-white/40 mb-4">Services</p>
+              <p className="font-mono text-xs uppercase tracking-[0.22em] text-white/65 mb-4">Services</p>
               <ul className="space-y-2.5">
                 {SERVICES.map((s) => (
                   <li key={s.slug}>
@@ -56,7 +56,7 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <p className="overline text-white/40 mb-4">Working areas</p>
+              <p className="font-mono text-xs uppercase tracking-[0.22em] text-white/65 mb-4">Working areas</p>
               <ul className="space-y-2.5">
                 {FEATURED_CITIES.slice(0, 6).map((c) => (
                   <li key={c.loc_slug}>
@@ -67,14 +67,14 @@ export default function Footer() {
                 <li><Link to="/free-quote" data-testid="footer-free-quote" className="text-white/70 hover:text-white transition-colors">Get a free quote</Link></li>
                 <li><Link to="/work" className="text-white/70 hover:text-white transition-colors">Our work</Link></li>
                 <li><Link to="/case-studies" className="text-white/70 hover:text-white transition-colors">Case studies</Link></li>
-                <li><Link to="/locations" className="text-brand hover:text-white transition-colors">All locations →</Link></li>
+                <li><Link to="/locations" className="text-[#8fb3ff] hover:text-white transition-colors">All locations →</Link></li>
                 <li><Link to="/us" className="text-white/70 hover:text-white transition-colors">USA clients</Link></li>
                 <li><Link to="/uk" className="text-white/70 hover:text-white transition-colors">UK clients</Link></li>
                 <li><Link to="/de" className="text-white/70 hover:text-white transition-colors">Deutschland</Link></li>
               </ul>
             </div>
             <div>
-              <p className="overline text-white/40 mb-4">Contact</p>
+              <p className="font-mono text-xs uppercase tracking-[0.22em] text-white/65 mb-4">Contact</p>
               <ul className="space-y-2.5 text-white/70">
                 <li><a href={waLink()} target="_blank" rel="noopener noreferrer" className="hover:text-white">{CONTACT.whatsappDisplay}</a></li>
                 <li><a href={`mailto:${CONTACT.email}`} className="hover:text-white break-all">{CONTACT.email}</a></li>
@@ -83,7 +83,7 @@ export default function Footer() {
                   <li><a href={business.google_maps_url} target="_blank" rel="noopener noreferrer" data-testid="footer-map-link" className="inline-flex items-center gap-1 hover:text-white"><MapPin className="h-3.5 w-3.5 text-brand" /> {business.address || "View on map"}</a></li>
                 )}
                 <li><Link to="/about" className="hover:text-white">About Rajeev</Link></li>
-                <li><Link to="/admin" className="hover:text-white text-white/40">Admin</Link></li>
+                <li><Link to="/admin" className="hover:text-white text-white/60">Admin</Link></li>
               </ul>
             </div>
           </div>
@@ -102,7 +102,7 @@ export default function Footer() {
           </div>
         )}
 
-        <div className="pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs text-white/40 font-mono">
+        <div className="pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs text-white/60 font-mono">
           <span>© {new Date().getFullYear()} {settings?.seo?.site_name || "Rajeev Freelancer"} — Senior Freelance Engineer & AI/Digital Marketing Consultant.</span>
           <span>Available worldwide · Based in {business.address || "Gurgaon, India"}</span>
         </div>

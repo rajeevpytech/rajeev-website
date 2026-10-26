@@ -1,6 +1,9 @@
 import "@/App.css";
 import { BrowserRouter, StaticRouter, Routes, Route, useLocation, Navigate, useParams } from "react-router-dom";
-import { useEffect } from "react";
+import { lazy, Suspense, useEffect } from "react";
+import { Loader2 } from "lucide-react";
+import { useAuth } from "@/context/AuthContext";
+import Seo from "@/components/Seo";
 import { Helmet } from "react-helmet-async";
 import useLenis from "@/hooks/useLenis";
 import { useSiteSettings } from "@/context/SettingsContext";
@@ -33,7 +36,19 @@ import BlogPost from "@/pages/BlogPost";
 import Landing from "@/pages/Landing";
 import LangLanding from "@/pages/LangLanding";
 import NotFound from "@/pages/NotFound";
-import Admin from "@/pages/Admin";
+const Admin = lazy(() => import("@/pages/Admin"));
+
+function AdminLoading() {
+  return <><Seo title="Admin | Rajeev Freelancer" description="Admin dashboard" path="/admin" noindex /><div className="min-h-screen flex items-center justify-center"><Loader2 className="h-6 w-6 animate-spin text-brand" /></div></>;
+}
+
+function AdminRoute() {
+  const { ready } = useAuth();
+  // Keep the server and first client render identical. Admin code loads only
+  // after the existing authentication check has completed on the admin route.
+  if (!ready) return <AdminLoading />;
+  return <Suspense fallback={<AdminLoading />}><Admin /></Suspense>;
+}
 
 function ScrollTop() {
   const { pathname } = useLocation();
@@ -130,7 +145,7 @@ export default function App({ ssrPath } = {}) {
       <ScrollTop />
       <JourneyTracking />
       <Routes>
-        <Route path="/admin" element={<Admin />} />
+        <Route path="/admin" element={<AdminRoute />} />
         <Route path="/free-quote" element={<Landing />} />
         <Route path="/hi" element={<LangLanding lang="hi" />} />
         <Route path="/ar" element={<LangLanding lang="ar" />} />

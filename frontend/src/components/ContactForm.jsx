@@ -66,7 +66,7 @@ export default function ContactForm({ defaultService = "", location = "", countr
         <input data-testid="contact-name" className={field} placeholder="Full name" value={form.name} onChange={set("name")} />
         <input data-testid="contact-phone" className={field} placeholder="Phone / WhatsApp" value={form.phone} onChange={set("phone")} />
         <input data-testid="contact-email" type="email" className={`${field} sm:col-span-2`} placeholder="Email address" value={form.email} onChange={set("email")} />
-        <select data-testid="contact-service" className={field} value={form.service} onChange={set("service")}>
+        <select aria-label="Select a service" data-testid="contact-service" className={field} value={form.service} onChange={set("service")}>
           <option value="">Select a service</option>
           {SERVICES.map((s) => <option key={s.slug} value={s.name}>{s.short}</option>)}
           <option value="AI Automation">AI Automation</option>

@@ -5,7 +5,6 @@ import { useRef, useState, useEffect } from "react";
 import { toast } from "sonner";
 import { ArrowUpRight, ArrowLeft, Check, Star, Download, Loader2, Linkedin, Twitter, Link2, MessageCircle } from "lucide-react";
 import { motion, useInView } from "framer-motion";
-import { jsPDF } from "jspdf";
 import Seo from "@/components/Seo";
 import { Reveal } from "@/components/Reveal";
 import Counter from "@/components/Counter";
@@ -61,7 +60,8 @@ function parseMetric(m) {
 }
 
 // Build a clean one-page PDF of the case study (no screenshots, no CORS issues).
-function downloadCaseStudyPdf(cs, cfg, base) {
+async function downloadCaseStudyPdf(cs, cfg, base) {
+  const { jsPDF } = await import("jspdf");
   const doc = new jsPDF({ unit: "mm", format: "a4" });
   const W = 210, H = 297, M = 18, CW = W - 2 * M;
   const BRAND = [0, 85, 255], INK = [24, 24, 24], GRAY = [110, 110, 110], LINE = [224, 224, 224];
@@ -129,6 +129,7 @@ export default function CaseStudyDetail() {
   const [loadedSlug, setLoadedSlug] = useState(slug);
   const [loading, setLoading] = useState(() => !bootstrapData("caseStudy"));
   const [allCases, setAllCases] = useState(() => bootstrapData("cases")?.items || []);
+  const [downloading, setDownloading] = useState(false);
   useEffect(() => {
     let mounted = true;
     const initial = bootstrapData("caseStudy");
@@ -166,6 +167,13 @@ export default function CaseStudyDetail() {
     try { await navigator.clipboard.writeText(shareUrl); toast.success("Link copied"); }
     catch { toast.error("Could not copy link"); }
   };
+  const downloadPdf = async () => {
+    if (downloading) return;
+    setDownloading(true);
+    try { await downloadCaseStudyPdf(cs, cfg, base); }
+    catch { toast.error("Could not prepare the PDF. Please try again."); }
+    finally { setDownloading(false); }
+  };
 
   const jsonLd = [
     {
@@ -198,11 +206,13 @@ export default function CaseStudyDetail() {
           <Link to="/case-studies" className="inline-flex items-center gap-1.5 text-sm font-medium link-underline"><ArrowLeft className="h-4 w-4" /> All case studies</Link>
           <button
             type="button"
-            onClick={() => downloadCaseStudyPdf(cs, cfg, base)}
+            onClick={downloadPdf}
+            disabled={downloading}
+            aria-busy={downloading}
             data-testid="download-pdf-btn"
             className="inline-flex items-center gap-2 rounded-full border border-ink/20 px-5 py-2.5 text-sm font-medium hover:border-ink hover:bg-ink hover:text-white transition-colors"
           >
-            <Download className="h-4 w-4" /> Download PDF
+            {downloading ? <Loader2 className="h-4 w-4 animate-spin" /> : <Download className="h-4 w-4" />} {downloading ? "Preparing PDF…" : "Download PDF"}
           </button>
         </div>
         <div className="mt-8 flex flex-wrap items-center gap-3 font-mono text-xs uppercase tracking-widest text-ink/50">
