@@ -41,6 +41,26 @@ export function newAreaReviewPayload(preview, content, checks, notes, reviewed) 
   return { reviewed: Boolean(reviewed), content: clone(content), checks: Object.fromEntries(required.map(key => [key, checks[key] === true])), evidence_notes: String(notes || "").trim(), expected_revision: preview.expected_revision };
 }
 
+export function parseServiceAreaDraftPack(text) {
+  if (typeof text !== "string" || text.length > 1_000_000) throw new Error("Choose a draft pack smaller than 1 MB.");
+  let pack;
+  try { pack = JSON.parse(text); } catch { throw new Error("The draft pack is not valid JSON."); }
+  if (pack?.format !== "rf-service-area-drafts-v1" || !Array.isArray(pack.pages) || !pack.pages.length || pack.pages.length > 100) throw new Error("Use a service-area draft pack with 1–100 pages.");
+  const seen = new Set();
+  return pack.pages.map(row => {
+    const chosen = parseServiceAreaPath(row?.path);
+    if (seen.has(chosen.path)) throw new Error("The draft pack contains a duplicate page path.");
+    seen.add(chosen.path);
+    const { content: copy } = newAreaReviewPayload({ pre_existing_record: false }, row?.content, {}, "", false);
+    // Only copy editable content. Imported approval/revision/identity fields
+    // never grant publication and never replace the server's current record.
+    const content = Object.fromEntries([...CORE_FIELDS.map(([key]) => key), "intro", "why_choose", "process", "faqs"].map(key => [key, copy[key]]));
+    const sourceId = row.source_geoname_id;
+    if (!Number.isInteger(sourceId) || sourceId <= 0) throw new Error("Every draft needs its geographic source ID.");
+    return { ...chosen, content, source_geoname_id: sourceId, source_notes: typeof row.source_notes === "string" ? row.source_notes.slice(0, 6000) : "" };
+  });
+}
+
 export default function ServiceAreaExpansion() {
   const [open, setOpen] = useState(false);
   const [stats, setStats] = useState(null);
@@ -56,6 +76,8 @@ export default function ServiceAreaExpansion() {
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState("");
   const [conflict, setConflict] = useState(false);
+  const [drafts, setDrafts] = useState([]);
+  const [draftPath, setDraftPath] = useState("");
 
   const loadStats = async () => { try { const { data } = await api.get(`${BASE}/status`); setStats(data); setStatsError(""); } catch (err) { setStatsError(formatApiErrorDetail(err.response?.data?.detail) || "Catalog totals could not be loaded."); } };
   useEffect(() => { loadStats(); }, []);
@@ -73,6 +95,28 @@ export default function ServiceAreaExpansion() {
     finally { setLoading(false); }
   };
   const edit = (key, value) => { setContent(previous => ({ ...previous, [key]: value })); setChecks({}); };
+  const importPack = async event => {
+    const file = event.target.files?.[0];
+    setDrafts([]); setDraftPath(""); setError("");
+    if (!file) return;
+    try {
+      if (file.size > 1_000_000) throw new Error("Choose a draft pack smaller than 1 MB.");
+      setDrafts(parseServiceAreaDraftPack(await file.text()));
+    } catch (err) { setError(err.message || "The draft pack could not be loaded."); }
+    finally { event.target.value = ""; }
+  };
+  const loadDraft = async () => {
+    const draft = drafts.find(row => row.path === draftPath);
+    if (!draft || loading || saving) return;
+    setLoading(true); setError(""); setPreview(null); setContent(null); setTarget(null); setChecks({});
+    try {
+      const current = await readPreview(draft);
+      if (current.pre_existing_record || current.page.revision != null || current.page.seo_reviewed === true) throw new Error("This address already has saved content. Import cannot replace it; review its current page separately.");
+      if (current.page.new_world_expansion !== true || current.page.location?.geoname_id !== draft.source_geoname_id) throw new Error("The draft does not match this additional location's geographic source.");
+      setPath(draft.path); setContent(clone(draft.content)); setIntroText(draft.content.intro.join("\n\n")); setNotes(draft.source_notes); setChecks({});
+    } catch (err) { setError(formatApiErrorDetail(err.response?.data?.detail) || err.message || "The draft could not be previewed."); }
+    finally { setLoading(false); }
+  };
   const save = async reviewed => {
     if (loading || saving || conflict || !target) return;
     let payload;
@@ -95,7 +139,7 @@ export default function ServiceAreaExpansion() {
   const required = preview?.required_checks?.length ? preview.required_checks : Object.keys(CHECK_LABELS);
   const ready = content && !locked && required.every(key => checks[key] === true) && notes.trim().length >= 20;
   const source = safeSource(preview?.page?.location?.source_url);
-  const cards = [["Locations in sourced catalog", stats?.total_location_count], ["Additional locations", stats?.additional_location_count], ["Total service URLs", stats?.candidate_url_count], ["New candidate URLs", stats?.additional_candidate_url_count], ["Approved new pages", stats?.approved_url_count], ["Saved new drafts", stats?.saved_draft_url_count]];
+  const cards = [["Locations in sourced catalog", stats?.total_location_count], ["Additional locations", stats?.additional_location_count], ["Potential service URLs", stats?.candidate_url_count], ["New candidate URLs", stats?.additional_candidate_url_count], ["Approved new pages", stats?.approved_url_count], ["Saved new drafts", stats?.saved_draft_url_count]];
 
   return <section className="mt-6 rounded-xl border border-brand/20 bg-brand/[0.025] p-5" data-testid="service-area-expansion-admin">
     <div className="flex flex-wrap items-start justify-between gap-3"><div><h3 className="flex items-center gap-2 font-heading font-bold"><Globe className="h-4 w-4 text-brand" /> New service-area pages</h3><p className="mt-2 max-w-3xl text-xs leading-relaxed text-ink/65">Explore the additional geographic catalog and review individual new pages. Existing pages and their titles, descriptions and content are read-only in this workflow.</p></div><button type="button" onClick={loadStats} disabled={loading || saving} className={BUTTON}><RefreshCw className="h-3.5 w-3.5" /> Refresh totals</button></div>
@@ -104,9 +148,15 @@ export default function ServiceAreaExpansion() {
     <p className="mt-3 text-xs leading-relaxed text-muted-foreground">Catalog capacity is separate from saved pages. Approval controls eligibility for indexing; it does not confirm that a search engine has indexed the page.</p>
     <div className="mt-4 flex flex-wrap gap-4"><a href="/service-areas" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm font-medium text-brand underline">Open public directory <ExternalLink className="h-3.5 w-3.5" /></a><button type="button" onClick={() => setOpen(value => !value)} aria-expanded={open} aria-controls="service-area-new-page-review" className="text-sm font-medium text-brand underline">{open ? "Hide" : "Review"} an individual new page</button></div>
     {open && <div id="service-area-new-page-review" className="mt-5 border-t border-line pt-5">
+      <div className="mb-5 rounded-lg border border-line bg-white p-4" data-testid="new-area-draft-import">
+        <label className="block text-xs font-medium text-ink/70">Import prepared page drafts<input type="file" accept="application/json,.json" onChange={importPack} disabled={loading || saving} className="mt-2 block w-full text-sm" data-testid="new-area-draft-file" /></label>
+        <p className="mt-2 text-xs text-muted-foreground">Import opens local copy for review. It saves and publishes nothing. Existing saved content cannot be replaced by import.</p>
+        {drafts.length > 0 && <div className="mt-3 flex flex-wrap items-end gap-3"><label className="min-w-0 flex-1 text-xs font-medium text-ink/70">Prepared draft ({drafts.length})<select value={draftPath} onChange={event => setDraftPath(event.target.value)} disabled={loading || saving} className={FIELD} data-testid="new-area-draft-select"><option value="">Choose a draft</option>{drafts.map(row => <option key={row.path} value={row.path}>{row.content.title}</option>)}</select></label><button type="button" onClick={loadDraft} disabled={!draftPath || loading || saving} className={BUTTON} data-testid="new-area-draft-load">Preview imported draft</button></div>}
+      </div>
       <form onSubmit={loadPreview} className="flex flex-wrap items-end gap-3"><label className="w-full max-w-xl text-xs font-medium text-ink/70">New service/location path<input data-testid="new-area-path" value={path} onChange={event => { setPath(event.target.value); setPreview(null); setContent(null); setTarget(null); setChecks({}); setConflict(false); setError(""); }} disabled={loading || saving} className={FIELD} /></label><button data-testid="new-area-preview" disabled={loading || saving} className={PRIMARY}>{loading && <Loader2 className="h-4 w-4 animate-spin" />} Load preview</button></form>
       {error && <div className="mt-4 rounded-lg border border-rose-200 bg-rose-50 p-3 text-sm text-rose-700" role="alert">{error}{conflict && <button type="button" onClick={loadPreview} disabled={saving || loading} className="ml-2 font-semibold underline">Reload preview</button>}</div>}
       {preview && content && <div className="mt-5 space-y-5">
+        {preview.page.publication_method === "owner_authorized_bulk" && <p className="rounded-lg border border-brand/20 bg-white p-4 text-sm text-ink/75">Published through the owner's bulk release. This action did not record an individual editorial review. You can review the saved page here.</p>}
         <div className="flex flex-wrap items-start justify-between gap-3 rounded-lg border border-line bg-white p-4"><div><p className="text-sm font-semibold">{preview.pre_existing_record ? "Existing page — read-only" : preview.page.seo_reviewed ? "Approved new page" : "New page preview"}</p><p className="mt-1 text-xs text-muted-foreground">{preview.page.location?.city}, {preview.page.location?.country} · Remote delivery from India</p>{preview.pre_existing_record && <p className="mt-2 text-xs text-amber-700">An existing page already owns this address. Its copy cannot be changed or approved here.</p>}</div>{target && <a href={target.path} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs font-medium text-brand underline">Open page <ExternalLink className="h-3 w-3" /></a>}</div>
         {source && <p className="text-xs text-muted-foreground">Geographic source: <a href={source} target="_blank" rel="noopener noreferrer" className="break-all text-brand underline">{source}</a></p>}
         <div className="grid gap-4 md:grid-cols-2">{CORE_FIELDS.map(([key, label]) => <label key={key} className={`text-xs font-medium text-ink/70 ${["service_details", "local_context", "whatsapp_section"].includes(key) ? "md:col-span-2" : ""}`}>{label}<textarea value={content[key] || ""} onChange={event => edit(key, event.target.value)} disabled={locked} rows={["title", "h1"].includes(key) ? 2 : 3} className={FIELD} /></label>)}<label className="text-xs font-medium text-ink/70 md:col-span-2">Introduction — blank line between paragraphs<textarea value={introText} onChange={event => { setIntroText(event.target.value); edit("intro", event.target.value.split(/\n\s*\n/).map(value => value.trim()).filter(Boolean)); }} disabled={locked} rows={5} className={FIELD} /></label></div>

@@ -1,4 +1,6 @@
-Latest follow-through: [Day-one completion, owner inputs and validation](docs/DAY-ONE-COMPLETION-20261026.md) · [Off-page execution pack](docs/OFFPAGE-EXECUTION-PACK-20261026.md).
+Latest publication instruction: [Publish the full catalog on the existing VPS](docs/BULK-PUBLICATION-20261026.md) · [40,008-route inventory and first drafts](docs/EXPANSION-RELEASE-20261026.md).
+
+Earlier follow-through: [Day-one completion, owner inputs and validation](docs/DAY-ONE-COMPLETION-20261026.md) · [Off-page execution pack](docs/OFFPAGE-EXECUTION-PACK-20261026.md).
 
 Hero release handover: [Final homepage and SEO/GEO review](docs/FINAL-HERO-SEO-REVIEW.md). Deploy the latest `seo-execution-foundation-20261026` branch once, then complete live acceptance.
 
